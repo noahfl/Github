@@ -1,0 +1,75 @@
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(52%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r) = 127\33[K\n", 12)        = 12
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(52%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"8000\\r\\n\", 6)         "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(52%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(52%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"    <body dir=\\\"ltr\\\" "..., 64) = 64
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(52%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"    <body dir=\\\"ltr\\\""..., 65) = 65
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(52%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(2, \"\\r\", 1)              "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(52%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+read(3, "        \"..., 79) = 79\nselect(4,"..., 4096) = 4096
+write(1, "\rwrite(2, \"    [ <=>            "..., 58) = 58
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(53%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(53%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"-size-default yt-uix-b"..., 61) = 61
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(53%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"-size-default yt-uix-"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(53%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(53%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"nlink=\\\"ved=COIBEOYrKA"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(53%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"nlink=\\\"ved=COIBEOYrK"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(53%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(53%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"e-user-links yt-uix-td"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(53%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"e-user-links yt-uix-t"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(54%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(54%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"-guide-item\\\"\\n      d"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(54%)\33[27m", 22) = 22

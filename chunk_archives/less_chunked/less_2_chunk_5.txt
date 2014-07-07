@@ -1,0 +1,75 @@
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    output_files = glob.glob(pat"..., 49) = 49
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    for i in range(len(output_fi"..., 43) = 43
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        count = 0\n:\33[K", 22) = 22
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        with open(output_files[i"..., 53) = 53
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "            for line in file:\n:\33"..., 34) = 34
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "                count += 1\n:\33[K", 31) = 31
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        print(count)\n:\33[K", 25) = 25
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        if (count < 75):\n:\33[K", 29) = 29
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "            os.remove(output_fil"..., 43) = 43
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "\n:\33[K", 5)                 = 5
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "def print_counts(path):\n:\33[K", 28) = 28
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    \"\"\"\n:\33[K", 12)      = 12
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    Debugging function that prin"..., 61) = 61
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    in destination directory\n:\33["..., 33) = 33
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "\n:\33[K", 5)                 = 5
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    @type path: string\n:\33[K", 27) = 27
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    @param path: directory that "..., 55) = 55
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    \"\"\"\n:\33[K", 12)      = 12
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    \n:\33[K", 9)             = 9
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    output_files = glob.glob(pat"..., 49) = 49
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    output_files.sort()\n:\33[K", 28) = 28
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    for i in range(len(output_fi"..., 43) = 43
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        count = 0\n:\33[K", 22) = 22
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        file = open(output_files"..., 46) = 46
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        for line in file:\n:\33[K", 30) = 30
+read(3, "\n", 1)                        = 1

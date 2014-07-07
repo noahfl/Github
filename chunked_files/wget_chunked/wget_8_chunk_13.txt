@@ -1,0 +1,75 @@
+read(3, "1882\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "ter: inherit;\n  cursor: pointer;"..., 6274) = 201
+write(4, "ter: inherit;\n  cursor: pointer;"..., 201) = 201
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948170})
+read(3, "t.gradient(startColorstr=#00FFFF"..., 6073) = 1360
+write(4, "t.gradient(startColorstr=#00FFFF"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947012})
+read(3, "isLazy;GWCSW.ueBegin;GWCSW.ueFir"..., 4713) = 1360
+write(4, "isLazy;GWCSW.ueBegin;GWCSW.ueFir"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945109})
+read(3, "eof window.isLd===\"undefined\"||w"..., 3353) = 1360
+write(4, "eof window.isLd===\"undefined\"||w"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947360})
+read(3, "tle=U[i].title.replace(/&lt;br&g"..., 1993) = 1360
+write(4, "tle=U[i].title.replace(/&lt;br&g"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946885})
+read(3, "rc)});x.click(t);T.click(u)}func"..., 633) = 633
+write(4, "rc)});x.click(t);T.click(u)}func"..., 633) = 633
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n5b4\r\nx\");o(aa,n,Z,w,GWCSW.c_an"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "5b4\r\nx\");o(aa,n,Z,w,GWCSW.c_anim"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "x\");o(aa,n,Z,w,GWCSW.c_animation"..., 1460) = 720
+write(4, "x\");o(aa,n,Z,w,GWCSW.c_animation"..., 720) = 720
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948534})
+read(3, "+ab+\"]\");var ad=E.find(\"[index=\""..., 740) = 740
+write(4, "+ab+\"]\");var ad=E.find(\"[index=\""..., 740) = 740
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n1ca\r\n.loaded){GWCSW.uePublish("..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "1ca\r\n.loaded){GWCSW.uePublish(\"g"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1ca\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, ".loaded){GWCSW.uePublish(\"gwcsw1"..., 458) = 458
+write(4, ".loaded){GWCSW.uePublish(\"gwcsw1"..., 458) = 458
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n3e2\r\n\"index\"))].tooltip;if(typ"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "3e2\r\n\"index\"))].tooltip;if(typeo"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "3e2\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\"index\"))].tooltip;if(typeof(af)"..., 994) = 148
+write(4, "\"index\"))].tooltip;if(typeof(af)"..., 148) = 148
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947850})
+read(3, "G.outerHeight()-D.height();var a"..., 846) = 846
+write(4, "G.outerHeight()-D.height();var a"..., 846) = 846
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n1c1e\r\nWCSW.isIE7()||GWCSW.isIE"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "1c1e\r\nWCSW.isIE7()||GWCSW.isIE8("..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1c1e\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "WCSW.isIE7()||GWCSW.isIE8()){k.c"..., 7198) = 506
+write(4, "WCSW.isIE7()||GWCSW.isIE8()){k.c"..., 506) = 506
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947996})
+read(3, "ser.msie&&jQuery.browser.version"..., 6692) = 1360
+write(4, "ser.msie&&jQuery.browser.version"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946977})
+read(3, "M-550-Game-Camera/dp/B00HAH6JIS\""..., 5332) = 1360
+write(4, "M-550-Game-Camera/dp/B00HAH6JIS\""..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947155})
+read(3, "&amp; Hale</div>\n\n<div class=\"s9"..., 3972) = 1360
+write(4, "&amp; Hale</div>\n\n<div class=\"s9"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947289})
+read(3, "yle=\"position: relative\"><a href"..., 2612) = 1360
+write(4, "yle=\"position: relative\"><a href"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946649})
+read(3, "192234675_.gif\" url=\"http://ecx."..., 1252) = 1252

@@ -1,0 +1,75 @@
+getgid()                                = 1000
+access("/bin/mkdir", X_OK)              = 0
+stat("/bin/mkdir", {st_mode=S_IFREG|0755, st_size=51936, ...}) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/bin/mkdir", R_OK)              = 0
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f35ace8aa10) = 29086
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=29086, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 29086
+wait4(-1, 0x7fff90e23b18, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigreturn()                          = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {0x443620, [], SA_RESTORER, 0x7f35ac4cdff0}, {SIG_DFL, [], SA_RESTORER, 0x7f35ac4cdff0}, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f35ac4cdff0}, {0x443620, [], SA_RESTORER, 0x7f35ac4cdff0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+stat("/home/bearface/.local/share/applications/mimeapps.list", {st_mode=S_IFREG|0644, st_size=405, ...}) = 0
+read(255, "\n# Always use our versions of ff"..., 1972) = 779
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f35ac4cdff0}, {SIG_DFL, [], SA_RESTORER, 0x7f35ac4cdff0}, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f35ac4cdff0}, {SIG_IGN, [], SA_RESTORER, 0x7f35ac4cdff0}, 8) = 0
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f35ac4cdff0}, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f35ac4cdff0}, 8) = 0
+execve("/opt/google/chrome/chrome", ["/usr/bin/google-chrome"], [/* 48 vars */]) = 0
+brk(0)                                  = 0x7fcc08f91000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcc02112000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/google/chrome/tls/x86_64", 0x7fffd8fa6710) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/google/chrome/tls", 0x7fffd8fa6710) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/google/chrome/x86_64", 0x7fffd8fa6710) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/google/chrome", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/opt/google/chrome/lib/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/google/chrome/lib/tls/x86_64", 0x7fffd8fa6710) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/google/chrome/lib/tls", 0x7fffd8fa6710) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/google/chrome/lib/x86_64", 0x7fffd8fa6710) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/google/chrome/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=116741, ...}) = 0
+mmap(NULL, 116741, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fcc020f5000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P#\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31792, ...}) = 0
+mmap(NULL, 2129016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fcc01cea000
+mprotect(0x7fcc01cf1000, 2093056, PROT_NONE) = 0
+mmap(0x7fcc01ef0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fcc01ef0000
+close(3)                                = 0
+open("/opt/google/chrome/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fcc01ae6000
+mprotect(0x7fcc01ae9000, 2093056, PROT_NONE) = 0
+mmap(0x7fcc01ce8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fcc01ce8000
+close(3)                                = 0
+open("/opt/google/chrome/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\255\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1506706, ...}) = 0

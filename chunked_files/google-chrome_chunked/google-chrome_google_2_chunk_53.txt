@@ -1,0 +1,75 @@
+futex(0x7f11a045f370, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/dev/shm/pulse-shm-924630895", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 27
+fstat(27, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 27, 0) = 0x7f118b028000
+close(27)                               = 0
+kill(16278, SIG_0)                      = 0
+munmap(0x7f118b028000, 67112960)        = 0
+open("/dev/shm/pulse-shm-3808294954", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 27
+fstat(27, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 27, 0) = 0x7f118b028000
+close(27)                               = 0
+kill(3907, SIG_0)                       = 0
+munmap(0x7f118b028000, 67112960)        = 0
+open("/dev/shm/pulse-shm-1474684270", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 27
+fstat(27, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 27, 0) = 0x7f118b028000
+close(27)                               = 0
+kill(3071, SIG_0)                       = 0
+munmap(0x7f118b028000, 67112960)        = 0
+open("/dev/shm/pulse-shm-952010895", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 27
+fstat(27, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 27, 0) = 0x7f118b028000
+close(27)                               = 0
+kill(3071, SIG_0)                       = 0
+munmap(0x7f118b028000, 67112960)        = 0
+open("/dev/shm/pulse-shm-901573078", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 27
+fstat(27, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 27, 0) = 0x7f118b028000
+close(27)                               = 0
+kill(2737, SIG_0)                       = 0
+munmap(0x7f118b028000, 67112960)        = 0
+open("/dev/shm/pulse-shm-3683541637", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 27
+fstat(27, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 27, 0) = 0x7f118b028000
+close(27)                               = 0
+kill(2737, SIG_0)                       = 0
+munmap(0x7f118b028000, 67112960)        = 0
+open("/dev/shm/pulse-shm-4072059050", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 27
+fstat(27, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 27, 0) = 0x7f118b028000
+close(27)                               = 0
+kill(2767, SIG_0)                       = 0
+munmap(0x7f118b028000, 67112960)        = 0
+getdents(26, /* 0 entries */, 32768)    = 0
+madvise(0x2be50bbf0000, 331776, MADV_DONTNEED) = 0
+close(26)                               = 0
+open("/dev/urandom", O_RDONLY|O_NOCTTY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+read(26, " \324\241+", 4)               = 4
+close(26)                               = 0
+open("/dev/shm/pulse-shm-732025888", O_RDWR|O_CREAT|O_EXCL|O_NOFOLLOW|O_CLOEXEC, 0700) = 26
+ftruncate(26, 67108904)                 = 0
+mmap(NULL, 67112960, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_NORESERVE, 26, 0) = 0x7f118b028000
+close(26)                               = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+readlink("/proc/self/exe", "/opt/google/chrome/chrome", 99) = 25
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 26
+fstat(26, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 26, 0) = 0x7f1193560000
+close(26)                               = 0
+futex(0x7f1199fd6a70, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+madvise(0x7f11a05ad000, 8192, MADV_DONTNEED) = 0
+madvise(0x2be50bb86000, 20480, MADV_DONTNEED) = 0
+open("/etc/machine-id", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)

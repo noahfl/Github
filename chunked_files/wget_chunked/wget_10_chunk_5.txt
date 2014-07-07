@@ -1,0 +1,75 @@
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("173.194.37.35")}, 16) = 0
+getsockname(3, {sa_family=AF_INET6, sin6_port=htons(38098), inet_pton(AF_INET6, "::ffff:10.227.98.29", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("173.194.37.36")}, 16) = 0
+getsockname(3, {sa_family=AF_INET6, sin6_port=htons(55334), inet_pton(AF_INET6, "::ffff:10.227.98.29", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("173.194.37.37")}, 16) = 0
+getsockname(3, {sa_family=AF_INET6, sin6_port=htons(46218), inet_pton(AF_INET6, "::ffff:10.227.98.29", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("173.194.37.38")}, 16) = 0
+getsockname(3, {sa_family=AF_INET6, sin6_port=htons(36127), inet_pton(AF_INET6, "::ffff:10.227.98.29", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("173.194.37.39")}, 16) = 0
+getsockname(3, {sa_family=AF_INET6, sin6_port=htons(44224), inet_pton(AF_INET6, "::ffff:10.227.98.29", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("173.194.37.40")}, 16) = 0
+getsockname(3, {sa_family=AF_INET6, sin6_port=htons(60479), inet_pton(AF_INET6, "::ffff:10.227.98.29", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("173.194.37.41")}, 16) = 0
+getsockname(3, {sa_family=AF_INET6, sin6_port=htons(47741), inet_pton(AF_INET6, "::ffff:10.227.98.29", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("173.194.37.46")}, 16) = 0
+getsockname(3, {sa_family=AF_INET6, sin6_port=htons(49293), inet_pton(AF_INET6, "::ffff:10.227.98.29", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("173.194.37.32")}, 16) = 0
+getsockname(3, {sa_family=AF_INET6, sin6_port=htons(41225), inet_pton(AF_INET6, "::ffff:10.227.98.29", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("173.194.37.33")}, 16) = 0
+getsockname(3, {sa_family=AF_INET6, sin6_port=htons(39567), inet_pton(AF_INET6, "::ffff:10.227.98.29", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, [28]) = 0
+close(3)                                = 0
+write(2, "173.194.37.34", 13)           = 13
+write(2, ", ", 2)                       = 2
+write(2, "173.194.37.35", 13)           = 13
+write(2, ", ", 2)                       = 2
+write(2, "173.194.37.36", 13)           = 13
+write(2, ", ...", 5)                    = 5
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to www.youtube.com (w"..., 69) = 69
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("173.194.37.34")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999996})
+write(3, "GET / HTTP/1.1\r\nUser-Agent: Wget"..., 113) = 113
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 975381})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 16 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 16 J"..., 511) = 511
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\nExpires: Tue, 27 Apr 1971 19:4"..., 512, MSG_PEEK, NULL, NULL) = 512
+read(3, "\r\nExpires: Tue, 27 Apr 1971 19:4"..., 195) = 195
+write(2, "200 OK\n", 7)                 = 7
+stat("index.html.14", 0x7fff8240a300)   = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "unspecified", 11)             = 11
+write(2, " [text/html]\n", 13)          = 13
+open("index.html.14", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230index.html.14\342\200\231\n", 31) = 31
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7fc975d76000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, "    [<=>                        "..., 79) = 79
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "eff\r\n  <!DOCTYPE html><html lang"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "eff\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "  <!DOCTYPE html><html lang=\"en\""..., 3839) = 3839
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc975d75000
+write(4, "  <!DOCTYPE html><html lang=\"en\""..., 3839) = 3839
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999994})

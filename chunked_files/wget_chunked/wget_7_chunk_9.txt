@@ -1,0 +1,75 @@
+stat("index.html.10", {st_mode=S_IFREG|0644, st_size=38264, ...}) = 0
+stat("index.html.11", 0x7fffa1af09c0)   = -1 ENOENT (No such file or directory)
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-16 11:48:17--  https:/"..., 99) = 99
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("54.235.100.147")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999997})
+write(3, "\27\3\1\0 \346\255\343\35\36a\300\224zRuaZ\10\377\200\220\255\361\256\26\22\255\316dje"..., 330) = 330
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 795338})
+read(3, "\27\3\1\10\0", 5)              = 5
+read(3, "\27W\225\201Z\264P\0\326\363D\220\256)\207Zi\5.'a\236\332\\p.c\256\200\220\200\327"..., 2048) = 2048
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+write(2, "200 OK\n", 7)                 = 7
+stat("index.html.11", 0x7fffa1af0370)   = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "unspecified", 11)             = 11
+write(2, " [text/html]\n", 13)          = 13
+open("index.html.11", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230index.html.11\342\200\231\n", 31) = 31
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7f80262bc000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, "    [<=>                        "..., 79) = 79
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f80262bb000
+write(4, "<!DOCTYPE html>\n<html lang=\"en-U"..., 929) = 929
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+read(3, "\27\3\1\v\360", 5)             = 5
+read(3, "r\323b8\270\340\272cSuS\304\311\233A\322\375\376M\234l)$\223TO\30H\r\26\2422"..., 3056) = 3056
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0

@@ -1,0 +1,75 @@
+open("/var/lib/dbus/machine-id", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fstat(26, {st_mode=S_IFREG|0644, st_size=33, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1193789000
+read(26, "7abb06f59963fba97516f2335394e87f"..., 4096) = 33
+close(26)                               = 0
+munmap(0x7f1193789000, 4096)            = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+setsockopt(26, SOL_SOCKET, SO_PRIORITY, [6], 4) = 0
+fcntl(26, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(26, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+connect(26, {sa_family=AF_LOCAL, sun_path="/run/user/1000/pulse/native"}, 110) = 0
+sendto(25, "W", 1, MSG_NOSIGNAL, NULL, 0) = -1 ENOTSOCK (Socket operation on non-socket)
+write(25, "W", 1)                       = 1
+write(25, "W", 1)                       = 1
+futex(0x2be50bbdf6f0, FUTEX_UNLOCK_PI_PRIVATE, 0) = 0
+futex(0x2be50bbdf724, FUTEX_WAIT_REQUEUE_PI_PRIVATE, 1, NULL, 0x2be50bbdf6f0) = 0
+futex(0x2be50bbdf6f0, FUTEX_UNLOCK_PI_PRIVATE, 0) = 0
+futex(0x2be50bbdf724, FUTEX_WAIT_REQUEUE_PI_PRIVATE, 3, NULL, 0x2be50bbdf6f0) = 0
+futex(0x2be50bbdf6f0, FUTEX_UNLOCK_PI_PRIVATE, 0) = 0
+futex(0x2be50bbdf724, FUTEX_WAIT_REQUEUE_PI_PRIVATE, 5, NULL, 0x2be50bbdf6f0) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x2be50bbdf6f0, FUTEX_UNLOCK_PI_PRIVATE, 0) = 0
+gettid()                                = 28773
+pipe([27, 28])                          = 0
+mmap(NULL, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f1193558000
+mprotect(0x7f1193558000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f119355edf0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f119355f9d0, tls=0x7f119355f700, child_tidptr=0x7f119355f9d0) = 28797
+futex(0x2be50bb953c8, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fff53358d78, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7fff53358da0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7fff53358da4, FUTEX_WAIT_PRIVATE, 1, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x7fff53358d78, FUTEX_WAKE_PRIVATE, 1) = 0
+rt_sigaction(SIGTERM, {0x7f11a1096660, [], SA_RESTORER, 0x7f119bb7a340}, NULL, 8) = 0
+rt_sigaction(SIGINT, {0x7f11a1096630, [], SA_RESTORER, 0x7f119bb7a340}, NULL, 8) = 0
+rt_sigaction(SIGHUP, {0x7f11a1096600, [], SA_RESTORER, 0x7f119bb7a340}, NULL, 8) = 0
+access("/home/bearface/.config/google-chrome/First Run", F_OK) = 0
+futex(0x7f1199fd97a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f119a1f1850, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+access("/home/bearface/.config/google-chrome/Local State", F_OK) = 0
+open("/home/bearface/.config/google-chrome/Consent To Send Stats", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 29
+fstat(29, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1193789000
+read(29, "MemTotal:        8053172 kB\nMemF"..., 1024) = 1024
+--- SIGPROF {si_signo=SIGPROF, si_code=SI_KERNEL} ---
+close(29)                               = 0
+munmap(0x7f1193789000, 4096)            = 0
+stat("/etc/opt/chrome/policies/managed", 0x7fff53358c70) = -1 ENOENT (No such file or directory)
+stat("/etc/opt/chrome/policies/recommended", 0x7fff53358c70) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/opt/chrome/policies/managed", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/opt/chrome/policies/recommended", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+write(13, "!", 1)                       = 1
+open("/home/bearface/.config/google-chrome/Local State", O_RDONLY) = 29
+fstat(29, {st_mode=S_IFREG|0600, st_size=49108, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1193789000
+read(29, "{\n   \"app_list\": {\n      \"app_la"..., 65536) = 49108
+read(29, "", 16384)                     = 0
+read(29, "", 65536)                     = 0
+close(29)                               = 0
+munmap(0x7f1193789000, 4096)            = 0
+madvise(0x2be50bc0b000, 53248, MADV_DONTNEED) = 0
+access("/home/bearface/.config/google-chrome", F_OK) = 0
+readlink("/proc/self/exe", "/opt/google/chrome/chrome", 4096) = 25
+open("/opt/google/chrome/chrome_100_percent.pak", O_RDONLY) = 29
+fstat(29, {st_mode=S_IFREG|0644, st_size=1135352, ...}) = 0
+mmap(NULL, 1135352, PROT_READ, MAP_SHARED, 29, 0) = 0x7f118af12000
+access("/opt/google/chrome/locales", F_OK) = 0
+access("/opt/google/chrome/locales/en-US.pak", F_OK) = 0
+access("/opt/google/chrome/locales/en-US.pak", F_OK) = 0
+open("/opt/google/chrome/locales/en-US.pak", O_RDONLY) = 30
+fstat(30, {st_mode=S_IFREG|0644, st_size=233634, ...}) = 0
+mmap(NULL, 233634, PROT_READ, MAP_SHARED, 30, 0) = 0x7f118aed8000
+open("/opt/google/chrome/resources.pak", O_RDONLY) = 31
+fstat(31, {st_mode=S_IFREG|0644, st_size=11553021, ...}) = 0

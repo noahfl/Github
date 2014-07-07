@@ -1,0 +1,75 @@
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1504
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/69-unifont.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/69-unifont.conf", {st_mode=S_IFREG|0644, st_size=672, ...}) = 0
+open("/etc/fonts/conf.d/69-unifont.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 672
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/70-no-bitmaps.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/70-no-bitmaps.conf", {st_mode=S_IFREG|0644, st_size=263, ...}) = 0
+open("/etc/fonts/conf.d/70-no-bitmaps.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 263
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/80-delicious.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/80-delicious.conf", {st_mode=S_IFREG|0644, st_size=422, ...}) = 0
+open("/etc/fonts/conf.d/80-delicious.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 422
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/89-tlwg-garuda-synthetic.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/89-tlwg-garuda-synthetic.conf", {st_mode=S_IFREG|0644, st_size=747, ...}) = 0
+open("/etc/fonts/conf.d/89-tlwg-garuda-synthetic.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 747
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/89-tlwg-kinnari-synthetic.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/89-tlwg-kinnari-synthetic.conf", {st_mode=S_IFREG|0644, st_size=744, ...}) = 0
+open("/etc/fonts/conf.d/89-tlwg-kinnari-synthetic.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 744
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/89-tlwg-loma-synthetic.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/89-tlwg-loma-synthetic.conf", {st_mode=S_IFREG|0644, st_size=721, ...}) = 0
+open("/etc/fonts/conf.d/89-tlwg-loma-synthetic.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 721
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/89-tlwg-umpush-synthetic.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/89-tlwg-umpush-synthetic.conf", {st_mode=S_IFREG|0644, st_size=738, ...}) = 0
+open("/etc/fonts/conf.d/89-tlwg-umpush-synthetic.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 738
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/89-tlwg-waree-synthetic.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/89-tlwg-waree-synthetic.conf", {st_mode=S_IFREG|0644, st_size=415, ...}) = 0
+open("/etc/fonts/conf.d/89-tlwg-waree-synthetic.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 415
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/90-fonts-nanum.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-fonts-nanum.conf", {st_mode=S_IFREG|0644, st_size=2479, ...}) = 0
+open("/etc/fonts/conf.d/90-fonts-nanum.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 2479
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/90-synthetic.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-synthetic.conf", {st_mode=S_IFREG|0644, st_size=1691, ...}) = 0
+open("/etc/fonts/conf.d/90-synthetic.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1691
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/90-ttf-bengali-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-bengali-fonts.conf", {st_mode=S_IFREG|0644, st_size=1055, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-bengali-fonts.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1055
+--- SIGPROF {si_signo=SIGPROF, si_code=SI_KERNEL} ---
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/90-ttf-devanagari-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-devanagari-fonts.conf", {st_mode=S_IFREG|0644, st_size=5035, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-devanagari-fonts.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 5035
+read(13, "", 8192)                      = 0

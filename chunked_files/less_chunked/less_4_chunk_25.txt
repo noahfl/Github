@@ -1,0 +1,75 @@
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN|POLLP"..., 84) = 84
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN}], 1,"..., 58) = 58
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN|POLLP"..., 84) = 84
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN}], 1,"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN|POLLP"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "events=POLLIN|POLLRDNORM}])\n:\33[K", 32) = 32
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "recvfrom(3, \"8000\\r\\n    <body d"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "104\n:\33[K", 8)              = 8
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"    <body dir=\\\"ltr\\\" "..., 68) = 68
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \" onclick=\\\";return fal"..., 68) = 68
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN}], 1,"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN|POLLP"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "events=POLLIN|POLLRDNORM}])\n:\33[K", 32) = 32
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "recvfrom(3, \"link=\\\"ei=uRKfU9bsH"..., 85) = 85
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"onlink=\\\"ei=uRKfU9bsHc"..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"  </ul>\\n    </div>\\n "..., 67) = 67
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+read(4, ", 3)                    = 3\npoll"..., 8192) = 8192
+write(1, "write(1, \"s\\\"\\n\", 3)            "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN}], 1,"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN|POLLP"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "events=POLLIN|POLLRDNORM}])\n:\33[K", 32) = 32
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "recvfrom(3, \"a-sessionlink=\\\"ei="..., 85) = 85
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"    data-sessionlink=\\"..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"visibility-tracking=\\\""..., 69) = 69
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"lass=\\\"video-thumb  yt"..., 62) = 62
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4

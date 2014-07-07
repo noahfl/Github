@@ -1,0 +1,75 @@
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"l3z5WfW.gif\\\" aria-hidd"..., 67) = 67
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"l3z5WfW.gif\\\" aria-hid"..., 68) = 68
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"sionlink yt-user-name  "..., 64) = 64
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"sionlink yt-user-name "..., 65) = 65
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"lass=\\\"vertical-align\\\""..., 67) = 67
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"lass=\\\"vertical-align\\"..., 68) = 68
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"ton video-actions spf-n"..., 64) = 64
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"ton video-actions spf-"..., 65) = 65
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"e=\\\"Watch Later\\\" data-"..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"e=\\\"Watch Later\\\" data"..., 67) = 67
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"</li>\\n      <li>407,02"..., 65) = 65
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"</li>\\n      <li>407,0"..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"       </h2>\\n         "..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"       </h2>\\n        "..., 67) = 67
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \">\\n      <div class=\\\"f"..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \">\\n      <div class=\\\""..., 67) = 67
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1

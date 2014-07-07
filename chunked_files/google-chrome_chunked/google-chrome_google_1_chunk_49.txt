@@ -1,0 +1,75 @@
+recvmsg(14, 0x7fff00adbc10, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(14, 0x7fff00adbc10, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=14, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=14, revents=POLLOUT}])
+writev(14, [{"b\0\6\0\17\0\0\0", 8}, {"XInputExtension", 15}, {"\0", 1}], 3) = 24
+poll([{fd=14, events=POLLIN}], 1, 4294967295) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(14, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\7\0\0\0\0\0\1\203B\201\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(14, 0x7fff00adbd20, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(14, 0x7fff00adbd20, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=14, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=14, revents=POLLOUT}])
+writev(14, [{"b\0\6\0\17\0\0\0", 8}, {"XInputExtension", 15}, {"\0", 1}], 3) = 24
+poll([{fd=14, events=POLLIN}], 1, 4294967295) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(14, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\10\0\0\0\0\0\1\203B\201\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(14, 0x7fff00adbcb0, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(14, 0x7fff00adbcb0, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=14, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=14, revents=POLLOUT}])
+writev(14, [{"\203\1\6\0\17\0\0\0", 8}, {"XInputExtension", 15}, {"\0", 1}], 3) = 24
+poll([{fd=14, events=POLLIN}], 1, 4294967295) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(14, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\t\0\0\0\0\0\2\0\3\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(14, 0x7fff00adbcc0, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(14, 0x7fff00adbcc0, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=14, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=14, revents=POLLOUT}])
+writev(14, [{"b\1\6\0\17\0\0\0", 8}, {"XInputExtension", 15}, {"\0", 1}], 3) = 24
+poll([{fd=14, events=POLLIN}], 1, 4294967295) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(14, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\n\0\0\0\0\0\1\203B\201\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(14, 0x7fff00adbc30, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(14, 0x7fff00adbc30, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=14, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=14, revents=POLLOUT}])
+writev(14, [{"b\1\10\0\27\0\0\0", 8}, {"Generic Event Extension", 23}, {"\0", 1}], 3) = 32
+poll([{fd=14, events=POLLIN}], 1, 4294967295) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(14, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\v\0\0\0\0\0\1\200\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(14, 0x7fff00adbb90, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(14, 0x7fff00adbb90, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=14, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=14, revents=POLLOUT}])
+writev(14, [{"\200\0\2\0\1\0\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+poll([{fd=14, events=POLLIN}], 1, 4294967295) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(14, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\f\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(14, 0x7fff00adbc40, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(14, 0x7fff00adbc40, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=14, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=14, revents=POLLOUT}])
+writev(14, [{"\203\1\6\0\17\0\0\0", 8}, {"XInputExtension", 15}, {"\0", 1}], 3) = 24
+poll([{fd=14, events=POLLIN}], 1, 4294967295) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(14, {msg_name(0)=NULL, msg_iov(1)=[{"\1\1\r\0\0\0\0\0\2\0\3\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(14, 0x7fff00adbc80, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(14, 0x7fff00adbc80, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=14, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=14, revents=POLLOUT}])
+writev(14, [{"\203/\2\0\2\0\2\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+poll([{fd=14, events=POLLIN}], 1, 4294967295) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(14, {msg_name(0)=NULL, msg_iov(1)=[{"\1/\16\0\0\0\0\0\2\0\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(14, 0x7fff00adbd00, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(14, 0x7fff00adbd00, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=14, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=14, revents=POLLOUT}])
+writev(14, [{"\207\25\7\0\0\1\2\0\1\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 28}, {NULL, 0}, {"", 0}], 3) = 28
+poll([{fd=14, events=POLLIN}], 1, 4294967295) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(14, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\17\0\0\0\0\0\37\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(14, 0x7fff00adbd30, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(14, 0x7fff00adbd30, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+write(10, "\1\0\0\0\0\0\0\0", 8)        = 8
+gettid()                                = 28600
+gettid()                                = 28600
+gettid()                                = 28600
+gettid()                                = 28600
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f8417721000
+mprotect(0x7f8417721000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f8417f20df0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f8417f219d0, tls=0x7f8417f21700, child_tidptr=0x7f8417f219d0) = 28618
+futex(0x7fff00adbd34, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+futex(0x7fff00adbd08, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fff00adbf74, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+futex(0x7fff00adbf48, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+futex(0x7fff00adbf48, FUTEX_WAKE_PRIVATE, 1) = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f84166dd000
+mprotect(0x7f84166dd000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f8416edcdf0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f8416edd9d0, tls=0x7f8416edd700, child_tidptr=0x7f8416edd9d0) = 28622
+futex(0x7fff00adbf04, FUTEX_WAIT_PRIVATE, 1, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x7fff00adbed8, FUTEX_WAKE_PRIVATE, 1) = 0
+open("/opt/google/chrome/libpulse.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)

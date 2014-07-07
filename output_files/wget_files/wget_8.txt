@@ -1,0 +1,1461 @@
+execve("/usr/bin/wget", ["wget", "www.amazon.com"], [/* 48 vars */]) = 0
+brk(0)                                  = 0x2668000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0430110000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=94113, ...}) = 0
+mmap(NULL, 94113, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f04300f9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20.\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=382984, ...}) = 0
+mmap(NULL, 2478288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f042fc92000
+mprotect(0x7f042fce6000, 2097152, PROT_NONE) = 0
+mmap(0x7f042fee6000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7f042fee6000
+mmap(0x7f042feef000, 208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f042feef000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\355\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1926432, ...}) = 0
+mmap(NULL, 4036760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f042f8b8000
+mprotect(0x7f042fa69000, 2093056, PROT_NONE) = 0
+mmap(0x7f042fc68000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7f042fc68000
+mmap(0x7f042fc8e000, 14488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f042fc8e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=100728, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f04300f8000
+mmap(NULL, 2195784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f042f69f000
+mprotect(0x7f042f6b7000, 2093056, PROT_NONE) = 0
+mmap(0x7f042f8b6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f042f8b6000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=207128, ...}) = 0
+mmap(NULL, 2302208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f042f46c000
+mprotect(0x7f042f49d000, 2097152, PROT_NONE) = 0
+mmap(0x7f042f69d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7f042f69d000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18936, ...}) = 0
+mmap(NULL, 2113968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f042f267000
+mprotect(0x7f042f26b000, 2093056, PROT_NONE) = 0
+mmap(0x7f042f46a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f042f46a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f04300f7000
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f042eea1000
+mprotect(0x7f042f05d000, 2093056, PROT_NONE) = 0
+mmap(0x7f042f25c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7f042f25c000
+mmap(0x7f042f262000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f042f262000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f042ec9d000
+mprotect(0x7f042eca0000, 2093056, PROT_NONE) = 0
+mmap(0x7f042ee9f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f042ee9f000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f04300f6000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f04300f4000
+arch_prctl(ARCH_SET_FS, 0x7f04300f4780) = 0
+mprotect(0x7f042f25c000, 16384, PROT_READ) = 0
+mprotect(0x7f042ee9f000, 4096, PROT_READ) = 0
+mprotect(0x7f042f46a000, 4096, PROT_READ) = 0
+mprotect(0x7f042f69d000, 4096, PROT_READ) = 0
+mprotect(0x7f042f8b6000, 4096, PROT_READ) = 0
+mprotect(0x7f042fc68000, 110592, PROT_READ) = 0
+mprotect(0x7f042fee6000, 12288, PROT_READ) = 0
+mprotect(0x65e000, 4096, PROT_READ)     = 0
+mprotect(0x7f0430112000, 4096, PROT_READ) = 0
+munmap(0x7f04300f9000, 94113)           = 0
+brk(0)                                  = 0x2668000
+brk(0x2689000)                          = 0x2689000
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f042e9d4000
+close(3)                                = 0
+stat("/etc/wgetrc", {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+open("/etc/wgetrc", O_RDONLY)           = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f043010f000
+read(3, "###\n### Sample Wget initializati"..., 4096) = 4096
+read(3, "by setting this to on.\n#recursiv"..., 4096) = 716
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f043010f000, 4096)            = 0
+stat("/home/bearface/.wgetrc", 0x7fff77bde3c0) = -1 ENOENT (No such file or directory)
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7f042eed7ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x421350, [HUP], SA_RESTORER|SA_RESTART, 0x7f042eed7ff0}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7f042eed7ff0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x421350, [USR1], SA_RESTORER|SA_RESTART, 0x7f042eed7ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f042eed7ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x422a80, [WINCH], SA_RESTORER|SA_RESTART, 0x7f042eed7ff0}, {SIG_DFL, [], 0}, 8) = 0
+statfs(".", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=54756666, f_bavail=51739860, f_files=15065088, f_ffree=14871637, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("index.html", {st_mode=S_IFREG|0644, st_size=14192, ...}) = 0
+stat("index.html.1", {st_mode=S_IFREG|0644, st_size=14224, ...}) = 0
+stat("index.html.2", {st_mode=S_IFREG|0644, st_size=118127, ...}) = 0
+stat("index.html.3", {st_mode=S_IFREG|0644, st_size=356117, ...}) = 0
+stat("index.html.4", {st_mode=S_IFREG|0644, st_size=113080, ...}) = 0
+stat("index.html.5", {st_mode=S_IFREG|0644, st_size=57244, ...}) = 0
+stat("index.html.6", {st_mode=S_IFREG|0644, st_size=38264, ...}) = 0
+stat("index.html.7", {st_mode=S_IFREG|0644, st_size=363631, ...}) = 0
+stat("index.html.8", {st_mode=S_IFREG|0644, st_size=113080, ...}) = 0
+stat("index.html.9", {st_mode=S_IFREG|0644, st_size=57244, ...}) = 0
+stat("index.html.10", {st_mode=S_IFREG|0644, st_size=38264, ...}) = 0
+stat("index.html.11", {st_mode=S_IFREG|0644, st_size=27298, ...}) = 0
+stat("index.html.12", 0x7fff77bdded0)   = -1 ENOENT (No such file or directory)
+stat("index.html.12", 0x7fff77bde040)   = -1 ENOENT (No such file or directory)
+statfs(".", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=54756665, f_bavail=51739859, f_files=15065088, f_ffree=14871637, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("index.html", {st_mode=S_IFREG|0644, st_size=14192, ...}) = 0
+stat("index.html.1", {st_mode=S_IFREG|0644, st_size=14224, ...}) = 0
+stat("index.html.2", {st_mode=S_IFREG|0644, st_size=118127, ...}) = 0
+stat("index.html.3", {st_mode=S_IFREG|0644, st_size=356117, ...}) = 0
+stat("index.html.4", {st_mode=S_IFREG|0644, st_size=113080, ...}) = 0
+stat("index.html.5", {st_mode=S_IFREG|0644, st_size=57244, ...}) = 0
+stat("index.html.6", {st_mode=S_IFREG|0644, st_size=38264, ...}) = 0
+stat("index.html.7", {st_mode=S_IFREG|0644, st_size=363631, ...}) = 0
+stat("index.html.8", {st_mode=S_IFREG|0644, st_size=113080, ...}) = 0
+stat("index.html.9", {st_mode=S_IFREG|0644, st_size=57244, ...}) = 0
+stat("index.html.10", {st_mode=S_IFREG|0644, st_size=38264, ...}) = 0
+stat("index.html.11", {st_mode=S_IFREG|0644, st_size=27298, ...}) = 0
+stat("index.html.12", 0x7fff77bdded0)   = -1 ENOENT (No such file or directory)
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f043010f000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+lseek(3, -2252, SEEK_CUR)               = 1267
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+close(3)                                = 0
+munmap(0x7f043010f000, 4096)            = 0
+write(2, "--2014-06-16 11:48:28--  http://"..., 48) = 48
+stat("/home/bearface/.netrc", 0x7fff77bddaa0) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f043010f000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f043010f000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "Resolving www.amazon.com (www.am"..., 45) = 45
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f043010f000
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f043010f000, 4096)            = 0
+open("/etc/host.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f043010f000
+read(3, "# The \"order\" line is only used "..., 4096) = 92
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f043010f000, 4096)            = 0
+getpid()                                = 31432
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f043010f000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f043010f000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=94113, ...}) = 0
+mmap(NULL, 94113, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f04300f9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f042e7c8000
+mprotect(0x7f042e7d3000, 2093056, PROT_NONE) = 0
+mmap(0x7f042e9d2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f042e9d2000
+close(3)                                = 0
+mprotect(0x7f042e9d2000, 4096, PROT_READ) = 0
+munmap(0x7f04300f9000, 94113)           = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f043010f000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\tdo"..., 4096) = 219
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f043010f000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=94113, ...}) = 0
+mmap(NULL, 94113, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f04300f9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10432, ...}) = 0
+mmap(NULL, 2105560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f042e5c5000
+mprotect(0x7f042e5c7000, 2093056, PROT_NONE) = 0
+mmap(0x7f042e7c6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f042e7c6000
+close(3)                                = 0
+mprotect(0x7f042e7c6000, 4096, PROT_READ) = 0
+munmap(0x7f04300f9000, 94113)           = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=94113, ...}) = 0
+mmap(NULL, 94113, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f04300f9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22952, ...}) = 0
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f042e3bf000
+mprotect(0x7f042e3c4000, 2093056, PROT_NONE) = 0
+mmap(0x7f042e5c3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f042e5c3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f042e1a4000
+mprotect(0x7f042e1bb000, 2097152, PROT_NONE) = 0
+mmap(0x7f042e3bb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f042e3bb000
+mmap(0x7f042e3bd000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f042e3bd000
+close(3)                                = 0
+mprotect(0x7f042e3bb000, 4096, PROT_READ) = 0
+mprotect(0x7f042e5c3000, 4096, PROT_READ) = 0
+munmap(0x7f04300f9000, 94113)           = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f043010f000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f043010f000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"\fr\1\0\0\1\0\0\0\0\0\0\3www\6amazon\3com\0\0\1\0\1", 32}], msg_controllen=0, msg_flags=0}, 32}, {{msg_name(0)=NULL, msg_iov(1)=[{"}\270\1\0\0\1\0\0\0\0\0\0\3www\6amazon\3com\0\0\34\0\1", 32}], msg_controllen=0, msg_flags=0}, 32}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [80])                = 0
+recvfrom(3, "}\270\201\200\0\1\0\0\0\1\0\0\3www\6amazon\3com\0\0\34\0\1"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 80
+poll([{fd=3, events=POLLIN}], 1, 4953)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [264])               = 0
+recvfrom(3, "\fr\201\200\0\1\0\1\0\10\0\3\3www\6amazon\3com\0\0\1\0\1"..., 1968, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 264
+close(3)                                = 0
+write(2, "72.21.215.232", 13)           = 13
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to www.amazon.com (ww"..., 67) = 67
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("72.21.215.232")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999993})
+write(3, "GET / HTTP/1.1\r\nUser-Agent: Wget"..., 112) = 112
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 910688})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 16 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 16 J"..., 511) = 511
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999993})
+recvfrom(3, "Accept-Encoding,User-Agent\r\nCont"..., 512, MSG_PEEK, NULL, NULL) = 512
+read(3, "Accept-Encoding,User-Agent\r\nCont"..., 103) = 103
+write(2, "200 OK\n", 7)                 = 7
+stat("index.html.12", 0x7fff77bddaa0)   = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "unspecified", 11)             = 11
+write(2, " [text/html]\n", 13)          = 13
+open("index.html.12", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230index.html.12\342\200\231\n", 31) = 31
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7f0430109000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, "    [<=>                        "..., 79) = 79
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "344\r\n\n\n\n\n\n\n\n\n  \n<!DOCTYPE html P"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "344\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\n\n\n\n\n\n\n\n  \n<!DOCTYPE html PUBLIC"..., 836) = 836
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0430108000
+write(4, "\n\n\n\n\n\n\n\n  \n<!DOCTYPE html PUBLIC"..., 836) = 836
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n5b4\r\nfetch\" href=\"http://fls-n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "5b4\r\nfetch\" href=\"http://fls-na."..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "fetch\" href=\"http://fls-na.amazo"..., 1460) = 1460
+write(4, "fetch\" href=\"http://fls-na.amazo"..., 1460) = 1460
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\nb68\r\nh { font-size: 11px; font"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "b68\r\nh { font-size: 11px; font-f"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "b68\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "h { font-size: 11px; font-family"..., 2920) = 2920
+write(4, "h { font-size: 11px; font-family"..., 2920) = 2920
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n5b4\r\nited { font-size: 10px; c"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "5b4\r\nited { font-size: 10px; col"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "ited { font-size: 10px; color: #"..., 1460) = 1460
+write(4, "ited { font-size: 10px; color: #"..., 1460) = 1460
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n5b4\r\nrow { color: #E47911; fon"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "5b4\r\nrow { color: #E47911; font-"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "row { color: #E47911; font-weigh"..., 1460) = 1460
+write(4, "row { color: #E47911; font-weigh"..., 1460) = 1460
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n38\r\nnt: -1.15em; font-size:100"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "38\r\nnt: -1.15em; font-size:100%;"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "38\r\n", 4)                    = 4
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "nt: -1.15em; font-size:100%; fon"..., 56) = 56
+write(4, "nt: -1.15em; font-size:100%; fon"..., 56) = 56
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n10dc\r\nnified_widget p.seeMore "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "10dc\r\nnified_widget p.seeMore a:"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "10dc\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "nified_widget p.seeMore a:link, "..., 4316) = 4316
+write(4, "nified_widget p.seeMore a:link, "..., 4096) = 4096
+write(4, "left; width:33%; margin:0; paddi"..., 220) = 220
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\nb68\r\n-decoration:none; }\ndiv.l"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "b68\r\n-decoration:none; }\ndiv.lef"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "b68\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "-decoration:none; }\ndiv.leftnav_"..., 2920) = 2920
+write(4, "-decoration:none; }\ndiv.leftnav_"..., 2920) = 2920
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n3bc\r\npx solid #DDDDDD;\n  paddi"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "3bc\r\npx solid #DDDDDD;\n  padding"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "3bc\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "px solid #DDDDDD;\n  padding-bott"..., 956) = 956
+write(4, "px solid #DDDDDD;\n  padding-bott"..., 956) = 956
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n5af\r\n;var BtechRSA={eDisplaySh"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "5af\r\n;var BtechRSA={eDisplayShop"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5af\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, ";var BtechRSA={eDisplayShopAllOn"..., 1455) = 1455
+write(4, ";var BtechRSA={eDisplayShopAllOn"..., 1455) = 1455
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n1bf\r\n\n<script type=\"text/javas"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "1bf\r\n\n<script type=\"text/javascr"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1bf\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\n<script type=\"text/javascript\">"..., 447) = 447
+write(4, "\n<script type=\"text/javascript\">"..., 447) = 447
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 806016})
+recvfrom(3, "a4\r\n\n      \n    \n    \n      \n   "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "a4\r\n", 4)                    = 4
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "\n      \n    \n    \n      \n      \n"..., 164) = 164
+write(4, "\n      \n    \n    \n      \n      \n"..., 164) = 164
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999994})
+recvfrom(3, "\r\n14\r\n\n\n\n      \n\n\n\n\n      \r\n", 127, MSG_PEEK, NULL, NULL) = 28
+read(3, "\r\n", 2)                      = 2
+write(2, "\r", 1)                       = 1
+write(2, "    [ <=>                       "..., 79) = 79
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "14\r\n\n\n\n      \n\n\n\n\n      \r\n", 127, MSG_PEEK, NULL, NULL) = 26
+read(3, "14\r\n", 4)                    = 4
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\n\n\n      \n\n\n\n\n      ", 20) = 20
+write(4, "\n\n\n      \n\n\n\n\n      ", 20) = 20
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "b62\r\n\n\n\n\n\n      \n    \n<!--btech-"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "b62\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\n\n\n\n\n      \n    \n<!--btech-iplc-"..., 2914) = 1355
+write(4, "\n\n\n\n\n      \n    \n<!--btech-iplc-"..., 1355) = 1355
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949711})
+read(3, "nal Care, Beauty, Home, Garden, "..., 1559) = 1559
+write(4, "nal Care, Beauty, Home, Garden, "..., 1559) = 1559
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\nc78\r\nh2.t10,h3.t10,h4.t10,h5.t"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "c78\r\nh2.t10,h3.t10,h4.t10,h5.t10"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "c78\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "h2.t10,h3.t10,h4.t10,h5.t10,h6.t"..., 3192) = 3192
+write(4, "h2.t10,h3.t10,h4.t10,h5.t10,h6.t"..., 3192) = 3192
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\nb62\r\n59_.png\" style=\"display:n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "b62\r\n59_.png\" style=\"display:non"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "b62\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "59_.png\" style=\"display:none\" al"..., 2914) = 2914
+write(4, "59_.png\" style=\"display:none\" al"..., 2914) = 2914
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n149e\r\n50px; overflow: hidden;\""..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "149e\r\n50px; overflow: hidden;\"><"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "149e\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "50px; overflow: hidden;\"><img al"..., 5278) = 5278
+write(4, "50px; overflow: hidden;\"><img al"..., 4096) = 4096
+write(4, "          </div>\n\n            <s"..., 1182) = 1182
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 985539})
+recvfrom(3, "1116\r\nine Art</option>\n<option v"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1116\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "ine Art</option>\n<option value=\""..., 4374) = 4374
+write(4, "ine Art</option>\n<option value=\""..., 4096) = 4096
+write(4, "Nav && $Nav.declare('config.sign"..., 278) = 278
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n75d\r\n   <div id=\"content\">\n   "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "75d\r\n   <div id=\"content\">\n     "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "75d\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "   <div id=\"content\">\n        <d"..., 1885) = 1885
+write(4, "   <div id=\"content\">\n        <d"..., 1885) = 1885
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 977786})
+recvfrom(3, "497\r\n<div style=\"display:none;\">"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "497\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "<div style=\"display:none;\"></div"..., 1175) = 1175
+write(4, "<div style=\"display:none;\"></div"..., 1175) = 1175
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 629915})
+recvfrom(3, "2f6\r\n\n\n\n\n\n\n\n\n\n  \n    \n\n\n\n\n\n\n\n\n\n\n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2f6\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949990})
+read(3, "\n\n\n\n\n\n\n\n\n  \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"..., 758) = 758
+write(4, "\n\n\n\n\n\n\n\n\n  \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"..., 758) = 758
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\nb62\r\n  <table>\n          \n    "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+write(2, "\r", 1)                       = 1
+write(2, "    [  <=>                      "..., 79) = 79
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "b62\r\n  <table>\n          \n      "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "b62\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "  <table>\n          \n        <tr"..., 2914) = 590
+write(4, "  <table>\n          \n        <tr"..., 590) = 590
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "      </div>\n            <a href"..., 2324) = 2324
+write(4, "      </div>\n            <a href"..., 2324) = 2324
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n5b4\r\n   <div class=\"priceBlock"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "5b4\r\n   <div class=\"priceBlock \""..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "   <div class=\"priceBlock \">\n\n\n<"..., 1460) = 1460
+write(4, "   <div class=\"priceBlock \">\n\n\n<"..., 1460) = 1460
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\neea\r\n       <div class=\"ranked"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "eea\r\n       <div class=\"rankedIt"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "eea\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "       <div class=\"rankedItemInf"..., 3818) = 3818
+write(4, "       <div class=\"rankedItemInf"..., 3818) = 3818
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n1116\r\ndiv class=\"noDil\">\n     "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "1116\r\ndiv class=\"noDil\">\n       "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1116\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "div class=\"noDil\">\n            <"..., 4374) = 4374
+write(4, "div class=\"noDil\">\n            <"..., 4096) = 4096
+write(4, "n class=\"carat\"></span>Casio\n   "..., 278) = 278
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n5b4\r\n        <td>\n        <div"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "5b4\r\n        <td>\n        <div c"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "        <td>\n        <div class="..., 1460) = 1460
+write(4, "        <td>\n        <div class="..., 1460) = 1460
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 993266})
+recvfrom(3, "936\r\noods/378526011\">See all Bes"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "936\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "oods/378526011\">See all Best Sel"..., 2358) = 1355
+write(4, "oods/378526011\">See all Best Sel"..., 1355) = 1355
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, " location: \"bottom\",\n           "..., 1003) = 1003
+write(4, " location: \"bottom\",\n           "..., 1003) = 1003
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n4b3\r\nlay:none;}\n            </"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "4b3\r\nlay:none;}\n            </st"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "4b3\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "lay:none;}\n            </style>\n"..., 1203) = 1203
+write(4, "lay:none;}\n            </style>\n"..., 1203) = 1203
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 813413})
+recvfrom(3, "16ca\r\n\n        \n\n\n\n\n\n\n<div style"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "16ca\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "\n        \n\n\n\n\n\n\n<div style=\"disp"..., 5834) = 1354
+write(4, "\n        \n\n\n\n\n\n\n<div style=\"disp"..., 1354) = 1354
+write(2, "\r", 1)                       = 1
+write(2, "    [   <=>                     "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 943384})
+read(3, "\">\n      &gt;\n      <a class=\"na"..., 4480) = 1360
+write(4, "\">\n      &gt;\n      <a class=\"na"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945358})
+read(3, "ed nav_subcat_link nav_pop_li\"><"..., 3120) = 1360
+write(4, "ed nav_subcat_link nav_pop_li\"><"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945734})
+read(3, "gp/feature.html?ie=UTF8&amp;docI"..., 1760) = 1360
+write(4, "gp/feature.html?ie=UTF8&amp;docI"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949612})
+read(3, "=1002403711\" class=\"nav_a nav_it"..., 400) = 400
+write(4, "=1002403711\" class=\"nav_a nav_it"..., 400) = 400
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 990601})
+recvfrom(3, "483\r\ngp/feature.html?ie=UTF8&amp"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "483\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "gp/feature.html?ie=UTF8&amp;docI"..., 1155) = 1155
+write(4, "gp/feature.html?ie=UTF8&amp;docI"..., 1155) = 1155
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n2000\r\nclass=\"nav_taglined nav_"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "2000\r\nclass=\"nav_taglined nav_su"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "class=\"nav_taglined nav_subcat_l"..., 8192) = 192
+write(4, "class=\"nav_taglined nav_subcat_l"..., 192) = 192
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 940250})
+read(3, "g\">Install on your Android phone"..., 8000) = 1360
+write(4, "g\">Install on your Android phone"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945244})
+read(3, "_a nav_item\">Kindle E-reader Acc"..., 6640) = 1360
+write(4, "_a nav_item\">Kindle E-reader Acc"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945248})
+read(3, "in a browser</div></li><li class"..., 5280) = 1360
+write(4, "in a browser</div></li><li class"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 942465})
+read(3, "link nav_pop_li\"><a href=\"/gp/fe"..., 3920) = 1360
+write(4, "link nav_pop_li\"><a href=\"/gp/fe"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945248})
+read(3, "_taglined nav_subcat_link nav_po"..., 2560) = 1360
+write(4, "_taglined nav_subcat_link nav_po"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945520})
+read(3, "ass=\"nav_subcat_link nav_pop_li\""..., 1200) = 1200
+write(4, "ass=\"nav_subcat_link nav_pop_li\""..., 1200) = 1200
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 998822})
+recvfrom(3, "b62\r\n<li class=\"nav_pop_li nav_b"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "b62\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "<li class=\"nav_pop_li nav_browse"..., 2914) = 1355
+write(4, "<li class=\"nav_pop_li nav_browse"..., 1355) = 1355
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 934525})
+read(3, "i nav_divider_before\"><a href=\"/"..., 1559) = 1559
+write(4, "i nav_divider_before\"><a href=\"/"..., 1559) = 1559
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 995492})
+recvfrom(3, "149e\r\nie=UTF8&amp;node=1077068\" "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "149e\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ie=UTF8&amp;node=1077068\" class="..., 5278) = 1354
+write(4, "ie=UTF8&amp;node=1077068\" class="..., 1354) = 1354
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945761})
+read(3, "nts</a></li><li class=\"nav_subca"..., 3924) = 2720
+write(4, "nts</a></li><li class=\"nav_subca"..., 2720) = 2720
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945716})
+read(3, "subcat_link nav_pop_li\"><a href="..., 1204) = 1204
+write(4, "subcat_link nav_pop_li\"><a href="..., 1204) = 1204
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n5ae\r\nde=7175545011\" class=\"nav"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "5ae\r\nde=7175545011\" class=\"nav_a"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5ae\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "de=7175545011\" class=\"nav_a nav_"..., 1454) = 1454
+write(4, "de=7175545011\" class=\"nav_a nav_"..., 1454) = 1454
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n111c\r\ndiv></li><li class=\"nav_"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "111c\r\ndiv></li><li class=\"nav_ta"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "111c\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "div></li><li class=\"nav_taglined"..., 4380) = 1354
+write(4, "div></li><li class=\"nav_taglined"..., 1354) = 1354
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947076})
+read(3, "link nav_pop_li\"><a href=\"/gp/mo"..., 3026) = 3026
+write(4, "link nav_pop_li\"><a href=\"/gp/mo"..., 3026) = 3026
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 986999})
+recvfrom(3, "5b4\r\nv_pop_li\"><a href=\"/Boating"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "v_pop_li\"><a href=\"/Boating-Wate"..., 1460) = 1460
+write(4, "v_pop_li\"><a href=\"/Boating-Wate"..., 1460) = 1460
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 995980})
+recvfrom(3, "382\r\nUTF8&amp;node=706812011\" cl"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "382\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "UTF8&amp;node=706812011\" class=\""..., 898) = 898
+write(4, "UTF8&amp;node=706812011\" class=\""..., 898) = 898
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n2000\r\nls</a></li><li class=\"na"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "2000\r\nls</a></li><li class=\"nav_"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ls</a></li><li class=\"nav_subcat"..., 8192) = 449
+write(4, "ls</a></li><li class=\"nav_subcat"..., 449) = 449
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944938})
+read(3, "bcat_link nav_pop_li\"><a href=\"/"..., 7743) = 2720
+write(4, "bcat_link nav_pop_li\"><a href=\"/"..., 2720) = 2720
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 938946})
+read(3, "t&openid.mode=checkid_setup&open"..., 5023) = 1360
+write(4, "t&openid.mode=checkid_setup&open"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944265})
+read(3, "nIn=1\" class=\"nav_a\">Your Wish L"..., 3663) = 1360
+write(4, "nIn=1\" class=\"nav_a\">Your Wish L"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 942530})
+read(3, "ideo/library\" class=\"nav_a\">Your"..., 2303) = 1360
+write(4, "ideo/library\" class=\"nav_a\">Your"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945832})
+read(3, "   <p class='nav_p nav-bold nav-"..., 943) = 943
+write(4, "   <p class='nav_p nav-bold nav-"..., 943) = 943
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n1b2a\r\nnav_p '> Check your Inte"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "1b2a\r\nnav_p '> Check your Intern"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1b2a\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "nav_p '> Check your Internet con"..., 6954) = 409
+write(4, "nav_p '> Check your Internet con"..., 409) = 409
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944033})
+read(3, "inner\">\n        View Cart\n      "..., 6545) = 1360
+write(4, "inner\">\n        View Cart\n      "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945445})
+read(3, "Birthdays</a></li><li class=\"nav"..., 5185) = 1360
+write(4, "Birthdays</a></li><li class=\"nav"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946141})
+read(3, "if (item.ourPrice) { #>\n        "..., 3825) = 1360
+write(4, "if (item.ourPrice) { #>\n        "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946123})
+read(3, "subnav'>\n  <# if (obj && obj.typ"..., 2465) = 1360
+write(4, "subnav'>\n  <# if (obj && obj.typ"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947264})
+read(3, "'>\n          <a href='<#=row.url"..., 1105) = 1105
+write(4, "'>\n          <a href='<#=row.url"..., 1105) = 1105
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n4d6\r\nges-amazon.com/images/G/0"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "4d6\r\nges-amazon.com/images/G/01/"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "4d6\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ges-amazon.com/images/G/01/authp"..., 1238) = 248
+write(4, "ges-amazon.com/images/G/01/authp"..., 248) = 248
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946811})
+read(3, "images-amazon.com/images/G/01/br"..., 990) = 990
+write(4, "images-amazon.com/images/G/01/br"..., 990) = 990
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n11f2\r\n/01/x-locale/communities"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "11f2\r\n/01/x-locale/communities/s"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "11f2\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "/01/x-locale/communities/social/"..., 4594) = 362
+write(4, "/01/x-locale/communities/social/"..., 362) = 362
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948725})
+read(3, "rders/images/acorn._V192250692_."..., 4232) = 1360
+write(4, "rders/images/acorn._V192250692_."..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947194})
+read(3, "   window.$Nav && $Nav.declare('"..., 2872) = 1360
+write(4, "   window.$Nav && $Nav.declare('"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945662})
+read(3, "100% !important;\n}\n\n.cust-rec-au"..., 1512) = 1360
+write(4, "100% !important;\n}\n\n.cust-rec-au"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946857})
+read(3, "i-button .a-button{\n\t*display:in"..., 152) = 152
+write(4, "i-button .a-button{\n\t*display:in"..., 152) = 152
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\nb68\r\nr:#bcc1c8 #bababa #adb2bb"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "b68\r\nr:#bcc1c8 #bababa #adb2bb;\n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "b68\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "r:#bcc1c8 #bababa #adb2bb;\n\ttext"..., 2920) = 1201
+write(4, "r:#bcc1c8 #bababa #adb2bb;\n\ttext"..., 1201) = 1201
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 941926})
+read(3, ".a-button-text{\n\tposition:relati"..., 1719) = 1360
+write(4, ".a-button-text{\n\tposition:relati"..., 1360) = 1360
+write(2, "\r", 1)                       = 1
+write(2, "    [    <=>                    "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 943764})
+read(3, "h-press {\n    border-color: #aa8"..., 359) = 359
+write(4, "h-press {\n    border-color: #aa8"..., 359) = 359
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n2a6\r\none;\n      -webkit-box-sh"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "2a6\r\none;\n      -webkit-box-shad"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2a6\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "one;\n      -webkit-box-shadow: 0"..., 678) = 678
+write(4, "one;\n      -webkit-box-shadow: 0"..., 678) = 678
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n306\r\n, left top, left bottom, "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "306\r\n, left top, left bottom, co"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "306\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, ", left top, left bottom, color-s"..., 774) = 309
+write(4, ", left top, left bottom, color-s"..., 309) = 309
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948505})
+read(3, "b);\n\n  filter: progid:DXImageTra"..., 465) = 465
+write(4, "b);\n\n  filter: progid:DXImageTra"..., 465) = 465
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\nb68\r\nround: -webkit-linear-gra"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "b68\r\nround: -webkit-linear-gradi"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "b68\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "round: -webkit-linear-gradient(t"..., 2920) = 888
+write(4, "round: -webkit-linear-gradient(t"..., 888) = 888
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947773})
+read(3, "z-linear-gradient(top,#f7dfa5,#f"..., 2032) = 1360
+write(4, "z-linear-gradient(top,#f7dfa5,#f"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946944})
+read(3, "-rec-aui-button cust-rec-inline-"..., 672) = 672
+write(4, "-rec-aui-button cust-rec-inline-"..., 672) = 672
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n5b4\r\nass=\"a-button-text\">\n    "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "5b4\r\nass=\"a-button-text\">\n      "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ass=\"a-button-text\">\n           "..., 1460) = 681
+write(4, "ass=\"a-button-text\">\n           "..., 681) = 681
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947819})
+read(3, "e%2Fhome%3Fie%3DUTF8%26ref_%3Dgn"..., 779) = 779
+write(4, "e%2Fhome%3Fie%3DUTF8%26ref_%3Dgn"..., 779) = 779
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\nbde\r\n ? 1 : 0;\n        }\n     "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "bde\r\n ? 1 : 0;\n        }\n       "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "bde\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, " ? 1 : 0;\n        }\n        if ("..., 3038) = 574
+write(4, " ? 1 : 0;\n        }\n        if ("..., 574) = 574
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947912})
+read(3, "anchor-point\",\n            'loca"..., 2464) = 1360
+write(4, "anchor-point\",\n            'loca"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 942446})
+read(3, " var repositionPopover = functio"..., 1104) = 1104
+write(4, " var repositionPopover = functio"..., 1104) = 1104
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n1652\r\ner.displayPopover(signIn"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "1652\r\ner.displayPopover(signInPo"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1652\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "er.displayPopover(signInPopoverO"..., 5714) = 248
+write(4, "er.displayPopover(signInPopoverO"..., 248) = 248
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 939416})
+read(3, "ocus & scrollTop < 100) {\n      "..., 5466) = 1360
+write(4, "ocus & scrollTop < 100) {\n      "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946208})
+read(3, "                      dismissPop"..., 4106) = 1360
+write(4, "                      dismissPop"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945965})
+read(3, "onstructTooltip();\n             "..., 2746) = 1360
+write(4, "onstructTooltip();\n             "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946593})
+read(3, "                           jQuer"..., 1386) = 1360
+write(4, "                           jQuer"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946749})
+read(3, "2/BUNKBEDS/BUNKBED_women_t", 26) = 26
+write(4, "2/BUNKBEDS/BUNKBED_women_t", 26) = 26
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n9ae\r\nrend_b._V352062265_.jpg\" "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "9ae\r\nrend_b._V352062265_.jpg\" us"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "9ae\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "rend_b._V352062265_.jpg\" usemap="..., 2478) = 1327
+write(4, "rend_b._V352062265_.jpg\" usemap="..., 1327) = 1327
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947973})
+read(3, "wWrap .gwcswNav table tr td:firs"..., 1151) = 1151
+write(4, "wWrap .gwcswNav table tr td:firs"..., 1151) = 1151
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n1882\r\nter: inherit;\n  cursor: "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "1882\r\nter: inherit;\n  cursor: po"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1882\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "ter: inherit;\n  cursor: pointer;"..., 6274) = 201
+write(4, "ter: inherit;\n  cursor: pointer;"..., 201) = 201
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948170})
+read(3, "t.gradient(startColorstr=#00FFFF"..., 6073) = 1360
+write(4, "t.gradient(startColorstr=#00FFFF"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947012})
+read(3, "isLazy;GWCSW.ueBegin;GWCSW.ueFir"..., 4713) = 1360
+write(4, "isLazy;GWCSW.ueBegin;GWCSW.ueFir"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945109})
+read(3, "eof window.isLd===\"undefined\"||w"..., 3353) = 1360
+write(4, "eof window.isLd===\"undefined\"||w"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947360})
+read(3, "tle=U[i].title.replace(/&lt;br&g"..., 1993) = 1360
+write(4, "tle=U[i].title.replace(/&lt;br&g"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946885})
+read(3, "rc)});x.click(t);T.click(u)}func"..., 633) = 633
+write(4, "rc)});x.click(t);T.click(u)}func"..., 633) = 633
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n5b4\r\nx\");o(aa,n,Z,w,GWCSW.c_an"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "5b4\r\nx\");o(aa,n,Z,w,GWCSW.c_anim"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "x\");o(aa,n,Z,w,GWCSW.c_animation"..., 1460) = 720
+write(4, "x\");o(aa,n,Z,w,GWCSW.c_animation"..., 720) = 720
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948534})
+read(3, "+ab+\"]\");var ad=E.find(\"[index=\""..., 740) = 740
+write(4, "+ab+\"]\");var ad=E.find(\"[index=\""..., 740) = 740
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n1ca\r\n.loaded){GWCSW.uePublish("..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "1ca\r\n.loaded){GWCSW.uePublish(\"g"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1ca\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, ".loaded){GWCSW.uePublish(\"gwcsw1"..., 458) = 458
+write(4, ".loaded){GWCSW.uePublish(\"gwcsw1"..., 458) = 458
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n3e2\r\n\"index\"))].tooltip;if(typ"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "3e2\r\n\"index\"))].tooltip;if(typeo"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "3e2\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\"index\"))].tooltip;if(typeof(af)"..., 994) = 148
+write(4, "\"index\"))].tooltip;if(typeof(af)"..., 148) = 148
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947850})
+read(3, "G.outerHeight()-D.height();var a"..., 846) = 846
+write(4, "G.outerHeight()-D.height();var a"..., 846) = 846
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n1c1e\r\nWCSW.isIE7()||GWCSW.isIE"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "1c1e\r\nWCSW.isIE7()||GWCSW.isIE8("..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1c1e\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "WCSW.isIE7()||GWCSW.isIE8()){k.c"..., 7198) = 506
+write(4, "WCSW.isIE7()||GWCSW.isIE8()){k.c"..., 506) = 506
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947996})
+read(3, "ser.msie&&jQuery.browser.version"..., 6692) = 1360
+write(4, "ser.msie&&jQuery.browser.version"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946977})
+read(3, "M-550-Game-Camera/dp/B00HAH6JIS\""..., 5332) = 1360
+write(4, "M-550-Game-Camera/dp/B00HAH6JIS\""..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947155})
+read(3, "&amp; Hale</div>\n\n<div class=\"s9"..., 3972) = 1360
+write(4, "&amp; Hale</div>\n\n<div class=\"s9"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947289})
+read(3, "yle=\"position: relative\"><a href"..., 2612) = 1360
+write(4, "yle=\"position: relative\"><a href"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946649})
+read(3, "192234675_.gif\" url=\"http://ecx."..., 1252) = 1252
+write(4, "192234675_.gif\" url=\"http://ecx."..., 1252) = 1252
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\nbc6\r\n.floor((w-p)/mw)-(s?1:0);"..., 127, MSG_PEEK, NULL, NULL) = 108
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "bc6\r\n.floor((w-p)/mw)-(s?1:0);\nn"..., 127, MSG_PEEK, NULL, NULL) = 106
+read(3, "bc6\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, ".floor((w-p)/mw)-(s?1:0);\nn=Math"..., 3014) = 101
+write(4, ".floor((w-p)/mw)-(s?1:0);\nn=Math"..., 101) = 101
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946695})
+read(3, "'s9m'+String.fromCharCode(92)+'d"..., 2913) = 1360
+write(4, "'s9m'+String.fromCharCode(92)+'d"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946779})
+read(3, "f_rd_t=101&pf_rd_p=1810646642&pf"..., 1553) = 1360
+write(4, "f_rd_t=101&pf_rd_p=1810646642&pf"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946962})
+read(3, "alt=\"\" width=\"150\" height=\"141\" "..., 193) = 193
+write(4, "alt=\"\" width=\"150\" height=\"141\" "..., 193) = 193
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n5b4\r\nlass=\"s9CustomerReviews\">"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999994})
+recvfrom(3, "5b4\r\nlass=\"s9CustomerReviews\"><d"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "lass=\"s9CustomerReviews\"><div cl"..., 1460) = 1160
+write(4, "lass=\"s9CustomerReviews\"><div cl"..., 1160) = 1160
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948887})
+read(3, ".99</span> <span class=\"s9Price "..., 300) = 300
+write(4, ".99</span> <span class=\"s9Price "..., 300) = 300
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\ne86\r\nion\" title=\"Microplane 40"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "e86\r\nion\" title=\"Microplane 4002"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "e86\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ion\" title=\"Microplane 40020 Cla"..., 3718) = 1053
+write(4, "ion\" title=\"Microplane 40020 Cla"..., 1053) = 1053
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948810})
+read(3, "er\"><img src=\"http://g-ecx.image"..., 2665) = 1360
+write(4, "er\"><img src=\"http://g-ecx.image"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947634})
+read(3, "tars_4_5\"></div><span>(<a class="..., 1305) = 1305
+write(4, "tars_4_5\"></div><span>(<a class="..., 1305) = 1305
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n2000\r\nwidth: 33.1%; display: n"..., 127, MSG_PEEK, NULL, NULL) = 55
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "2000\r\nwidth: 33.1%; display: non"..., 127, MSG_PEEK, NULL, NULL) = 53
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "width: 33.1%; display: none\">\n<d"..., 8192) = 47
+write(4, "width: 33.1%; display: none\">\n<d"..., 47) = 47
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948690})
+read(3, "\"><div class=\"s9hl\" style=\"posit"..., 8145) = 1360
+write(4, "\"><div class=\"s9hl\" style=\"posit"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947132})
+read(3, "dWidth;\nvar pn,n;if(r.parentNode"..., 6785) = 1360
+write(4, "dWidth;\nvar pn,n;if(r.parentNode"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947263})
+read(3, "s9Multipack({ minItems: 3, maxIt"..., 5425) = 1360
+write(4, "s9Multipack({ minItems: 3, maxIt"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 942939})
+read(3, "width: 100%\">\n<div class=\"fluid "..., 4065) = 1360
+write(4, "width: 100%\">\n<div class=\"fluid "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946958})
+read(3, "mg src=\"http://ecx.images-amazon"..., 2705) = 1360
+write(4, "mg src=\"http://ecx.images-amazon"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947788})
+read(3, "VP6JC?ie=UTF8&showViewpoints=1\">"..., 1345) = 1345
+write(4, "VP6JC?ie=UTF8&showViewpoints=1\">"..., 1345) = 1345
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n1026\r\nef=\"/Pi", 127, MSG_PEEK, NULL, NULL) = 15
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "1026\r\nef=\"/Pi", 127, MSG_PEEK, NULL, NULL) = 13
+read(3, "1026\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ef=\"/Pi", 4134)               = 7
+write(4, "ef=\"/Pi", 7)                 = 7
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948690})
+read(3, "nzon-Paris-Printed-Queen-Duvet/d"..., 4127) = 1360
+write(4, "nzon-Paris-Printed-Queen-Duvet/d"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947144})
+read(3, "-ecx.images-amazon.com/images/G/"..., 2767) = 1360
+write(4, "-ecx.images-amazon.com/images/G/"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946986})
+read(3, "CustomerReviews\"><div class=\"s9S"..., 1407) = 1360
+write(4, "CustomerReviews\"><div class=\"s9S"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946553})
+read(3, "r,3,7,170,false,0,true);\n})();\n}"..., 47) = 47
+write(4, "r,3,7,170,false,0,true);\n})();\n}"..., 47) = 47
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n5b4\r\nJQ !== undefined){amznJQ."..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "5b4\r\nJQ !== undefined){amznJQ.on"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "JQ !== undefined){amznJQ.onReady"..., 1460) = 1306
+write(4, "JQ !== undefined){amznJQ.onReady"..., 1306) = 1306
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949187})
+read(3, "=\"text/javascript\">\nwindow.S9Inc"..., 154) = 154
+write(4, "=\"text/javascript\">\nwindow.S9Inc"..., 154) = 154
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n5b4\r\ncreateElement('script');\n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "5b4\r\ncreateElement('script');\n  "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "createElement('script');\n  scrip"..., 1460) = 1199
+write(4, "createElement('script');\n  scrip"..., 1199) = 1199
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948824})
+read(3, "er reviews</span></a>)</span></d"..., 261) = 261
+write(4, "er reviews</span></a>)</span></d"..., 261) = 261
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n472\r\nition: relative\"><a href="..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "472\r\nition: relative\"><a href=\"/"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "472\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ition: relative\"><a href=\"/Nothi"..., 1138) = 1092
+write(4, "ition: relative\"><a href=\"/Nothi"..., 1092) = 1092
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944384})
+read(3, "g Shower Curtain Mat / Rings Tow"..., 46) = 46
+write(4, "g Shower Curtain Mat / Rings Tow"..., 46) = 46
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n1dbe\r\nlass=\"s9ImageWrapper\"><d"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "1dbe\r\nlass=\"s9ImageWrapper\"><div"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1dbe\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "lass=\"s9ImageWrapper\"><div class"..., 7614) = 1306
+write(4, "lass=\"s9ImageWrapper\"><div class"..., 1306) = 1306
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948239})
+read(3, "s=\"s9TitleText\">Hakuna Matata.. "..., 6308) = 1360
+write(4, "s=\"s9TitleText\">Hakuna Matata.. "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947605})
+read(3, "points=1\">6<span class=\"s9Long\">"..., 4948) = 1360
+write(4, "points=1\">6<span class=\"s9Long\">"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947146})
+read(3, "title ntTitle noLinkDecoration\" "..., 3588) = 1360
+write(4, "title ntTitle noLinkDecoration\" "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947251})
+read(3, "in(Math.max(pn,mn),mx);\nr.classN"..., 2228) = 1360
+write(4, "in(Math.max(pn,mn),mx);\nr.classN"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947460})
+read(3, "</div>\n<div class=\"h_rule\"></div"..., 868) = 868
+write(4, "</div>\n<div class=\"h_rule\"></div"..., 868) = 868
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n242\r\nleft; width: 100%\">\n<div "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "242\r\nleft; width: 100%\">\n<div cl"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "242\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949963})
+read(3, "left; width: 100%\">\n<div class=\""..., 578) = 485
+write(4, "left; width: 100%\">\n<div class=\""..., 485) = 485
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947700})
+read(3, "elf (Set of 3)\n</span></a>\n\n<br "..., 93) = 93
+write(4, "elf (Set of 3)\n</span></a>\n\n<br "..., 93) = 93
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n36a\r\nustomerReviews\"><div clas"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "36a\r\nustomerReviews\"><div class="..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "36a\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ustomerReviews\"><div class=\"s9St"..., 874) = 874
+write(4, "ustomerReviews\"><div class=\"s9St"..., 874) = 874
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n5b4\r\n class=\"s9Stars s9Stars_4"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "5b4\r\n class=\"s9Stars s9Stars_4_0"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, " class=\"s9Stars s9Stars_4_0\"></d"..., 1460) = 379
+write(4, " class=\"s9Stars s9Stars_4_0\"></d"..., 379) = 379
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949730})
+read(3, "on: relative\"><a href=\"/HomeAXCE"..., 1081) = 1081
+write(4, "on: relative\"><a href=\"/HomeAXCE"..., 1081) = 1081
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n5b4\r\nimg src=\"http://g-ecx.ima"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "5b4\r\nimg src=\"http://g-ecx.image"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "img src=\"http://g-ecx.images-ama"..., 1460) = 272
+write(4, "img src=\"http://g-ecx.images-ama"..., 272) = 272
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948396})
+read(3, "lf (Set of 2)\n</span></a>\n\n<br c"..., 1188) = 1188
+write(4, "lf (Set of 2)\n</span></a>\n\n<br c"..., 1188) = 1188
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n112e\r\ns_4_0\"></div><span>(<a c"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "112e\r\ns_4_0\"></div><span>(<a cla"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "112e\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "s_4_0\"></div><span>(<a class=\"no"..., 4398) = 164
+write(4, "s_4_0\"></div><span>(<a class=\"no"..., 164) = 164
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944141})
+read(3, "/span></div>\n\n<span class=\"newLi"..., 4234) = 1360
+write(4, "/span></div>\n\n<span class=\"newLi"..., 1360) = 1360
+write(2, "\r", 1)                       = 1
+write(2, "    [     <=>                   "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948523})
+read(3, "rilite-01428501-4-Shelf-Utility-"..., 2874) = 1360
+write(4, "rilite-01428501-4-Shelf-Utility-"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947355})
+read(3, "idth):cl.s9CachedWidth;\nvar pn,n"..., 1514) = 1360
+write(4, "idth):cl.s9CachedWidth;\nvar pn,n"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946459})
+read(3, "}s9MultipackRow.s9Multipack({ mi"..., 154) = 154
+write(4, "}s9MultipackRow.s9Multipack({ mi"..., 154) = 154
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n2000\r\n>\n<span class=\"carat\">&r"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "2000\r\n>\n<span class=\"carat\">&rsa"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, ">\n<span class=\"carat\">&rsaquo;</"..., 8192) = 1198
+write(4, ">\n<span class=\"carat\">&rsaquo;</"..., 1198) = 1198
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947091})
+read(3, "xe-Tower-Casters/dp/B0009J5NRW\" "..., 6994) = 1360
+write(4, "xe-Tower-Casters/dp/B0009J5NRW\" "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945664})
+read(3, "on\" href=\"/gp/product-reviews/B0"..., 5634) = 1360
+write(4, "on\" href=\"/gp/product-reviews/B0"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945865})
+read(3, "\" title=\"HyLoft 01031 Folding St"..., 4274) = 1360
+write(4, "\" title=\"HyLoft 01031 Folding St"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947189})
+read(3, "div><span class=\"s9TitleText\">Ed"..., 2914) = 1360
+write(4, "div><span class=\"s9TitleText\">Ed"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 941294})
+read(3, "\n</div></div>\n</div>\n<div class="..., 1554) = 1360
+write(4, "\n</div></div>\n</div>\n<div class="..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946081})
+read(3, "e.parentNode;cl.s9CachedWidth=nu"..., 194) = 194
+write(4, "e.parentNode;cl.s9CachedWidth=nu"..., 194) = 194
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n1332\r\n2*Math.floor((w-p)/mw);\n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999999})
+recvfrom(3, "1332\r\n2*Math.floor((w-p)/mw);\nn="..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1332\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "2*Math.floor((w-p)/mw);\nn=Math.m"..., 4914) = 1158
+write(4, "2*Math.floor((w-p)/mw);\nn=Math.m"..., 1158) = 1158
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946224})
+read(3, "_ItemRow')} else if(window.P !=="..., 3756) = 1360
+write(4, "_ItemRow')} else if(window.P !=="..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947290})
+read(3, ".1%\">\n<div class=\"inner\"><div cl"..., 2396) = 1360
+write(4, ".1%\">\n<div class=\"inner\"><div cl"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946978})
+read(3, "p: 8px; margin-bottom:7px;\" /></"..., 1036) = 1036
+write(4, "p: 8px; margin-bottom:7px;\" /></"..., 1036) = 1036
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n5b4\r\nping Hand...\n</span></a>\n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999999})
+recvfrom(3, "5b4\r\nping Hand...\n</span></a>\n\n<"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "ping Hand...\n</span></a>\n\n<br cl"..., 1460) = 317
+write(4, "ping Hand...\n</span></a>\n\n<br cl"..., 317) = 317
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947318})
+read(3, "span class=\"newListprice gry t11"..., 1143) = 1143
+write(4, "span class=\"newListprice gry t11"..., 1143) = 1143
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n71a\r\nss=\"fluid asin s9a4\" styl"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999999})
+recvfrom(3, "71a\r\nss=\"fluid asin s9a4\" style="..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "71a\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "ss=\"fluid asin s9a4\" style=\"floa"..., 1818) = 210
+write(4, "ss=\"fluid asin s9a4\" style=\"floa"..., 210) = 210
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948086})
+read(3, "=\"title ntTitle noLinkDecoration"..., 1608) = 1360
+write(4, "=\"title ntTitle noLinkDecoration"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 938201})
+read(3, "ctqfVL._SL150_.jpg\" alt=\"\" width"..., 248) = 248
+write(4, "ctqfVL._SL150_.jpg\" alt=\"\" width"..., 248) = 248
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n2000\r\nass=\"noLinkDecoration\" h"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "2000\r\nass=\"noLinkDecoration\" hre"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "ass=\"noLinkDecoration\" href=\"/gp"..., 8192) = 1104
+write(4, "ass=\"noLinkDecoration\" href=\"/gp"..., 1104) = 1104
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947917})
+read(3, ">214<span class=\"s9Long\"> custom"..., 7088) = 1360
+write(4, ">214<span class=\"s9Long\"> custom"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947616})
+read(3, "fined){  s9MultipackRow = jQuery"..., 5728) = 1360
+write(4, "fined){  s9MultipackRow = jQuery"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946060})
+read(3, "s=\"navFooterLinkCol\"><div class="..., 4368) = 1360
+write(4, "s=\"navFooterLinkCol\"><div class="..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946167})
+read(3, "zon.htm%2Fref%3Dfooter_soa%3Fld%"..., 3008) = 1360
+write(4, "zon.htm%2Fref%3Dfooter_soa%3Fld%"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946955})
+read(3, " class=\"nav_a\">Credit Card Marke"..., 1648) = 1360
+write(4, " class=\"nav_a\">Credit Card Marke"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944266})
+read(3, "av_a\">Brazil</a></li><li><a href"..., 288) = 288
+write(4, "av_a\">Brazil</a></li><li><a href"..., 288) = 288
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\nc2\r\nhref=\"http://www.amazon.in"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999999})
+recvfrom(3, "c2\r\nhref=\"http://www.amazon.in/\""..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "c2\r\n", 4)                    = 4
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "href=\"http://www.amazon.in/\" cla"..., 194) = 194
+write(4, "href=\"http://www.amazon.in/\" cla"..., 194) = 194
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n5b4\r\n href=\"http://www.amazon."..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999999})
+recvfrom(3, "5b4\r\n href=\"http://www.amazon.co"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, " href=\"http://www.amazon.com.mx/"..., 1460) = 865
+write(4, " href=\"http://www.amazon.com.mx/"..., 865) = 865
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 941315})
+read(3, "ef=\"http://www.acx.com\" class=\"n"..., 595) = 595
+write(4, "ef=\"http://www.acx.com\" class=\"n"..., 595) = 595
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\nb68\r\nan></a></td>\n<td class=\"n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "b68\r\nan></a></td>\n<td class=\"nav"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "b68\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "an></a></td>\n<td class=\"navFoote"..., 2920) = 758
+write(4, "an></a></td>\n<td class=\"navFoote"..., 758) = 758
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948781})
+read(3, "avFooterDescText\">Business, Indu"..., 2162) = 1360
+write(4, "avFooterDescText\">Business, Indu"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946636})
+read(3, "pacer\" style=\"width: 4%\"></td>\n<"..., 802) = 802
+write(4, "pacer\" style=\"width: 4%\"></td>\n<"..., 802) = 802
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\ne22\r\nDescSpacer\" style=\"width:"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "e22\r\nDescSpacer\" style=\"width: 4"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "e22\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "DescSpacer\" style=\"width: 4%\"></"..., 3618) = 551
+write(4, "DescSpacer\" style=\"width: 4%\"></"..., 551) = 551
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948021})
+read(3, "lcome\" class=\"nav_a\">East Dane<b"..., 3067) = 1360
+write(4, "lcome\" class=\"nav_a\">East Dane<b"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945117})
+read(3, "ss=\"navFooterDescSpacer\" style=\""..., 1707) = 1360
+write(4, "ss=\"navFooterDescSpacer\" style=\""..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944067})
+read(3, "ag.com/\" class=\"nav_a\">Wag.com<b"..., 347) = 347
+write(4, "ag.com/\" class=\"nav_a\">Wag.com<b"..., 347) = 347
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n2000\r\n<td class=\"navFooterDesc"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "2000\r\n<td class=\"navFooterDescSp"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "<td class=\"navFooterDescSpacer\" "..., 8192) = 1005
+write(4, "<td class=\"navFooterDescSpacer\" "..., 1005) = 1005
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948322})
+read(3, "deId=508088\" class=\"nav_a\">Condi"..., 7187) = 1360
+write(4, "deId=508088\" class=\"nav_a\">Condi"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944265})
+read(3, "loadIndex || 0; __auiPreloadInde"..., 5827) = 1360
+write(4, "loadIndex || 0; __auiPreloadInde"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947086})
+read(3, "| 0; __auiPreloadIndex++;\n  (win"..., 4467) = 1360
+write(4, "| 0; __auiPreloadIndex++;\n  (win"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947225})
+read(3, "e357dd53b8d.udp_amznjq_shim.webl"..., 3107) = 1360
+write(4, "e357dd53b8d.udp_amznjq_shim.webl"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946997})
+read(3, "order=\"0\" marginwidth=\"0\" margin"..., 1747) = 1360
+write(4, "order=\"0\" marginwidth=\"0\" margin"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947769})
+read(3, "9_.js\",\"https://images-na.ssl-im"..., 387) = 387
+write(4, "9_.js\",\"https://images-na.ssl-im"..., 387) = 387
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n163e\r\nocale/checkout/signin-ba"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "163e\r\nocale/checkout/signin-bann"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "163e\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ocale/checkout/signin-banner._V3"..., 5694) = 965
+write(4, "ocale/checkout/signin-banner._V3"..., 965) = 965
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948695})
+read(3, "AmazonUIPageJS ? AmazonUIPageJS "..., 4729) = 1360
+write(4, "AmazonUIPageJS ? AmazonUIPageJS "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947038})
+read(3, "w.AmazonUIPageJS ? AmazonUIPageJ"..., 3369) = 1360
+write(4, "w.AmazonUIPageJS ? AmazonUIPageJ"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947511})
+read(3, "ex || 0; __auiPreloadIndex++;\n  "..., 2009) = 1360
+write(4, "ex || 0; __auiPreloadIndex++;\n  "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946793})
+read(3, "http://z-ecx.images-amazon.com/i"..., 649) = 649
+write(4, "http://z-ecx.images-amazon.com/i"..., 649) = 649
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n9c2\r\nties._V136632413_.png\");\n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "9c2\r\nties._V136632413_.png\");\n  "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "9c2\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "ties._V136632413_.png\");\n      a"..., 2498) = 704
+write(4, "ties._V136632413_.png\");\n      a"..., 704) = 704
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948505})
+read(3, "953_.png\");\n      aPlAssets.push"..., 1794) = 1360
+write(4, "953_.png\");\n      aPlAssets.push"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947226})
+read(3, "'._SL500_AA300_.jpg',\n          "..., 434) = 434
+write(4, "'._SL500_AA300_.jpg',\n          "..., 434) = 434
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n19e\r\n_display_on_website\") {\n "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "19e\r\n_display_on_website\") {\n   "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "19e\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "_display_on_website\") {\n        "..., 414) = 414
+write(4, "_display_on_website\") {\n        "..., 414) = 414
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n1324\r\nurls.push(prefix + lookI"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "1324\r\nurls.push(prefix + lookIns"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1324\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "urls.push(prefix + lookInsideSti"..., 4900) = 497
+write(4, "urls.push(prefix + lookInsideSti"..., 497) = 497
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948895})
+read(3, "hoes\") || pid == \"shoes_display_"..., 4403) = 1360
+write(4, "hoes\") || pid == \"shoes_display_"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947142})
+read(3, "g\");\nA.preload(\"http://g-ecx.ima"..., 3043) = 1360
+write(4, "g\");\nA.preload(\"http://g-ecx.ima"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946718})
+read(3, "e=\"text/javascript\">\n    documen"..., 1683) = 1360
+write(4, "e=\"text/javascript\">\n    documen"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947940})
+read(3, " a++) {\n                    args"..., 323) = 323
+write(4, " a++) {\n                    args"..., 323) = 323
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n0\r\n\r\n", 127, MSG_PEEK, NULL, NULL) = 7
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "0\r\n\r\n", 127, MSG_PEEK, NULL, NULL) = 5
+read(3, "0\r\n", 3)                     = 3
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+write(2, "\r", 1)                       = 1
+write(2, "    [      <=>                  "..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7f0430108000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "2014-06-16 11:48:30 (168 KB/s) -"..., 69) = 69
+exit_group(0)                           = ?
++++ exited with 0 +++

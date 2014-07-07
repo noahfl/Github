@@ -1,0 +1,75 @@
+write(1, "        <td>\n", 13)          = 13
+write(1, "        <div class=\"rankedItemIm"..., 38) = 38
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ttp://www.amazon.com/Sunny-Fashi"..., 16384, 0, NULL, NULL) = 8315
+write(1, "            <a href=\"http://www."..., 1024) = 1024
+write(1, "     <div class=\"rankedItemImage"..., 35) = 35
+write(1, "            <a href=\"http://www."..., 250) = 250
+write(1, "        </div>\n", 15)        = 15
+write(1, "        </td>\n", 14)         = 14
+write(1, "        <td>\n", 13)          = 13
+write(1, "        <div class=\"rankedItemIn"..., 37) = 37
+write(1, "            <div class=\"noDil\">\n", 32) = 32
+write(1, "            <span class=\"rank\">3"..., 41) = 41
+write(1, "             <span class=\"moverR"..., 45) = 45
+write(1, "            <span class=\"tiny di"..., 47) = 47
+write(1, "            </div>\n", 19)    = 19
+write(1, "            <a href=\"http://www."..., 1024) = 1024
+write(1, "</span>\n            </div>\n     "..., 3072) = 3072
+write(1, "r) {\n", 5)                   = 5
+write(1, "            ZeitgeistFVP.popover"..., 42) = 42
+write(1, "        }\n", 10)             = 10
+write(1, "\n", 1)                       = 1
+write(1, "        ZeitgeistFVP.popover = j"..., 69) = 69
+write(1, "            literalContent: Zeit"..., 54) = 54
+write(1, "            location: \"bottom\",\n", 32) = 32
+write(1, "            locationAlign: \"cent"..., 37) = 37
+write(1, "            locationElement: anc"..., 37) = 37
+write(1, "            modal: false,\n", 26) = 26
+write(1, "            showCloseButton: tru"..., 35) = 35
+write(1, "            title: title,\n", 26) = 26
+write(1, "            closeText: \"close\",\n", 32) = 32
+write(1, "            width: 316\n", 23) = 23
+write(1, "        });\n", 12)           = 12
+write(1, "    }\n", 6)                  = 6
+write(1, "}\n", 2)                      = 2
+write(1, "</script>\n", 10)             = 10
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n\n\n\n\n\n\n\n\n  \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"..., 699) = 699
+write(1, "    <div class=\"zgChartBody\">\n  "..., 1024) = 1024
+write(1, "&#8230</a>\n", 11)            = 11
+write(1, "      \n", 7)                 = 7
+write(1, "            <div class=\"byline\">"..., 33) = 33
+write(1, "              <span class=\"carat"..., 45) = 45
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "            </div>\n", 19)    = 19
+write(1, "            \n", 13)          = 13
+write(1, "            <div class=\"priceBlo"..., 38) = 38
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "</div>\n", 7)                 = 7
+write(1, "        </div>\n", 15)        = 15
+write(1, "        </td>\n", 14)         = 14
+write(1, "        </tr>\n", 14)         = 14
+write(1, "         \n", 10)             = 10
+write(1, "        <tr class=\"rankedItem\">\n", 32) = 32
+write(1, "        <td>\n", 13)          = 13
+write(1, "        <div class=\"rankedItemIm"..., 38) = 38

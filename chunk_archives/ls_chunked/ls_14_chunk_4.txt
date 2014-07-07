@@ -1,0 +1,75 @@
+getxattr("/home/bearface/Downloads/theme.crx", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/theme.crx", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/python3-scipy_0.13.3-1build1_amd64.deb", {st_mode=S_IFREG|0644, st_size=7492400, ...}) = 0
+lgetxattr("/home/bearface/Downloads/python3-scipy_0.13.3-1build1_amd64.deb", "security.selinux", 0x21265f0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/python3-scipy_0.13.3-1build1_amd64.deb", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/python3-scipy_0.13.3-1build1_amd64.deb", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/scikit-learn-0.15.0b1.tar.gz", {st_mode=S_IFREG|0644, st_size=6984350, ...}) = 0
+lgetxattr("/home/bearface/Downloads/scikit-learn-0.15.0b1.tar.gz", "security.selinux", 0x2126620, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/scikit-learn-0.15.0b1.tar.gz", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/scikit-learn-0.15.0b1.tar.gz", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/mysql-workbench-community-6.1.6-1ubu1310-amd64.deb", {st_mode=S_IFREG|0600, st_size=34049926, ...}) = 0
+lgetxattr("/home/bearface/Downloads/mysql-workbench-community-6.1.6-1ubu1310-amd64.deb", "security.selinux", 0x2126650, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/mysql-workbench-community-6.1.6-1ubu1310-amd64.deb", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/mysql-workbench-community-6.1.6-1ubu1310-amd64.deb", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/sublime-text_build-3059_amd64.deb", {st_mode=S_IFREG|0600, st_size=6253946, ...}) = 0
+lgetxattr("/home/bearface/Downloads/sublime-text_build-3059_amd64.deb", "security.selinux", 0x2126690, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/sublime-text_build-3059_amd64.deb", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/sublime-text_build-3059_amd64.deb", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/numpy-1.8.1.tar.gz", {st_mode=S_IFREG|0644, st_size=3794076, ...}) = 0
+lgetxattr("/home/bearface/Downloads/numpy-1.8.1.tar.gz", "security.selinux", 0x21266c0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/numpy-1.8.1.tar.gz", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/numpy-1.8.1.tar.gz", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/154296-FlatStudio-1.03.tar.gz", {st_mode=S_IFREG|0644, st_size=286720, ...}) = 0
+lgetxattr("/home/bearface/Downloads/154296-FlatStudio-1.03.tar.gz", "security.selinux", 0x21266e0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/154296-FlatStudio-1.03.tar.gz", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/154296-FlatStudio-1.03.tar.gz", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/..", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Downloads/..", "security.selinux", 0x2126710, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/..", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/..", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/VMWare.bundle", {st_mode=S_IFREG|0600, st_size=200550835, ...}) = 0
+lgetxattr("/home/bearface/Downloads/VMWare.bundle", "security.selinux", 0x2126730, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/VMWare.bundle", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/VMWare.bundle", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/154296-FlatStudio-1.03 (1).tar.gz", {st_mode=S_IFREG|0644, st_size=286720, ...}) = 0
+lgetxattr("/home/bearface/Downloads/154296-FlatStudio-1.03 (1).tar.gz", "security.selinux", 0x2126750, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/154296-FlatStudio-1.03 (1).tar.gz", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/154296-FlatStudio-1.03 (1).tar.gz", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/SoftElegant-1.1.tar.gz", {st_mode=S_IFREG|0644, st_size=675280, ...}) = 0
+lgetxattr("/home/bearface/Downloads/SoftElegant-1.1.tar.gz", "security.selinux", 0x2126780, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/SoftElegant-1.1.tar.gz", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/SoftElegant-1.1.tar.gz", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/eclipse-standard-kepler-SR2-linux-gtk-x86_64.tar.gz", {st_mode=S_IFREG|0644, st_size=208957742, ...}) = 0
+lgetxattr("/home/bearface/Downloads/eclipse-standard-kepler-SR2-linux-gtk-x86_64.tar.gz", "security.selinux", 0x21267a0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/eclipse-standard-kepler-SR2-linux-gtk-x86_64.tar.gz", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/eclipse-standard-kepler-SR2-linux-gtk-x86_64.tar.gz", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/scikit-learn-0.15.0b1.win32-py3.4.exe", {st_mode=S_IFREG|0644, st_size=2777839, ...}) = 0
+lgetxattr("/home/bearface/Downloads/scikit-learn-0.15.0b1.win32-py3.4.exe", "security.selinux", 0x21267e0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/scikit-learn-0.15.0b1.win32-py3.4.exe", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/scikit-learn-0.15.0b1.win32-py3.4.exe", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/curl-7.30.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Downloads/curl-7.30.0", "security.selinux", 0x2126810, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/curl-7.30.0", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/curl-7.30.0", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/python3-numpy_1.8.1-1ubuntu1_amd64.deb", {st_mode=S_IFREG|0644, st_size=1605454, ...}) = 0
+lgetxattr("/home/bearface/Downloads/python3-numpy_1.8.1-1ubuntu1_amd64.deb", "security.selinux", 0x2126830, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/python3-numpy_1.8.1-1ubuntu1_amd64.deb", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/python3-numpy_1.8.1-1ubuntu1_amd64.deb", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/iris_dark.zip", {st_mode=S_IFREG|0600, st_size=375368, ...}) = 0
+lgetxattr("/home/bearface/Downloads/iris_dark.zip", "security.selinux", 0x2126860, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/iris_dark.zip", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/iris_dark.zip", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/curl-7.30.0.tar.gz", {st_mode=S_IFREG|0644, st_size=3329809, ...}) = 0
+lgetxattr("/home/bearface/Downloads/curl-7.30.0.tar.gz", "security.selinux", 0x2126880, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/curl-7.30.0.tar.gz", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/curl-7.30.0.tar.gz", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/ActivePerl-5.16.3.1604-x86_64-linux-glibc-2.3.5-298023.tar.gz", {st_mode=S_IFREG|0600, st_size=35627204, ...}) = 0
+lgetxattr("/home/bearface/Downloads/ActivePerl-5.16.3.1604-x86_64-linux-glibc-2.3.5-298023.tar.gz", "security.selinux", 0x21268a0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/ActivePerl-5.16.3.1604-x86_64-linux-glibc-2.3.5-298023.tar.gz", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/ActivePerl-5.16.3.1604-x86_64-linux-glibc-2.3.5-298023.tar.gz", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/bluez-5.19", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Downloads/bluez-5.19", "security.selinux", 0x21268f0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/bluez-5.19", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/bluez-5.19", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/VMWare10", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0

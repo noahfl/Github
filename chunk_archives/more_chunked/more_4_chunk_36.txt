@@ -1,0 +1,75 @@
+write(1, "\revents=POLLIN|POLLRDNORM}])\n", 29) = 29
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(54%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrecvfrom(3, \"    <li class=\\\"vv"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(54%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r2\33[K\n", 6)               = 6
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(54%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"              <li cla"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"lign\\\"></span>\\n     "..., 67) = 67
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN}], 1"..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN|POLL"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\revents=POLLIN|POLLRDNORM}])\n", 29) = 29
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrecvfrom(3, \"d_creative_iframe_"..., 81) = 81
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"El.onmouseover = wind"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"  <script>var ytplaye"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"\\\" >\\n\", 4)          "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"\\n\", 1)              "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"    <div class=\\\"bran"..., 59) = 59
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(56%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"      <div class=\\\"br"..., 59) = 59
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(56%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"        <div class=\\\""..., 59) = 59
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(56%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"          <div class="..., 59) = 59
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(56%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"                <div "..., 61) = 61
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(56%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"      \\n\", 7)        "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(56%)\33[27m", 22) = 22

@@ -1,0 +1,75 @@
+mmap(NULL, 94113, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f3432481000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22952, ...}) = 0
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3430747000
+mprotect(0x7f343074c000, 2093056, PROT_NONE) = 0
+mmap(0x7f343094b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f343094b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f343052c000
+mprotect(0x7f3430543000, 2097152, PROT_NONE) = 0
+mmap(0x7f3430743000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f3430743000
+mmap(0x7f3430745000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3430745000
+close(3)                                = 0
+mprotect(0x7f3430743000, 4096, PROT_READ) = 0
+mprotect(0x7f343094b000, 4096, PROT_READ) = 0
+munmap(0x7f3432481000, 94113)           = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3432497000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f3432497000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"\371\277\1\0\0\1\0\0\0\0\0\0\3www\tmicrosoft\3com\0\0"..., 35}], msg_controllen=0, msg_flags=0}, 35}, {{msg_name(0)=NULL, msg_iov(1)=[{"\267u\1\0\0\1\0\0\0\0\0\0\3www\tmicrosoft\3com\0\0"..., 35}], msg_controllen=0, msg_flags=0}, 35}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [170])               = 0
+recvfrom(3, "\267u\201\200\0\1\0\3\0\1\0\0\3www\tmicrosoft\3com\0\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 170
+poll([{fd=3, events=POLLIN}], 1, 4996)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [430])               = 0
+recvfrom(3, "\371\277\201\200\0\1\0\4\0\n\0\5\3www\tmicrosoft\3com\0\0"..., 1878, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 430
+close(3)                                = 0
+write(2, "134.170.188.84", 14)          = 14
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to www.microsoft.com "..., 74) = 74
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("134.170.188.84")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999992})
+write(3, "GET / HTTP/1.1\r\nUser-Agent: Wget"..., 115) = 115
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 615090})
+recvfrom(3, "HTTP/1.1 302 Found\r\nCache-Contro"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 302 Found\r\nCache-Contro"..., 511) = 511
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999949})
+recvfrom(3, "2 GMT\r\n\r\n<html><head><title>Obje"..., 512, MSG_PEEK, NULL, NULL) = 149
+read(3, "2 GMT\r\n\r\n", 9)             = 9
+write(2, "302 Found\n", 10)             = 10
+stat("index.html.8", 0x7fff222f1930)    = -1 ENOENT (No such file or directory)
+write(2, "Location: /en-us/default.aspx [f"..., 42) = 42
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+read(3, "<html><head><title>Object moved<"..., 140) = 140
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+statfs(".", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=54756953, f_bavail=51740147, f_files=15065088, f_ffree=14871645, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("index.html", {st_mode=S_IFREG|0644, st_size=14192, ...}) = 0
+stat("index.html.1", {st_mode=S_IFREG|0644, st_size=14224, ...}) = 0
+stat("index.html.2", {st_mode=S_IFREG|0644, st_size=118127, ...}) = 0
+stat("index.html.3", {st_mode=S_IFREG|0644, st_size=356117, ...}) = 0
+stat("index.html.4", {st_mode=S_IFREG|0644, st_size=113080, ...}) = 0
+stat("index.html.5", {st_mode=S_IFREG|0644, st_size=57244, ...}) = 0
+stat("index.html.6", {st_mode=S_IFREG|0644, st_size=38264, ...}) = 0
+stat("index.html.7", {st_mode=S_IFREG|0644, st_size=363631, ...}) = 0
+stat("index.html.8", 0x7fff222f1d70)    = -1 ENOENT (No such file or directory)
+stat("index.html.8", 0x7fff222f1ee0)    = -1 ENOENT (No such file or directory)
+statfs(".", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=54756952, f_bavail=51740146, f_files=15065088, f_ffree=14871645, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("index.html", {st_mode=S_IFREG|0644, st_size=14192, ...}) = 0

@@ -1,0 +1,75 @@
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "2000\r\n>\n<span class=\"carat\">&rsa"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, ">\n<span class=\"carat\">&rsaquo;</"..., 8192) = 1198
+write(4, ">\n<span class=\"carat\">&rsaquo;</"..., 1198) = 1198
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947091})
+read(3, "xe-Tower-Casters/dp/B0009J5NRW\" "..., 6994) = 1360
+write(4, "xe-Tower-Casters/dp/B0009J5NRW\" "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945664})
+read(3, "on\" href=\"/gp/product-reviews/B0"..., 5634) = 1360
+write(4, "on\" href=\"/gp/product-reviews/B0"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945865})
+read(3, "\" title=\"HyLoft 01031 Folding St"..., 4274) = 1360
+write(4, "\" title=\"HyLoft 01031 Folding St"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947189})
+read(3, "div><span class=\"s9TitleText\">Ed"..., 2914) = 1360
+write(4, "div><span class=\"s9TitleText\">Ed"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 941294})
+read(3, "\n</div></div>\n</div>\n<div class="..., 1554) = 1360
+write(4, "\n</div></div>\n</div>\n<div class="..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946081})
+read(3, "e.parentNode;cl.s9CachedWidth=nu"..., 194) = 194
+write(4, "e.parentNode;cl.s9CachedWidth=nu"..., 194) = 194
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n1332\r\n2*Math.floor((w-p)/mw);\n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999999})
+recvfrom(3, "1332\r\n2*Math.floor((w-p)/mw);\nn="..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1332\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "2*Math.floor((w-p)/mw);\nn=Math.m"..., 4914) = 1158
+write(4, "2*Math.floor((w-p)/mw);\nn=Math.m"..., 1158) = 1158
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946224})
+read(3, "_ItemRow')} else if(window.P !=="..., 3756) = 1360
+write(4, "_ItemRow')} else if(window.P !=="..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947290})
+read(3, ".1%\">\n<div class=\"inner\"><div cl"..., 2396) = 1360
+write(4, ".1%\">\n<div class=\"inner\"><div cl"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946978})
+read(3, "p: 8px; margin-bottom:7px;\" /></"..., 1036) = 1036
+write(4, "p: 8px; margin-bottom:7px;\" /></"..., 1036) = 1036
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n5b4\r\nping Hand...\n</span></a>\n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999999})
+recvfrom(3, "5b4\r\nping Hand...\n</span></a>\n\n<"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "ping Hand...\n</span></a>\n\n<br cl"..., 1460) = 317
+write(4, "ping Hand...\n</span></a>\n\n<br cl"..., 317) = 317
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947318})
+read(3, "span class=\"newListprice gry t11"..., 1143) = 1143
+write(4, "span class=\"newListprice gry t11"..., 1143) = 1143
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n71a\r\nss=\"fluid asin s9a4\" styl"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999999})
+recvfrom(3, "71a\r\nss=\"fluid asin s9a4\" style="..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "71a\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "ss=\"fluid asin s9a4\" style=\"floa"..., 1818) = 210
+write(4, "ss=\"fluid asin s9a4\" style=\"floa"..., 210) = 210
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948086})
+read(3, "=\"title ntTitle noLinkDecoration"..., 1608) = 1360
+write(4, "=\"title ntTitle noLinkDecoration"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 938201})
+read(3, "ctqfVL._SL150_.jpg\" alt=\"\" width"..., 248) = 248
+write(4, "ctqfVL._SL150_.jpg\" alt=\"\" width"..., 248) = 248
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n2000\r\nass=\"noLinkDecoration\" h"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "2000\r\nass=\"noLinkDecoration\" hre"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6

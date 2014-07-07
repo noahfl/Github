@@ -1,0 +1,75 @@
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"\\n\", 1)               "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN}], 1,"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN|POLLP"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "events=POLLIN|POLLRDNORM}])\n:\33[K", 32) = 32
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "recvfrom(3, \"ions spf-nolink hid"..., 85) = 85
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"  <button class=\\\"yt-u"..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"f Me</a></h3>\\n\\n  <di"..., 70) = 70
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN}], 1,"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN|POLLP"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "events=POLLIN|POLLRDNORM}])\n:\33[K", 32) = 32
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "recvfrom(3, \" To Be Here Anymore"..., 85) = 85
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"amp;ved=CL0BEL8b&amp;f"..., 65) = 65
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"-grid vve-check\\\"\\n   "..., 67) = 67
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"MEb&amp;feature=g-high"..., 64) = 64
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"\\n\", 1)               "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"        </li>\\n\", 14) "..., 49) = 49
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"      <li>469,294 view"..., 56) = 56
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"        <li class=\\\"yt"..., 62) = 62
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"            5 days ago"..., 50) = 50
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"        </li>\\n\", 14) "..., 49) = 49
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"    </ul>\\n\", 10)     "..., 49) = 49
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"  </div>\\n\", 9)       "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"  \\n\", 3)             "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"  \\n\", 3)             "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"  \\n\", 3)             "..., 48) = 48

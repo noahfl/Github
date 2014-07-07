@@ -1,0 +1,75 @@
+write(1, "write(1, \"        <div id=\\\"feed"..., 64) = 64
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"    \\n\", 5)           "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"      <div class=\\\"fee"..., 62) = 62
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"        <ul id=\\\"brows"..., 62) = 62
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN}], 1,"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "poll([{fd=3, events=POLLIN|POLLP"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "events=POLLIN|POLLRDNORM}])\n:\33[K", 32) = 32
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "recvfrom(3, \"          <li class"..., 85) = 85
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"                  <li "..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"QQ0h4oAA&amp;feature=g"..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"-sessionlink  spf-link"..., 53) = 53
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"     data-sessionlink="..., 62) = 62
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"     href=\\\"/watch?v=R"..., 63) = 63
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"     title=\\\"Dave Chap"..., 64) = 64
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"\\n\", 1)               "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"      </div>\\n\", 13)  "..., 49) = 49
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"\\n\", 1)               "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"        <div class=\\\"l"..., 62) = 62
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"            <span clas"..., 62) = 62
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"<span class=\\\"username"..., 67) = 67
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"a-sessionlink=\\\"ei=uRK"..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"      </div>\\n\", 13)  "..., 49) = 49
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"        <div class=\\\"l"..., 62) = 62
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"            <a class=\\"..., 62) = 62
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(1, \"     data-sessionlink="..., 62) = 62
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4

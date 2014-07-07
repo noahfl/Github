@@ -1,0 +1,75 @@
+write(1, "\33[7m--More--(90%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {900"..., 74) = 74
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(90%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrecvfrom(3, \"3790\\r\\n<!doctype "..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(91%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r= 127\33[K\n", 10)          = 10
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(91%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"3790\\r\\n\", 6)         "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(91%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(91%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"<!doctype html><html i"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(91%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rfstat(4, {st_mode=S_IFREG|0644,"..., 54) = 54
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(92%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rmmap(NULL, 4096, PROT_READ|PROT"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(92%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rb39f21000\33[K\n", 14)      = 14
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(92%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"<!doctype html><html "..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(92%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(92%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"=\\\"/search\\\" name=\\\"f\\"..., 64) = 64
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(93%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"=\\\"/search\\\" name=\\\"f"..., 64) = 64
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(93%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(93%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \";authuser=0\\\">Advanced"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(93%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \";authuser=0\\\">Advance"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(94%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(94%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"b){try{window.gbar.up."..., 61) = 61
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(94%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+read(3, " 1418\nselect(4, [3], NULL, NULL,"..., 4096) = 1336

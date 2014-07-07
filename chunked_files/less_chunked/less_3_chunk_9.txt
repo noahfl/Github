@@ -1,0 +1,75 @@
+write(1, "mprotect(0x7fd10eecf000, 2097152"..., 53) = 53
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mmap(0x7fd10f0cf000, 61440, PROT"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "WRITE, 3, 0xbc000) = 0x7fd10f0cf"..., 40) = 40
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "close(3)                        "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "access(\"/etc/ld.so.nohwcap\", F_O"..., 84) = 84
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "open(\"/usr/lib/x86_64-linux-gnu/"..., 79) = 79
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "= 832\n:\33[K", 10)           = 10
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "fstat(3, {st_mode=S_IFREG|0644, "..., 62) = 62
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mmap(NULL, 2285720, PROT_READ|PR"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "d10ebe4000\n:\33[K", 15)      = 15
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mprotect(0x7fd10ec10000, 2093056"..., 53) = 53
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mmap(0x7fd10ee0f000, 12288, PROT"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "WRITE, 3, 0x2b000) = 0x7fd10ee0f"..., 40) = 40
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mmap(0x7fd10ee12000, 152, PROT_R"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "OUS, -1, 0) = 0x7fd10ee12000\n:\33["..., 33) = 33
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "close(3)                        "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "access(\"/etc/ld.so.nohwcap\", F_O"..., 84) = 84
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "open(\"/lib/x86_64-linux-gnu/libc"..., 74) = 74
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "832) = 832\n:\33[K", 15)      = 15
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "fstat(3, {st_mode=S_IFREG|0644, "..., 61) = 61
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mmap(NULL, 2109896, PROT_READ|PR"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "d10e9e0000\n:\33[K", 15)      = 15
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mprotect(0x7fd10e9e3000, 2093056"..., 53) = 53
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4

@@ -1,0 +1,75 @@
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8e4ed6e000
+write(4, "\n\n<!DOCTYPE html>\n<html lang=\"en"..., 2446) = 2446
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949648})
+read(3, " $(this).add_alert(data.html);\n "..., 8192) = 1368
+write(4, " $(this).add_alert(data.html);\n "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949467})
+read(3, "                         <ul cla"..., 8192) = 1368
+write(4, "                         <ul cla"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948116})
+read(3, "\"http://alumni.wfu.edu/homecomin"..., 8192) = 1368
+write(4, "\"http://alumni.wfu.edu/homecomin"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949378})
+read(3, "', 'Home Top ParentsFAQ']);\">FAQ"..., 8192) = 1368
+write(4, "', 'Home Top ParentsFAQ']);\">FAQ"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949478})
+read(3, "me Top Staff']);\">Staff</a>\n    "..., 8192) = 1368
+write(4, "me Top Staff']);\">Staff</a>\n    "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947964})
+read(3, "'_trackEvent', 'Header', 'LinkCl"..., 8192) = 1368
+write(4, "'_trackEvent', 'Header', 'LinkCl"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949512})
+read(3, "', 'Header', 'LinkClick', 'Home "..., 8192) = 1368
+write(4, "', 'Header', 'LinkClick', 'Home "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949319})
+read(3, "      <form id=\"search_form\" nam"..., 8192) = 1368
+write(4, "      <form id=\"search_form\" nam"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947804})
+read(3, " class=\"next\">&nbsp;</a>\n\t\t\t\t\t</"..., 8192) = 1368
+write(4, " class=\"next\">&nbsp;</a>\n\t\t\t\t\t</"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949560})
+read(3, "</a>\n\t<!-- LINK and TEXT (for bl"..., 8192) = 1368
+write(4, "</a>\n\t<!-- LINK and TEXT (for bl"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949328})
+read(3, "40403.OPCD98percent.jpg) no-repe"..., 8192) = 1368
+write(4, "40403.OPCD98percent.jpg) no-repe"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947852})
+read(3, "and-sciences/\" class=\"desc under"..., 8192) = 1368
+write(4, "and-sciences/\" class=\"desc under"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949407})
+read(3, "tted_line gray4\"></div>\n        "..., 8192) = 1368
+write(4, "tted_line gray4\"></div>\n        "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949473})
+read(3, "ass=\"dotted_line gray4 margin_to"..., 8192) = 1368
+write(4, "ass=\"dotted_line gray4 margin_to"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947377})
+read(3, "iv class=\"grid_3 alpha\">\n       "..., 8192) = 1368
+write(4, "iv class=\"grid_3 alpha\">\n       "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949414})
+read(3, "p_half float_and_wide gray3 uppe"..., 8192) = 1368
+write(4, "p_half float_and_wide gray3 uppe"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948105})
+read(3, "'_trackEvent', 'Homepage', 'Link"..., 8192) = 1368
+write(4, "'_trackEvent', 'Homepage', 'Link"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949589})
+read(3, "e_hover no_underline gray2 xrss_"..., 8192) = 1368
+write(4, "e_hover no_underline gray2 xrss_"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949384})
+read(3, "// < ![CDATA[\n// < ![CDATA[\ndocu"..., 8192) = 1368
+write(4, "// < ![CDATA[\n// < ![CDATA[\ndocu"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947838})
+read(3, "mblr_api_read.posts[3]['url-with"..., 8192) = 1368
+write(4, "mblr_api_read.posts[3]['url-with"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949535})
+read(3, "photos on Flickr:</p>\n          "..., 8192) = 1368
+write(4, "photos on Flickr:</p>\n          "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949334})
+read(3, "on'>\n\n                    <!-- C"..., 8192) = 1368
+write(4, "on'>\n\n                    <!-- C"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947818})
+read(3, ".wfu.edu/discover/facts.php\" onC"..., 8192) = 1368
+write(4, ".wfu.edu/discover/facts.php\" onC"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949523})
+read(3, "unds</a></li>\n\n<li class=\"snippe"..., 8192) = 1368
+write(4, "unds</a></li>\n\n<li class=\"snippe"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949380})

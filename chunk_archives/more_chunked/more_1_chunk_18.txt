@@ -1,0 +1,75 @@
+write(1, "\r\r\33[K\n", 6)              = 6
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(91%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rdef main():\33[K\n", 16)    = 16
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(91%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    \"\"\"\33[K\n", 12)     = 12
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(91%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    Program driver; calls all f"..., 59) = 59
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(92%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    need to be called.\n", 24) = 24
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(92%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    \"\"\"\33[K\n", 12)     = 12
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(92%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    \33[K\n", 9)            = 9
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(92%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    global data_array\n", 23) = 23
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(93%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    global target_array\n", 25) = 25
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(93%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    \33[K\n", 9)            = 9
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(93%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    print(\"Creating vector...\")"..., 33) = 33
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(93%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    start_time = time.time()\n", 30) = 30
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(93%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    file_paths = read_files()\n", 31) = 31
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(94%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    file_names = get_file_names"..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(94%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    initial_array = create_init"..., 54) = 54
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(95%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r#    print(initial_array)\n", 27) = 27
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(95%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    sklearn_array = create_vect"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(96%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    #creates numpy array\n", 26) = 26
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(96%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    np_data = numpy.array(data_"..., 39) = 39
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(96%)\33[27m", 22) = 22

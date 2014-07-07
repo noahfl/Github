@@ -1,0 +1,75 @@
+brk(0x262b000)                          = 0x262b000
+futex(0x7fbf63295400, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+pipe([3, 4])                            = 0
+close(3)                                = 0
+close(4)                                = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fbf65cc9ff0}, {SIG_DFL, [], 0}, 8) = 0
+brk(0x2651000)                          = 0x2651000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fbf6108e000
+close(3)                                = 0
+open("/home/bearface/.curlrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fbf65cc9ff0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fbf66069340}, NULL, 8) = 0
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 3
+close(3)                                = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fbf6088d000
+mprotect(0x7fbf6088d000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7fbf6108cf70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fbf6108d9d0, tls=0x7fbf6108d700, child_tidptr=0x7fbf6108d9d0) = 26190
+poll(0, 0, 4)                           = 0 (Timeout)
+poll(0, 0, 8)                           = 0 (Timeout)
+poll(0, 0, 16)                          = 0 (Timeout)
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 3
+setsockopt(3, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+setsockopt(3, SOL_TCP, TCP_KEEPIDLE, [60], 4) = 0
+setsockopt(3, SOL_TCP, TCP_KEEPINTVL, [60], 4) = 0
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("23.62.6.49")}, 16) = -1 EINPROGRESS (Operation now in progress)
+poll([{fd=3, events=POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLOUT}], 1, 199)  = 1 ([{fd=3, revents=POLLOUT}])
+poll([{fd=3, events=POLLOUT|POLLWRNORM}], 1, 0) = 1 ([{fd=3, revents=POLLOUT|POLLWRNORM}])
+getsockopt(3, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("23.62.6.49")}, [16]) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(35296), sin_addr=inet_addr("192.168.1.118")}, [16]) = 0
+sendto(3, "GET / HTTP/1.1\r\nUser-Agent: curl"..., 78, MSG_NOSIGNAL, NULL, 0) = 78
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLIN}], 1, 143)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "HTTP/1.1 200 OK\r\nContent-Type: t"..., 16384, 0, NULL, NULL) = 2896
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 2), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf66916000
+write(1, "<!doctype html><html xmlns=\"http"..., 2048) = 2048
+poll([{fd=3, events=POLLIN}], 1, 109)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "xel/of_discovery.png\", \"fetch_tr"..., 16384, 0, NULL, NULL) = 4344
+write(1, "95.0, \"post_site\": \"\", \"clicktra"..., 1024) = 1024
+write(1, ": false})</script><script type=\""..., 3072) = 3072
+poll([{fd=3, events=POLLIN}], 1, 108)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "t.com/r/Music/\" class=\"choice \" "..., 16384, 0, NULL, NULL) = 1448
+write(1, "vated/\" class=\"choice \" >GetMoti"..., 1024) = 1024
+write(1, "w.reddit.com/r/OldSchoolCool/\" c"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 107)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "orldcup/\" class=\"choice \" >world"..., 16384, 0, NULL, NULL) = 2896
+write(1, "ftingNews/\" class=\"choice \" >Upl"..., 1024) = 1024
+write(1, "r/Futurology/\" >Futurology</a></"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 106)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "<li ><span class=\"separator\">-</"..., 16384, 0, NULL, NULL) = 1448
+write(1, "pan><a href=\"http://www.reddit.c"..., 1024) = 1024
+write(1, "\">-</span><a href=\"http://www.re"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 105)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "dit.com/r/EarthPorn/\" >EarthPorn"..., 16384, 0, NULL, NULL) = 1448
+write(1, "w.reddit.com/r/Music/\" >Music</a"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 105)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, ".\" href=\"http://www.reddit.com/\""..., 16384, 0, NULL, NULL) = 1448
+write(1, "shopbattles/\" >photoshopbattles<"..., 1024) = 1024
+write(1, " \" ><li class='selected'><a href"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 104)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])

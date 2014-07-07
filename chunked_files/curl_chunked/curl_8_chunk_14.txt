@@ -1,0 +1,75 @@
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "<div id=\"nav_your_account_flyout"..., 87) = 87
+write(1, "<li id=\"nav-ya-btn-signin\" class"..., 67) = 67
+write(1, "  <div><a href=\"https://www.amaz"..., 1024) = 1024
+write(1, "e=http%3A%2F%2Fspecs.openid.net%"..., 240) = 240
+write(1, "</li>\n", 6)                  = 6
+write(1, "<li class=\"nav_first nav_pop_li\""..., 1024) = 1024
+write(1, "e Music</a></li><li class=\"nav_t"..., 1024) = 1024
+write(1, "nav-ie-min-width' style='width: "..., 84) = 84
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "<div id=\"nav-cart-flyout\" class="..., 63) = 63
+write(1, "  data-one=\"{count} item\" data-m"..., 53) = 53
+write(1, "\n", 1)                       = 1
+write(1, "  <div class=\"nav-dynamic-full\">"..., 33) = 33
+write(1, "    <div id=\"nav-cart-standard\" "..., 58) = 58
+write(1, "      <a href=\"/gp/cart/view.htm"..., 112) = 112
+write(1, "      <div class='nav-cart-subti"..., 44) = 44
+write(1, "      <div class='nav-cart-items"..., 41) = 41
+write(1, "    </div>\n", 11)            = 11
+write(1, "    \n", 5)                   = 5
+write(1, "    <div id='nav-cart-pantry' cl"..., 55) = 55
+write(1, "      data-box=\"{count} box\" dat"..., 57) = 57
+write(1, "      data-box-filled=\"{pct}% fi"..., 88) = 88
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ime Pantry Items</a>\n      <div "..., 16384, 0, NULL, NULL) = 11954
+write(1, "      <a href=\"/gp/cart/view.htm"..., 112) = 112
+write(1, "      <div class='nav-cart-subti"..., 1024) = 1024
+write(1, ">\n    <p class='nav_p nav-bold'>"..., 7168) = 7168
+write(1, "na.ssl-images-amazon.com/images/"..., 1024) = 1024
+write(1, "x-locale/common/transparent-pixe"..., 2048) = 2048
+write(1, "age: url(\"http://g-ecx.images-am"..., 141) = 141
+write(1, "    overflow: hidden;\n", 22) = 22
+write(1, "    display: inline-block;\n", 27) = 27
+write(1, "    background-repeat: repeat;\n", 31) = 31
+write(1, "    background-attachment: scrol"..., 35) = 35
+write(1, "    background-color: transparen"..., 35) = 35
+write(1, "    background-position: -385px "..., 37) = 37
+write(1, "    height: 16px;\n", 18)     = 18
+write(1, "    width: 30px;\n", 17)      = 17
+write(1, "    position: absolute;\n", 24) = 24
+write(1, "    left: 92px;\n", 16)       = 16
+write(1, "    top: -34px;\n", 16)       = 16
+write(1, "}\n", 2)                      = 2
+write(1, "\n", 1)                       = 1
+write(1, "#sign-in-tooltip-anchor-point {\n", 32) = 32
+write(1, "    display: none;\n", 19)    = 19
+write(1, "    font-family: Arial, Verdana,"..., 56) = 56
+write(1, "}\n", 2)                      = 2
+write(1, "\n", 1)                       = 1
+write(1, "#sign-in-tooltip-body {\n", 24) = 24
+write(1, "    display: none;\n", 19)    = 19
+write(1, "}\n", 2)                      = 2
+write(1, "\n", 1)                       = 1
+write(1, ".sign-in-tooltip-new-customer {\n", 32) = 32
+write(1, "    color: #333333;\n", 20)   = 20
+write(1, "    font-size: 11px;\n", 21)  = 21

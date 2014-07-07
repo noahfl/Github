@@ -1,0 +1,75 @@
+mprotect(0x7f6ae79d1000, 81920, PROT_READ) = 0
+madvise(0x32b517d03000, 4096, MADV_DONTNEED) = 0
+madvise(0x32b517d02000, 8192, MADV_DONTNEED) = 0
+madvise(0x32b517d02000, 573440, MADV_DONTNEED) = 0
+madvise(0x32b517c71000, 36864, MADV_DONTNEED) = 0
+madvise(0x32b517bbd000, 20480, MADV_DONTNEED) = 0
+madvise(0x32b517c27000, 24576, MADV_DONTNEED) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+open("/dev/urandom", O_RDONLY)          = 34
+read(34, "\301S{\355\313\206\2\207", 8) = 8
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+--- SIGPROF {si_signo=SIGPROF, si_code=SI_KERNEL} ---
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+read(34, "\2736?\377N\213\235[", 8)     = 8
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+read(34, "\354\331|\17@@\340\355", 8)   = 8
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+--- SIGPROF {si_signo=SIGPROF, si_code=SI_KERNEL} ---
+read(34, "\355F\270r\352\355\372\306", 8) = 8
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+read(34, "\210G2\4\236\16\340\231", 8)  = 8
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+read(34, "\342;/b\275F\23\\", 8)        = 8
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+gettid()                                = 28850
+gettid()                                = 28850
+gettid()                                = 28850
+gettid()                                = 28850
+gettid()                                = 28850
+gettid()                                = 28850
+gettid()                                = 28850
+gettid()                                = 28850
+gettid()                                = 28850
+gettid()                                = 28850
+gettid()                                = 28850
+poll([{fd=14, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=14, revents=POLLOUT}])
+writev(14, [{"b\25\4\0\5\0\2\0", 8}, {"RANDR", 5}, {"\0\0\0", 3}], 3) = 16
+poll([{fd=14, events=POLLIN}], 1, 4294967295) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(14, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\20\0\0\0\0\0\1\214Y\223\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(14, 0x7fff81780bb0, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(14, 0x7fff81780bb0, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=14, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=14, revents=POLLOUT}])
+writev(14, [{"\214\0\3\0\1\0\0\0\4\0\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12

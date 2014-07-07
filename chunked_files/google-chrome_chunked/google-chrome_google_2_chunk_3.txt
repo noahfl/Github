@@ -1,0 +1,75 @@
+rt_sigaction(SIGINT, {0x443620, [], SA_RESTORER, 0x7f2e1411aff0}, {SIG_DFL, [], SA_RESTORER, 0x7f2e1411aff0}, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f2e1411aff0}, {0x443620, [], SA_RESTORER, 0x7f2e1411aff0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+read(255, "\n# We include some xdg utilities"..., 1972) = 1640
+stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/sbin/which", 0x7fff9e2b6fc0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/which", 0x7fff9e2b6fc0) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/which", 0x7fff9e2b6fc0) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/which", {st_mode=S_IFREG|0755, st_size=946, ...}) = 0
+stat("/usr/bin/which", {st_mode=S_IFREG|0755, st_size=946, ...}) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/which", X_OK)          = 0
+stat("/usr/bin/which", {st_mode=S_IFREG|0755, st_size=946, ...}) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/which", R_OK)          = 0
+stat("/usr/bin/which", {st_mode=S_IFREG|0755, st_size=946, ...}) = 0
+stat("/usr/bin/which", {st_mode=S_IFREG|0755, st_size=946, ...}) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/which", X_OK)          = 0
+stat("/usr/bin/which", {st_mode=S_IFREG|0755, st_size=946, ...}) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/which", R_OK)          = 0
+brk(0x1164000)                          = 0x1164000
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [INT CHLD], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [INT CHLD], NULL, 8) = 0
+lseek(255, -779, SEEK_CUR)              = 1193
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2e14ad7a10) = 28776
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {0x443620, [], SA_RESTORER, 0x7f2e1411aff0}, {SIG_DFL, [], SA_RESTORER, 0x7f2e1411aff0}, 8) = 0
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 28776
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f2e1411aff0}, {0x443620, [], SA_RESTORER, 0x7f2e1411aff0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=28776, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, 0x7fff9e2b6b18, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigreturn()                          = 0
+stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/sbin/mkdir", 0x7fff9e2b6de0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/mkdir", 0x7fff9e2b6de0) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/mkdir", 0x7fff9e2b6de0) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/mkdir", 0x7fff9e2b6de0)  = -1 ENOENT (No such file or directory)
+stat("/sbin/mkdir", 0x7fff9e2b6de0)     = -1 ENOENT (No such file or directory)
+stat("/bin/mkdir", {st_mode=S_IFREG|0755, st_size=51936, ...}) = 0
+stat("/bin/mkdir", {st_mode=S_IFREG|0755, st_size=51936, ...}) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/bin/mkdir", X_OK)              = 0
+stat("/bin/mkdir", {st_mode=S_IFREG|0755, st_size=51936, ...}) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/bin/mkdir", R_OK)              = 0
+stat("/bin/mkdir", {st_mode=S_IFREG|0755, st_size=51936, ...}) = 0
+stat("/bin/mkdir", {st_mode=S_IFREG|0755, st_size=51936, ...}) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000

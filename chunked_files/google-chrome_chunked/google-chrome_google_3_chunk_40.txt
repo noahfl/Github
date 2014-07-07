@@ -1,0 +1,75 @@
+close(11)                               = 0
+stat("/usr/share/fonts/cmap/adobe-cns1", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/cmap/adobe-cns1", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899415, f_bavail=41882609, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//f1f2465696798768e9653f19e17ccdc8-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=112, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899414, f_bavail=41882608, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+read(11, "\4\374\2\374\4\0\0\0p\0\0\0\0\0\0\0008\0\0\0\0\0\0\0`\0\0\0\0\0\0\0"..., 112) = 112
+close(11)                               = 0
+stat("/usr/share/fonts/cmap/adobe-gb1", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/cmap/adobe-gb1", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899414, f_bavail=41882608, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//95530828ff6c81d309f8258d8d02a23e-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=104, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899414, f_bavail=41882608, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+read(11, "\4\374\2\374\4\0\0\0h\0\0\0\0\0\0\0008\0\0\0\0\0\0\0X\0\0\0\0\0\0\0"..., 104) = 104
+close(11)                               = 0
+stat("/usr/share/fonts/cmap/adobe-japan1", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/cmap/adobe-japan1", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899414, f_bavail=41882608, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//d3e5c4ee2ceb1fc347f91d4cefc53bc0-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=112, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899414, f_bavail=41882608, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+read(11, "\4\374\2\374\4\0\0\0p\0\0\0\0\0\0\0008\0\0\0\0\0\0\0`\0\0\0\0\0\0\0"..., 112) = 112
+close(11)                               = 0
+stat("/usr/share/fonts/cmap/adobe-japan2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/cmap/adobe-japan2", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899414, f_bavail=41882608, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//e52a45a1c8c8fe895fc0fc8c4e6999b8-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=112, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899414, f_bavail=41882608, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+read(11, "\4\374\2\374\4\0\0\0p\0\0\0\0\0\0\0008\0\0\0\0\0\0\0`\0\0\0\0\0\0\0"..., 112) = 112
+close(11)                               = 0
+stat("/usr/share/fonts/cmap/adobe-korea1", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/cmap/adobe-korea1", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899414, f_bavail=41882608, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//188ac73a183f12857f63bb60a4a6d603-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=112, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899414, f_bavail=41882608, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+read(11, "\4\374\2\374\4\0\0\0p\0\0\0\0\0\0\0008\0\0\0\0\0\0\0`\0\0\0\0\0\0\0"..., 112) = 112
+close(11)                               = 0
+stat("/usr/share/fonts/truetype/abyssinica", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/truetype/abyssinica", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899413, f_bavail=41882607, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//0c9eb80ebd1c36541ebe2852d3bb0c49-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=2456, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899413, f_bavail=41882607, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+mmap(NULL, 2456, PROT_READ, MAP_SHARED, 11, 0) = 0x7f6afe418000
+fadvise64(11, 0, 2456, POSIX_FADV_WILLNEED) = 0
+close(11)                               = 0
+stat("/usr/share/fonts/truetype/dejavu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/truetype/dejavu", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899413, f_bavail=41882607, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//d589a48862398ed80a3d6066f4f56f4c-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=45056, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899413, f_bavail=41882607, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+mmap(NULL, 45056, PROT_READ, MAP_SHARED, 11, 0) = 0x7f6afe254000
+fadvise64(11, 0, 45056, POSIX_FADV_WILLNEED) = 0
+close(11)                               = 0
+stat("/usr/share/fonts/truetype/droid", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/truetype/droid", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899413, f_bavail=41882607, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//3f7329c5293ffd510edef78f73874cfd-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=32760, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899413, f_bavail=41882607, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+mmap(NULL, 32760, PROT_READ, MAP_SHARED, 11, 0) = 0x7f6afe24c000
+fadvise64(11, 0, 32760, POSIX_FADV_WILLNEED) = 0

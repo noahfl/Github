@@ -1,0 +1,75 @@
+write(1, "\33[7m--More--(63%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rmprotect(0x7fbb381d4000, 4096, "..., 47) = 47
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(63%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rmprotect(0x7fbb383dc000, 4096, "..., 47) = 47
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(63%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rmunmap(0x7fbb39f12000, 93956)  "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(63%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rstat(\"/etc/resolv.conf\", {st_mo"..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(64%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\ropen(\"/etc/resolv.conf\", O_RDON"..., 50) = 50
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(64%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rfstat(3, {st_mode=S_IFREG|0644,"..., 56) = 56
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(64%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rmmap(NULL, 4096, PROT_READ|PROT"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(64%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rb39f28000\33[K\n", 14)      = 14
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(64%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"# Dynamic resolv.conf("..., 60) = 60
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(65%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"\", 4096)              "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(65%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rclose(3)                       "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(65%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rmunmap(0x7fbb39f28000, 4096)   "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(65%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\runame({sys=\"Linux\", node=\"doug\""..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(65%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rsocket(PF_INET, SOCK_DGRAM|SOCK"..., 59) = 59
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(66%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rconnect(3, {sa_family=AF_INET, "..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(66%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r\")}, 16) = 0\33[K\n", 17)  = 17
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(66%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLOUT}], "..., 73) = 73
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(66%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rsendmmsg(3, {{{msg_name(0)=NULL"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(67%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r\\6google\\3com\\0\\0\\1\\0\\1\", 32}],"..., 82) = 82

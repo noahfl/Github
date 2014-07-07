@@ -1,0 +1,75 @@
+write(1, "\r##    scores = -numpy.loge(sele"..., 47) = 47
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(72%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    scores /= scores.max()\n", 30) = 30
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(72%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    pylab.bar(x_indices - .45"..., 52) = 52
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(73%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##       label=r'Univariate sco"..., 68) = 68
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##\33[K\n", 7)              = 7
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    clf.fit(x, y)\n", 21) = 21
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    svm_weights = (clf.coef_ "..., 50) = 50
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    svm_weights /= svm_weight"..., 40) = 40
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(75%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##\33[K\n", 7)              = 7
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(75%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    pl.bar(x_indices - .25, s"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(76%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rr')\33[K\n", 8)             = 8
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(76%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    print(x_indices)\n", 24) = 24
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(76%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##\33[K\n", 7)              = 7
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(76%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    clf_selected = svm.SVC(ke"..., 47) = 47
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(77%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    clf_selected.fit(selector"..., 50) = 50
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(77%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##\33[K\n", 7)              = 7
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(77%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    svm_weights_selected = (c"..., 68) = 68
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(78%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    svm_weights_selected /= s"..., 58) = 58
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##\33[K\n", 7)              = 7
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22

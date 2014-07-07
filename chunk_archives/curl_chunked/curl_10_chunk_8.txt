@@ -1,0 +1,75 @@
+write(1, "<span class=\"username-prepend\">b"..., 261) = 261
+write(1, "  </span>\n", 10)             = 10
+write(1, "\n", 1)                       = 1
+write(1, "            </div>\n", 19)    = 19
+write(1, "            <div class=\"lohp-vid"..., 46) = 46
+write(1, "                <span class=\"vie"..., 43) = 43
+write(1, "      318,850 views\n", 20)   = 20
+write(1, "  </span>\n", 10)             = 10
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "e-created \" title=\"19 hours ago\""..., 16384, 0, NULL, NULL) = 2736
+write(1, "                  <span class=\"c"..., 1024) = 1024
+write(1, "ass=\"yt-uix-button yt-uix-button"..., 1024) = 1024
+write(1, "=\"lohp-video-metadata attached\">"..., 33) = 33
+write(1, "                <span class=\"con"..., 60) = 60
+write(1, "<span class=\"username-prepend\">b"..., 258) = 258
+write(1, "  </span>\n", 10)             = 10
+write(1, "\n", 1)                       = 1
+write(1, "            </div>\n", 19)    = 19
+write(1, "            <div class=\"lohp-vid"..., 46) = 46
+write(1, "                <span class=\"vie"..., 43) = 43
+write(1, "      2,404,131 views\n", 22) = 22
+write(1, "  </span>\n", 10)             = 10
+write(1, "\n", 1)                       = 1
+write(1, "                  <span class=\"c"..., 79) = 79
+write(1, "      2 days ago\n", 17)      = 17
+write(1, "    </span>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "            </div>\n", 19)    = 19
+write(1, "        </div>\n", 15)        = 15
+write(1, "      </div>\n", 13)          = 13
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "\" data-sessionlink=\"ei=uRKfU9bsH"..., 16384, 0, NULL, NULL) = 1368
+write(1, "                <div class=\"lohp"..., 1024) = 1024
+write(1, "ltip\" type=\"button\" onclick=\";re"..., 262) = 262
+write(1, " </span><img src=\"http://s.ytimg"..., 104) = 104
+write(1, "    <span class=\"video-time\">1:1"..., 41) = 41
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, ">\n        </div>\n        <div cl"..., 16384, 0, NULL, NULL) = 1368
+write(1, "</a>\n        </div>\n        <div"..., 1024) = 1024
+write(1, "     <span class=\"content-item-t"..., 66) = 66
+write(1, "      2 days ago\n", 17)      = 17
+write(1, "    </span>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "            </div>\n", 19)    = 19
+write(1, "        </div>\n", 15)        = 15
+write(1, "      </div>\n", 13)          = 13
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "      </div>\n", 13)          = 13
+write(1, "    </div>\n", 11)            = 11
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "  \n", 3)                     = 3
+write(1, "\n", 1)                       = 1
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "        </div>\n", 15)        = 15
+write(1, "      </div>\n", 13)          = 13
+write(1, "    </div>\n", 11)            = 11
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "id\">This item has been hidden</d"..., 16384, 0, NULL, NULL) = 2736
+write(1, "      <div class=\"feed-item-dism"..., 1024) = 1024
+write(1, "link=\"ei=uRKfU9bsHcWqqgWymoGgAg\""..., 1024) = 1024
+write(1, "\"ux-thumb-wrap yt-uix-sessionlin"..., 234) = 234
+write(1, "      >\n", 8)                = 8
+write(1, "      <span class=\"yt-thumb-defa"..., 38) = 38

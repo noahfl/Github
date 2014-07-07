@@ -1,0 +1,75 @@
+access("/usr/share/themes/Mint-X/gtk-2.0/images/treeview/iconview-selected.svg", F_OK) = 0
+read(12, "", 4000)                      = 0
+close(12)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/views.rc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/views.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+read(11, " text[PRELIGHT] = @selected_fg_c"..., 4000) = 1492
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/chrome.rc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/styles/chrome.rc", {st_mode=S_IFREG|0644, st_size=792, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/styles/chrome.rc", O_RDONLY) = 12
+read(12, "# Google Chrome/Chromium theming"..., 4000) = 792
+read(12, "", 4000)                      = 0
+close(12)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/chrome.rc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/chrome.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/file-manager.rc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/styles/file-manager.rc", {st_mode=S_IFREG|0644, st_size=3821, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/styles/file-manager.rc", O_RDONLY) = 12
+read(12, "style \"sidebar\"\n{\n    #xthicknes"..., 4000) = 3821
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/button/pathbar-button-hover.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/button/pathbar-button-hover.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/button/pathbar-button-active.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/button/pathbar-button-active.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/button/pathbar-button-active-hover.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/button/pathbar-button-active-hover.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/button/pathbar-button.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/button/pathbar-button.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/button/pathbar-button.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/button/pathbar-button.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/button/pathbar-button-hover.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/button/pathbar-button-hover.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/button/pathbar-button-active.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/button/pathbar-button-active.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/button/pathbar-button-active-hover.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/button/pathbar-button-active-hover.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/button/pathbar-button.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/button/pathbar-button.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/button/pathbar-button.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/button/pathbar-button.svg", F_OK) = 0
+read(12, "", 4000)                      = 0
+close(12)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/file-manager.rc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/file-manager.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/inkscape.rc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/styles/inkscape.rc", {st_mode=S_IFREG|0644, st_size=715, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/styles/inkscape.rc", O_RDONLY) = 12
+read(12, "style \"inkscape-toolbar\"\n{\n    e"..., 4000) = 715
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/toolbars/toolbar.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/toolbars/toolbar.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/toolbars/toolbar.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/toolbars/toolbar.svg", F_OK) = 0
+read(12, "", 4000)                      = 0
+close(12)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/inkscape.rc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/inkscape.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/mintmenu.rc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/styles/mintmenu.rc", {st_mode=S_IFREG|0644, st_size=232, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/styles/mintmenu.rc", O_RDONLY) = 12
+read(12, "style \"mintmenu-style\"\n{\n    bg_"..., 4000) = 232
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/mintmenu/bc.png", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/mintmenu/bc.png", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/mintmenu/bc-light.png", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/mintmenu/bc-light.png", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/mintmenu/bc-dark.png", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/mintmenu/bc-dark.png", F_OK) = 0
+read(12, "", 4000)                      = 0
+close(12)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/mintmenu.rc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/mintmenu.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/panel.rc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/styles/panel.rc", {st_mode=S_IFREG|0644, st_size=1614, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/styles/panel.rc", O_RDONLY) = 12
+read(12, "style \"panel\"\n{\n    engine \"murr"..., 4000) = 1614
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/panel/panel-normal.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/panel/panel-normal.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/panel/panel-active.svg", F_OK) = -1 ENOENT (No such file or directory)

@@ -1,0 +1,75 @@
+close(3)                                = 0
+mprotect(0x7f7a0009c000, 4096, PROT_READ) = 0
+mprotect(0x7f7a002a8000, 4096, PROT_READ) = 0
+munmap(0x7f7a01592000, 104667)          = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=104667, ...}) = 0
+mmap(NULL, 104667, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7a01592000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47760, ...}) = 0
+mmap(NULL, 2143784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f79ffc7a000
+mprotect(0x7f79ffc85000, 2093056, PROT_NONE) = 0
+mmap(0x7f79ffe84000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f79ffe84000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f79ffa6e000
+mprotect(0x7f79ffa79000, 2093056, PROT_NONE) = 0
+mmap(0x7f79ffc78000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f79ffc78000
+close(3)                                = 0
+mprotect(0x7f79ffc78000, 4096, PROT_READ) = 0
+mprotect(0x7f79ffe84000, 4096, PROT_READ) = 0
+munmap(0x7f7a01592000, 104667)          = 0
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1832, ...}) = 0
+mmap(NULL, 1832, PROT_READ, MAP_SHARED, 3, 0) = 0x7f7a015c3000
+lseek(3, 1832, SEEK_SET)                = 1832
+munmap(0x7f7a015c3000, 1832)            = 0
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/group", O_RDONLY|O_CLOEXEC)  = 3
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=884, ...}) = 0
+mmap(NULL, 884, PROT_READ, MAP_SHARED, 3, 0) = 0x7f7a015c3000
+lseek(3, 884, SEEK_SET)                 = 884
+munmap(0x7f7a015c3000, 884)             = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/bearface/Downloads", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 28 entries */, 32768)    = 1328
+lstat("/home/bearface/Downloads/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Downloads/.", "security.selinux", 0x2126510, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/.", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/.", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/google-chrome-stable_current_amd64.deb", {st_mode=S_IFREG|0644, st_size=46494446, ...}) = 0
+lgetxattr("/home/bearface/Downloads/google-chrome-stable_current_amd64.deb", "security.selinux", 0x2126510, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/google-chrome-stable_current_amd64.deb", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/google-chrome-stable_current_amd64.deb", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/FlatStudio", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Downloads/FlatStudio", "security.selinux", 0x2126540, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/FlatStudio", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/FlatStudio", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/jdk-8u5-linux-x64.tar.gz", {st_mode=S_IFREG|0600, st_size=159008252, ...}) = 0
+lgetxattr("/home/bearface/Downloads/jdk-8u5-linux-x64.tar.gz", "security.selinux", 0x2126560, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/jdk-8u5-linux-x64.tar.gz", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/jdk-8u5-linux-x64.tar.gz", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/FlatStudioDark", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Downloads/FlatStudioDark", "security.selinux", 0x2126590, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/FlatStudioDark", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/FlatStudioDark", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/SoftElegant", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Downloads/SoftElegant", "security.selinux", 0x21265b0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/SoftElegant", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads/SoftElegant", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads/theme.crx", {st_mode=S_IFREG|0600, st_size=548857, ...}) = 0
+lgetxattr("/home/bearface/Downloads/theme.crx", "security.selinux", 0x21265d0, 255) = -1 ENODATA (No data available)

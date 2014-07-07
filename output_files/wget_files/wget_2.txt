@@ -1,0 +1,600 @@
+execve("/usr/bin/wget", ["wget", "www.reddit.com"], [/* 49 vars */]) = 0
+brk(0)                                  = 0x14cb000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e737a000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=93956, ...}) = 0
+mmap(NULL, 93956, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa8e7363000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20.\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=382984, ...}) = 0
+mmap(NULL, 2478288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8e6efc000
+mprotect(0x7fa8e6f50000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8e7150000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7fa8e7150000
+mmap(0x7fa8e7159000, 208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7159000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\355\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1926432, ...}) = 0
+mmap(NULL, 4036760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8e6b22000
+mprotect(0x7fa8e6cd3000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8e6ed2000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7fa8e6ed2000
+mmap(0x7fa8e6ef8000, 14488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8e6ef8000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=100728, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7362000
+mmap(NULL, 2195784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8e6909000
+mprotect(0x7fa8e6921000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8e6b20000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fa8e6b20000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=207128, ...}) = 0
+mmap(NULL, 2302208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8e66d6000
+mprotect(0x7fa8e6707000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8e6907000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7fa8e6907000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18936, ...}) = 0
+mmap(NULL, 2113968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8e64d1000
+mprotect(0x7fa8e64d5000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8e66d4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fa8e66d4000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7361000
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8e610b000
+mprotect(0x7fa8e62c7000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8e64c6000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7fa8e64c6000
+mmap(0x7fa8e64cc000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8e64cc000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8e5f07000
+mprotect(0x7fa8e5f0a000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8e6109000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa8e6109000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7360000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e735e000
+arch_prctl(ARCH_SET_FS, 0x7fa8e735e780) = 0
+mprotect(0x7fa8e64c6000, 16384, PROT_READ) = 0
+mprotect(0x7fa8e6109000, 4096, PROT_READ) = 0
+mprotect(0x7fa8e66d4000, 4096, PROT_READ) = 0
+mprotect(0x7fa8e6907000, 4096, PROT_READ) = 0
+mprotect(0x7fa8e6b20000, 4096, PROT_READ) = 0
+mprotect(0x7fa8e6ed2000, 110592, PROT_READ) = 0
+mprotect(0x7fa8e7150000, 12288, PROT_READ) = 0
+mprotect(0x65e000, 4096, PROT_READ)     = 0
+mprotect(0x7fa8e737c000, 4096, PROT_READ) = 0
+munmap(0x7fa8e7363000, 93956)           = 0
+brk(0)                                  = 0x14cb000
+brk(0x14ec000)                          = 0x14ec000
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa8e5c3e000
+close(3)                                = 0
+stat("/etc/wgetrc", {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+open("/etc/wgetrc", O_RDONLY)           = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7379000
+read(3, "###\n### Sample Wget initializati"..., 4096) = 4096
+read(3, "by setting this to on.\n#recursiv"..., 4096) = 716
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fa8e7379000, 4096)            = 0
+stat("/home/bearface/.wgetrc", 0x7fff698ae340) = -1 ENOENT (No such file or directory)
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7fa8e6141ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x421350, [HUP], SA_RESTORER|SA_RESTART, 0x7fa8e6141ff0}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7fa8e6141ff0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x421350, [USR1], SA_RESTORER|SA_RESTART, 0x7fa8e6141ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fa8e6141ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x422a80, [WINCH], SA_RESTORER|SA_RESTART, 0x7fa8e6141ff0}, {SIG_DFL, [], 0}, 8) = 0
+statfs(".", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=54760303, f_bavail=51743497, f_files=15065088, f_ffree=14871758, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("index.html", {st_mode=S_IFREG|0644, st_size=14192, ...}) = 0
+stat("index.html.1", {st_mode=S_IFREG|0644, st_size=14224, ...}) = 0
+stat("index.html.2", 0x7fff698ade50)    = -1 ENOENT (No such file or directory)
+stat("index.html.2", 0x7fff698adfc0)    = -1 ENOENT (No such file or directory)
+statfs(".", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=54760302, f_bavail=51743496, f_files=15065088, f_ffree=14871758, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("index.html", {st_mode=S_IFREG|0644, st_size=14192, ...}) = 0
+stat("index.html.1", {st_mode=S_IFREG|0644, st_size=14224, ...}) = 0
+stat("index.html.2", 0x7fff698ade50)    = -1 ENOENT (No such file or directory)
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7379000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+lseek(3, -2252, SEEK_CUR)               = 1267
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+close(3)                                = 0
+munmap(0x7fa8e7379000, 4096)            = 0
+write(2, "--2014-06-16 00:39:40--  http://"..., 48) = 48
+stat("/home/bearface/.netrc", 0x7fff698ada20) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7379000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fa8e7379000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "Resolving www.reddit.com (www.re"..., 45) = 45
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7379000
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fa8e7379000, 4096)            = 0
+open("/etc/host.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7379000
+read(3, "# The \"order\" line is only used "..., 4096) = 92
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fa8e7379000, 4096)            = 0
+getpid()                                = 25868
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=172, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7379000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 172
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fa8e7379000, 4096)            = 0
+uname({sys="Linux", node="doug", ...})  = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=93956, ...}) = 0
+mmap(NULL, 93956, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa8e7363000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8e5a32000
+mprotect(0x7fa8e5a3d000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8e5c3c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7fa8e5c3c000
+close(3)                                = 0
+mprotect(0x7fa8e5c3c000, 4096, PROT_READ) = 0
+munmap(0x7fa8e7363000, 93956)           = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7379000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\tdo"..., 4096) = 219
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fa8e7379000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=93956, ...}) = 0
+mmap(NULL, 93956, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa8e7363000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10432, ...}) = 0
+mmap(NULL, 2105560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8e582f000
+mprotect(0x7fa8e5831000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8e5a30000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fa8e5a30000
+close(3)                                = 0
+mprotect(0x7fa8e5a30000, 4096, PROT_READ) = 0
+munmap(0x7fa8e7363000, 93956)           = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=93956, ...}) = 0
+mmap(NULL, 93956, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa8e7363000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22952, ...}) = 0
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8e5629000
+mprotect(0x7fa8e562e000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8e582d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fa8e582d000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8e540e000
+mprotect(0x7fa8e5425000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8e5625000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fa8e5625000
+mmap(0x7fa8e5627000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8e5627000
+close(3)                                = 0
+mprotect(0x7fa8e5625000, 4096, PROT_READ) = 0
+mprotect(0x7fa8e582d000, 4096, PROT_READ) = 0
+munmap(0x7fa8e7363000, 93956)           = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=172, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=172, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7379000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 172
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fa8e7379000, 4096)            = 0
+uname({sys="Linux", node="doug", ...})  = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"\3369\1\0\0\1\0\0\0\0\0\0\3www\6reddit\3com\0\0\1\0\1", 32}], msg_controllen=0, msg_flags=0}, 32}, {{msg_name(0)=NULL, msg_iov(1)=[{"\214\201\1\0\0\1\0\0\0\0\0\0\3www\6reddit\3com\0\0\34\0\1", 32}], msg_controllen=0, msg_flags=0}, 32}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [130])               = 0
+recvfrom(3, "\3369\201\200\0\1\0\4\0\0\0\0\3www\6reddit\3com\0\0\1\0\1"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+poll([{fd=3, events=POLLIN}], 1, 4982)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [156])               = 0
+recvfrom(3, "\214\201\201\200\0\1\0\2\0\1\0\0\3www\6reddit\3com\0\0\34\0\1"..., 1918, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 156
+close(3)                                = 0
+open("/etc/gai.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7379000
+read(3, "# Configuration for getaddrinfo("..., 4096) = 2584
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fa8e7379000, 4096)            = 0
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+bind(3, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+getsockname(3, {sa_family=AF_NETLINK, pid=25868, groups=00000000}, [12]) = 0
+sendto(3, "\24\0\0\0\26\0\1\3\fu\236S\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"D\0\0\0\24\0\2\0\fu\236S\fe\0\0\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 148
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0\fu\236S\fe\0\0\n\200\200\376\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\fu\236S\fe\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+close(3)                                = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("23.62.6.49")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(58162), sin_addr=inet_addr("192.168.1.118")}, [16]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("23.62.6.56")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(36754), sin_addr=inet_addr("192.168.1.118")}, [16]) = 0
+close(3)                                = 0
+write(2, "23.62.6.49", 10)              = 10
+write(2, ", ", 2)                       = 2
+write(2, "23.62.6.56", 10)              = 10
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to www.reddit.com (ww"..., 64) = 64
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("23.62.6.49")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999993})
+write(3, "GET / HTTP/1.1\r\nUser-Agent: Wget"..., 112) = 112
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 962688})
+recvfrom(3, "HTTP/1.1 200 OK\r\nContent-Type: t"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nContent-Type: t"..., 337) = 337
+write(2, "200 OK\n", 7)                 = 7
+stat("index.html.2", 0x7fff698ada60)    = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "unspecified", 11)             = 11
+write(2, " [text/html]\n", 13)          = 13
+open("index.html.2", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230index.html.2\342\200\231\n", 30) = 30
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7fa8e7373000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, "    [<=>                        "..., 79) = 79
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "00006000\r\n<!doctype html><html x"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "00006000\r\n", 10)             = 10
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "<!doctype html><html xmlns=\"http"..., 8192) = 2549
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7372000
+write(4, "<!doctype html><html xmlns=\"http"..., 2549) = 2549
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949142})
+read(3, "xel/of_discovery.png\", \"fetch_tr"..., 8192) = 1448
+write(4, "xel/of_discovery.png\", \"fetch_tr"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949843})
+read(3, "], ['_trackPageview'] ); (functi"..., 8192) = 1448
+write(4, "], ['_trackPageview'] ); (functi"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949715})
+read(3, "\"http://www.reddit.com/r/Documen"..., 8192) = 1448
+write(4, "\"http://www.reddit.com/r/Documen"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949812})
+read(3, "dit.com/r/Music/\" class=\"choice "..., 8192) = 1448
+write(4, "dit.com/r/Music/\" class=\"choice "..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949832})
+read(3, "/worldcup/\" class=\"choice \" >wor"..., 8192) = 1448
+write(4, "/worldcup/\" class=\"choice \" >wor"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948557})
+read(3, "reddit.com/r/gaming/\" >gaming</a"..., 8192) = 1448
+write(4, "reddit.com/r/gaming/\" >gaming</a"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949059})
+read(3, "i><li ><span class=\"separator\">-"..., 8192) = 1448
+write(4, "i><li ><span class=\"separator\">-"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949816})
+read(3, "eddit.com/r/EarthPorn/\" >EarthPo"..., 8192) = 1448
+write(4, "eddit.com/r/EarthPorn/\" >EarthPo"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949808})
+read(3, "me.\" href=\"http://www.reddit.com"..., 8192) = 1448
+write(4, "me.\" href=\"http://www.reddit.com"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949665})
+read(3, "t>author:<i>username</i></dt><dd"..., 8192) = 1448
+write(4, "t>author:<i>username</i></dt><dd"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949239})
+read(3, "/button></div><div class=\"clear\""..., 7547) = 1448
+write(4, "/button></div><div class=\"clear\""..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949656})
+read(3, "ype=code&amp;source=progressbar\""..., 6099) = 1448
+write(4, "ype=code&amp;source=progressbar\""..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948676})
+read(3, "ganic\" class=\"organic-listing lo"..., 4651) = 1448
+write(4, "ganic\" class=\"organic-listing lo"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948137})
+read(3, "\" class=\"live-timestamp\">11 minu"..., 3203) = 1448
+write(4, "\" class=\"live-timestamp\">11 minu"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 928081})
+read(3, "=\"rank\"></span><div class=\"midco"..., 1755) = 1448
+write(4, "=\"rank\"></span><div class=\"midco"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ments/28969d/im_afraid_to_dress_"..., 307) = 307
+write(4, "ments/28969d/im_afraid_to_dress_"..., 307) = 307
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n00006000\r\ns=\"expando\" style='d"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "00006000\r\ns=\"expando\" style='dis"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "00006000\r\n", 10)             = 10
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "s=\"expando\" style='display: none"..., 8192) = 1129
+write(4, "s=\"expando\" style='display: none"..., 1129) = 1129
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947297})
+read(3, "/p><p class=\"tagline\">submitted&"..., 8192) = 1448
+write(4, "/p><p class=\"tagline\">submitted&"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948198})
+read(3, "re unvoted\">&bull;</div><div cla"..., 8192) = 1448
+write(4, "re unvoted\">&bull;</div><div cla"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948924})
+read(3, "</span></li></ul><div class=\"exp"..., 8192) = 1448
+write(4, "</span></li></ul><div class=\"exp"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949360})
+read(3, " id-t2_bhj23\" >gohtingqi1997</a>"..., 8192) = 1448
+write(4, " id-t2_bhj23\" >gohtingqi1997</a>"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949060})
+read(3, "href=\"/r/Showerthoughts/comments"..., 8192) = 1448
+write(4, "href=\"/r/Showerthoughts/comments"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949163})
+read(3, "ent\"></p><span class=\"rank\"></sp"..., 8192) = 1448
+write(4, "ent\"></p><span class=\"rank\"></sp"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949200})
+read(3, "reddit hover may-blank\" >/r/list"..., 8192) = 1448
+write(4, "reddit hover may-blank\" >/r/list"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949159})
+read(3, "ull;</div><div class=\"score disl"..., 8192) = 1448
+write(4, "ull;</div><div class=\"score disl"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949661})
+read(3, "ss=\"option \" href=\"#\">cancel</a>"..., 8192) = 1448
+write(4, "ss=\"option \" href=\"#\">cancel</a>"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949823})
+read(3, ";<time title=\"Mon Jun 16 04:19:4"..., 8192) = 1448
+write(4, ";<time title=\"Mon Jun 16 04:19:4"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949787})
+read(3, "v><div class=\"arrow down login-r"..., 8192) = 1448
+write(4, "v><div class=\"arrow down login-r"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949690})
+read(3, "v><div class=\"child\" ></div><div"..., 7519) = 1448
+write(4, "v><div class=\"child\" ></div><div"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949793})
+read(3, " buttons to view more.</p></div>"..., 6071) = 1448
+write(4, " buttons to view more.</p></div>"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949118})
+read(3, "0140615_rincremental/\" class=\"co"..., 4623) = 1448
+write(4, "0140615_rincremental/\" class=\"co"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949854})
+read(3, "</time>&#32;by&#32;<a href=\"http"..., 3175) = 1448
+write(4, "</time>&#32;by&#32;<a href=\"http"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949707})
+read(3, "ank \" href=\"http://imgur.com/7cJ"..., 1727) = 1448
+write(4, "ank \" href=\"http://imgur.com/7cJ"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949830})
+read(3, "odd link \" onclick=\"click_thing("..., 279) = 279
+write(4, "odd link \" onclick=\"click_thing("..., 279) = 279
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n00004000\r\ntton\" aria-label=\"up"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "00004000\r\ntton\" aria-label=\"upvo"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "00004000\r\n", 10)             = 10
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "tton\" aria-label=\"upvote\" tabind"..., 8192) = 2605
+write(4, "tton\" aria-label=\"upvote\" tabind"..., 2605) = 2605
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948205})
+read(3, ">A small town in Kentucky is buy"..., 8192) = 1448
+write(4, ">A small town in Kentucky is buy"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949839})
+read(3, "login-required\" onclick=\"$(this)"..., 8192) = 1448
+write(4, "login-required\" onclick=\"$(this)"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948833})
+read(3, "le\" style=\"\" ><a class=\"option a"..., 8192) = 1448
+write(4, "le\" style=\"\" ><a class=\"option a"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949316})
+read(3, "5 hours ago</time>&#32;by&#32;<a"..., 8192) = 1448
+write(4, "5 hours ago</time>&#32;by&#32;<a"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949951})
+read(3, "l=\"downvote\" tabindex=\"0\" ></div"..., 7987) = 1448
+write(4, "l=\"downvote\" tabindex=\"0\" ></div"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949737})
+read(3, "/div><div class=\" thing id-t3_28"..., 6539) = 1448
+write(4, "/div><div class=\" thing id-t3_28"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949784})
+read(3, "first_gif_ever_was_wellreceived_"..., 5091) = 1448
+write(4, "first_gif_ever_was_wellreceived_"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949790})
+read(3, "st. Much respect.</a>&#32;<span "..., 3643) = 1448
+write(4, "st. Much respect.</a>&#32;<span "..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949659})
+read(3, "s=\"score dislikes\">3076</div><di"..., 2195) = 1448
+write(4, "s=\"score dislikes\">3076</div><di"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 941714})
+read(3, "\" >share</a><a class=\"option \" h"..., 747) = 747
+write(4, "\" >share</a><a class=\"option \" h"..., 747) = 747
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n00004000\r\nquired\" onclick=\"$(t"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "00004000\r\nquired\" onclick=\"$(thi"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "00004000\r\n", 10)             = 10
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "quired\" onclick=\"$(this).vote(r."..., 8192) = 2137
+write(4, "quired\" onclick=\"$(this).vote(r."..., 2137) = 2137
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948191})
+read(3, "ent)\" role=\"button\" aria-label=\""..., 8192) = 1448
+write(4, "ent)\" role=\"button\" aria-label=\""..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949666})
+read(3, " \" href=\"#\">cancel</a></span></l"..., 8192) = 1448
+write(4, " \" href=\"#\">cancel</a></span></l"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949708})
+read(3, "ww.reddit.com/user/keirbrow\" cla"..., 8192) = 1448
+write(4, "ww.reddit.com/user/keirbrow\" cla"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949197})
+read(3, "ttps://www.youtube.com/watch?v=X"..., 8192) = 1448
+write(4, "ttps://www.youtube.com/watch?v=X"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948820})
+read(3, " &lt;iframe src=&quot;//www.redd"..., 8192) = 1448
+write(4, " &lt;iframe src=&quot;//www.redd"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949202})
+read(3, "r/IAmA/\">self.IAmA</a>)</span></"..., 7007) = 1448
+write(4, "r/IAmA/\">self.IAmA</a>)</span></"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949698})
+read(3, "n-required\" onclick=\"$(this).vot"..., 5559) = 1448
+write(4, "n-required\" onclick=\"$(this).vot"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949823})
+read(3, "f_the/\" class=\"comments may-blan"..., 4111) = 1448
+write(4, "f_the/\" class=\"comments may-blan"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 937441})
+read(3, "main\">(<a href=\"/r/LifeProTips/\""..., 2663) = 1448
+write(4, "main\">(<a href=\"/r/LifeProTips/\""..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949949})
+read(3, "dcol unvoted\" ><div class=\"arrow"..., 1215) = 1215
+write(4, "dcol unvoted\" ><div class=\"arrow"..., 1215) = 1215
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n00006000\r\nsubreddit hover may-"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "00006000\r\nsubreddit hover may-bl"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "00006000\r\n", 10)             = 10
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "subreddit hover may-blank\" >/r/I"..., 8192) = 221
+write(4, "subreddit hover may-blank\" >/r/I"..., 221) = 221
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946732})
+read(3, "101 comments</a></li><li class=\""..., 8192) = 1448
+write(4, "101 comments</a></li><li class=\""..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949890})
+read(3, "-kasem-dies-at-82\" tabindex=\"1\" "..., 8192) = 1448
+write(4, "-kasem-dies-at-82\" tabindex=\"1\" "..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949879})
+read(3, "d\" onclick=\"$(this).vote(r.confi"..., 8192) = 1448
+write(4, "d\" onclick=\"$(this).vote(r.confi"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949730})
+read(3, "</a><a class=\"option \" href=\"#\">"..., 8192) = 1448
+write(4, "</a><a class=\"option \" href=\"#\">"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "me=\"2014-06-15T16:41:48+00:00\" c"..., 8192) = 1448
+write(4, "me=\"2014-06-15T16:41:48+00:00\" c"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "button\" aria-label=\"downvote\" ta"..., 8192) = 1448
+write(4, "button\" aria-label=\"downvote\" ta"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "88i4i odd link \" onclick=\"click_"..., 8192) = 2896
+write(4, "88i4i odd link \" onclick=\"click_"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948922})
+read(3, "<div class=\"entry unvoted\"><p cl"..., 8192) = 1448
+write(4, "<div class=\"entry unvoted\"><p cl"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "span class=\"rank\">25</span><div "..., 8192) = 1448
+write(4, "span class=\"rank\">25</span><div "..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "><ul class=\"flat-list buttons\"><"..., 8192) = 1448
+write(4, "><ul class=\"flat-list buttons\"><"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "advertise</a></li><li ><span cla"..., 8192) = 1448
+write(4, "advertise</a></li><li ><span cla"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949671})
+read(3, "s=\"separator\"></span><a href=\"ht"..., 6979) = 1448
+write(4, "s=\"separator\"></span><a href=\"ht"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "information to prevent people fr"..., 5531) = 1448
+write(4, "information to prevent people fr"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946620})
+read(3, "></span></li><li><label for=\"pas"..., 4083) = 1448
+write(4, "></span></li><li><label for=\"pas"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944973})
+read(3, "\" class=\"user-form login-form\"><"..., 2635) = 1448
+write(4, "\" class=\"user-form login-form\"><"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "ption><option value=\"be\">\320\221\320\265\320\273\320"..., 1187) = 1187
+write(4, "ption><option value=\"be\">\320\221\320\265\320\273\320"..., 1187) = 1187
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n00002D6F\r\nar [hu] (*)</option>"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "00002D6F\r\nar [hu] (*)</option><o"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "00002D6F\r\n", 10)             = 10
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ar [hu] (*)</option><option valu"..., 8192) = 6041
+write(4, "ar [hu] (*)</option><option valu"..., 4096) = 4096
+write(4, "x\" name=\"lang-hi\" id=\"lang-hi\" o"..., 1945) = 1945
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "his)\" /><label for=\"lang-sk\">slo"..., 5590) = 1448
+write(4, "his)\" /><label for=\"lang-sk\">slo"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "t type=\"checkbox\" name=\"lang-it\""..., 4142) = 1448
+write(4, "t type=\"checkbox\" name=\"lang-it\""..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948713})
+read(3, "r><tr><td style=\"padding-right: "..., 2694) = 1448
+write(4, "r><tr><td style=\"padding-right: "..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "me_langs(this)\" /><label for=\"la"..., 1246) = 1246
+write(4, "me_langs(this)\" /><label for=\"la"..., 1246) = 1246
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n00000000\r\n\r\n", 127, MSG_PEEK, NULL, NULL) = 14
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "00000000\r\n\r\n", 127, MSG_PEEK, NULL, NULL) = 12
+read(3, "00000000\r\n", 10)             = 10
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+write(2, "\r", 1)                       = 1
+write(2, "    [ <=>                       "..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7fa8e7372000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "2014-06-16 00:39:41 (1008 KB/s) "..., 69) = 69
+exit_group(0)                           = ?
++++ exited with 0 +++

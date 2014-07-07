@@ -1,0 +1,75 @@
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_GETREGSET, 32265, "..., 72) = 72
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(2, \"ioctl(1, SNDCTL_TMR_TI"..., 61) = 61
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_SYSCALL, 32265, 0,"..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "--- SIGCHLD {si_signo=SIGCHLD, s"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "RAP, si_utime=0, si_stime=0} ---"..., 37) = 37
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigprocmask(SIG_SETMASK, [], "..., 49) = 49
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "wait4(-1, [{WIFSTOPPED(s) && WST"..., 77) = 77
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigprocmask(SIG_BLOCK, [HUP I"..., 69) = 69
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_GETREGSET, 32265, "..., 72) = 72
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+read(4, "4\\0\\1\\377\\21\\23\\32\\377\\22\\17\\27\""..., 8192) = 8192
+write(1, "process_vm_readv(32265, [{\"\\2m\\0"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "1\\377\\21\\23\\32\\377\\22\\17\\27\"...,"..., 81) = 81
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(2, \", {B38400 opost isig i"..., 61) = 61
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_SYSCALL, 32265, 0,"..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "--- SIGCHLD {si_signo=SIGCHLD, s"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "RAP, si_utime=0, si_stime=0} ---"..., 37) = 37
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigprocmask(SIG_SETMASK, [], "..., 49) = 49
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "wait4(-1, [{WIFSTOPPED(s) && WST"..., 77) = 77
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigprocmask(SIG_BLOCK, [HUP I"..., 69) = 69
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_GETREGSET, 32265, "..., 72) = 72
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(2, \"ioctl(1, TIOCGWINSZ\", "..., 49) = 49
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_SYSCALL, 32265, 0,"..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "--- SIGCHLD {si_signo=SIGCHLD, s"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "RAP, si_utime=0, si_stime=0} ---"..., 37) = 37
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigprocmask(SIG_SETMASK, [], "..., 49) = 49
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "wait4(-1, [{WIFSTOPPED(s) && WST"..., 77) = 77

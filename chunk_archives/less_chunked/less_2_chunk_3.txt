@@ -1,0 +1,75 @@
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        line = 0\n:\33[K", 21) = 21
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        fileout = open(\n:\33[K", 28) = 28
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "            (path + str(file_nam"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "w+')\n:\33[K", 9)             = 9
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        for i in range(len(curre"..., 47) = 47
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "            fileout.write(curren"..., 47) = 47
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "            line += 1\n:\33[K", 26) = 26
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "            if (((line % 75) == "..., 56) = 56
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "                fileout.close()\n"..., 36) = 36
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "                print(path + str"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, ".txt')\n:\33[K", 11)          = 11
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "                chunk_num += 1\n:"..., 35) = 35
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "                fileout = open(\n"..., 36) = 36
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "                    (path + str("..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "txt'), 'w+')\n:\33[K", 17)    = 17
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    cleanup(path)\n:\33[K", 22) = 22
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    #print_counts(path)\n:\33[K", 28) = 28
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    \n:\33[K", 9)             = 9
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "\n:\33[K", 5)                 = 5
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "def get_file_names(file_paths):\n"..., 36) = 36
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    \"\"\"\n:\33[K", 12)      = 12
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    Parses file paths and return"..., 57) = 57
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    with id_num, etc.\n:\33[K", 26) = 26
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "\n:\33[K", 5)                 = 5
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    @type file_paths: list\n:\33[K", 31) = 31
+read(3, "\n", 1)                        = 1

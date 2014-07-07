@@ -1,0 +1,75 @@
+write(1, "read(3, \"k\\\"\\n      data-visibil"..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"k\\\"\\n      data-visibi"..., 67) = 67
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"   <h3 class=\\\"yt-locku"..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"   <h3 class=\\\"yt-lock"..., 67) = 67
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"-high-cpv\\\">    <span c"..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"-high-cpv\\\">    <span "..., 67) = 67
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"ll</a></h3>\\n\\n  <div c"..., 67) = 67
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"ll</a></h3>\\n\\n  <div "..., 68) = 68
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"\\nby <a href=\\\"/channel"..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"\\nby <a href=\\\"/channe"..., 67) = 67
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"t-uix-button-size-defau"..., 64) = 64
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"t-uix-button-size-defa"..., 65) = 65
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"s=\\\"yt-dialog-base\\\">\\n"..., 67) = 67
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"s=\\\"yt-dialog-base\\\">\\"..., 68) = 68
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {0, 9"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"div class=\\\"yt-dialog-w"..., 65) = 65
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "write(4, \"div class=\\\"yt-dialog-"..., 66) = 66
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "select(4, [3], NULL, NULL, {900,"..., 77) = 77
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "recvfrom(3, \"\\r\\n4800\\r\\nolink g"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4

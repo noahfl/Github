@@ -1,0 +1,75 @@
+access("/home/bearface/.pki/nssdb/.165015611_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015612_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015613_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015614_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015615_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015616_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015617_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015618_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015619_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015620_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015621_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015622_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015623_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015624_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015625_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015626_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015627_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015628_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015629_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015630_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015631_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015632_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015633_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015634_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015635_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015636_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015637_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015638_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015639_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015640_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015641_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015642_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015643_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015644_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015645_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015646_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015647_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.165015648_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/cert9.db", F_OK) = 0
+stat("/home/bearface/.pki/nssdb/cert9.db", {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+open("/home/bearface/.pki/nssdb/cert9.db", O_RDWR|O_CREAT|O_CLOEXEC, 0644) = 32
+fstat(32, {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+fstat(32, {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+stat("/home/bearface/.pki/nssdb/cert9.db", {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+lseek(32, 0, SEEK_SET)                  = 0
+read(32, "SQLite format 3\0\4\0\1\1\0@  \0\0\0\1\0\0\0\t"..., 100) = 100
+fcntl(32, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(32, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(32, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/home/bearface/.pki/nssdb/cert9.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(32, {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+access("/home/bearface/.pki/nssdb/cert9.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(32, {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+lseek(32, 0, SEEK_SET)                  = 0
+read(32, "SQLite format 3\0\4\0\1\1\0@  \0\0\0\1\0\0\0\t"..., 1024) = 1024
+fcntl(32, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741825, len=1}) = 0
+lseek(32, 3072, SEEK_SET)               = 3072
+read(32, "\r\0\0\0\1\0J\0\0J\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+lseek(32, 5120, SEEK_SET)               = 5120
+read(32, "\r\0\0\0\5\2\302\0\3\212\3\275\3D\3\4\2\302\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+stat("/var/tmp", {st_mode=S_IFDIR|S_ISVTX|0777, st_size=4096, ...}) = 0
+access("/var/tmp", R_OK|W_OK|X_OK)      = 0
+open("/dev/urandom", O_RDONLY|O_CLOEXEC) = 33
+read(33, "6&\242{\246)\300\327\267\274\214{\311\2\276\333\273r\217\265C7_L\2350\366\303\4\v\200\35"..., 256) = 256
+close(33)                               = 0
+access("/var/tmp/etilqs_PiTcs46hPV3HHWE", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.165015286_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.165015287_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.165015288_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.165015289_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.165015290_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.165015291_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.165015292_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.165015293_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.165015294_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)

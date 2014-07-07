@@ -1,0 +1,75 @@
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "close(3)                        "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"/etc/wgetrc\", {st_mode=S_I"..., 71) = 71
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "open(\"/etc/wgetrc\", O_RDONLY)   "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "fstat(3, {st_mode=S_IFREG|0644, "..., 60) = 60
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mmap(NULL, 4096, PROT_READ|PROT_"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "b39f28000\n:\33[K", 14)       = 14
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"###\\n### Sample Wget in"..., 65) = 65
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"by setting this to on.\\"..., 64) = 64
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"\", 4096)               "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "close(3)                        "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "munmap(0x7fbb39f28000, 4096)    "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"/home/bearface/.wgetrc\", 0"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ctory)\n:\33[K", 11)          = 11
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ioctl(2, SNDCTL_TMR_TIMEBASE or "..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, " opost isig icanon echo ...}) = "..., 38) = 38
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ioctl(2, SNDCTL_TMR_TIMEBASE or "..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, " opost isig icanon echo ...}) = "..., 38) = 38
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigaction(SIGHUP, {SIG_IGN, ["..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "SIG_DFL, [], 0}, 8) = 0\n:\33[K", 28) = 28
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigaction(SIGHUP, {0x421350, "..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "{SIG_IGN, [HUP], SA_RESTORER|SA_"..., 69) = 69
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigaction(SIGUSR1, {0x421350,"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, ", {SIG_DFL, [], 0}, 8) = 0\n:\33[K", 31) = 31
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigaction(SIGPIPE, {SIG_IGN, "..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, " {SIG_DFL, [], 0}, 8) = 0\n:\33[K", 30) = 30

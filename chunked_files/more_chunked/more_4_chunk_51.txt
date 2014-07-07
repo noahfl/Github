@@ -1,0 +1,75 @@
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(78%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"  <button class=\\\"yt-"..., 61) = 61
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(78%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN}], 1"..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(78%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN|POLL"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(78%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\revents=POLLIN|POLLRDNORM}])\n", 29) = 29
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(78%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrecvfrom(3, \".com/yts/img/pixel"..., 81) = 81
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(78%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \" </span><img src=\\\"ht"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(78%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"yt-lockup-deemphasize"..., 64) = 64
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(78%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN}], 1"..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN|POLL"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\revents=POLLIN|POLLRDNORM}])\n", 29) = 29
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrecvfrom(3, \"to  spf-link \\\"  d"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r4\33[K\n", 6)               = 6
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"ionlink yt-fluid-thum"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \".com/yts/img/pixel-vf"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"ei=uRKfU9bsHcWqqgWymo"..., 60) = 60
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"\\n\", 1)              "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"  <div class=\\\"yt-loc"..., 57) = 57
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"    <ul class=\\\"yt-lo"..., 59) = 59
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1

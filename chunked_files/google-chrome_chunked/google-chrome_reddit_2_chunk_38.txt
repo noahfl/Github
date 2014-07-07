@@ -1,0 +1,75 @@
+open("/etc/fonts/conf.d/90-ttf-devanagari-fonts.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 5035
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/90-ttf-gujarati-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-gujarati-fonts.conf", {st_mode=S_IFREG|0644, st_size=687, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-gujarati-fonts.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 687
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/90-ttf-kannada-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-kannada-fonts.conf", {st_mode=S_IFREG|0644, st_size=685, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-kannada-fonts.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 685
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/90-ttf-malayalam-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-malayalam-fonts.conf", {st_mode=S_IFREG|0644, st_size=1072, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-malayalam-fonts.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1072
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/90-ttf-oriya-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-oriya-fonts.conf", {st_mode=S_IFREG|0644, st_size=672, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-oriya-fonts.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 672
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/90-ttf-punjabi-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-punjabi-fonts.conf", {st_mode=S_IFREG|0644, st_size=683, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-punjabi-fonts.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 683
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/90-ttf-tamil-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-tamil-fonts.conf", {st_mode=S_IFREG|0644, st_size=657, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-tamil-fonts.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 657
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/90-ttf-telugu-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-telugu-fonts.conf", {st_mode=S_IFREG|0644, st_size=678, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-telugu-fonts.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 678
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/99pdftoopvp.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/99pdftoopvp.conf", {st_mode=S_IFREG|0644, st_size=366, ...}) = 0
+open("/etc/fonts/conf.d/99pdftoopvp.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 366
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+madvise(0x7f3679c36000, 36864, MADV_DONTNEED) = 0
+close(12)                               = 0
+access("/etc/fonts/conf.d", R_OK)       = 0
+read(11, "", 8192)                      = 0
+madvise(0x7f3679bd0000, 8192, MADV_DONTNEED) = 0
+close(11)                               = 0
+stat("/usr/share/fonts", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898925, f_bavail=41882119, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//3830d5c3ddfd5cd38a049b759396e72e-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=232, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898925, f_bavail=41882119, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+read(11, "\4\374\2\374\4\0\0\0\350\0\0\0\0\0\0\0008\0\0\0\0\0\0\0P\0\0\0\0\0\0\0"..., 232) = 232
+close(11)                               = 0
+stat("/usr/local/share/fonts", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+open("/usr/local/share/fonts", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898925, f_bavail=41882119, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//4c599c202bc5c08e2d34565a40eac3b2-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898924, f_bavail=41882118, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+read(11, "\4\374\2\374\4\0\0\0`\0\0\0\0\0\0\0008\0\0\0\0\0\0\0P\0\0\0\0\0\0\0"..., 96) = 96

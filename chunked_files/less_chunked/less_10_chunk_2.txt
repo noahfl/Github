@@ -1,0 +1,75 @@
+open("wget_10.txt", O_RDONLY)           = 4
+lseek(4, 1, SEEK_SET)                   = 1
+lseek(4, 0, SEEK_SET)                   = 0
+read(4, "execve(\"/usr/bin/wget\", [\"wget\","..., 256) = 256
+lseek(4, 1, SEEK_SET)                   = 1
+fstat(4, {st_mode=S_IFREG|0644, st_size=54120, ...}) = 0
+lseek(4, 0, SEEK_SET)                   = 0
+stat("wget_10.txt", {st_mode=S_IFREG|0644, st_size=54120, ...}) = 0
+write(1, "\33[?1049h\33[?1h\33=\r", 16) = 16
+read(4, "execve(\"/usr/bin/wget\", [\"wget\","..., 8192) = 8192
+write(1, "execve(\"/usr/bin/wget\", [\"wget\","..., 1023) = 1023
+write(1, "ONE) = 0\nmmap(0x7fc975b53000, 36"..., 305) = 305
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "access(\"/etc/ld.so.nohwcap\", F_O"..., 84) = 84
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "open(\"/lib/x86_64-linux-gnu/libc"..., 77) = 77
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, " 832) = 832\n:\33[K", 16)     = 16
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "fstat(3, {st_mode=S_IFREG|0644, "..., 63) = 63
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mmap(NULL, 4036760, PROT_READ|PR"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "c975525000\n:\33[K", 15)      = 15
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mprotect(0x7fc9756d6000, 2093056"..., 53) = 53
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mmap(0x7fc9758d5000, 155648, PRO"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "YWRITE, 3, 0x1b0000) = 0x7fc9758"..., 42) = 42
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mmap(0x7fc9758fb000, 14488, PROT"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "YMOUS, -1, 0) = 0x7fc9758fb000\n:"..., 35) = 35
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "close(3)                        "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "access(\"/etc/ld.so.nohwcap\", F_O"..., 84) = 84
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "open(\"/lib/x86_64-linux-gnu/libz"..., 68) = 68
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "read(3, \"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "2) = 832\n:\33[K", 13)        = 13
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "fstat(3, {st_mode=S_IFREG|0644, "..., 62) = 62
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mmap(NULL, 4096, PROT_READ|PROT_"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "975d65000\n:\33[K", 14)       = 14
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mmap(NULL, 2195784, PROT_READ|PR"..., 86) = 86

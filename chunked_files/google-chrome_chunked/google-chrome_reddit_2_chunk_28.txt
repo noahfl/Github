@@ -1,0 +1,75 @@
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/check-radio.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/entry.rc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/styles/entry.rc", {st_mode=S_IFREG|0644, st_size=500, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/styles/entry.rc", O_RDONLY) = 12
+read(12, "style \"entry\" \n{\n    xthickness "..., 4000) = 500
+read(12, "", 4000)                      = 0
+close(12)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/entry.rc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/entry.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/frames.rc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/styles/frames.rc", {st_mode=S_IFREG|0644, st_size=728, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/styles/frames.rc", O_RDONLY) = 12
+read(12, "style \"frame\"\n{\n    xthickness ="..., 4000) = 728
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/frames/frame.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/frames/frame.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/frames/frame.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/frames/frame.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/frames/frame-gap-start.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/frames/frame-gap-start.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/frames/frame-gap-end.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/frames/frame-gap-end.svg", F_OK) = 0
+read(12, "", 4000)                      = 0
+close(12)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/frames.rc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/frames.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/handlebox.rc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/styles/handlebox.rc", {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/styles/handlebox.rc", O_RDONLY) = 12
+read(12, "style \"handlebox\"\n{\n    engine \""..., 4000) = 507
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/other/null.png", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/other/null.png", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/other/null.png", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/other/null.png", F_OK) = 0
+read(12, "", 4000)                      = 0
+close(12)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/handlebox.rc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/handlebox.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/label-icon.rc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/styles/label-icon.rc", {st_mode=S_IFREG|0644, st_size=152, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/styles/label-icon.rc", O_RDONLY) = 12
+read(12, "style \"text\"\n{\n    engine \"murri"..., 4000) = 152
+read(12, "", 4000)                      = 0
+close(12)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/label-icon.rc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/label-icon.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/menus.rc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/styles/menus.rc", {st_mode=S_IFREG|0644, st_size=2709, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/styles/menus.rc", O_RDONLY) = 12
+read(12, "style \"menubar\" \n{\n    GtkMenuBa"..., 4000) = 2709
+madvise(0x7f3679bf9000, 4096, MADV_DONTNEED) = 0
+madvise(0x7f3679bfc000, 409600, MADV_DONTNEED) = 0
+read(12, "", 4000)                      = 0
+close(12)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/menus.rc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/menus.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/notebook.rc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/styles/notebook.rc", {st_mode=S_IFREG|0644, st_size=5487, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/styles/notebook.rc", O_RDONLY) = 12
+read(12, "style \"notebook-close\" { stock[\""..., 4000) = 4000
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/other/close.png", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/other/close.png", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/notebook/tab-bottom.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/notebook/tab-bottom.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/notebook/tab-top.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/notebook/tab-top.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/notebook/tab-left.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/notebook/tab-left.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/notebook/tab-right.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/notebook/tab-right.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/notebook/tab-top-active.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/notebook/tab-top-active.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/notebook/tab-bottom-active.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/notebook/tab-bottom-active.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/notebook/tab-left-active.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/notebook/tab-left-active.svg", F_OK) = 0

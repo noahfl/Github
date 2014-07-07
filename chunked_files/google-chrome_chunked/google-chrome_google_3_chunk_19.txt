@@ -1,0 +1,75 @@
+read(9, "       sid_ET.UTF-8\nsk:\t\t\t\t\t\tsk_"..., 4096) = 4096
+read(9, "@cyrillic:\t\t\t\tuz_UZ.UTF-8\nve:\t\t\t"..., 4096) = 4096
+read(9, "an:\t\t\t\t\tro_RO.ISO8859-2\nrussian:"..., 4096) = 810
+read(9, "", 4096)                       = 0
+close(9)                                = 0
+munmap(0x7f6afe41c000, 4096)            = 0
+open("/usr/share/X11/locale/locale.alias", O_RDONLY) = 9
+fstat(9, {st_mode=S_IFREG|0644, st_size=82730, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6afe41c000
+read(9, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"..., 4096) = 4096
+read(9, "_IN.utf8\t\t\t\t\tbo_IN.UTF-8\nbr\t\t\t\t\t"..., 4096) = 4096
+read(9, ".ISO8859-15\nde_DE.88591\t\t\t\t\tde_D"..., 4096) = 4096
+read(9, "ISO8859-1\nen_ZA.88591.en\t\t\t\t\ten_"..., 4096) = 4096
+read(9, "S.ISO8859-1\neu_ES.iso88591\t\t\t\t\te"..., 4096) = 4096
+read(9, "\t\t\tgv_GB.ISO8859-1\ngv_GB.ISO-885"..., 4096) = 4096
+read(9, "kw_GB.ISO8859-1\nkw_GB\t\t\t\t\t\tkw_GB"..., 4096) = 4096
+read(9, "@nynorsk\t\t\t\t\tny_NO.ISO8859-1\nnyn"..., 4096) = 4096
+read(9, "yrillic\t\t\t\t\tsr_RS.UTF-8\nsr_YU.ut"..., 4096) = 4096
+read(9, "P1255\nyi_US.MICROSOFT-CP1255\t\t\t\t"..., 4096) = 4096
+read(9, "e name.\n#\n#\n\nPOSIX:\t\t\t\t\t\tC\nPOSIX"..., 4096) = 4096
+read(9, ":\t\t\t\t\tbr_FR.ISO8859-1\nbr_FR.ISO-"..., 4096) = 4096
+read(9, "8859-1\nde_DE@euro:\t\t\t\t\tde_DE.ISO"..., 4096) = 4096
+close(9)                                = 0
+munmap(0x7f6afe41c000, 4096)            = 0
+open("/usr/share/X11/locale/locale.dir", O_RDONLY) = 9
+fstat(9, {st_mode=S_IFREG|0644, st_size=40510, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6afe41c000
+read(9, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"..., 4096) = 4096
+read(9, "LC_LOCALE\t\t\tes_CR.ISO8859-1\niso8"..., 4096) = 4096
+read(9, "E\t\t\tno_NO.ISO8859-15\niso8859-1/X"..., 4096) = 4096
+read(9, "-8\nen_US.UTF-8/XLC_LOCALE\t\t\taz_A"..., 4096) = 4096
+read(9, "F-8\nen_US.UTF-8/XLC_LOCALE\t\t\tkw_"..., 4096) = 4096
+read(9, "LE:\t\t\tar_DZ.ISO8859-6\niso8859-6/"..., 4096) = 4096
+read(9, ":\t\t\tes_PA.ISO8859-1\niso8859-15/X"..., 4096) = 4096
+read(9, "iso8859-1/XLC_LOCALE:\t\t\tom_KE.IS"..., 4096) = 4096
+read(9, "_LOCALE:\t\t\tbn_IN.UTF-8\nen_US.UTF"..., 4096) = 4096
+close(9)                                = 0
+munmap(0x7f6afe41c000, 4096)            = 0
+access("/usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE", R_OK) = 0
+open("/usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE", O_RDONLY) = 9
+fstat(9, {st_mode=S_IFREG|0644, st_size=4243, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6afe41c000
+read(9, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"..., 4096) = 4096
+read(9, "0 class\ncs15\t{\n\tside\t\tGR\n\tlength"..., 4096) = 147
+read(9, "", 4096)                       = 0
+close(9)                                = 0
+munmap(0x7f6afe41c000, 4096)            = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f6af7a00ff0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f6af7a00ff0}, 8) = 0
+--- SIGPROF {si_signo=SIGPROF, si_code=SI_KERNEL} ---
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/gtk20-properties.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 9
+connect(9, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+getpeername(9, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"...}, [20]) = 0
+uname({sys="Linux", node="doug", ...})  = 0
+access("/home/bearface/.Xauthority", R_OK) = 0
+open("/home/bearface/.Xauthority", O_RDONLY) = 10
+fstat(10, {st_mode=S_IFREG|0600, st_size=115, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6afe41c000
+read(10, "\1\0\0\4doug\0\0010\0\22MIT-MAGIC-COOKIE-1\0"..., 4096) = 115
+read(10, "", 4096)                      = 0
+close(10)                               = 0
+munmap(0x7f6afe41c000, 4096)            = 0
+getsockname(9, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+fcntl(9, F_GETFL)                       = 0x2 (flags O_RDWR)

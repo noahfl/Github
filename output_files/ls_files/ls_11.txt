@@ -1,0 +1,510 @@
+execve("/bin/ls", ["ls", "-a", "-h", "-l", "-F", "/home/bearface/"], [/* 45 vars */]) = 0
+brk(0)                                  = 0x162a000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa180a4d000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=104667, ...}) = 0
+mmap(NULL, 104667, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa180a33000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0[\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=134296, ...}) = 0
+mmap(NULL, 2238192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa18060a000
+mprotect(0x7fa18062a000, 2093056, PROT_NONE) = 0
+mmap(0x7fa180829000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f000) = 0x7fa180829000
+mmap(0x7fa18082b000, 5872, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa18082b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libacl.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\34\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31168, ...}) = 0
+mmap(NULL, 2126336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa180402000
+mprotect(0x7fa180409000, 2093056, PROT_NONE) = 0
+mmap(0x7fa180608000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fa180608000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa180a32000
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa18003c000
+mprotect(0x7fa1801f8000, 2093056, PROT_NONE) = 0
+mmap(0x7fa1803f7000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7fa1803f7000
+mmap(0x7fa1803fd000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa1803fd000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\27\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=252032, ...}) = 0
+mmap(NULL, 2347200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa17fdfe000
+mprotect(0x7fa17fe3b000, 2093056, PROT_NONE) = 0
+mmap(0x7fa18003a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3c000) = 0x7fa18003a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa17fbfa000
+mprotect(0x7fa17fbfd000, 2093056, PROT_NONE) = 0
+mmap(0x7fa17fdfc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa17fdfc000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libattr.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18624, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa180a31000
+mmap(NULL, 2113760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa17f9f5000
+mprotect(0x7fa17f9f9000, 2093056, PROT_NONE) = 0
+mmap(0x7fa17fbf8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fa17fbf8000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa180a30000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa180a2e000
+arch_prctl(ARCH_SET_FS, 0x7fa180a2e840) = 0
+mprotect(0x7fa1803f7000, 16384, PROT_READ) = 0
+mprotect(0x7fa17fbf8000, 4096, PROT_READ) = 0
+mprotect(0x7fa17fdfc000, 4096, PROT_READ) = 0
+mprotect(0x7fa18003a000, 4096, PROT_READ) = 0
+mprotect(0x7fa180608000, 4096, PROT_READ) = 0
+mprotect(0x7fa180829000, 4096, PROT_READ) = 0
+mprotect(0x619000, 4096, PROT_READ)     = 0
+mprotect(0x7fa180a4f000, 4096, PROT_READ) = 0
+munmap(0x7fa180a33000, 104667)          = 0
+statfs("/sys/fs/selinux", 0x7fffe1f57ce0) = -1 ENOENT (No such file or directory)
+statfs("/selinux", 0x7fffe1f57ce0)      = -1 ENOENT (No such file or directory)
+brk(0)                                  = 0x162a000
+brk(0x164b000)                          = 0x164b000
+open("/proc/filesystems", O_RDONLY)     = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa180a4c000
+read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024) = 349
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+munmap(0x7fa180a4c000, 4096)            = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa17f72c000
+close(3)                                = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa180a4c000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fa180a4c000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3, 0) = 0x7fa180a46000
+close(3)                                = 0
+lstat("/home/bearface/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/", "security.selinux", 0x1631780, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa180a45000
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fa180a45000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=104667, ...}) = 0
+mmap(NULL, 104667, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa180a14000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\23\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=39824, ...}) = 0
+mmap(NULL, 2135368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa17f522000
+mprotect(0x7fa17f52b000, 2093056, PROT_NONE) = 0
+mmap(0x7fa17f72a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7fa17f72a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`A\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=97296, ...}) = 0
+mmap(NULL, 2202328, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa17f308000
+mprotect(0x7fa17f31f000, 2093056, PROT_NONE) = 0
+mmap(0x7fa17f51e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7fa17f51e000
+mmap(0x7fa17f520000, 6872, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa17f520000
+close(3)                                = 0
+mprotect(0x7fa17f51e000, 4096, PROT_READ) = 0
+mprotect(0x7fa17f72a000, 4096, PROT_READ) = 0
+munmap(0x7fa180a14000, 104667)          = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=104667, ...}) = 0
+mmap(NULL, 104667, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa180a14000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47760, ...}) = 0
+mmap(NULL, 2143784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa17f0fc000
+mprotect(0x7fa17f107000, 2093056, PROT_NONE) = 0
+mmap(0x7fa17f306000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7fa17f306000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa17eef0000
+mprotect(0x7fa17eefb000, 2093056, PROT_NONE) = 0
+mmap(0x7fa17f0fa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7fa17f0fa000
+close(3)                                = 0
+mprotect(0x7fa17f0fa000, 4096, PROT_READ) = 0
+mprotect(0x7fa17f306000, 4096, PROT_READ) = 0
+munmap(0x7fa180a14000, 104667)          = 0
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1832, ...}) = 0
+mmap(NULL, 1832, PROT_READ, MAP_SHARED, 3, 0) = 0x7fa180a45000
+lseek(3, 1832, SEEK_SET)                = 1832
+munmap(0x7fa180a45000, 1832)            = 0
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/group", O_RDONLY|O_CLOEXEC)  = 3
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=884, ...}) = 0
+mmap(NULL, 884, PROT_READ, MAP_SHARED, 3, 0) = 0x7fa180a45000
+lseek(3, 884, SEEK_SET)                 = 884
+munmap(0x7fa180a45000, 884)             = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/bearface/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 44 entries */, 32768)    = 1424
+lstat("/home/bearface/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.", "security.selinux", 0x163c4f0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.Skype", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.Skype", "security.selinux", 0x163c4f0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.Skype", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.Skype", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.face", {st_mode=S_IFREG|0644, st_size=21127, ...}) = 0
+lgetxattr("/home/bearface/.face", "security.selinux", 0x163c510, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.face", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.face", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.dbus", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.dbus", "security.selinux", 0x163c530, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.dbus", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.dbus", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.gnome2_private", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.gnome2_private", "security.selinux", 0x163c550, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gnome2_private", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gnome2_private", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.python_history", {st_mode=S_IFREG|0600, st_size=325, ...}) = 0
+lgetxattr("/home/bearface/.python_history", "security.selinux", 0x163c570, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.python_history", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.python_history", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.profile", {st_mode=S_IFREG|0644, st_size=675, ...}) = 0
+lgetxattr("/home/bearface/.profile", "security.selinux", 0x163c590, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.profile", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.profile", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Minecraft.jar", {st_mode=S_IFREG|0711, st_size=280212, ...}) = 0
+lgetxattr("/home/bearface/Minecraft.jar", "security.selinux", 0x163c5b0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Minecraft.jar", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Minecraft.jar", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.pip", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.pip", "security.selinux", 0x163c5d0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.pip", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.pip", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=1832, ...}) = 0
+mmap(NULL, 1832, PROT_READ, MAP_SHARED, 4, 0) = 0x7fa180a45000
+lseek(4, 1832, SEEK_SET)                = 1832
+munmap(0x7fa180a45000, 1832)            = 0
+close(4)                                = 0
+open("/etc/group", O_RDONLY|O_CLOEXEC)  = 4
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=884, ...}) = 0
+mmap(NULL, 884, PROT_READ, MAP_SHARED, 4, 0) = 0x7fa180a45000
+lseek(4, 884, SEEK_SET)                 = 884
+munmap(0x7fa180a45000, 884)             = 0
+close(4)                                = 0
+lstat("/home/bearface/.cache", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.cache", "security.selinux", 0x163c630, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.cache", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.cache", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.config", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.config", "security.selinux", 0x163c650, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.config", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.config", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/grive", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/grive", "security.selinux", 0x163c670, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.themes", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.themes", "security.selinux", 0x163c690, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.themes", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.themes", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.pki", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.pki", "security.selinux", 0x163c6b0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.pki", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.pki", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Music", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Music", "security.selinux", 0x163c6d0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Music", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Music", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.ICEauthority", {st_mode=S_IFREG|0600, st_size=4340, ...}) = 0
+lgetxattr("/home/bearface/.ICEauthority", "security.selinux", 0x163c6f0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.ICEauthority", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.ICEauthority", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/..", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/..", "security.selinux", 0x163c710, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/..", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/..", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.gnome2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.gnome2", "security.selinux", 0x163c730, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gnome2", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gnome2", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.local", "security.selinux", 0x163c750, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.local", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.local", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.bash_history", {st_mode=S_IFREG|0600, st_size=15799, ...}) = 0
+lgetxattr("/home/bearface/.bash_history", "security.selinux", 0x163c770, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.bash_history", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.bash_history", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.mozilla", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.mozilla", "security.selinux", 0x163c790, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.mozilla", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.mozilla", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.gnome", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.gnome", "security.selinux", 0x163c7b0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gnome", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gnome", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Pictures", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Pictures", "security.selinux", 0x163c7d0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Pictures", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Pictures", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Public", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Public", "security.selinux", 0x163c7f0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Public", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Public", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.linuxmint", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.linuxmint", "security.selinux", 0x163c810, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.linuxmint", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.linuxmint", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.gksu.lock", {st_mode=S_IFREG|0640, st_size=0, ...}) = 0
+lgetxattr("/home/bearface/.gksu.lock", "security.selinux", 0x163c830, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gksu.lock", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gksu.lock", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.Xauthority", {st_mode=S_IFREG|0600, st_size=115, ...}) = 0
+lgetxattr("/home/bearface/.Xauthority", "security.selinux", 0x163c850, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.Xauthority", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.Xauthority", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.bash_logout", {st_mode=S_IFREG|0644, st_size=220, ...}) = 0
+lgetxattr("/home/bearface/.bash_logout", "security.selinux", 0x163c870, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.bash_logout", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.bash_logout", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.idlerc", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.idlerc", "security.selinux", 0x163c890, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.idlerc", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.idlerc", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Downloads", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Downloads", "security.selinux", 0x163c8b0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Downloads", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.swp", {st_mode=S_IFREG|0600, st_size=12288, ...}) = 0
+lgetxattr("/home/bearface/.swp", "security.selinux", 0x163c8d0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.swp", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.swp", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Videos", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Videos", "security.selinux", 0x163c8f0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Videos", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Videos", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.dmrc", {st_mode=S_IFREG|0600, st_size=28, ...}) = 0
+lgetxattr("/home/bearface/.dmrc", "security.selinux", 0x163c910, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.dmrc", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.dmrc", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.xsession-errors", {st_mode=S_IFREG|0644, st_size=186247, ...}) = 0
+lgetxattr("/home/bearface/.xsession-errors", "security.selinux", 0x163c930, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.xsession-errors", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.xsession-errors", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.minecraft", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.minecraft", "security.selinux", 0x163c950, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.minecraft", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.minecraft", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Templates", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Templates", "security.selinux", 0x163c970, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Templates", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Templates", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Documents", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Documents", "security.selinux", 0x163c990, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Documents", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Documents", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.java", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.java", "security.selinux", 0x163c9b0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.java", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.java", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.adobe", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.adobe", "security.selinux", 0x163c9d0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.adobe", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.adobe", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.gconf", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.gconf", "security.selinux", 0x163c9f0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gconf", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gconf", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.gstreamer-0.10", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.gstreamer-0.10", "security.selinux", 0x163ca10, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gstreamer-0.10", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gstreamer-0.10", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.macromedia", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.macromedia", "security.selinux", 0x163ca30, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.macromedia", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.macromedia", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.cinnamon", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.cinnamon", "security.selinux", 0x163ca50, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.cinnamon", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.cinnamon", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Desktop", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Desktop", "security.selinux", 0x163ca70, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Desktop", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Desktop", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=619, ...}) = 0
+mmap(NULL, 619, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa180a45000
+close(3)                                = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 6), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa180a44000
+write(1, "total 672K\n", 11)            = 11
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa180a43000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+lseek(3, -2252, SEEK_CUR)               = 1267
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+close(3)                                = 0
+munmap(0x7fa180a43000, 4096)            = 0
+write(1, "drwxr-xr-x 32 bearface bearface "..., 53) = 53
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  3 root     root     "..., 54) = 54
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwx------  3 bearface bearface "..., 58) = 58
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "-rw-------  1 bearface bearface "..., 64) = 64
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "-rw-r--r--  1 bearface bearface "..., 63) = 63
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwx------ 11 bearface bearface "..., 58) = 58
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  5 bearface bearface "..., 61) = 61
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x 22 bearface bearface "..., 59) = 59
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwx------  3 bearface bearface "..., 57) = 57
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  2 bearface bearface "..., 59) = 59
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "-rw-------  1 bearface bearface "..., 56) = 56
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  8 bearface bearface "..., 61) = 61
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  8 bearface bearface "..., 61) = 61
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "-rw-r--r--  1 bearface bearface "..., 56) = 56
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwx------  4 bearface bearface "..., 58) = 58
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "-rw-r-----  1 bearface bearface "..., 61) = 61
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwx------  3 bearface bearface "..., 58) = 58
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  5 bearface bearface "..., 59) = 59
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwx------  2 bearface bearface "..., 67) = 67
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x 12 bearface bearface "..., 57) = 57
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  2 bearface bearface "..., 67) = 67
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "-rw-------  1 bearface bearface "..., 64) = 64
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  2 bearface bearface "..., 59) = 59
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  4 bearface bearface "..., 57) = 57
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  4 bearface bearface "..., 62) = 62
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  3 bearface bearface "..., 58) = 58
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwx------  3 bearface bearface "..., 63) = 63
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  8 bearface bearface "..., 62) = 62
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "-rwx--x--x  1 bearface bearface "..., 65) = 65
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  4 bearface bearface "..., 60) = 60
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  2 bearface bearface "..., 57) = 57
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  2 bearface bearface "..., 60) = 60
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  2 root     root     "..., 56) = 56
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwx------  3 bearface bearface "..., 56) = 56
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "-rw-r--r--  1 bearface bearface "..., 59) = 59
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  2 bearface bearface "..., 58) = 58
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "-rw-------  1 bearface bearface "..., 66) = 66
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwx------  6 bearface bearface "..., 58) = 58
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "-rw-------  1 bearface bearface "..., 55) = 55
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  2 bearface bearface "..., 61) = 61
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  7 bearface bearface "..., 59) = 59
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  2 bearface bearface "..., 58) = 58
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "-rw-------  1 bearface bearface "..., 62) = 62
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "-rw-r--r--  1 bearface bearface "..., 67) = 67
+close(1)                                = 0
+munmap(0x7fa180a44000, 4096)            = 0
+close(2)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

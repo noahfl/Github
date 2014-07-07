@@ -1,0 +1,75 @@
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(68%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"    <span class=\\\"vid"..., 60) = 60
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(69%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"</a>\\n\", 5)          "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(69%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"\\n\", 1)              "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(69%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"    </div>\\n\", 11)   "..., 46) = 46
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(69%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"    <div class=\\\"yt-l"..., 59) = 59
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(69%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN}], 1"..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(69%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN|POLL"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(69%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\revents=POLLIN|POLLRDNORM}])\n", 29) = 29
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(69%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrecvfrom(3, \"-link  spf-link  y"..., 81) = 81
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(69%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"          <h3 class=\\"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(69%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"p clearfix  yt-lockup"..., 58) = 58
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(69%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"      data-visibility"..., 59) = 59
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(70%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"  >\\n\", 4)           "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(70%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"    <div class=\\\"yt-l"..., 59) = 59
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(70%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(1, \"    >\\n\", 6)         "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(70%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN}], 1"..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(70%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN|POLL"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(70%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\revents=POLLIN|POLLRDNORM}])\n", 29) = 29
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(70%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1

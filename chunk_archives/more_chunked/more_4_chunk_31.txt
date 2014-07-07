@@ -1,0 +1,75 @@
+write(1, "\33[7m--More--(46%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rconnect(3, {sa_family=AF_INET, "..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(46%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r.190\")}, 16) = -1 EINPROGRESS ("..., 59) = 59
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(46%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLOUT|POL"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(46%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLOUT}], "..., 73) = 73
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(46%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLOUT|POL"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(47%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rLWRNORM}])\33[K\n", 15)     = 15
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(47%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rgetsockopt(3, SOL_SOCKET, SO_ER"..., 51) = 51
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(47%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rgetpeername(3, {sa_family=AF_IN"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(47%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r5.21.190\")}, [16]) = 0\n", 24) = 24
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(47%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rgetsockname(3, {sa_family=AF_IN"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(47%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r.227.98.29\")}, [16]) = 0\n", 26) = 26
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(47%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rsendto(3, \"GET / HTTP/1.1\\r\\nUs"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(47%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r79\33[K\n", 7)              = 7
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(47%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN|POLL"..., 81) = 81
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(47%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN}], 1"..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(47%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN|POLL"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(47%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\revents=POLLIN|POLLRDNORM}])\n", 29) = 29
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(48%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrecvfrom(3, \"HTTP/1.1 200 OK\\r\\"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(48%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r8\33[K\n", 6)               = 6

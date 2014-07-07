@@ -1,0 +1,75 @@
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "1026\r\nef=\"/Pi", 127, MSG_PEEK, NULL, NULL) = 13
+read(3, "1026\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ef=\"/Pi", 4134)               = 7
+write(4, "ef=\"/Pi", 7)                 = 7
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948690})
+read(3, "nzon-Paris-Printed-Queen-Duvet/d"..., 4127) = 1360
+write(4, "nzon-Paris-Printed-Queen-Duvet/d"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947144})
+read(3, "-ecx.images-amazon.com/images/G/"..., 2767) = 1360
+write(4, "-ecx.images-amazon.com/images/G/"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946986})
+read(3, "CustomerReviews\"><div class=\"s9S"..., 1407) = 1360
+write(4, "CustomerReviews\"><div class=\"s9S"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946553})
+read(3, "r,3,7,170,false,0,true);\n})();\n}"..., 47) = 47
+write(4, "r,3,7,170,false,0,true);\n})();\n}"..., 47) = 47
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n5b4\r\nJQ !== undefined){amznJQ."..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "5b4\r\nJQ !== undefined){amznJQ.on"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "JQ !== undefined){amznJQ.onReady"..., 1460) = 1306
+write(4, "JQ !== undefined){amznJQ.onReady"..., 1306) = 1306
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949187})
+read(3, "=\"text/javascript\">\nwindow.S9Inc"..., 154) = 154
+write(4, "=\"text/javascript\">\nwindow.S9Inc"..., 154) = 154
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n5b4\r\ncreateElement('script');\n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "5b4\r\ncreateElement('script');\n  "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "createElement('script');\n  scrip"..., 1460) = 1199
+write(4, "createElement('script');\n  scrip"..., 1199) = 1199
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948824})
+read(3, "er reviews</span></a>)</span></d"..., 261) = 261
+write(4, "er reviews</span></a>)</span></d"..., 261) = 261
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n472\r\nition: relative\"><a href="..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "472\r\nition: relative\"><a href=\"/"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "472\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ition: relative\"><a href=\"/Nothi"..., 1138) = 1092
+write(4, "ition: relative\"><a href=\"/Nothi"..., 1092) = 1092
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944384})
+read(3, "g Shower Curtain Mat / Rings Tow"..., 46) = 46
+write(4, "g Shower Curtain Mat / Rings Tow"..., 46) = 46
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n1dbe\r\nlass=\"s9ImageWrapper\"><d"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "1dbe\r\nlass=\"s9ImageWrapper\"><div"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1dbe\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "lass=\"s9ImageWrapper\"><div class"..., 7614) = 1306
+write(4, "lass=\"s9ImageWrapper\"><div class"..., 1306) = 1306
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948239})
+read(3, "s=\"s9TitleText\">Hakuna Matata.. "..., 6308) = 1360
+write(4, "s=\"s9TitleText\">Hakuna Matata.. "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947605})
+read(3, "points=1\">6<span class=\"s9Long\">"..., 4948) = 1360
+write(4, "points=1\">6<span class=\"s9Long\">"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947146})
+read(3, "title ntTitle noLinkDecoration\" "..., 3588) = 1360
+write(4, "title ntTitle noLinkDecoration\" "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947251})
+read(3, "in(Math.max(pn,mn),mx);\nr.classN"..., 2228) = 1360

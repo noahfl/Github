@@ -1,0 +1,75 @@
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "b68\r\n   margin-top: 5px;\n    tex"..., 16384, 0, NULL, NULL) = 1360
+write(1, "    margin-top: 5px;\n    text-al"..., 1024) = 1024
+write(1, "put[type=\"button\"],.cust-rec-aui"..., 103) = 103
+write(1, "\tcursor:pointer;\n", 17)     = 17
+write(1, "\t-webkit-appearance:button\n", 27) = 27
+write(1, "}\n", 2)                      = 2
+write(1, "\n", 1)                       = 1
+write(1, ".cust-rec-aui-button .a-icon.a-i"..., 42) = 42
+write(1, "\theight:25px;\n", 14)        = 14
+write(1, "\twidth:25px;\n", 13)         = 13
+write(1, "\tbackground-position:-35px -5px\n", 32) = 32
+write(1, "}\n", 2)                      = 2
+write(1, "\n", 1)                       = 1
+write(1, ".cust-rec-aui-button body{\n", 27) = 27
+write(1, "\tfont-size:13px;\n", 17)     = 17
+write(1, "\tline-height:19px;\n", 19)   = 19
+write(1, "\tcolor:#333;\n", 13)         = 13
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ont-family:Arial,sans-serif\n}\n\n."..., 16384, 0, NULL, NULL) = 2927
+write(1, "\tfont-family:Arial,sans-serif\n}\n"..., 1024) = 1024
+write(1, "ap;\n", 4)                    = 4
+write(1, "\tbackground-color:transparent;\n", 31) = 31
+write(1, "\tmargin:0;\n", 11)           = 11
+write(1, "\tborder:0;\n", 11)           = 11
+write(1, "\tpadding:0 !important;\n", 23) = 23
+write(1, "\ttext-decoration: none;\n", 24) = 24
+write(1, "}\n", 2)                      = 2
+write(1, "\n", 1)                       = 1
+write(1, ".cust-rec-fb-button .a-button .a"..., 46) = 46
+write(1, "    padding:0 8px 0 34px !import"..., 37) = 37
+write(1, "    font-size: 13px;\n", 21)  = 21
+write(1, "    font-weight: 400;\n", 22) = 22
+write(1, "}\n", 2)                      = 2
+write(1, "\n", 1)                       = 1
+write(1, ".sign-in-tooltip-new-customer a,"..., 149) = 149
+write(1, "{\n", 2)                      = 2
+write(1, "text-decoration:none !important;"..., 33) = 33
+write(1, "}\n", 2)                      = 2
+write(1, "\n", 1)                       = 1
+write(1, ".cust-rec-aui-button .a-button ."..., 48) = 48
+write(1, "\tposition:relative;\n", 20)  = 20
+write(1, "\theight:29px;\n", 14)        = 14
+write(1, "\toverflow:hidden;\n", 18)    = 18
+write(1, "\t-webkit-border-radius:3px;\n\t-mo"..., 1024) = 1024
+write(1, ",#e7e9ec);\n", 11)            = 11
+write(1, "\tbackground:-o-linear-gradient(t"..., 53) = 53
+write(1, "\tbackground:-ms-linear-gradient("..., 54) = 54
+write(1, "\tbackground:linear-gradient(top,"..., 50) = 50
+write(1, "\tfilter:progid:DXImageTransform."..., 114) = 114
+write(1, "\t*zoom:1\n", 9)              = 9
+write(1, "}\n", 2)                      = 2
+write(1, "\n", 1)                       = 1
+write(1, ".cust-rec-aui-button .a-button-p"..., 40) = 40
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "a957 #bf942a #aa8326;\n\tbackgroun"..., 16384, 0, NULL, NULL) = 8425
+write(1, "\tborder-color:#cba957 #bf942a #a"..., 227) = 227
+write(1, ".cust-rec-aui-button .a-button-p"..., 1024) = 1024
+write(1, " -moz-linear-gradient(top, #f7df"..., 7168) = 7168
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "2000\r\nsitionPopover = function ("..., 16384, 0, NULL, NULL) = 2720
+write(1, "     var repositionPopover = fun"..., 1024) = 1024
+write(1, "'twotabsearchtextbox') ? 1:0;\n  "..., 1024) = 1024
+write(1, "ow is resized\n", 14)         = 14
+write(1, "            $(window).resize(fun"..., 54) = 54
+write(1, "                //Dismiss if IE7"..., 57) = 57
+write(1, "                if (zoomIE7()){\n", 32) = 32
+write(1, "                    dismissPopov"..., 51) = 51
+write(1, "                }\n", 18)     = 18
+write(1, "                repositionPopove"..., 50) = 50
+write(1, "            });\n", 16)       = 16

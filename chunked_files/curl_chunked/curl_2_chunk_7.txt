@@ -1,0 +1,75 @@
+recvfrom(3, "author:<i>username</i></dt><dd>f"..., 16384, 0, NULL, NULL) = 2896
+write(1, "v id=\"searchexpando\" class=\"info"..., 1024) = 1024
+write(1, "tion=\"https://ssl.reddit.com/pos"..., 2048) = 2048
+poll([{fd=3, events=POLLIN}], 1, 104)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "e=code&amp;source=progressbar\" t"..., 16384, 0, NULL, NULL) = 1448
+write(1, "0%\"></span></div></div><a href=\""..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 103)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "teTable_organic\" class=\"organic-"..., 16384, 0, NULL, NULL) = 1448
+write(1, "esterday's reddit gold goal</p><"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 103)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "y-blank\" >/r/Jokes</a></p><ul cl"..., 16384, 0, NULL, NULL) = 1448
+write(1, "iv><div class=\"arrow down login-"..., 1024) = 1024
+write(1, "s_what_youd_call_a_bukake_expert"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 101)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "<p class=\"title\"><a class=\"title"..., 16384, 0, NULL, NULL) = 1448
+write(1, "h, null, event)\" role=\"button\" a"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 76)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "<div class=\"arrow up login-requi"..., 16384, 0, NULL, NULL) = 1448
+write(1, "om/r/mildlyinteresting/comments/"..., 1024) = 1024
+write(1, "ck=\"$(this).vote(r.config.vote_h"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 75)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, ">1 comment</a></li><li class=\"sh"..., 16384, 0, NULL, NULL) = 1448
+write(1, "om/r/funny/comments/2897rt/what_"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 70)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, " [Electronic/Pop] (2014)</a><spa"..., 16384, 0, NULL, NULL) = 1448
+write(1, "ss=\"arrow down login-required\" o"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 70)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ameBorder=&quot;0&quot; scrollin"..., 16384, 0, NULL, NULL) = 1448
+write(1, "y-blank id-t2_ayn00\" >Noble104</"..., 1024) = 1024
+write(1, ";/iframe&gt; \";</script></div><d"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 69)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "it.com/r/worldnews/\" class=\"subr"..., 16384, 0, NULL, NULL) = 1448
+write(1, "bbc.com</a>)</span></p><p class="..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 69)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "alt=\"\"/></a><div class=\"entry un"..., 16384, 0, NULL, NULL) = 1448
+write(1, "d-t3_2897jl even link \" style='d"..., 1024) = 1024
+write(1, "div class=\"expando-button collap"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 68)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "=&quot;560&quot; border=&quot;0&"..., 16384, 0, NULL, NULL) = 1448
+write(1, "l_cache\"] = \" &lt;iframe src=&qu"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 68)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "=\"live-timestamp\">13 minutes ago"..., 16384, 0, NULL, NULL) = 1448
+write(1, "utton\" aria-label=\"downvote\" tab"..., 1024) = 1024
+write(1, "r_skin_blues_pop_i_helped/\" clas"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 68)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "\"></span><div class=\"midcol unvo"..., 16384, 0, NULL, NULL) = 1448
+write(1, "k\"></span><div class=\"midcol unv"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 67)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "nk\" >/r/worldcup</a></p><ul clas"..., 16384, 0, NULL, NULL) = 1448
+write(1, "ssinsider.com</a>)</span></p><p "..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 66)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "unvoted\"><p class=\"title\"><a cla"..., 16384, 0, NULL, NULL) = 1448
+write(1, "v><div class=\" thing id-t3_2897q"..., 1024) = 1024
+write(1, "an class=\"domain\">(<a href=\"/dom"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 66)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ted\" ><div class=\"arrow up login"..., 16384, 0, NULL, NULL) = 1448
+write(1, "v class=\"clearleft\"></div><div c"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 65)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])

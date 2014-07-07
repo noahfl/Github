@@ -1,0 +1,75 @@
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=29098, si_status=0, si_utime=0, si_stime=1} ---
+read(10, "", 256)                       = 0
+close(10)                               = 0
+wait4(29098, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 29098
+wait4(29088, NULL, WNOHANG, NULL)       = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fcbf5769000
+mprotect(0x7fcbf5769000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7fcbf5f68df0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fcbf5f699d0, tls=0x7fcbf5f69700, child_tidptr=0x7fcbf5f699d0) = 29099
+close(9)                                = 0
+sendmsg(8, {msg_name(0)=NULL, msg_iov(1)=[{"\4\0\0\0\3\0\0\0", 8}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 8
+getresuid([1000], [1000], [1000])       = 0
+getresgid([1000], [1000], [1000])       = 0
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 9
+fstat(9, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcc020fa000
+read(9, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(9, "", 4096)                       = 0
+close(9)                                = 0
+munmap(0x7fcc020fa000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/messages.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/gtk20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/X11/locale/locale.alias", O_RDONLY) = 9
+fstat(9, {st_mode=S_IFREG|0644, st_size=82730, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcc020fa000
+read(9, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"..., 4096) = 4096
+read(9, "_IN.utf8\t\t\t\t\tbo_IN.UTF-8\nbr\t\t\t\t\t"..., 4096) = 4096
+read(9, ".ISO8859-15\nde_DE.88591\t\t\t\t\tde_D"..., 4096) = 4096
+read(9, "ISO8859-1\nen_ZA.88591.en\t\t\t\t\ten_"..., 4096) = 4096
+read(9, "S.ISO8859-1\neu_ES.iso88591\t\t\t\t\te"..., 4096) = 4096
+read(9, "\t\t\tgv_GB.ISO8859-1\ngv_GB.ISO-885"..., 4096) = 4096
+read(9, "kw_GB.ISO8859-1\nkw_GB\t\t\t\t\t\tkw_GB"..., 4096) = 4096
+read(9, "@nynorsk\t\t\t\t\tny_NO.ISO8859-1\nnyn"..., 4096) = 4096
+read(9, "yrillic\t\t\t\t\tsr_RS.UTF-8\nsr_YU.ut"..., 4096) = 4096
+read(9, "P1255\nyi_US.MICROSOFT-CP1255\t\t\t\t"..., 4096) = 4096
+read(9, "e name.\n#\n#\n\nPOSIX:\t\t\t\t\t\tC\nPOSIX"..., 4096) = 4096
+read(9, ":\t\t\t\t\tbr_FR.ISO8859-1\nbr_FR.ISO-"..., 4096) = 4096
+read(9, "8859-1\nde_DE@euro:\t\t\t\t\tde_DE.ISO"..., 4096) = 4096
+read(9, "5\nen_US.ISO8859-15@euro:\t\t\t\ten_U"..., 4096) = 4096
+read(9, "\t\t\tet_EE.ISO8859-4\net_EE.ISO-885"..., 4096) = 4096
+read(9, "o88591:\t\t\t\t\tgl_ES.ISO8859-1\ngl_E"..., 4096) = 4096
+read(9, "\t\t\tmk_KH.UTF-8\nkn:\t\t\t\t\t\tkn_IN.UT"..., 4096) = 4096

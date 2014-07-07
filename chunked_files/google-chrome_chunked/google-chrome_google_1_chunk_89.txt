@@ -1,0 +1,75 @@
+write(49, "\0", 1)                      = 1
+futex(0x17c06ef76bf0, FUTEX_WAKE_PRIVATE, 1) = 1
+write(49, "\0", 1)                      = 1
+write(49, "\0", 1)                      = 1
+gettid()                                = 28600
+gettid()                                = 28600
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f8409d97000
+mprotect(0x7f8409d97000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f840a596df0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f840a5979d0, tls=0x7f840a597700, child_tidptr=0x7f840a5979d0) = 28635
+futex(0x7fff00adb964, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+futex(0x7fff00adb938, FUTEX_WAKE_PRIVATE, 1) = 0
+write(39, "\0", 1)                      = 1
+write(39, "\0", 1)                      = 1
+write(39, "\0", 1)                      = 1
+--- SIGPROF {si_signo=SIGPROF, si_code=SI_KERNEL} ---
+gettid()                                = 28600
+uname({sys="Linux", node="doug", ...})  = 0
+gettid()                                = 28600
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(39, "\0", 1)                      = 1
+socket(PF_LOCAL, SOCK_STREAM, 0)        = 51
+fcntl(51, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(51, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(51, F_GETFD)                      = 0
+fcntl(51, F_SETFD, FD_CLOEXEC)          = 0
+readlink("/home/bearface/.config/google-chrome/SingletonSocket", "/tmp/.com.google.Chrome.sesTGy/S"..., 4096) = 46
+readlink("/home/bearface/.config/google-chrome/SingletonCookie", "10590074155244595506", 4096) = 20
+readlink("/tmp/.com.google.Chrome.sesTGy/SingletonCookie", "10590074155244595506", 4096) = 20
+connect(51, {sa_family=AF_LOCAL, sun_path="/home/bearface/.config/google-chrome/SingletonSocket"}, 110) = 0
+readlink("/tmp/.com.google.Chrome.sesTGy/SingletonCookie", "10590074155244595506", 4096) = 20
+setsockopt(51, SOL_SOCKET, SO_SNDTIMEO, "\24\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+getcwd("/home/bearface/grive/Research/output_files/chrome_files", 4096) = 56
+write(51, "START\0/home/bearface/grive/Resea"..., 126) = 126
+shutdown(51, SHUT_WR)                   = 0
+select(52, [51], NULL, NULL, {20, 0})   = 1 (in [51], left {19, 909241})
+read(51, "ACK", 8)                      = 3
+read(51, "", 5)                         = 0
+close(51)                               = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 4), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f8418bb9000
+write(1, "Created new window in existing b"..., 48) = 48
+write(49, "\0", 1)                      = 1
+futex(0x17c06ef76bf0, FUTEX_WAKE_PRIVATE, 1) = 1
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f8409596000
+mprotect(0x7f8409596000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f8409d95df0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f8409d969d0, tls=0x7f8409d96700, child_tidptr=0x7f8409d969d0) = 28644
+futex(0x7fff00adbd04, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+futex(0x7fff00adbcd8, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x17c06f0b6c9c, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x17c06f0b6c98, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+futex(0x7f840a596b94, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x7f840a596b68, 2) = 1
+futex(0x7f840a596b68, FUTEX_WAKE_PRIVATE, 1) = 1
+madvise(0x17c06f11f000, 36864, MADV_DONTNEED) = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f8408d95000
+mprotect(0x7f8408d95000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f8409594df0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f84095959d0, tls=0x7f8409595700, child_tidptr=0x7f84095959d0) = 28645
+futex(0x7fff00adbac4, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+futex(0x7fff00adba98, FUTEX_WAKE_PRIVATE, 1) = 0
+mmap(0x17c06f14d000, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x17c06f14d000
+madvise(0x17c06f149000, 1064960, MADV_DONTNEED) = 0
+madvise(0x17c06f140000, 36864, MADV_DONTNEED) = 0
+write(49, "\0", 1)                      = 1
+gettid()                                = 28600
+write(39, "\0", 1)                      = 1
+futex(0x17c06ef76e70, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f840a596b94, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x7f840a596b68, 2) = 1
+futex(0x7f840a5979d0, FUTEX_WAIT, 28635, NULL) = 0
+write(49, "\0", 1)                      = 1
+close(8)                                = 0
+futex(0x7f840c5c99d0, FUTEX_WAIT, 28630, NULL) = 0
+write(44, "\0", 1)                      = 1
+futex(0x7f840cdca9d0, FUTEX_WAIT, 28629, NULL) = 0
+futex(0x7f840d5cab44, FUTEX_CMP_REQUEUE_PRIVATE, 1, 2147483647, 0x7f840d5cab18, 2) = 1
+futex(0x7f840d5cab18, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x17c06f0bb508, FUTEX_WAKE_PRIVATE, 1) = 1

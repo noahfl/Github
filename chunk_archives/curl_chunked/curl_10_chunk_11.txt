@@ -1,0 +1,75 @@
+write(1, "        <li>\n", 13)          = 13
+write(1, "          \n", 11)            = 11
+write(1, "by <a href=\"/channel/UCpg-U3_G3Z"..., 276) = 276
+write(1, "        </li>\n", 14)         = 14
+write(1, "      <li>521,545 views</li>\n", 29) = 29
+write(1, "        <li class=\"yt-lockup-dee"..., 1024) = 1024
+write(1, ">\n      </span>\n    </span>\n\n\n  "..., 10240) = 10240
+write(1, "waiting-content\">\n", 18)    = 18
+write(1, "      <div class=\"yt-spinner-img"..., 93) = 93
+write(1, "    </div>\n", 11)            = 11
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "          </div>\n", 17)      = 17
+write(1, "        </div>\n", 15)        = 15
+write(1, "      </div>\n", 13)          = 13
+write(1, "    </div>\n", 11)            = 11
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "    </span>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "  \n", 3)                     = 3
+write(1, "\n", 1)                       = 1
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "        </div>\n", 15)        = 15
+write(1, "      </div>\n", 13)          = 13
+write(1, "    </div>\n", 11)            = 11
+write(1, "      <div class=\"feed-item-dism"..., 147) = 147
+write(1, "  </li>\n", 8)                = 8
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ner browse-list-item-container b"..., 16384, 0, NULL, NULL) = 16384
+write(1, "            <li class=\"feed-item"..., 1024) = 1024
+write(1, "class=\"yt-thumb-clip\">\n         "..., 15360) = 15360
+write(1, " U - Mario Party 10 E3 2014 Trai"..., 45) = 45
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "kup-meta\">\n    <ul class=\"yt-loc"..., 16384, 0, NULL, NULL) = 16384
+write(1, "  <div class=\"yt-lockup-meta\">\n "..., 1024) = 1024
+write(1, " class=\"ux-thumb-wrap yt-uix-ses"..., 3072) = 3072
+write(1, "-uix-button yt-uix-button-size-s"..., 425) = 425
+write(1, " </span><img src=\"http://s.ytimg"..., 104) = 104
+write(1, "    <span class=\"video-time\">2:2"..., 41) = 41
+write(1, "</a>\n", 5)                   = 5
+write(1, "\n", 1)                       = 1
+write(1, "    </div>\n    <div class=\"yt-lo"..., 1024) = 1024
+write(1, "t\">\n            6 days ago\n     "..., 10240) = 10240
+write(1, "slider-item \">\n", 15)       = 15
+write(1, "            \n", 13)          = 13
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "    <div class=\"yt-lockup clearf"..., 78) = 78
+write(1, "      data-visibility-tracking=\""..., 50) = 50
+write(1, "  >\n", 4)                    = 4
+write(1, "    <div class=\"yt-lockup-thumbn"..., 37) = 37
+write(1, "    >\n", 6)                  = 6
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "thumb-175 yt-thumb-fluid\"\n      "..., 16384, 0, NULL, NULL) = 16384
+write(1, "        <a href=\"/watch?v=kkDv4k"..., 1024) = 1024
+write(1, "pixel-vfl3z5WfW.gif\" alt=\"Watch "..., 7168) = 7168
+write(1, "watch?v=jatkYH3mDtQ\" class=\"ux-t"..., 262) = 262
+write(1, "      >\n", 8)                = 8
+write(1, "      <span class=\"yt-thumb-defa"..., 38) = 38
+write(1, "        <span class=\"yt-thumb-cl"..., 37) = 37
+write(1, "          <img data-thumb=\"//i1."..., 166) = 166

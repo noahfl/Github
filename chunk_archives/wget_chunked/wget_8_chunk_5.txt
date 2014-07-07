@@ -1,0 +1,75 @@
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7f0430109000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, "    [<=>                        "..., 79) = 79
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "344\r\n\n\n\n\n\n\n\n\n  \n<!DOCTYPE html P"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "344\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\n\n\n\n\n\n\n\n  \n<!DOCTYPE html PUBLIC"..., 836) = 836
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0430108000
+write(4, "\n\n\n\n\n\n\n\n  \n<!DOCTYPE html PUBLIC"..., 836) = 836
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n5b4\r\nfetch\" href=\"http://fls-n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "5b4\r\nfetch\" href=\"http://fls-na."..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "fetch\" href=\"http://fls-na.amazo"..., 1460) = 1460
+write(4, "fetch\" href=\"http://fls-na.amazo"..., 1460) = 1460
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\nb68\r\nh { font-size: 11px; font"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "b68\r\nh { font-size: 11px; font-f"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "b68\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "h { font-size: 11px; font-family"..., 2920) = 2920
+write(4, "h { font-size: 11px; font-family"..., 2920) = 2920
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n5b4\r\nited { font-size: 10px; c"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "5b4\r\nited { font-size: 10px; col"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "ited { font-size: 10px; color: #"..., 1460) = 1460
+write(4, "ited { font-size: 10px; color: #"..., 1460) = 1460
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n5b4\r\nrow { color: #E47911; fon"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "5b4\r\nrow { color: #E47911; font-"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "row { color: #E47911; font-weigh"..., 1460) = 1460
+write(4, "row { color: #E47911; font-weigh"..., 1460) = 1460
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n38\r\nnt: -1.15em; font-size:100"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "38\r\nnt: -1.15em; font-size:100%;"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "38\r\n", 4)                    = 4
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "nt: -1.15em; font-size:100%; fon"..., 56) = 56
+write(4, "nt: -1.15em; font-size:100%; fon"..., 56) = 56
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n10dc\r\nnified_widget p.seeMore "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "10dc\r\nnified_widget p.seeMore a:"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "10dc\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "nified_widget p.seeMore a:link, "..., 4316) = 4316
+write(4, "nified_widget p.seeMore a:link, "..., 4096) = 4096
+write(4, "left; width:33%; margin:0; paddi"..., 220) = 220
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\nb68\r\n-decoration:none; }\ndiv.l"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "b68\r\n-decoration:none; }\ndiv.lef"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "b68\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})

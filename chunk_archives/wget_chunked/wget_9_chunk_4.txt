@@ -1,0 +1,75 @@
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10432, ...}) = 0
+mmap(NULL, 2105560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f22bef92000
+mprotect(0x7f22bef94000, 2093056, PROT_NONE) = 0
+mmap(0x7f22bf193000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f22bf193000
+close(3)                                = 0
+mprotect(0x7f22bf193000, 4096, PROT_READ) = 0
+munmap(0x7f22c0ac6000, 94113)           = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=94113, ...}) = 0
+mmap(NULL, 94113, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f22c0ac6000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22952, ...}) = 0
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f22bed8c000
+mprotect(0x7f22bed91000, 2093056, PROT_NONE) = 0
+mmap(0x7f22bef90000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f22bef90000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f22beb71000
+mprotect(0x7f22beb88000, 2097152, PROT_NONE) = 0
+mmap(0x7f22bed88000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f22bed88000
+mmap(0x7f22bed8a000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f22bed8a000
+close(3)                                = 0
+mprotect(0x7f22bed88000, 4096, PROT_READ) = 0
+mprotect(0x7f22bef90000, 4096, PROT_READ) = 0
+munmap(0x7f22c0ac6000, 94113)           = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f22c0adc000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f22c0adc000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"q\260\1\0\0\1\0\0\0\0\0\0\3www\nsoundcloud\3com\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}, {{msg_name(0)=NULL, msg_iov(1)=[{"/N\1\0\0\1\0\0\0\0\0\0\3www\nsoundcloud\3com\0"..., 36}], msg_controllen=0, msg_flags=0}, 36}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [267])               = 0
+recvfrom(3, "q\260\201\200\0\1\0\2\0\4\0\4\3www\nsoundcloud\3com\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 267
+poll([{fd=3, events=POLLIN}], 1, 4994)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [134])               = 0
+recvfrom(3, "/N\201\200\0\1\0\1\0\1\0\0\3www\nsoundcloud\3com\0"..., 1781, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 134
+close(3)                                = 0
+write(2, "178.249.136.150", 15)         = 15
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to www.soundcloud.com"..., 77) = 77
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("178.249.136.150")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999996})
+write(3, "GET / HTTP/1.1\r\nUser-Agent: Wget"..., 116) = 116
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 892503})
+recvfrom(3, "HTTP/1.1 301 Moved Permanently\r\n"..., 511, MSG_PEEK, NULL, NULL) = 461
+read(3, "HTTP/1.1 301 Moved Permanently\r\n"..., 283) = 283
+write(2, "301 Moved Permanently\n", 22) = 22
+stat("index.html.13", 0x7fff7415fec0)   = -1 ENOENT (No such file or directory)
+write(2, "Location: http://soundcloud.com/"..., 45) = 45
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+read(3, "<html>\r\n<head><title>301 Moved P"..., 178) = 178
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+statfs(".", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=54756529, f_bavail=51739723, f_files=15065088, f_ffree=14871632, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("index.html", {st_mode=S_IFREG|0644, st_size=14192, ...}) = 0
+stat("index.html.1", {st_mode=S_IFREG|0644, st_size=14224, ...}) = 0
+stat("index.html.2", {st_mode=S_IFREG|0644, st_size=118127, ...}) = 0
+stat("index.html.3", {st_mode=S_IFREG|0644, st_size=356117, ...}) = 0
+stat("index.html.4", {st_mode=S_IFREG|0644, st_size=113080, ...}) = 0

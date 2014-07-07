@@ -1,0 +1,75 @@
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 717313})
+recvfrom(3, "8000\r\n    <body dir=\"ltr\" class="..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "8000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949990})
+read(3, "    <body dir=\"ltr\" class=\"  ltr"..., 8192) = 2730
+write(4, "    <body dir=\"ltr\" class=\"  ltr"..., 2730) = 2730
+write(2, "\r", 1)                       = 1
+write(2, "    [ <=>                       "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "-size-default yt-uix-button-defa"..., 8192) = 1368
+write(4, "-size-default yt-uix-button-defa"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949707})
+read(3, "nlink=\"ved=COIBEOYrKAA&amp;ei=9B"..., 8192) = 1368
+write(4, "nlink=\"ved=COIBEOYrKAA&amp;ei=9B"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "e-user-links yt-uix-tdl yt-box\">"..., 8192) = 1368
+write(4, "e-user-links yt-uix-tdl yt-box\">"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949834})
+read(3, "-guide-item\"\n      data-visibili"..., 8192) = 1368
+write(4, "-guide-item\"\n      data-visibili"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949589})
+read(3, "   data-sessionlink=\"ved=COcBELU"..., 8192) = 1368
+write(4, "   data-sessionlink=\"ved=COcBELU"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949823})
+read(3, "alized-endpoint=\"0qDduQEaEhhVQ09"..., 8192) = 1368
+write(4, "alized-endpoint=\"0qDduQEaEhhVQ09"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949472})
+read(3, "umb-20\"\n      >\n      <span clas"..., 8192) = 1368
+write(4, "umb-20\"\n      >\n      <span clas"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949909})
+read(3, "ue\" data-thumb=\"https://yt3.ggph"..., 8192) = 1368
+write(4, "ue\" data-thumb=\"https://yt3.ggph"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 943093})
+read(3, "          <span class=\"vertical-"..., 8192) = 1368
+write(4, "          <span class=\"vertical-"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949993})
+read(3, "\n\n              <li class=\"vve-c"..., 8192) = 1368
+write(4, "\n\n              <li class=\"vve-c"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "ta-sessionlink=\"ved=CO4BEOYrKAI&"..., 8192) = 1368
+write(4, "ta-sessionlink=\"ved=CO4BEOYrKAI&"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "p;service=youtube&amp;uilel=3&am"..., 8192) = 1368
+write(4, "p;service=youtube&amp;uilel=3&am"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948192})
+read(3, "-guide-notification \"><span clas"..., 8192) = 1368
+write(4, "-guide-notification \"><span clas"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949749})
+read(3, "on-text-content\">Playlist remove"..., 8192) = 1368
+write(4, "on-text-content\">Playlist remove"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949400})
+read(3, "<span class=\"appbar-guide-notifi"..., 8192) = 1368
+write(4, "<span class=\"appbar-guide-notifi"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949784})
+read(3, "/img/pixel-vfl3z5WfW.gif\"><span "..., 8192) = 1368
+write(4, "/img/pixel-vfl3z5WfW.gif\"><span "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949619})
+read(3, "template-channel\">\n      <!--\n  "..., 8150) = 1368
+write(4, "template-channel\">\n      <!--\n  "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949883})
+read(3, ">\n  </li>\n\n      -->\n    </div>\n"..., 6782) = 1368
+write(4, ">\n  </li>\n\n      -->\n    </div>\n"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946382})
+read(3, "ad;iframeEl.onmouseover = window"..., 5414) = 5414
+write(4, "ad;iframeEl.onmouseover = window"..., 4096) = 4096
+write(4, "dth=\"370\"  >\n          <span cla"..., 1318) = 1318
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n8000\r\nessionlink=\"ei=9BGfU5LyE"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "8000\r\nessionlink=\"ei=9BGfU5LyEpX"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "8000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})

@@ -1,0 +1,75 @@
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+write(4, "heroAlternates).done(function ()"..., 2610) = 2610
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+read(3, "\27\3\1\6\220", 5)             = 5
+read(3, "=\276\321E]\222?;\234PN'\230\2369,4\261\32\277\3779\214\32\7\207\7\5e\313\350\324"..., 1680) = 1680
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+write(4, "                jQuery('.' + tri"..., 1648) = 1648
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+read(3, "\27\3\1\5\300", 5)             = 5
+read(3, "\203x\312\22ZGT\215&7\207\235\361\367\364\242\0\242\246\233\331\274\256\3143\2?*c\301\2451"..., 1472) = 1472
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+write(4, "er : false,\n        isformer : f"..., 1443) = 1443
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+read(3, "\27\3\1\5\260", 5)             = 5
+read(3, "hJ\364\351\255f3$\201\312<y\217+\334\275\302&\236\231\346\237\3372F\312\310\245j\2157\332"..., 1456) = 1456
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+write(4, "urn dimensionStr;\n    };\n\n    ne"..., 1416) = 1416
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f802508aff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0

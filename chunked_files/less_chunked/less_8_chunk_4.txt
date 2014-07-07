@@ -1,0 +1,75 @@
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "d_tidptr=0x7ff876a2da10) = 4053\n"..., 36) = 36
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "wait4(4053, [{WIFSTOPPED(s) && W"..., 84) = 84
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "--- SIGCHLD {si_signo=SIGCHLD, s"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "OP, si_utime=0, si_stime=0} ---\n"..., 36) = 36
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_SEIZE, 4053, 0, 0)"..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "--- SIGCHLD {si_signo=SIGCHLD, s"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, ", si_utime=0, si_stime=0} ---\n:\33"..., 34) = 34
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_INTERRUPT, 4053, 0"..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "kill(4053, SIGCONT)             "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigaction(SIGTTOU, {SIG_IGN, "..., 83) = 83
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigaction(SIGTTIN, {SIG_IGN, "..., 83) = 83
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigaction(SIGHUP, {0x410f50, "..., 83) = 83
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigaction(SIGINT, {0x410f50, "..., 83) = 83
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigaction(SIGQUIT, {0x410f50,"..., 84) = 84
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigaction(SIGPIPE, {0x410f50,"..., 84) = 84
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigaction(SIGTERM, {0x410f50,"..., 84) = 84
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigprocmask(SIG_BLOCK, [HUP I"..., 69) = 69
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigprocmask(SIG_SETMASK, [], "..., 49) = 49
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigprocmask(SIG_SETMASK, [], "..., 49) = 49
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "wait4(-1, [{WIFSTOPPED(s) && WST"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "= 4053\n:\33[K", 11)          = 11
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigprocmask(SIG_BLOCK, [HUP I"..., 69) = 69
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_GETREGSET, 4053, N"..., 71) = 71
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_SETOPTIONS, 4053, "..., 85) = 85
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_LISTEN, 4053, 0, 0"..., 48) = 48

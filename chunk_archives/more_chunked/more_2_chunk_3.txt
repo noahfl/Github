@@ -1,0 +1,75 @@
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(18%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    @type file_paths: list\n", 28) = 28
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(19%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    @param file_paths: array co"..., 56) = 56
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(21%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r                       in the d"..., 57) = 57
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(22%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    @type file_names: list\n", 28) = 28
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(23%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    @param file_names: array co"..., 56) = 56
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(24%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r                       in the d"..., 57) = 57
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(26%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    \"\"\"\33[K\n", 12)     = 12
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(26%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r\r\33[K\n", 6)              = 6
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(26%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    path = '/home/bearface/griv"..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(28%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    for r in range(len(file_pat"..., 38) = 38
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(29%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        current = open(file_pat"..., 39) = 39
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(30%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        current_file = current."..., 44) = 44
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(32%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        current.close()\n", 25) = 25
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(32%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        #line counter for chunk"..., 34) = 34
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(33%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        chunk_num = 1\n", 23) = 23
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(34%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        line = 0\n", 18)    = 18
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(34%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        fileout = open(\n", 25) = 25
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(35%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r            (path + str(file_na"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(37%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1

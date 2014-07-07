@@ -1,0 +1,75 @@
+write(1, "\r\r\33[K\n", 6)              = 6
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(49%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    file_names = get_file_names"..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(49%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r\r\33[K\n", 6)              = 6
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(49%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    #completes all operations f"..., 48) = 48
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(50%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    for i in range(len(file_nam"..., 38) = 38
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(50%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        index = file_names.inde"..., 49) = 49
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(51%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        current_dict = file_pro"..., 52) = 52
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(51%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        \33[K\n", 13)       = 13
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(51%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        key_array = []\n", 24) = 24
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(52%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        value_array = []\n", 26) = 26
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(52%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        #puts keys in key_array"..., 59) = 59
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(53%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        for key, value in curre"..., 49) = 49
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(53%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r            key_array.append(ke"..., 35) = 35
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(53%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r            value_array.append("..., 39) = 39
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(54%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        #creates empty nummber "..., 53) = 53
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(54%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        #call counts in\n", 25) = 25
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        vector_nums = [0] * len"..., 48) = 48
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        #adds in same position "..., 49) = 49
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(56%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r        for h in range(len(init"..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(56%)\33[27m", 22) = 22

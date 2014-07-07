@@ -1,0 +1,1696 @@
+execve("/usr/bin/strace", ["strace", "dir"], [/* 48 vars */]) = 0
+brk(0)                                  = 0x1f4e000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f451ddfa000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=104667, ...}) = 0
+mmap(NULL, 104667, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f451dde0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f451d814000
+mprotect(0x7f451d9d0000, 2093056, PROT_NONE) = 0
+mmap(0x7f451dbcf000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7f451dbcf000
+mmap(0x7f451dbd5000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f451dbd5000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f451dddf000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f451dddd000
+arch_prctl(ARCH_SET_FS, 0x7f451dddd740) = 0
+mprotect(0x7f451dbcf000, 16384, PROT_READ) = 0
+mprotect(0x668000, 4096, PROT_READ)     = 0
+mprotect(0x7f451ddfc000, 4096, PROT_READ) = 0
+munmap(0x7f451dde0000, 104667)          = 0
+rt_sigaction(SIGCHLD, {SIG_DFL, [CHLD], SA_RESTORER|SA_RESTART, 0x7f451d84aff0}, {SIG_DFL, [], 0}, 8) = 0
+getpid()                                = 3775
+uname({sys="Linux", node="doug", ...})  = 0
+brk(0)                                  = 0x1f4e000
+brk(0x1f6f000)                          = 0x1f6f000
+getuid()                                = 1000
+getgid()                                = 1000
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f451dddda10) = 3776
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == SIGSTOP}], 0, NULL) = 3776
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3776, si_status=SIGSTOP, si_utime=0, si_stime=0} ---
+ptrace(PTRACE_SETOPTIONS, 3776, 0, PTRACE_O_TRACESYSGOOD|PTRACE_O_TRACEEXEC) = 0
+ptrace(PTRACE_SYSCALL, 3776, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3776, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], 0, NULL) = 3776
+ptrace(PTRACE_SYSCALL, 3776, 0, SIG_0)  = 0
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 3776
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3776, si_status=0, si_utime=0, si_stime=0} ---
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f451dddda10) = 3777
+ptrace(PTRACE_SEIZE, 3777, 0, 0)        = 0
+kill(3777, SIGKILL)                     = 0
+wait4(3777, [{WIFSIGNALED(s) && WTERMSIG(s) == SIGKILL}], 0, NULL) = 3777
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_KILLED, si_pid=3777, si_status=SIGKILL, si_utime=0, si_stime=0} ---
+stat("/usr/local/sbin/dir", 0x7fffb7bf3d00) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/dir", 0x7fffb7bf3d00) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/dir", 0x7fffb7bf3d00)   = -1 ENOENT (No such file or directory)
+stat("/usr/bin/dir", 0x7fffb7bf3d00)    = -1 ENOENT (No such file or directory)
+stat("/sbin/dir", 0x7fffb7bf3d00)       = -1 ENOENT (No such file or directory)
+stat("/bin/dir", {st_mode=S_IFREG|0755, st_size=110080, ...}) = 0
+stat("/bin/dir", {st_mode=S_IFREG|0755, st_size=110080, ...}) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f451dddda10) = 3778
+wait4(3778, [{WIFSTOPPED(s) && WSTOPSIG(s) == SIGSTOP}], WSTOPPED, NULL) = 3778
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_STOPPED, si_pid=3778, si_status=SIGSTOP, si_utime=0, si_stime=0} ---
+ptrace(PTRACE_SEIZE, 3778, 0, 0)        = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_STOPPED, si_pid=3778, si_status=SIG_0, si_utime=0, si_stime=0} ---
+ptrace(PTRACE_INTERRUPT, 3778, 0, 0)    = 0
+kill(3778, SIGCONT)                     = 0
+rt_sigaction(SIGTTOU, {SIG_IGN, [], SA_RESTORER, 0x7f451d84aff0}, NULL, 8) = 0
+rt_sigaction(SIGTTIN, {SIG_IGN, [], SA_RESTORER, 0x7f451d84aff0}, NULL, 8) = 0
+rt_sigaction(SIGHUP, {0x410f50, [], SA_RESTORER, 0x7f451d84aff0}, NULL, 8) = 0
+rt_sigaction(SIGINT, {0x410f50, [], SA_RESTORER, 0x7f451d84aff0}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {0x410f50, [], SA_RESTORER, 0x7f451d84aff0}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {0x410f50, [], SA_RESTORER, 0x7f451d84aff0}, NULL, 8) = 0
+rt_sigaction(SIGTERM, {0x410f50, [], SA_RESTORER, 0x7f451d84aff0}, NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == SIGSTOP} | 0x800000], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+ptrace(PTRACE_SETOPTIONS, 3778, 0, PTRACE_O_TRACESYSGOOD|PTRACE_O_TRACEEXEC) = 0
+ptrace(PTRACE_LISTEN, 3778, 0, 0)       = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_CONTINUED, si_pid=3778, si_status=SIGCONT, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == SIGTRAP} | 0x800000], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGCONT, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == SIGCONT}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+ptrace(PTRACE_GETSIGINFO, 3778, 0, {si_signo=SIGCONT, si_code=SI_USER, si_pid=3775, si_uid=1000}) = 0
+ptrace(PTRACE_SYSCALL, 3778, 0, SIGCONT) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/bin/dir\0\0ir\0\0/dir\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 256}], 1, [{0x7fffb7bf3d90, 256}], 1, 0) = 256
+process_vm_readv(3778, [{"\316d\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5170, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"dir\0XDG_VTNR=8\0SSH_AGENT_PID=186"..., 33}], 1, [{0x7fffb7bf64ce, 33}], 1, 0) = 33
+process_vm_readv(3778, [{"\0\0\0\0\0\0\0\0", 8}], 1, [{0x7fffb7bf5178, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\322d\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5180, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\335d\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5188, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\360d\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5190, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\2e\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5198, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"7e\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf51a0, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"Be\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf51a8, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"Re\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf51b0, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"ce\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf51b8, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\264e\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf51c0, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\314e\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf51c8, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\336e\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf51d0, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\22f\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf51d8, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"3f\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf51e0, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"Af\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf51e8, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"bk\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf51f0, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\222k\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf51f8, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\340k\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5200, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\362k\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5208, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"&l\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5210, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"Tl\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5218, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\262l\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5220, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\312l\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5228, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\345l\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5230, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\370l\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5238, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\17m\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5240, 8}], 1, 0) = 8
+process_vm_readv(3778, [{" m\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5248, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"Wm\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5250, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"rm\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5258, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\205m\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5260, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\235m\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5268, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\245m\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5270, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\264m\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5278, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\310m\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5280, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\364m\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5288, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\20n\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5290, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"!n\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf5298, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\201n\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf52a0, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\343n\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf52a8, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\366n\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf52b0, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\vo\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf52b8, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\30o\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf52c0, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"7o\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf52c8, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"Bo\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf52d0, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"Wo\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf52d8, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"vo\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf52e0, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\227o\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf52e8, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\260o\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf52f0, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\326o\277\267\377\177\0\0", 8}], 1, [{0x7fffb7bf52f8, 8}], 1, 0) = 8
+process_vm_readv(3778, [{"\0\0\0\0\0\0\0\0", 8}], 1, [{0x7fffb7bf5300, 8}], 1, 0) = 8
+write(2, "execve(\"/bin/dir\", [\"dir\"], [/* "..., 43) = 43
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == SIGTRAP} | 0x40000], __WALL, NULL) = 3778
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+ptrace(PTRACE_GETEVENTMSG, 3778, 0, 0x7fffb7bf4ea0) = 0
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "brk(0", 5)                    = 5
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                               "..., 47) = 47
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/etc/ld.so.nohwcap\0dl-hwcaps.c\0m"..., 256}], 1, [{0x7f84f57a1911, 256}], 1, 0) = 256
+write(2, "access(\"/etc/ld.so.nohwcap\", F_O"..., 33) = 33
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")      = -1 ENOENT (No such file"..., 47) = 47
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 8192, PROT_READ|PROT_"..., 71) = 71
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f59a5000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/etc/ld.so.preload\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 256}], 1, [{0x7f84f57a4420, 256}], 1, 0) = 256
+write(2, "access(\"/etc/ld.so.preload\", R_O"..., 33) = 33
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")      = -1 ENOENT (No such file"..., 47) = 47
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/etc/ld.so.cache\0 search cache=%"..., 256}], 1, [{0x7f84f57a1e47, 256}], 1, 0) = 256
+write(2, "open(\"/etc/ld.so.cache\", O_RDONL"..., 43) = 43
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 3\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "fstat(3, ", 9)                = 9
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\0\374\0\0\0\0\0\0\31\v6\0\0\0\0\0\1\0\0\0\0\0\0\0\244\201\0\0\0\0\0\0"..., 144}], 1, [{0x7fffe11171a0, 144}], 1, 0) = 144
+write(2, "{st_mode=S_IFREG|0644, st_size=1"..., 49) = 49
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 104667, PROT_READ, MA"..., 47) = 47
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f598b000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "close(3", 7)                  = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                               "..., 37) = 37
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/etc/ld.so.nohwcap\0dl-hwcaps.c\0m"..., 256}], 1, [{0x7f84f57a1911, 256}], 1, 0) = 256
+write(2, "access(\"/etc/ld.so.nohwcap\", F_O"..., 33) = 33
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")      = -1 ENOENT (No such file"..., 47) = 47
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/lib/x86_64-linux-gnu/libselinux"..., 256}], 1, [{0x7f84f5997918, 256}], 1, 0) = 256
+write(2, "open(\"/lib/x86_64-linux-gnu/libs"..., 64) = 64
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 3\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "read(3, ", 8)                 = 8
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0[\0\0\0\0\0\0", 32}], 1, [{0x7fffe1117340, 32}], 1, 0) = 32
+write(2, "\"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0\\0\\0\\0\\0"..., 79) = 79
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "fstat(3, ", 9)                = 9
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\0\374\0\0\0\0\0\0\16\0p\0\0\0\0\0\1\0\0\0\0\0\0\0\244\201\0\0\0\0\0\0"..., 144}], 1, [{0x7fffe11171f0, 144}], 1, 0) = 144
+write(2, "{st_mode=S_IFREG|0644, st_size=1"..., 49) = 49
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 2238192, PROT_READ|PR"..., 72) = 72
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f5562000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mprotect(0x7f84f5582000, 2093056"..., 43) = 43
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(0x7f84f5781000, 8192, PROT_"..., 96) = 96
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f5781000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(0x7f84f5783000, 5872, PROT_"..., 91) = 91
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f5783000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "close(3", 7)                  = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                               "..., 37) = 37
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/etc/ld.so.nohwcap\0dl-hwcaps.c\0m"..., 256}], 1, [{0x7f84f57a1911, 256}], 1, 0) = 256
+write(2, "access(\"/etc/ld.so.nohwcap\", F_O"..., 33) = 33
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")      = -1 ENOENT (No such file"..., 47) = 47
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/lib/x86_64-linux-gnu/libacl.so."..., 256}], 1, [{0x7f84f59a2a43, 256}], 1, 0) = 256
+write(2, "open(\"/lib/x86_64-linux-gnu/liba"..., 60) = 60
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 3\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "read(3, ", 8)                 = 8
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\34\0\0\0\0\0\0", 32}], 1, [{0x7fffe1117310, 32}], 1, 0) = 32
+write(2, "\"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0\\0\\0\\0\\0"..., 80) = 80
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "fstat(3, ", 9)                = 9
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\0\374\0\0\0\0\0\0q\17p\0\0\0\0\0\1\0\0\0\0\0\0\0\244\201\0\0\0\0\0\0"..., 144}], 1, [{0x7fffe11171c0, 144}], 1, 0) = 144
+write(2, "{st_mode=S_IFREG|0644, st_size=3"..., 48) = 48
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 2126336, PROT_READ|PR"..., 72) = 72
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f535a000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mprotect(0x7f84f5361000, 2093056"..., 43) = 43
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(0x7f84f5560000, 8192, PROT_"..., 95) = 95
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f5560000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "close(3", 7)                  = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                               "..., 37) = 37
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/etc/ld.so.nohwcap\0dl-hwcaps.c\0m"..., 256}], 1, [{0x7f84f57a1911, 256}], 1, 0) = 256
+write(2, "access(\"/etc/ld.so.nohwcap\", F_O"..., 33) = 33
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")      = -1 ENOENT (No such file"..., 47) = 47
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/lib/x86_64-linux-gnu/libc.so.6\0"..., 256}], 1, [{0x7f84f59a1a31, 256}], 1, 0) = 256
+write(2, "open(\"/lib/x86_64-linux-gnu/libc"..., 58) = 58
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 3\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "read(3, ", 8)                 = 8
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0", 32}], 1, [{0x7fffe11172e0, 32}], 1, 0) = 32
+write(2, "\"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0\\0\\0\\0\\0"..., 83) = 83
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "fstat(3, ", 9)                = 9
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\0\374\0\0\0\0\0\0\203\17p\0\0\0\0\0\1\0\0\0\0\0\0\0\355\201\0\0\0\0\0\0"..., 144}], 1, [{0x7fffe1117190, 144}], 1, 0) = 144
+write(2, "{st_mode=S_IFREG|0755, st_size=1"..., 50) = 50
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 4096, PROT_READ|PROT_"..., 71) = 71
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f598a000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 3953344, PROT_READ|PR"..., 72) = 72
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f4f94000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mprotect(0x7f84f5150000, 2093056"..., 43) = 43
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(0x7f84f534f000, 24576, PROT"..., 98) = 98
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f534f000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(0x7f84f5355000, 17088, PROT"..., 92) = 92
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f5355000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "close(3", 7)                  = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                               "..., 37) = 37
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/etc/ld.so.nohwcap\0dl-hwcaps.c\0m"..., 256}], 1, [{0x7f84f57a1911, 256}], 1, 0) = 256
+write(2, "access(\"/etc/ld.so.nohwcap\", F_O"..., 33) = 33
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")      = -1 ENOENT (No such file"..., 47) = 47
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/lib/x86_64-linux-gnu/libpcre.so"..., 256}], 1, [{0x7f84f5998cbc, 256}], 1, 0) = 256
+write(2, "open(\"/lib/x86_64-linux-gnu/libp"..., 61) = 61
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 3\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "read(3, ", 8)                 = 8
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\27\0\0\0\0\0\0", 32}], 1, [{0x7fffe11171a0, 32}], 1, 0) = 32
+write(2, "\"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0\\0\\0\\0\\0"..., 83) = 83
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "fstat(3, ", 9)                = 9
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\0\374\0\0\0\0\0\0\353\17p\0\0\0\0\0\1\0\0\0\0\0\0\0\244\201\0\0\0\0\0\0"..., 144}], 1, [{0x7fffe1117050, 144}], 1, 0) = 144
+write(2, "{st_mode=S_IFREG|0644, st_size=2"..., 49) = 49
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 2347200, PROT_READ|PR"..., 72) = 72
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f4d56000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mprotect(0x7f84f4d93000, 2093056"..., 43) = 43
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(0x7f84f4f92000, 8192, PROT_"..., 96) = 96
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f4f92000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "close(3", 7)                  = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                               "..., 37) = 37
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/etc/ld.so.nohwcap\0dl-hwcaps.c\0m"..., 256}], 1, [{0x7f84f57a1911, 256}], 1, 0) = 256
+write(2, "access(\"/etc/ld.so.nohwcap\", F_O"..., 33) = 33
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")      = -1 ENOENT (No such file"..., 47) = 47
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/lib/x86_64-linux-gnu/libdl.so.2"..., 256}], 1, [{0x7f84f59a0272, 256}], 1, 0) = 256
+write(2, "open(\"/lib/x86_64-linux-gnu/libd"..., 59) = 59
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 3\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "read(3, ", 8)                 = 8
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0", 32}], 1, [{0x7fffe1117170, 32}], 1, 0) = 32
+write(2, "\"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0\\0\\0\\0\\0"..., 83) = 83
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "fstat(3, ", 9)                = 9
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\0\374\0\0\0\0\0\0\224\17p\0\0\0\0\0\1\0\0\0\0\0\0\0\244\201\0\0\0\0\0\0"..., 144}], 1, [{0x7fffe1117020, 144}], 1, 0) = 144
+write(2, "{st_mode=S_IFREG|0644, st_size=1"..., 48) = 48
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 2109744, PROT_READ|PR"..., 72) = 72
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f4b52000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mprotect(0x7f84f4b55000, 2093056"..., 43) = 43
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(0x7f84f4d54000, 8192, PROT_"..., 95) = 95
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f4d54000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "close(3", 7)                  = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                               "..., 37) = 37
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/etc/ld.so.nohwcap\0dl-hwcaps.c\0m"..., 256}], 1, [{0x7f84f57a1911, 256}], 1, 0) = 256
+write(2, "access(\"/etc/ld.so.nohwcap\", F_O"..., 33) = 33
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")      = -1 ENOENT (No such file"..., 47) = 47
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/lib/x86_64-linux-gnu/libattr.so"..., 256}], 1, [{0x7f84f59a23b0, 256}], 1, 0) = 256
+write(2, "open(\"/lib/x86_64-linux-gnu/liba"..., 61) = 61
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 3\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "read(3, ", 8)                 = 8
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\20\0\0\0\0\0\0", 32}], 1, [{0x7fffe1117110, 32}], 1, 0) = 32
+write(2, "\"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0\\0\\0\\0\\0"..., 83) = 83
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "fstat(3, ", 9)                = 9
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\0\374\0\0\0\0\0\0w\17p\0\0\0\0\0\1\0\0\0\0\0\0\0\244\201\0\0\0\0\0\0"..., 144}], 1, [{0x7fffe1116fc0, 144}], 1, 0) = 144
+write(2, "{st_mode=S_IFREG|0644, st_size=1"..., 48) = 48
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 4096, PROT_READ|PROT_"..., 71) = 71
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f5989000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 2113760, PROT_READ|PR"..., 72) = 72
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f494d000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mprotect(0x7f84f4951000, 2093056"..., 43) = 43
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(0x7f84f4b50000, 8192, PROT_"..., 95) = 95
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f4b50000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "close(3", 7)                  = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                               "..., 37) = 37
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 4096, PROT_READ|PROT_"..., 71) = 71
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f5988000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 8192, PROT_READ|PROT_"..., 71) = 71
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f5986000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "arch_prctl(ARCH_SET_FS, 0x7f84f5"..., 38) = 38
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mprotect(0x7f84f534f000, 16384, "..., 41) = 41
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mprotect(0x7f84f4b50000, 4096, P"..., 40) = 40
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mprotect(0x7f84f4d54000, 4096, P"..., 40) = 40
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mprotect(0x7f84f4f92000, 4096, P"..., 40) = 40
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mprotect(0x7f84f5560000, 4096, P"..., 40) = 40
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mprotect(0x7f84f5781000, 4096, P"..., 40) = 40
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mprotect(0x619000, 4096, PROT_RE"..., 34) = 34
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")     = 0\n", 10)             = 10
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mprotect(0x7f84f59a7000, 4096, P"..., 40) = 40
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "munmap(0x7f84f598b000, 104667", 29) = 29
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")          = 0\n", 15)        = 15
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/sys/fs/selinux\0/proc/mounts\0sel"..., 256}], 1, [{0x7f84f557a153, 256}], 1, 0) = 256
+write(2, "statfs(\"/sys/fs/selinux\", ", 26) = 26
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "0x7fffe1117a00) = -1 ENOENT (No "..., 56) = 56
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/selinux\0/proc/mounts\0selinuxfs "..., 256}], 1, [{0x7f84f557a15a, 256}], 1, 0) = 256
+write(2, "statfs(\"/selinux\", ", 19)   = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "0x7fffe1117a00)      = -1 ENOENT"..., 61) = 61
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "brk(0", 5)                    = 5
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                               "..., 47) = 47
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "brk(0x241f000", 13)           = 13
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                          = 0x2"..., 39) = 39
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/proc/filesystems\0selinuxfs\0/sys"..., 256}], 1, [{0x7f84f557a137, 256}], 1, 0) = 256
+write(2, "open(\"/proc/filesystems\", O_RDON"..., 34) = 34
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")     = 3\n", 10)             = 10
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "fstat(3, ", 9)                = 9
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\3\0\0\0\0\0\0\0\300\0\0\360\0\0\0\0\1\0\0\0\0\0\0\0$\201\0\0\0\0\0\0"..., 144}], 1, [{0x7fffe1117910, 144}], 1, 0) = 144
+write(2, "{st_mode=S_IFREG|0444, st_size=0"..., 44) = 44
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 4096, PROT_READ|PROT_"..., 71) = 71
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f59a4000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "read(3, ", 8)                 = 8
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"nodev\tsysfs\nnodev\trootfs\nnodev\tr", 32}], 1, [{0x7f84f59a4000, 32}], 1, 0) = 32
+write(2, "\"nodev\\tsysfs\\nnodev\\trootfs\\nno"..., 56) = 56
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "read(3, ", 8)                 = 8
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"", 0}], 1, [{0x7f84f59a4000, 0}], 1, 0) = 0
+write(2, "\"\", 1024)                       "..., 36) = 36
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "close(3", 7)                  = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                               "..., 37) = 37
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "munmap(0x7f84f59a4000, 4096", 27) = 27
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")            = 0\n", 17)      = 17
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"/usr/lib/locale/locale-archive\0\0"..., 256}], 1, [{0x7f84f511a150, 256}], 1, 0) = 256
+write(2, "open(\"/usr/lib/locale/locale-arc"..., 57) = 57
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 3\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "fstat(3, ", 9)                = 9
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\0\374\0\0\0\0\0\0\300\25J\0\0\0\0\0\1\0\0\0\0\0\0\0\244\201\0\0\0\0\0\0"..., 144}], 1, [{0x7f84f5354b60, 144}], 1, 0) = 144
+write(2, "{st_mode=S_IFREG|0644, st_size=2"..., 50) = 50
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 2919792, PROT_READ, M"..., 48) = 48
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f4684000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "close(3", 7)                  = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                               "..., 37) = 37
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "ioctl(1, TIOCGWINSZ", 19)     = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\30\0P\0\0\0\0\0", 8}], 1, [{0x7fffe1117720, 8}], 1, 0) = 8
+write(2, ", {ws_row=24, ws_col=80, ws_xpix"..., 56) = 56
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{".\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\361\263\1\0\0\0\0\0"..., 256}], 1, [{0x2403c00, 256}], 1, 0) = 256
+write(2, "openat(AT_FDCWD, \".\", O_RDONLY|O"..., 63) = 63
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 3\n", 6)                  = 6
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "getdents(3, ", 12)            = 12
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\2\0\f\0\0\0\0\0%\360\221\n'\240\263\0\30\0.\0\0\0\0\4h\t\20\0\0\0\0\0"..., 2112}], 1, [{0x2403c50, 2112}], 1, 0) = 2112
+write(2, "/* 63 entries */, 32768)    = 21"..., 35) = 35
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "getdents(3, ", 12)            = 12
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{NULL, 0}], 1, [{0x2403c50, 0}], 1, 0) = 0
+write(2, "/* 0 entries */, 32768)     = 0\n", 32) = 32
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "close(3", 7)                  = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                               "..., 37) = 37
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "fstat(1, ", 9)                = 9
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"\f\0\0\0\0\0\0\0\t\0\0\0\0\0\0\0\1\0\0\0\0\0\0\0\220!\0\0\350\3\0\0"..., 144}], 1, [{0x7fffe1115190, 144}], 1, 0) = 144
+write(2, "{st_mode=S_IFCHR|0620, st_rdev=m"..., 58) = 58
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "mmap(NULL, 4096, PROT_READ|PROT_"..., 71) = 71
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 0x7f84f59a4000\n", 19)    = 19
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"collectionCache.bnk  index.html.", 32}], 1, [{0x7f84f59a4000, 32}], 1, 0) = 32
+write(2, "write(1, \"collectionCache.bnk  i"..., 50) = 50
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 57\n", 7)                 = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"Desktop\t\t     index.html.12  ind", 32}], 1, [{0x7f84f59a4000, 32}], 1, 0) = 32
+write(2, "write(1, \"Desktop\\t\\t     index."..., 52) = 52
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 53\n", 7)                 = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"Documents\t     index.html.13  in", 32}], 1, [{0x7f84f59a4000, 32}], 1, 0) = 32
+write(2, "write(1, \"Documents\\t     index."..., 51) = 51
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 52\n", 7)                 = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"Downloads\t     index.html.14  in", 32}], 1, [{0x7f84f59a4000, 32}], 1, 0) = 32
+write(2, "write(1, \"Downloads\\t     index."..., 51) = 51
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 67\n", 7)                 = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"grive\t\t     index.html.15  index", 32}], 1, [{0x7f84f59a4000, 32}], 1, 0) = 32
+write(2, "write(1, \"grive\\t\\t     index.ht"..., 52) = 52
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 52\n", 7)                 = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"index.html\t     index.html.16  i", 32}], 1, [{0x7f84f59a4000, 32}], 1, 0) = 32
+write(2, "write(1, \"index.html\\t     index"..., 51) = 51
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 53\n", 7)                 = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"index.html.1\t     index.html.2  ", 32}], 1, [{0x7f84f59a4000, 32}], 1, 0) = 32
+write(2, "write(1, \"index.html.1\\t     ind"..., 51) = 51
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 36\n", 7)                 = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+process_vm_readv(3778, [{"index.html.10\t     index.html.3 ", 32}], 1, [{0x7f84f59a4000, 32}], 1, 0) = 32
+write(2, "write(1, \"index.html.10\\t     in"..., 51) = 51
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ") = 48\n", 7)                 = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "close(1", 7)                  = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                               "..., 37) = 37
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "munmap(0x7f84f59a4000, 4096", 27) = 27
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")            = 0\n", 17)      = 17
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "close(2", 7)                  = 7
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, ")                               "..., 37) = 37
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_TRAPPED, si_pid=3778, si_status=SIGTRAP, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFSTOPPED(s) && WSTOPSIG(s) == 133}], __WALL, NULL) = 3778
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+ptrace(PTRACE_GETREGSET, 3778, NT_PRSTATUS, [{0x66a6c0, 216}]) = 0
+write(2, "exit_group(0)                   "..., 44) = 44
+ptrace(PTRACE_SYSCALL, 3778, 0, SIG_0)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], __WALL, NULL) = 3778
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3778, si_status=0, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT PIPE TERM], NULL, 8) = 0
+write(2, "+++ exited with 0 +++\n", 22) = 22
+exit_group(0)                           = ?
++++ exited with 0 +++

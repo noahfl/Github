@@ -1,0 +1,980 @@
+execve("/usr/bin/curl", ["curl", "www.youtube.com"], [/* 48 vars */]) = 0
+brk(0)                                  = 0x1a9d000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc477000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=94113, ...}) = 0
+mmap(NULL, 94113, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa8cc460000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libcurl.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\231\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=422696, ...}) = 0
+mmap(NULL, 2518440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8cbff0000
+mprotect(0x7fa8cc054000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8cc254000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x64000) = 0x7fa8cc254000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=100728, ...}) = 0
+mmap(NULL, 2195784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8cbdd7000
+mprotect(0x7fa8cbdef000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8cbfee000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fa8cbfee000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0po\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=141574, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc45f000
+mmap(NULL, 2217264, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8cbbb9000
+mprotect(0x7fa8cbbd2000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8cbdd1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7fa8cbdd1000
+mmap(0x7fa8cbdd3000, 13616, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8cbdd3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8cb7f3000
+mprotect(0x7fa8cb9af000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8cbbae000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7fa8cbbae000
+mmap(0x7fa8cbbb4000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8cbbb4000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=207128, ...}) = 0
+mmap(NULL, 2302208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8cb5c0000
+mprotect(0x7fa8cb5f1000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8cb7f1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7fa8cb7f1000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/librtmp.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340P\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=105696, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc45e000
+mmap(NULL, 2201000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8cb3a6000
+mprotect(0x7fa8cb3bf000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8cb5be000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7fa8cb5be000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20.\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=382984, ...}) = 0
+mmap(NULL, 2478288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8cb148000
+mprotect(0x7fa8cb19c000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8cb39c000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7fa8cb39c000
+mmap(0x7fa8cb3a5000, 208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8cb3a5000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\355\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1926432, ...}) = 0
+mmap(NULL, 4036760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8cad6e000
+mprotect(0x7fa8caf1f000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8cb11e000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7fa8cb11e000
+mmap(0x7fa8cb144000, 14488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8cb144000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\255\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=285848, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc45d000
+mmap(NULL, 2381504, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8cab28000
+mprotect(0x7fa8cab6b000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8cad6b000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x43000) = 0x7fa8cad6b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/liblber-2.4.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=59640, ...}) = 0
+mmap(NULL, 2154984, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8ca919000
+mprotect(0x7fa8ca926000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8cab26000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd000) = 0x7fa8cab26000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\320\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=323056, ...}) = 0
+mmap(NULL, 2427656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8ca6c8000
+mprotect(0x7fa8ca715000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8ca914000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4c000) = 0x7fa8ca914000
+mmap(0x7fa8ca917000, 6920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8ca917000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc45c000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libgnutls.so.26", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0d\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=775112, ...}) = 0
+mmap(NULL, 2872304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8ca40a000
+mprotect(0x7fa8ca4c0000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8ca6c0000, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb6000) = 0x7fa8ca6c0000
+mmap(0x7fa8ca6c7000, 1008, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8ca6c7000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcrypt.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\177\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=520608, ...}) = 0
+mmap(NULL, 2616960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8ca18b000
+mprotect(0x7fa8ca206000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8ca406000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7b000) = 0x7fa8ca406000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c9f87000
+mprotect(0x7fa8c9f8a000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8ca189000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa8ca189000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc45b000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\4\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=831616, ...}) = 0
+mmap(NULL, 2927488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c9cbc000
+mprotect(0x7fa8c9d78000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8c9f78000, 61440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xbc000) = 0x7fa8c9f78000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 @\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=186824, ...}) = 0
+mmap(NULL, 2285720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c9a8d000
+mprotect(0x7fa8c9ab9000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8c9cb8000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000) = 0x7fa8c9cb8000
+mmap(0x7fa8c9cbb000, 152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8c9cbb000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\24\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14592, ...}) = 0
+mmap(NULL, 2109896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c9889000
+mprotect(0x7fa8c988c000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8c9a8b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa8c9a8b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@(\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=43672, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc45a000
+mmap(NULL, 2139112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c967e000
+mprotect(0x7fa8c9688000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8c9887000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7fa8c9887000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c9463000
+mprotect(0x7fa8c947a000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8c967a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fa8c967a000
+mmap(0x7fa8c967c000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8c967c000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libsasl2.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=109296, ...}) = 0
+mmap(NULL, 2204624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c9248000
+mprotect(0x7fa8c9261000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8c9461000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7fa8c9461000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libgssapi.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\331\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=251872, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc459000
+mmap(NULL, 2347352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c900a000
+mprotect(0x7fa8c9044000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8c9244000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3a000) = 0x7fa8c9244000
+mmap(0x7fa8c9247000, 344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8c9247000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libtasn1.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220)\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=80248, ...}) = 0
+mmap(NULL, 2176008, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c8df6000
+mprotect(0x7fa8c8e08000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8c9008000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0x7fa8c9008000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\321\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=268368, ...}) = 0
+mmap(NULL, 2364496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c8bb4000
+mprotect(0x7fa8c8bef000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8c8dee000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3a000) = 0x7fa8c8dee000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\t\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18416, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc458000
+mmap(NULL, 2113648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c89af000
+mprotect(0x7fa8c89b3000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8c8bb2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fa8c8bb2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14256, ...}) = 0
+mmap(NULL, 2109456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c87ab000
+mprotect(0x7fa8c87ad000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8c89ad000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fa8c89ad000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libheimntlm.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=35856, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc457000
+mmap(NULL, 2130960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c85a2000
+mprotect(0x7fa8c85aa000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8c87a9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7fa8c87a9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libkrb5.so.26", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\304\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=552584, ...}) = 0
+mmap(NULL, 2650544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c831a000
+mprotect(0x7fa8c839c000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8c859b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x81000) = 0x7fa8c859b000
+mmap(0x7fa8c85a1000, 432, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8c85a1000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libasn1.so.8", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\234\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=657712, ...}) = 0
+mmap(NULL, 2752816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c8079000
+mprotect(0x7fa8c8116000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8c8316000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9d000) = 0x7fa8c8316000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libhcrypto.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300g\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=204104, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc456000
+mmap(NULL, 2303048, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c7e46000
+mprotect(0x7fa8c7e76000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8c8076000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x30000) = 0x7fa8c8076000
+mmap(0x7fa8c8078000, 1096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8c8078000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libroken.so.18", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pL\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=85680, ...}) = 0
+mmap(NULL, 2181216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c7c31000
+mprotect(0x7fa8c7c45000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8c7e44000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13000) = 0x7fa8c7e44000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=30944, ...}) = 0
+mmap(NULL, 2127304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c7a29000
+mprotect(0x7fa8c7a30000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8c7c2f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fa8c7c2f000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc455000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libwind.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=166040, ...}) = 0
+mmap(NULL, 2261152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c7800000
+mprotect(0x7fa8c7827000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8c7a27000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x7fa8c7a27000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libheimbase.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20)\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=56768, ...}) = 0
+mmap(NULL, 2153112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c75f2000
+mprotect(0x7fa8c75ff000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8c77fe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7fa8c77fe000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libhx509.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=295816, ...}) = 0
+mmap(NULL, 2392104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c73a9000
+mprotect(0x7fa8c73ee000, 2093056, PROT_NONE) = 0
+mmap(0x7fa8c75ed000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x44000) = 0x7fa8c75ed000
+mmap(0x7fa8c75f1000, 40, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8c75f1000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libsqlite3.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\235\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=754880, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc454000
+mmap(NULL, 2851544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c70f0000
+mprotect(0x7fa8c71a4000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8c73a4000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb4000) = 0x7fa8c73a4000
+mmap(0x7fa8c73a8000, 728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8c73a8000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=43368, ...}) = 0
+mmap(NULL, 2327072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fa8c6eb7000
+mprotect(0x7fa8c6ec0000, 2097152, PROT_NONE) = 0
+mmap(0x7fa8c70c0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7fa8c70c0000
+mmap(0x7fa8c70c2000, 184864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa8c70c2000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc453000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc452000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc451000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc44f000
+arch_prctl(ARCH_SET_FS, 0x7fa8cc44f780) = 0
+mprotect(0x7fa8cbbae000, 16384, PROT_READ) = 0
+mprotect(0x7fa8c70c0000, 4096, PROT_READ) = 0
+mprotect(0x7fa8cbdd1000, 4096, PROT_READ) = 0
+mprotect(0x7fa8ca189000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c73a4000, 8192, PROT_READ) = 0
+mprotect(0x7fa8c9a8b000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c967a000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c7e44000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c8316000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c8076000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c7a27000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c77fe000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c75ed000, 8192, PROT_READ) = 0
+mprotect(0x7fa8c7c2f000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c859b000, 12288, PROT_READ) = 0
+mprotect(0x7fa8c87a9000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c89ad000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c8bb2000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c8dee000, 24576, PROT_READ) = 0
+mprotect(0x7fa8c9008000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c9244000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c9461000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c9887000, 4096, PROT_READ) = 0
+mprotect(0x7fa8c9cb8000, 8192, PROT_READ) = 0
+mprotect(0x7fa8c9f78000, 53248, PROT_READ) = 0
+mprotect(0x7fa8ca406000, 4096, PROT_READ) = 0
+mprotect(0x7fa8cbfee000, 4096, PROT_READ) = 0
+mprotect(0x7fa8ca6c0000, 24576, PROT_READ) = 0
+mprotect(0x7fa8cab26000, 4096, PROT_READ) = 0
+mprotect(0x7fa8ca914000, 8192, PROT_READ) = 0
+mprotect(0x7fa8cad6b000, 4096, PROT_READ) = 0
+mprotect(0x7fa8cb11e000, 110592, PROT_READ) = 0
+mprotect(0x7fa8cb39c000, 12288, PROT_READ) = 0
+mprotect(0x7fa8cb5be000, 4096, PROT_READ) = 0
+mprotect(0x7fa8cb7f1000, 4096, PROT_READ) = 0
+mprotect(0x7fa8cc254000, 8192, PROT_READ) = 0
+mprotect(0x624000, 4096, PROT_READ)     = 0
+mprotect(0x7fa8cc479000, 4096, PROT_READ) = 0
+munmap(0x7fa8cc460000, 94113)           = 0
+set_tid_address(0x7fa8cc44fa50)         = 31628
+set_robust_list(0x7fa8cc44fa60, 24)     = 0
+futex(0x7fffd95deb10, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7fa8cc44f780) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x7fa8cbbbf9f0, [], SA_RESTORER|SA_SIGINFO, 0x7fa8cbbc9340}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7fa8cbbbfa80, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fa8cbbc9340}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(0)                                  = 0x1a9d000
+brk(0x1abe000)                          = 0x1abe000
+futex(0x7fa8c8df5400, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+pipe([3, 4])                            = 0
+close(3)                                = 0
+close(4)                                = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fa8cb829ff0}, {SIG_DFL, [], 0}, 8) = 0
+brk(0x1ae4000)                          = 0x1ae4000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fa8c6bee000
+close(3)                                = 0
+open("/home/bearface/.curlrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fa8cb829ff0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fa8cbbc9340}, NULL, 8) = 0
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 3
+close(3)                                = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fa8c63ed000
+mprotect(0x7fa8c63ed000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7fa8c6becf70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa8c6bed9d0, tls=0x7fa8c6bed700, child_tidptr=0x7fa8c6bed9d0) = 31629
+poll(0, 0, 4)                           = 0 (Timeout)
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 3
+setsockopt(3, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+setsockopt(3, SOL_TCP, TCP_KEEPIDLE, [60], 4) = 0
+setsockopt(3, SOL_TCP, TCP_KEEPINTVL, [60], 4) = 0
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("74.125.21.190")}, 16) = -1 EINPROGRESS (Operation now in progress)
+poll([{fd=3, events=POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLOUT}], 1, 199)  = 1 ([{fd=3, revents=POLLOUT}])
+poll([{fd=3, events=POLLOUT|POLLWRNORM}], 1, 0) = 1 ([{fd=3, revents=POLLOUT|POLLWRNORM}])
+getsockopt(3, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("74.125.21.190")}, [16]) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(50173), sin_addr=inet_addr("10.227.98.29")}, [16]) = 0
+sendto(3, "GET / HTTP/1.1\r\nUser-Agent: curl"..., 79, MSG_NOSIGNAL, NULL, 0) = 79
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLIN}], 1, 185)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 16 J"..., 16384, 0, NULL, NULL) = 1368
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 5), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8cc476000
+poll([{fd=3, events=POLLIN}], 1, 162)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "tcsi.info('prerender', 1);docume"..., 16384, 0, NULL, NULL) = 1368
+write(1, "  <!DOCTYPE html><html lang=\"en\""..., 1024) = 1024
+write(1, ": e};element.className += ' yt-i"..., 252) = 252
+poll([{fd=3, events=POLLIN}], 1, 161)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ecScript||l.execScript(\"var \"+f["..., 16384, 0, NULL, NULL) = 1368
+write(1, "    (function(){function b(k,g){"..., 1024) = 1024
+write(1, "Kf.js\" name=\"www-scheduler\"></sc"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 160)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "e_logo_stacked-vfl225ZTx.png\">\n "..., 16384, 0, NULL, NULL) = 448
+write(1, "ad\">  <meta property=\"og:image\" "..., 515) = 515
+poll([{fd=3, events=POLLIN}], 1, 160)   = 0 (Timeout)
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLIN}], 1, 1)     = 0 (Timeout)
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "8000\r\n    <body dir=\"ltr\" class="..., 16384, 0, NULL, NULL) = 4104
+write(1, "    <body dir=\"ltr\" class=\"  ltr"..., 1024) = 1024
+write(1, " onclick=\";return false;\" id=\"ap"..., 3072) = 3072
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "link=\"ei=uRKfU9bsHcWqqgWymoGgAg&"..., 16384, 0, NULL, NULL) = 4104
+write(1, "onlink=\"ei=uRKfU9bsHcWqqgWymoGgA"..., 1024) = 1024
+write(1, "  </ul>\n    </div>\n      <hr cla"..., 3072) = 3072
+write(1, "s\"\n", 3)                    = 3
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "a-sessionlink=\"ei=uRKfU9bsHcWqqg"..., 16384, 0, NULL, NULL) = 5472
+write(1, "    data-sessionlink=\"ei=uRKfU9b"..., 1024) = 1024
+write(1, "visibility-tracking=\"\">\n      \n "..., 4096) = 4096
+write(1, "lass=\"video-thumb  yt-thumb yt-t"..., 41) = 41
+write(1, "      >\n", 8)                = 8
+write(1, "      <span class=\"yt-thumb-squa"..., 37) = 37
+write(1, "        <span class=\"yt-thumb-cl"..., 37) = 37
+write(1, "          <img data-thumb=\"https"..., 225) = 225
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "span class=\"vertical-align\"></sp"..., 16384, 0, NULL, NULL) = 1368
+write(1, "          <span class=\"vertical-"..., 1024) = 1024
+write(1, "src=\"http://s.ytimg.com/yts/img/"..., 105) = 105
+write(1, "          <span class=\"vertical-"..., 47) = 47
+write(1, "        </span>\n", 16)       = 16
+write(1, "      </span>\n", 14)         = 14
+write(1, "    </span>\n", 12)           = 12
+write(1, "</span>\n", 8)                = 8
+write(1, "        <span class=\"display-nam"..., 46) = 46
+write(1, "          <span>\n", 17)      = 17
+write(1, "            News\n", 17)      = 17
+write(1, "          </span>\n", 18)     = 18
+write(1, "        </span>\n", 16)       = 16
+write(1, "    </span>\n", 12)           = 12
+write(1, "  </a>\n", 7)                 = 7
+write(1, "\n", 1)                       = 1
+write(1, "  </li>\n", 8)                = 8
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "    <li class=\"vve-check guide-c"..., 16384, 0, NULL, NULL) = 12312
+write(1, "              <li class=\"vve-che"..., 1024) = 1024
+write(1, "lign\"></span>\n        </span>\n  "..., 11264) = 11264
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "d_creative_iframe_1_workaround;i"..., 16384, 0, NULL, NULL) = 2736
+write(1, "El.onmouseover = window.masthead"..., 1024) = 1024
+write(1, "  <script>var ytplayer = ytplaye"..., 1024) = 1024
+write(1, "\" >\n", 4)                   = 4
+write(1, "\n", 1)                       = 1
+write(1, "    <div class=\"branded-page-v2-"..., 48) = 48
+write(1, "      <div class=\"branded-page-v"..., 56) = 56
+write(1, "        <div class=\"branded-page"..., 50) = 50
+write(1, "          <div class=\"   yt-card"..., 45) = 45
+write(1, "                <div class=\"bran"..., 114) = 114
+write(1, "      \n", 7)                 = 7
+write(1, "    </div>\n", 11)            = 11
+write(1, "  <div class=\"branded-page-v2-bo"..., 97) = 97
+write(1, "        <div id=\"feed\" class=\"\">"..., 33) = 33
+write(1, "        <div id=\"feed-main-what_"..., 120) = 120
+write(1, "    \n", 5)                   = 5
+write(1, "      <div class=\"feed-container"..., 55) = 55
+write(1, "        <ul id=\"browse-items-pri"..., 68) = 68
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "          <li class=\"feed-item-c"..., 16384, 0, NULL, NULL) = 5472
+write(1, "                  <li class=\"fee"..., 1024) = 1024
+write(1, "QQ0h4oAA&amp;feature=g-high\">   "..., 1024) = 1024
+write(1, "-sessionlink  spf-link \"\n", 25) = 25
+write(1, "     data-sessionlink=\"ei=uRKfU9"..., 88) = 88
+write(1, "     href=\"/watch?v=R4SYIfhzMmU\""..., 33) = 33
+write(1, "     title=\"Dave Chappelle Descr"..., 139) = 139
+write(1, "\n", 1)                       = 1
+write(1, "      </div>\n", 13)          = 13
+write(1, "\n", 1)                       = 1
+write(1, "        <div class=\"lohp-video-m"..., 43) = 43
+write(1, "            <span class=\"content"..., 80) = 80
+write(1, "<span class=\"username-prepend\">b"..., 1024) = 1024
+write(1, "a-sessionlink=\"ei=uRKfU9bsHcWqqg"..., 1024) = 1024
+write(1, "      </div>\n", 13)          = 13
+write(1, "        <div class=\"lohp-media-o"..., 74) = 74
+write(1, "            <a class=\"lohp-video"..., 80) = 80
+write(1, "     data-sessionlink=\"ei=uRKfU9"..., 88) = 88
+write(1, "     href=\"/watch?v=XrZFM2nvLXA\""..., 33) = 33
+write(1, "     title=\"Fast Food ADS vs. RE"..., 91) = 91
+write(1, "\n", 1)                       = 1
+write(1, "            <div class=\"lohp-vid"..., 55) = 55
+write(1, "                <span class=\"con"..., 60) = 60
+write(1, "<span class=\"username-prepend\">b"..., 261) = 261
+write(1, "  </span>\n", 10)             = 10
+write(1, "\n", 1)                       = 1
+write(1, "            </div>\n", 19)    = 19
+write(1, "            <div class=\"lohp-vid"..., 46) = 46
+write(1, "                <span class=\"vie"..., 43) = 43
+write(1, "      318,850 views\n", 20)   = 20
+write(1, "  </span>\n", 10)             = 10
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "e-created \" title=\"19 hours ago\""..., 16384, 0, NULL, NULL) = 2736
+write(1, "                  <span class=\"c"..., 1024) = 1024
+write(1, "ass=\"yt-uix-button yt-uix-button"..., 1024) = 1024
+write(1, "=\"lohp-video-metadata attached\">"..., 33) = 33
+write(1, "                <span class=\"con"..., 60) = 60
+write(1, "<span class=\"username-prepend\">b"..., 258) = 258
+write(1, "  </span>\n", 10)             = 10
+write(1, "\n", 1)                       = 1
+write(1, "            </div>\n", 19)    = 19
+write(1, "            <div class=\"lohp-vid"..., 46) = 46
+write(1, "                <span class=\"vie"..., 43) = 43
+write(1, "      2,404,131 views\n", 22) = 22
+write(1, "  </span>\n", 10)             = 10
+write(1, "\n", 1)                       = 1
+write(1, "                  <span class=\"c"..., 79) = 79
+write(1, "      2 days ago\n", 17)      = 17
+write(1, "    </span>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "            </div>\n", 19)    = 19
+write(1, "        </div>\n", 15)        = 15
+write(1, "      </div>\n", 13)          = 13
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "\" data-sessionlink=\"ei=uRKfU9bsH"..., 16384, 0, NULL, NULL) = 1368
+write(1, "                <div class=\"lohp"..., 1024) = 1024
+write(1, "ltip\" type=\"button\" onclick=\";re"..., 262) = 262
+write(1, " </span><img src=\"http://s.ytimg"..., 104) = 104
+write(1, "    <span class=\"video-time\">1:1"..., 41) = 41
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, ">\n        </div>\n        <div cl"..., 16384, 0, NULL, NULL) = 1368
+write(1, "</a>\n        </div>\n        <div"..., 1024) = 1024
+write(1, "     <span class=\"content-item-t"..., 66) = 66
+write(1, "      2 days ago\n", 17)      = 17
+write(1, "    </span>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "            </div>\n", 19)    = 19
+write(1, "        </div>\n", 15)        = 15
+write(1, "      </div>\n", 13)          = 13
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "      </div>\n", 13)          = 13
+write(1, "    </div>\n", 11)            = 11
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "  \n", 3)                     = 3
+write(1, "\n", 1)                       = 1
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "        </div>\n", 15)        = 15
+write(1, "      </div>\n", 13)          = 13
+write(1, "    </div>\n", 11)            = 11
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "id\">This item has been hidden</d"..., 16384, 0, NULL, NULL) = 2736
+write(1, "      <div class=\"feed-item-dism"..., 1024) = 1024
+write(1, "link=\"ei=uRKfU9bsHcWqqgWymoGgAg\""..., 1024) = 1024
+write(1, "\"ux-thumb-wrap yt-uix-sessionlin"..., 234) = 234
+write(1, "      >\n", 8)                = 8
+write(1, "      <span class=\"yt-thumb-defa"..., 38) = 38
+write(1, "        <span class=\"yt-thumb-cl"..., 37) = 37
+write(1, "          <img data-thumb=\"//i1."..., 166) = 166
+write(1, "          <span class=\"vertical-"..., 47) = 47
+write(1, "        </span>\n", 16)       = 16
+write(1, "      </span>\n", 14)         = 14
+write(1, "    </span>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "false;\" title=\"Watch Later\" data"..., 16384, 0, NULL, NULL) = 2736
+write(1, "  <button class=\"yt-uix-button y"..., 1024) = 1024
+write(1, "3>\n\n  <div class=\"yt-lockup-meta"..., 1024) = 1024
+write(1, "\" class=\"ux-thumb-wrap yt-uix-se"..., 242) = 242
+write(1, "      >\n", 8)                = 8
+write(1, "      <span class=\"yt-thumb-defa"..., 38) = 38
+write(1, "        <span class=\"yt-thumb-cl"..., 37) = 37
+write(1, "          <img data-thumb=\"//i1."..., 166) = 166
+write(1, "          <span class=\"vertical-"..., 47) = 47
+write(1, "        </span>\n", 16)       = 16
+write(1, "      </span>\n", 14)         = 14
+write(1, "    </span>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "in\"><span class=\"yt-uix-button-c"..., 16384, 0, NULL, NULL) = 8208
+write(1, "  <button class=\"yt-uix-button y"..., 1024) = 1024
+write(1, "ish Version) ft. Sean Paul, Desc"..., 7168) = 7168
+write(1, "tp://s.ytimg.com/yts/img/pixel-v"..., 65) = 65
+write(1, " </span><img src=\"http://s.ytimg"..., 104) = 104
+write(1, "    <span class=\"video-time\">1:4"..., 41) = 41
+write(1, "</a>\n", 5)                   = 5
+write(1, "\n", 1)                       = 1
+write(1, "    </div>\n", 11)            = 11
+write(1, "    <div class=\"yt-lockup-conten"..., 36) = 36
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "-link  spf-link  yt-ui-ellipsis "..., 16384, 0, NULL, NULL) = 1368
+write(1, "          <h3 class=\"yt-lockup-t"..., 1024) = 1024
+write(1, "p clearfix  yt-lockup-video yt-l"..., 54) = 54
+write(1, "      data-visibility-tracking=\""..., 50) = 50
+write(1, "  >\n", 4)                    = 4
+write(1, "    <div class=\"yt-lockup-thumbn"..., 37) = 37
+write(1, "    >\n", 6)                  = 6
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "-fluid\"\n      >\n      <span clas"..., 16384, 0, NULL, NULL) = 2736
+write(1, "        <a href=\"/watch?v=n55kYc"..., 1024) = 1024
+write(1, "ixel-vfl3z5WfW.gif\" alt=\"Watch L"..., 1024) = 1024
+write(1, "-icon-verified\" alt=\"\" title=\"Ve"..., 41) = 41
+write(1, "\n", 1)                       = 1
+write(1, "        </li>\n", 14)         = 14
+write(1, "      <li>196,699 views</li>\n", 29) = 29
+write(1, "        <li class=\"yt-lockup-dee"..., 49) = 49
+write(1, "            2 days ago\n", 23) = 23
+write(1, "        </li>\n", 14)         = 14
+write(1, "    </ul>\n", 10)             = 10
+write(1, "  </div>\n", 9)               = 9
+write(1, "  \n", 3)                     = 3
+write(1, "  \n", 3)                     = 3
+write(1, "  \n", 3)                     = 3
+write(1, "\n", 1)                       = 1
+write(1, "    </div>\n", 11)            = 11
+write(1, "    \n", 5)                   = 5
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "        </li>\n", 14)         = 14
+write(1, "        <li class=\"channels-cont"..., 87) = 87
+write(1, "            \n", 13)          = 13
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "    <div class=\"yt-lockup clearf"..., 78) = 78
+write(1, "      data-visibility-tracking=\""..., 50) = 50
+write(1, "  >\n", 4)                    = 4
+write(1, "    <div class=\"yt-lockup-thumbn"..., 37) = 37
+write(1, "    >\n", 6)                  = 6
+write(1, "        <a href=\"/watch?v=-m3N_B"..., 279) = 279
+write(1, "      >\n", 8)                = 8
+write(1, "      <span class=\"yt-thumb-defa"..., 38) = 38
+write(1, "        <span class=\"yt-thumb-cl"..., 37) = 37
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "http://s.ytimg.com/yts/img/pixel"..., 16384, 0, NULL, NULL) = 5472
+write(1, "          <img data-thumb=\"//i1."..., 1024) = 1024
+write(1, "2\" dir=\"ltr\" title=\"GoPro: Man F"..., 4096) = 4096
+write(1, "t-uix-button yt-uix-button-size-"..., 183) = 183
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "          </div>\n", 17)      = 17
+write(1, "          <div class=\"yt-dialog-"..., 42) = 42
+write(1, "              <div class=\"yt-dia"..., 60) = 60
+write(1, "  <div class=\"yt-dialog-working-"..., 41) = 41
+write(1, "    <div class=\"yt-dialog-waitin"..., 44) = 44
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "\"></div><div class=\"yt-dialog-wa"..., 16384, 0, NULL, NULL) = 4104
+write(1, "      <div class=\"yt-spinner-img"..., 1024) = 1024
+write(1, ";ved=CDkQ3Bw\">\n", 15)       = 15
+write(1, "              <h2 class=\"branded"..., 53) = 53
+write(1, "          \n", 11)            = 11
+write(1, "      <a href=\"/channel/UCEgdi0X"..., 1024) = 1024
+write(1, "yt-lockup-grid vve-check\"\n      "..., 1024) = 1024
+write(1, "utton-menu-id=\"shared-addto-watc"..., 162) = 162
+write(1, " </span><img src=\"http://s.ytimg"..., 104) = 104
+write(1, "    <span class=\"video-time\">3:1"..., 41) = 41
+write(1, "</a>\n", 5)                   = 5
+write(1, "\n", 1)                       = 1
+write(1, "    </div>\n", 11)            = 11
+write(1, "    <div class=\"yt-lockup-conten"..., 36) = 36
+write(1, "          <h3 class=\"yt-lockup-t"..., 329) = 329
+write(1, "\n", 1)                       = 1
+write(1, "  <div class=\"yt-lockup-meta\">\n", 31) = 31
+write(1, "    <ul class=\"yt-lockup-meta-in"..., 37) = 37
+write(1, "        <li>\n", 13)          = 13
+write(1, "          \n", 11)            = 11
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ir=\"ltr\" data-ytid=\"UCqFMzb-4AUf"..., 16384, 0, NULL, NULL) = 6840
+write(1, "by <a href=\"/channel/UCqFMzb-4AU"..., 1024) = 1024
+write(1, "sionlink=\"ei=uRKfU9bsHcWqqgWymoG"..., 5120) = 5120
+write(1, "h-cpv\">    <span class=\"video-th"..., 75) = 75
+write(1, "      >\n", 8)                = 8
+write(1, "      <span class=\"yt-thumb-defa"..., 38) = 38
+write(1, "        <span class=\"yt-thumb-cl"..., 37) = 37
+write(1, "          <img data-thumb=\"//i1."..., 166) = 166
+write(1, "          <span class=\"vertical-"..., 47) = 47
+write(1, "        </span>\n", 16)       = 16
+write(1, "      </span>\n", 14)         = 14
+write(1, "    </span>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "  <button class=\"yt-uix-button y"..., 444) = 444
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, ".com/yts/img/pixel-vfl3z5WfW.gif"..., 16384, 0, NULL, NULL) = 4104
+write(1, " </span><img src=\"http://s.ytimg"..., 1024) = 1024
+write(1, "yt-lockup-deemphasized-text\">\n  "..., 3072) = 3072
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "to  spf-link \"  data-sessionlink"..., 16384, 0, NULL, NULL) = 16384
+write(1, "ionlink yt-fluid-thumb-link cont"..., 1024) = 1024
+write(1, ".com/yts/img/pixel-vfl3z5WfW.gif"..., 3072) = 3072
+write(1, "ei=uRKfU9bsHcWqqgWymoGgAg&amp;ve"..., 144) = 144
+write(1, "\n", 1)                       = 1
+write(1, "  <div class=\"yt-lockup-meta\">\n", 31) = 31
+write(1, "    <ul class=\"yt-lockup-meta-in"..., 37) = 37
+write(1, "        <li>\n", 13)          = 13
+write(1, "          \n", 11)            = 11
+write(1, "by <a href=\"/channel/UCpg-U3_G3Z"..., 276) = 276
+write(1, "        </li>\n", 14)         = 14
+write(1, "      <li>521,545 views</li>\n", 29) = 29
+write(1, "        <li class=\"yt-lockup-dee"..., 1024) = 1024
+write(1, ">\n      </span>\n    </span>\n\n\n  "..., 10240) = 10240
+write(1, "waiting-content\">\n", 18)    = 18
+write(1, "      <div class=\"yt-spinner-img"..., 93) = 93
+write(1, "    </div>\n", 11)            = 11
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "          </div>\n", 17)      = 17
+write(1, "        </div>\n", 15)        = 15
+write(1, "      </div>\n", 13)          = 13
+write(1, "    </div>\n", 11)            = 11
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "    </span>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "  \n", 3)                     = 3
+write(1, "\n", 1)                       = 1
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "        </div>\n", 15)        = 15
+write(1, "      </div>\n", 13)          = 13
+write(1, "    </div>\n", 11)            = 11
+write(1, "      <div class=\"feed-item-dism"..., 147) = 147
+write(1, "  </li>\n", 8)                = 8
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ner browse-list-item-container b"..., 16384, 0, NULL, NULL) = 16384
+write(1, "            <li class=\"feed-item"..., 1024) = 1024
+write(1, "class=\"yt-thumb-clip\">\n         "..., 15360) = 15360
+write(1, " U - Mario Party 10 E3 2014 Trai"..., 45) = 45
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "kup-meta\">\n    <ul class=\"yt-loc"..., 16384, 0, NULL, NULL) = 16384
+write(1, "  <div class=\"yt-lockup-meta\">\n "..., 1024) = 1024
+write(1, " class=\"ux-thumb-wrap yt-uix-ses"..., 3072) = 3072
+write(1, "-uix-button yt-uix-button-size-s"..., 425) = 425
+write(1, " </span><img src=\"http://s.ytimg"..., 104) = 104
+write(1, "    <span class=\"video-time\">2:2"..., 41) = 41
+write(1, "</a>\n", 5)                   = 5
+write(1, "\n", 1)                       = 1
+write(1, "    </div>\n    <div class=\"yt-lo"..., 1024) = 1024
+write(1, "t\">\n            6 days ago\n     "..., 10240) = 10240
+write(1, "slider-item \">\n", 15)       = 15
+write(1, "            \n", 13)          = 13
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "    <div class=\"yt-lockup clearf"..., 78) = 78
+write(1, "      data-visibility-tracking=\""..., 50) = 50
+write(1, "  >\n", 4)                    = 4
+write(1, "    <div class=\"yt-lockup-thumbn"..., 37) = 37
+write(1, "    >\n", 6)                  = 6
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "thumb-175 yt-thumb-fluid\"\n      "..., 16384, 0, NULL, NULL) = 16384
+write(1, "        <a href=\"/watch?v=kkDv4k"..., 1024) = 1024
+write(1, "pixel-vfl3z5WfW.gif\" alt=\"Watch "..., 7168) = 7168
+write(1, "watch?v=jatkYH3mDtQ\" class=\"ux-t"..., 262) = 262
+write(1, "      >\n", 8)                = 8
+write(1, "      <span class=\"yt-thumb-defa"..., 38) = 38
+write(1, "        <span class=\"yt-thumb-cl"..., 37) = 37
+write(1, "          <img data-thumb=\"//i1."..., 166) = 166
+write(1, "          <span class=\"vertical-"..., 47) = 47
+write(1, "        </span>\n", 16)       = 16
+write(1, "      </span>\n", 14)         = 14
+write(1, "    </span>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "  <button class=\"yt-uix-button y"..., 1024) = 1024
+write(1, "    \nby <a href=\"/channel/UClsA9"..., 6144) = 6144
+write(1, "mb-wrap yt-uix-sessionlink yt-fl"..., 228) = 228
+write(1, "      >\n", 8)                = 8
+write(1, "      <span class=\"yt-thumb-defa"..., 38) = 38
+write(1, "        <span class=\"yt-thumb-cl"..., 37) = 37
+write(1, "          <img data-thumb=\"//i1."..., 166) = 166
+write(1, "          <span class=\"vertical-"..., 47) = 47
+write(1, "        </span>\n", 16)       = 16
+write(1, "      </span>\n", 14)         = 14
+write(1, "    </span>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ions spf-nolink hide-until-delay"..., 16384, 0, NULL, NULL) = 16384
+write(1, "  <button class=\"yt-uix-button y"..., 1024) = 1024
+write(1, "f Me</a></h3>\n\n  <div class=\"yt-"..., 15360) = 15360
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, " To Be Here Anymore (Lyric Video"..., 16384, 0, NULL, NULL) = 16384
+write(1, "amp;ved=CL0BEL8b&amp;feature=g-h"..., 1024) = 1024
+write(1, "-grid vve-check\"\n      data-visi"..., 7168) = 7168
+write(1, "MEb&amp;feature=g-high-cpv\" dir="..., 249) = 249
+write(1, "\n", 1)                       = 1
+write(1, "        </li>\n", 14)         = 14
+write(1, "      <li>469,294 views</li>\n", 29) = 29
+write(1, "        <li class=\"yt-lockup-dee"..., 49) = 49
+write(1, "            5 days ago\n", 23) = 23
+write(1, "        </li>\n", 14)         = 14
+write(1, "    </ul>\n", 10)             = 10
+write(1, "  </div>\n", 9)               = 9
+write(1, "  \n", 3)                     = 3
+write(1, "  \n", 3)                     = 3
+write(1, "  \n", 3)                     = 3
+write(1, "\n", 1)                       = 1
+write(1, "    </div>\n", 11)            = 11
+write(1, "    \n", 5)                   = 5
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "        </li>\n", 14)         = 14
+write(1, "        <li class=\"channels-cont"..., 87) = 87
+write(1, "            \n", 13)          = 13
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "    <div class=\"yt-lockup clearf"..., 78) = 78
+write(1, "      data-visibility-tracking=\""..., 1024) = 1024
+write(1, "to-watch-later-login\"><span clas"..., 6144) = 6144
+write(1, "sHcWqqgWymoGgAg&amp;ved=CNABENwc"..., 35) = 35
+write(1, "              <h2 class=\"branded"..., 53) = 53
+write(1, "          \n", 11)            = 11
+write(1, "      <a href=\"/channel/UCxAgnFb"..., 214) = 214
+write(1, "                <span class=\"vid"..., 64) = 64
+write(1, "      >\n", 8)                = 8
+write(1, "      <span class=\"yt-thumb-squa"..., 37) = 37
+write(1, "        <span class=\"yt-thumb-cl"..., 37) = 37
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "\"//i1.ytimg.com/i/xAgnFbkxldX6YU"..., 16384, 0, NULL, NULL) = 16384
+write(1, "          <img data-thumb=\"//i1."..., 1024) = 1024
+write(1, "umb  yt-thumb yt-thumb-175 yt-th"..., 15360) = 15360
+write(1, "   >\n", 5)                   = 5
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ch?v=01YzAGsQ7qo\" class=\"ux-thum"..., 16384, 0, NULL, NULL) = 16384
+write(1, "        <a href=\"/watch?v=01YzAG"..., 1024) = 1024
+write(1, "pixel-vfl3z5WfW.gif\" alt=\"Watch "..., 7168) = 7168
+write(1, "           <div class=\"yt-dialog"..., 57) = 57
+write(1, "  <div class=\"yt-dialog-working-"..., 41) = 41
+write(1, "    <div class=\"yt-dialog-waitin"..., 44) = 44
+write(1, "      <div class=\"yt-spinner-img"..., 93) = 93
+write(1, "    </div>\n", 11)            = 11
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "          </div>\n", 17)      = 17
+write(1, "        </div>\n", 15)        = 15
+write(1, "      </div>\n", 13)          = 13
+write(1, "    </div>\n", 11)            = 11
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "    </span>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "  \n", 3)                     = 3
+write(1, "\n", 1)                       = 1
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "        </div>\n", 15)        = 15
+write(1, "      </div>\n", 13)          = 13
+write(1, "    </div>\n", 11)            = 11
+write(1, "      <div class=\"feed-item-dism"..., 147) = 147
+write(1, "  </li>\n", 8)                = 8
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "  </ul>\n", 8)                = 8
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "  <div id=\"feed-error\" class=\"in"..., 1024) = 1024
+write(1, ";iframeEl.id = 'ad_creative_ifra"..., 3072) = 3072
+write(1, "<img src=\"http://s.ytimg.com/yts"..., 1024) = 1024
+write(1, "ht</a></li>\n  <li><a href=\"//www"..., 2048) = 2048
+write(1, "&passive=true\" class=\"sign-in-li"..., 75) = 75
+write(1, "\n", 1)                       = 1
+write(1, "    </div>\n", 11)            = 11
+write(1, "  <div id=\"yt-uix-videoactionmen"..., 41) = 41
+write(1, "    <div class=\"hide-on-create-p"..., 42) = 42
+write(1, "      <h3>\n", 11)            = 11
+write(1, "Add to\n", 7)                 = 7
+write(1, "      </h3>\n", 12)           = 12
+write(1, "    </div>\n", 11)            = 11
+write(1, "    <div class=\"add-to-widget\">\n", 32) = 32
+write(1, "    </div>\n", 11)            = 11
+write(1, "  </div>\n", 9)               = 9
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "] = 10;ytspf.config['navigate-li"..., 16384, 0, NULL, NULL) = 7602
+write(1, "</div><script>if (window.ytcsi) "..., 1024) = 1024
+write(1, "ww/common\", \"www/channels\": \"www"..., 6144) = 6144
+write(1, "moGgAg\", \"yt_spf\": 0, \"yt_lt\": \""..., 58) = 58
+write(1, "    'XSRF_TOKEN': \"QUFFLUhqbkxsY"..., 286) = 286
+write(1, "    'XSRF_REDIRECT_TOKEN': \"FZnP"..., 87) = 87
+write(1, "    'XSRF_FIELD_NAME': \"session_"..., 39) = 39
+write(1, "  });\n", 6)                  = 6
+write(1, "  yt.setConfig('THUMB_DELAY_LOAD"..., 48) = 48
+write(1, "if (window.ytcsi) {window.ytcsi."..., 64) = 64
+write(1, "</body></html>\n", 15)        = 15
+write(1, "\n", 1)                       = 1
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fa8cbbc9340}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fa8cbbc9340}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fa8cbbc9340}, NULL, 8) = 0
+close(3)                                = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fa8cbbc9340}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fa8cbbc9340}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fa8cbbc9340}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fa8cbbc9340}, NULL, 8) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

@@ -1,0 +1,75 @@
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"-guide-item\\\"\\n      "..., 64) = 64
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(54%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(54%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"   data-sessionlink=\\\""..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(54%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"   data-sessionlink=\\"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(54%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(54%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"alized-endpoint=\\\"0qDd"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"alized-endpoint=\\\"0qD"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"umb-20\\\"\\n      >\\n   "..., 64) = 64
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"umb-20\\\"\\n      >\\n  "..., 65) = 65
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"ue\\\" data-thumb=\\\"http"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"ue\\\" data-thumb=\\\"htt"..., 64) = 64
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(55%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(56%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"          <span class="..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(56%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"          <span class"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(56%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(56%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"\\n\\n              <li "..., 64) = 64
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(56%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"\\n\\n              <li"..., 65) = 65
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0

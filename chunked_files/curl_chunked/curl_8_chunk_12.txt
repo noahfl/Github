@@ -1,0 +1,75 @@
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "b68\r\ns Survival Series Fire Star"..., 16384, 0, NULL, NULL) = 6752
+write(1, "            <a href=\"http://www."..., 1024) = 1024
+write(1, "\n\n\n\n</div>\n        </div>\n      "..., 1024) = 1024
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "            </div>\n", 19)    = 19
+write(1, "            \n", 13)          = 13
+write(1, "            <div class=\"priceBlo"..., 38) = 38
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, " <span class=\"listprice\">$29.99<"..., 78) = 78
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "</div>\n", 7)                 = 7
+write(1, "        </div>\n", 15)        = 15
+write(1, "        </td>\n", 14)         = 14
+write(1, "        </tr>\n", 14)         = 14
+write(1, "         \n", 10)             = 10
+write(1, "        <tr class=\"rankedItem\">\n", 32) = 32
+write(1, "        <td>\n", 13)          = 13
+write(1, "        <div class=\"rankedItemIm"..., 38) = 38
+write(1, "            <a href=\"http://www."..., 471) = 471
+write(1, "        </div>\n", 15)        = 15
+write(1, "        </td>\n", 14)         = 14
+write(1, "        <td>\n", 13)          = 13
+write(1, "        <div class=\"rankedItemIn"..., 37) = 37
+write(1, "            <div class=\"noDil\">\n", 32) = 32
+write(1, "            <span class=\"rank\">4"..., 41) = 41
+write(1, "             <span class=\"moverR"..., 45) = 45
+write(1, "            <span class=\"tiny di"..., 1024) = 1024
+write(1, "07CP6UK0\" title=\"Fantastic Wind "..., 2048) = 2048
+write(1, "ID) {\n", 6)                  = 6
+write(1, "        jQuery(\"#zgTopPaidTab_\" "..., 79) = 79
+write(1, "        jQuery(\"#zgTopFreeTab_\" "..., 82) = 82
+write(1, "        jQuery(\"#zgTopPaidList_\""..., 53) = 53
+write(1, "        jQuery(\"#zgTopFreeList_\""..., 53) = 53
+write(1, "    },\n", 7)                 = 7
+write(1, "\n", 1)                       = 1
+write(1, "    displayFreeList: function(wi"..., 42) = 42
+write(1, "        jQuery(\"#zgTopFreeTab_\" "..., 79) = 79
+write(1, "        jQuery(\"#zgTopPaidTab_\" "..., 82) = 82
+write(1, "        jQuery(\"#zgTopPaidList_\""..., 53) = 53
+write(1, "        jQuery(\"#zgTopFreeList_\""..., 53) = 53
+write(1, "    },\n", 7)                 = 7
+write(1, "\n", 1)                       = 1
+write(1, "    displayPricePopover: functio"..., 51) = 51
+write(1, "        if (ZeitgeistFVP.popover"..., 36) = 36
+write(1, "            ZeitgeistFVP.popover"..., 42) = 42
+write(1, "        }\n", 10)             = 10
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "8fa\r\nonPopover.displayPopover({\n"..., 16384, 0, NULL, NULL) = 2305
+write(1, "        ZeitgeistFVP.popover = j"..., 1024) = 1024
+write(1, "\"centerA\" class=\"\">\n          \n "..., 1024) = 1024
+write(1, " alt=\"Kindle Fire HDX\" height=\"1"..., 68) = 68
+write(1, "      \n", 7)                 = 7
+write(1, "                </div>\n", 23) = 23
+write(1, "              </div>\n", 21)  = 21
+write(1, "            </div>\n", 19)    = 19
+write(1, "          </div>\n", 17)      = 17
+write(1, "        </div>\n", 15)        = 15
+write(1, "        <script>\n", 17)      = 17
+write(1, "  if(typeof uet == 'function'){ "..., 33) = 33
+write(1, "    uet('af'); \n", 16)       = 16
+write(1, "    BtechCF.cf();\n", 18)     = 18
+write(1, "  }\n", 4)                    = 4

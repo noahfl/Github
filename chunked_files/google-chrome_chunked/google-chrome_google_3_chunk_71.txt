@@ -1,0 +1,75 @@
+access("/var/tmp/.164951444_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951445_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951446_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951447_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951448_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951449_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951450_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951451_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951452_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951453_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951454_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951455_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951456_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951457_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951458_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951459_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951460_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951461_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951462_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951463_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951464_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951465_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164951466_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+fcntl(32, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(32, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(32, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(32, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=2}) = 0
+fcntl(32, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+access("/home/bearface/.pki/nssdb/key4.db", F_OK) = 0
+stat("/home/bearface/.pki/nssdb/key4.db", {st_mode=S_IFREG|0600, st_size=11264, ...}) = 0
+open("/home/bearface/.pki/nssdb/key4.db", O_RDWR|O_CREAT|O_CLOEXEC, 0644) = 33
+fstat(33, {st_mode=S_IFREG|0600, st_size=11264, ...}) = 0
+fstat(33, {st_mode=S_IFREG|0600, st_size=11264, ...}) = 0
+stat("/home/bearface/.pki/nssdb/key4.db", {st_mode=S_IFREG|0600, st_size=11264, ...}) = 0
+lseek(33, 0, SEEK_SET)                  = 0
+read(33, "SQLite format 3\0\4\0\1\1\0@  \0\0\0\2\0\0\0\v"..., 100) = 100
+fcntl(33, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(33, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(33, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/home/bearface/.pki/nssdb/key4.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(33, {st_mode=S_IFREG|0600, st_size=11264, ...}) = 0
+access("/home/bearface/.pki/nssdb/key4.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(33, {st_mode=S_IFREG|0600, st_size=11264, ...}) = 0
+lseek(33, 0, SEEK_SET)                  = 0
+read(33, "SQLite format 3\0\4\0\1\1\0@  \0\0\0\2\0\0\0\v"..., 1024) = 1024
+fcntl(33, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741825, len=1}) = 0
+lseek(33, 3072, SEEK_SET)               = 3072
+read(33, "\r\0\0\0\1\0G\0\0G\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+lseek(33, 5120, SEEK_SET)               = 5120
+read(33, "\r\2\264\0\7\2\25\0\3\206\3\273\3>\2\374\2\270\2\25\2\203\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+stat("/var/tmp", {st_mode=S_IFDIR|S_ISVTX|0777, st_size=4096, ...}) = 0
+access("/var/tmp", R_OK|W_OK|X_OK)      = 0
+access("/var/tmp/etilqs_tGaj58MNmD3XXhE", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950884_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950885_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950886_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950887_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950888_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950889_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950890_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950891_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950892_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950893_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950894_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950895_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950896_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950897_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950898_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950899_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950900_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950901_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950902_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950903_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950904_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164950905_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)

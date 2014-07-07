@@ -1,0 +1,75 @@
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6af153d000
+read(32, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+lseek(32, -2252, SEEK_CUR)              = 1267
+read(32, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+close(32)                               = 0
+munmap(0x7f6af153d000, 4096)            = 0
+futex(0x7f6b037defe0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+gettid()                                = 28850
+mmap(0x32b517c8e000, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x32b517c8e000
+madvise(0x32b517c8e000, 1048576, MADV_DONTNEED) = 0
+stat("/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/.pki", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat("/home/bearface/.pki/nssdb", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+statfs("/home/bearface/.pki/nssdb", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44899391, f_bavail=41882585, f_files=15065088, f_ffree=14760666, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+open("/usr/lib/x86_64-linux-gnu/nss/libsoftokn3.so", O_RDONLY|O_CLOEXEC) = 32
+read(32, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220E\0\0\0\0\0\0"..., 832) = 832
+fstat(32, {st_mode=S_IFREG|0644, st_size=274520, ...}) = 0
+mmap(NULL, 2370216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 32, 0) = 0x7f6ae7f44000
+mprotect(0x7f6ae7f85000, 2097152, PROT_NONE) = 0
+mmap(0x7f6ae8185000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 32, 0x41000) = 0x7f6ae8185000
+close(32)                               = 0
+open("/opt/google/chrome/libsqlite3.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/libsqlite3.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 32
+fstat(32, {st_mode=S_IFREG|0644, st_size=116741, ...}) = 0
+mmap(NULL, 116741, PROT_READ, MAP_PRIVATE, 32, 0) = 0x7f6ae7f27000
+close(32)                               = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libsqlite3.so.0", O_RDONLY|O_CLOEXEC) = 32
+read(32, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\235\0\0\0\0\0\0"..., 832) = 832
+fstat(32, {st_mode=S_IFREG|0644, st_size=754880, ...}) = 0
+mmap(NULL, 2851544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 32, 0) = 0x7f6ae7c6e000
+mprotect(0x7f6ae7d22000, 2097152, PROT_NONE) = 0
+mmap(0x7f6ae7f22000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 32, 0xb4000) = 0x7f6ae7f22000
+mmap(0x7f6ae7f26000, 728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6ae7f26000
+close(32)                               = 0
+mprotect(0x7f6ae7f22000, 8192, PROT_READ) = 0
+mprotect(0x7f6ae8185000, 4096, PROT_READ) = 0
+munmap(0x7f6ae7f27000, 116741)          = 0
+open("/home/bearface/.pki/nssdb/pkcs11.txt", O_RDONLY) = 32
+fstat(32, {st_mode=S_IFREG|0600, st_size=445, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6af153d000
+read(32, "library=\nname=NSS Internal PKCS "..., 4096) = 445
+read(32, "", 4096)                      = 0
+close(32)                               = 0
+munmap(0x7f6af153d000, 4096)            = 0
+open("/usr/lib/x86_64-linux-gnu/nss/libfreebl3.so", O_RDONLY|O_CLOEXEC) = 32
+read(32, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2006\0\0\0\0\0\0"..., 832) = 832
+fstat(32, {st_mode=S_IFREG|0644, st_size=494168, ...}) = 0
+mmap(NULL, 2606912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 32, 0) = 0x7f6ae79f1000
+mprotect(0x7f6ae7a68000, 2097152, PROT_NONE) = 0
+mmap(0x7f6ae7c68000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 32, 0x77000) = 0x7f6ae7c68000
+mmap(0x7f6ae7c6a000, 14144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6ae7c6a000
+close(32)                               = 0
+mprotect(0x7f6ae7c68000, 4096, PROT_READ) = 0
+open("/dev/urandom", O_RDONLY)          = 32
+read(32, "\323\303\336\265\10H}\266\271K3Aes\243\274G\253\307\267G\327\274l\2d\373#U\4\5\4"..., 110) = 110
+close(32)                               = 0
+sysinfo({uptime=1032350, loads=[59840, 57824, 57440] totalram=8246448128, freeram=578367488, sharedram=0, bufferram=141131776} totalswap=8464101376, freeswap=7564283904, procs=1027}) = 0
+uname({sys="Linux", node="doug", ...})  = 0
+sysinfo({uptime=1032350, loads=[59840, 57824, 57440] totalram=8246448128, freeram=578367488, sharedram=0, bufferram=141131776} totalswap=8464101376, freeswap=7564283904, procs=1027}) = 0
+stat("/dev/urandom", {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 9), ...}) = 0
+open("/dev/urandom", O_RDONLY)          = 32
+read(32, "\6\347Qi>\340\21\261\236\372\225\35\306\352\255\320\21\375\311J\352A\255\370\3266\375\367\334\305\356/"..., 1024) = 1024
+close(32)                               = 0
+stat("/etc/passwd", {st_mode=S_IFREG|0644, st_size=1961, ...}) = 0
+open("/etc/passwd", O_RDONLY)           = 32
+read(32, "root:x:0:0:root:/root:/bin/bash\n"..., 8192) = 1961
+read(32, "", 8192)                      = 0
+close(32)                               = 0
+stat("/etc/utmp", 0x7fff8177b6a0)       = -1 ENOENT (No such file or directory)
+stat("/tmp", {st_mode=S_IFDIR|S_ISVTX|0777, st_size=4096, ...}) = 0
+open("/tmp", O_RDONLY)                  = 32

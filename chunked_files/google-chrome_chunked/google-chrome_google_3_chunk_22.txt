@@ -1,0 +1,75 @@
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0000\0\5\0\0\0002\332\305\t\0\0\0\0\0\0\0\0\0\0\0\0\1\0\3\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 52
+recvmsg(9, 0x7fff817801c0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff817801c0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\214\t\3\0E\0\0\0\2703\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0001\0\6\0\0\0002\332\305\t\0\0\0\0\0\0\0\0\0\0\0\0\1\0\3\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 56
+recvmsg(9, 0x7fff817801c0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff817801c0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\214\t\3\0F\0\0\0\2703\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0002\0\5\0\0\0002\332\305\t\0\0\0\0\0\0\0\0\0\0\0\0\1\0\3\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 52
+recvmsg(9, 0x7fff817801c0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff817801c0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\214\t\3\0G\0\0\0\2703\0\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0003\0\4\0\0\0002\332\305\t\0\0\0\0\0\0\0\0\0\0\0\0\1\5\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 48
+recvmsg(9, 0x7fff817801c0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff817801c0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\214\37\2\0\235\0\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0004\0\0\0\0\0C\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(9, 0x7fff81780200, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff81780200, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\2\37\4\0\235\0\0\0\0\10\0\0\0\0\2\0\214\4\3\0\235\0\0\0\v\0\0\0\20\0\6\0"..., 96}, {NULL, 0}, {"", 0}], 3) = 96
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0007\0\0\0\0\0g\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 96
+recvmsg(9, 0x7fff8177ffd0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177ffd0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177ffd0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177ffd0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177ffd0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177ffd0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177ffd0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177ffd0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\3\37\2\0\235\0\0\0\16\10\2\0\235\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0:\0\3\0\0\0 \0\0\0\1\0\1\1\377\377\377\377\0\0\0\0\0\1\2\0\"\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 76
+recvmsg(9, 0x7fff8177fff0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177fff0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177fff0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177fff0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\2\37\4\0\235\0\0\0\0\10\0\0\0\0\2\0$\4\1\0\27\0\2\0g\1\0\0", 28}, {NULL, 0}, {"", 0}], 3) = 28
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0>\0\0\0\0\0\f\0 \1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(9, 0x7fff81780070, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff81780070, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\2\37\4\0\f\0 \1\0\10\0\0\0\0B\0%\4\1\0", 20}, {NULL, 0}, {"", 0}], 3) = 20
+recvmsg(9, 0x7fff817800b0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff817800b0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\3\37\2\0\f\0 \1\16\10\2\0\f\0 \1", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0A\0\3\0\0\0 \0\0\0\1\0\0\1\377\377\377\377\0\0\0\0\0\1\0\0\"\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 76
+recvmsg(9, 0x7fff8177fed0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177fed0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177fed0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177fed0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\17\37\2\0\f\0 \1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0C\0\0\0\0\0\235\0\0\0\235\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(9, 0x7fff8177ff40, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177ff40, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\24\0\6\0\f\0 \1h\1\0\0h\1\0\0\0\0\0\0\377\377\377\377", 24}, {NULL, 0}, {"", 0}], 3) = 24
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])

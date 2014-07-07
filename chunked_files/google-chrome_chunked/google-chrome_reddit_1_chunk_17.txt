@@ -1,0 +1,75 @@
+read(3, "1801000\n", 1023)              = 8
+close(3)                                = 0
+open("/proc/cpuinfo", O_RDONLY)         = 3
+read(3, "processor\t: 0\nvendor_id\t: Genuin"..., 1023) = 1023
+read(3, " name\t: Intel(R) Core(TM) i5-333"..., 1018) = 1018
+read(3, "ocode\t: 0x15\ncpu MHz\t\t: 1600.000"..., 1019) = 1019
+read(3, " 0\nsiblings\t: 4\ncore id\t\t: 1\ncpu"..., 1010) = 749
+read(3, "", 1023)                       = 0
+close(3)                                = 0
+futex(0x7fffd8fa6f6c, FUTEX_WAKE, 1)    = 0
+futex(0x7fffd8fa6f6c, FUTEX_WAKE_PRIVATE, 1) = 0
+rt_sigaction(SIGPROF, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPROF, {SIG_IGN, [], SA_RESTORER|SA_RESTART, 0x7fcbfd60c340}, NULL, 8) = 0
+futex(0x7fcc0746b948, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+setitimer(ITIMER_PROF, {it_interval={0, 10000}, it_value={0, 10000}}, NULL) = 0
+getrlimit(RLIMIT_DATA, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fcbf68ef000
+close(3)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGHUP, {SIG_DFL, [], SA_RESTORER, 0x7fcbfd60c340}, NULL, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7fcbfd60c340}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7fcbfd60c340}, NULL, 8) = 0
+rt_sigaction(SIGILL, {SIG_DFL, [], SA_RESTORER, 0x7fcbfd60c340}, NULL, 8) = 0
+rt_sigaction(SIGABRT, {SIG_DFL, [], SA_RESTORER, 0x7fcbfd60c340}, NULL, 8) = 0
+rt_sigaction(SIGFPE, {SIG_DFL, [], SA_RESTORER, 0x7fcbfd60c340}, NULL, 8) = 0
+rt_sigaction(SIGSEGV, {SIG_DFL, [], SA_RESTORER, 0x7fcbfd60c340}, NULL, 8) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [], SA_RESTORER, 0x7fcbfd60c340}, NULL, 8) = 0
+rt_sigaction(SIGTERM, {SIG_DFL, [], SA_RESTORER, 0x7fcbfd60c340}, NULL, 8) = 0
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER, 0x7fcbfd60c340}, NULL, 8) = 0
+rt_sigaction(SIGBUS, {SIG_DFL, [], SA_RESTORER, 0x7fcbfd60c340}, NULL, 8) = 0
+rt_sigaction(SIGTRAP, {SIG_DFL, [], SA_RESTORER, 0x7fcbfd60c340}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fcbfb6deff0}, {SIG_DFL, [], 0}, 8) = 0
+readlink("/proc/self/exe", "/opt/google/chrome/chrome", 4096) = 25
+prctl(PR_SET_NAME, 0x7fcc01f50e58, 0x7fcc01f50e40, 0x656d6f72, 0x7fcc01f50e58) = 0
+uname({sys="Linux", node="doug", ...})  = 0
+futex(0x7fcc01ce90d0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7fcc074bd71c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+stat("/", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/.pki", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat("/home/bearface/.pki/nssdb", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+statfs("/home/bearface/.pki/nssdb", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898786, f_bavail=41881980, f_files=15065088, f_ffree=14760654, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+readlink("/proc/self/exe", "/opt/google/chrome/chrome", 4096) = 25
+open("/opt/google/chrome/icudtl.dat", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=9980368, ...}) = 0
+mmap(NULL, 9980368, PROT_READ, MAP_SHARED, 3, 0) = 0x7fcbf5f6a000
+access("/home/bearface/.config/google-chrome", F_OK) = 0
+open("/home/bearface/.config/google-chrome/Consent To Send Stats", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/proc/29082/oom_score_adj", F_OK) = 0
+creat("/proc/29082/oom_score_adj", 0666) = 4
+write(4, "0", 1)                        = 1
+close(4)                                = 0
+gettid()                                = 29082
+gettid()                                = 29082
+access("/opt/google/chrome/chrome-sandbox", F_OK) = 0
+socketpair(PF_LOCAL, SOCK_SEQPACKET, 0, [4, 5]) = 0
+pipe([6, 7])                            = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fcc020d1bd0) = 29087
+socketpair(PF_LOCAL, SOCK_SEQPACKET, 0, [8, 9]) = 0
+stat("/opt/google/chrome/chrome-sandbox", {st_mode=S_IFREG|S_ISUID|0755, st_size=18600, ...}) = 0
+access("/opt/google/chrome/chrome-sandbox", X_OK) = 0
+socket(PF_LOCAL, SOCK_DGRAM, 0)         = 10
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fcc020d1bd0) = 29088
+rt_sigprocmask(SIG_SETMASK, [], ~[KILL STOP RTMIN RT_1], 8) = 0
+recvmsg(8, {msg_name(0)=NULL, msg_iov(1)=[{"ZYGOTE_OK\0", 10}], msg_controllen=0, msg_flags=0}, 0) = 10
+fstat(10, {st_mode=S_IFSOCK|0777, st_size=0, ...}) = 0
+close(10)                               = 0
+pipe([10, 11])                          = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fcc020d1bd0) = 29098
+close(11)                               = 0
+read(10, "29097\n", 256)                = 6

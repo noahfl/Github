@@ -1,0 +1,75 @@
+write(2, "Saving to: \342\200\230index.html.2\342\200\231\n", 30) = 30
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7fa8e7373000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, "    [<=>                        "..., 79) = 79
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "00006000\r\n<!doctype html><html x"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "00006000\r\n", 10)             = 10
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "<!doctype html><html xmlns=\"http"..., 8192) = 2549
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa8e7372000
+write(4, "<!doctype html><html xmlns=\"http"..., 2549) = 2549
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949142})
+read(3, "xel/of_discovery.png\", \"fetch_tr"..., 8192) = 1448
+write(4, "xel/of_discovery.png\", \"fetch_tr"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949843})
+read(3, "], ['_trackPageview'] ); (functi"..., 8192) = 1448
+write(4, "], ['_trackPageview'] ); (functi"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949715})
+read(3, "\"http://www.reddit.com/r/Documen"..., 8192) = 1448
+write(4, "\"http://www.reddit.com/r/Documen"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949812})
+read(3, "dit.com/r/Music/\" class=\"choice "..., 8192) = 1448
+write(4, "dit.com/r/Music/\" class=\"choice "..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949832})
+read(3, "/worldcup/\" class=\"choice \" >wor"..., 8192) = 1448
+write(4, "/worldcup/\" class=\"choice \" >wor"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948557})
+read(3, "reddit.com/r/gaming/\" >gaming</a"..., 8192) = 1448
+write(4, "reddit.com/r/gaming/\" >gaming</a"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949059})
+read(3, "i><li ><span class=\"separator\">-"..., 8192) = 1448
+write(4, "i><li ><span class=\"separator\">-"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949816})
+read(3, "eddit.com/r/EarthPorn/\" >EarthPo"..., 8192) = 1448
+write(4, "eddit.com/r/EarthPorn/\" >EarthPo"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949808})
+read(3, "me.\" href=\"http://www.reddit.com"..., 8192) = 1448
+write(4, "me.\" href=\"http://www.reddit.com"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949665})
+read(3, "t>author:<i>username</i></dt><dd"..., 8192) = 1448
+write(4, "t>author:<i>username</i></dt><dd"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949239})
+read(3, "/button></div><div class=\"clear\""..., 7547) = 1448
+write(4, "/button></div><div class=\"clear\""..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949656})
+read(3, "ype=code&amp;source=progressbar\""..., 6099) = 1448
+write(4, "ype=code&amp;source=progressbar\""..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948676})
+read(3, "ganic\" class=\"organic-listing lo"..., 4651) = 1448
+write(4, "ganic\" class=\"organic-listing lo"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948137})
+read(3, "\" class=\"live-timestamp\">11 minu"..., 3203) = 1448
+write(4, "\" class=\"live-timestamp\">11 minu"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 928081})
+read(3, "=\"rank\"></span><div class=\"midco"..., 1755) = 1448
+write(4, "=\"rank\"></span><div class=\"midco"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ments/28969d/im_afraid_to_dress_"..., 307) = 307
+write(4, "ments/28969d/im_afraid_to_dress_"..., 307) = 307
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n00006000\r\ns=\"expando\" style='d"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "00006000\r\ns=\"expando\" style='dis"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "00006000\r\n", 10)             = 10
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "s=\"expando\" style='display: none"..., 8192) = 1129
+write(4, "s=\"expando\" style='display: none"..., 1129) = 1129
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947297})

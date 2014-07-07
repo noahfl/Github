@@ -1,0 +1,75 @@
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "TOP, si_utime=0, si_stime=0} ---"..., 37) = 37
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_SETOPTIONS, 32263,"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "0\n:\33[K", 6)                = 6
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_SYSCALL, 32263, 0,"..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "--- SIGCHLD {si_signo=SIGCHLD, s"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "RAP, si_utime=0, si_stime=0} ---"..., 37) = 37
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "wait4(-1, [{WIFSTOPPED(s) && WST"..., 72) = 72
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_SYSCALL, 32263, 0,"..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "wait4(-1, [{WIFEXITED(s) && WEXI"..., 72) = 72
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "--- SIGCHLD {si_signo=SIGCHLD, s"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "_utime=0, si_stime=0} ---\n:\33[K", 30) = 30
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "clone(child_stack=0, flags=CLONE"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "d_tidptr=0x7fad91c24a10) = 32264"..., 37) = 37
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "ptrace(PTRACE_SEIZE, 32264, 0, 0"..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "kill(32264, SIGKILL)            "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "wait4(32264, [{WIFSIGNALED(s) &&"..., 80) = 80
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "--- SIGCHLD {si_signo=SIGCHLD, s"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "LL, si_utime=0, si_stime=0} ---\n"..., 36) = 36
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"/usr/local/sbin/ls\", 0x7ff"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "y)\n:\33[K", 7)               = 7
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"/usr/local/bin/ls\", 0x7fff"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, ")\n:\33[K", 6)                = 6
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"/usr/sbin/ls\", 0x7fff24e6b"..., 84) = 84
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"/usr/bin/ls\", 0x7fff24e6b1"..., 84) = 84
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"/sbin/ls\", 0x7fff24e6b170)"..., 84) = 84

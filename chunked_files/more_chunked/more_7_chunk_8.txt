@@ -1,0 +1,75 @@
+read(2, "\n", 1)                        = 1
+write(1, "\rprocess_vm_readv(32265, [{\"/bin"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(5%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\r.., 256}], 1, [{0x7fff24e6b200,"..., 52) = 52
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(5%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rprocess_vm_readv(32265, [{\"\\317"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(5%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\r 8}], 1, 0) = 8\n", 17)     = 17
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(5%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rprocess_vm_readv(32265, [{\"ls\\0"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(6%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\r7fff24e6d4cf, 33}], 1, 0) = 33\n", 32) = 32
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(6%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rprocess_vm_readv(32265, [{\"\\0\\0"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(6%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\r0) = 8\33[K\n", 11)         = 11
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(6%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rprocess_vm_readv(32265, [{\"\\322"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(6%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\r 8}], 1, 0) = 8\n", 17)     = 17
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(6%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rprocess_vm_readv(32265, [{\"\\335"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(6%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\r 8}], 1, 0) = 8\n", 17)     = 17
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(6%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rprocess_vm_readv(32265, [{\"\\360"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(6%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\r 8}], 1, 0) = 8\n", 17)     = 17
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(6%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rprocess_vm_readv(32265, [{\"\\2\\3"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(6%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\r}], 1, 0) = 8\n", 15)       = 15
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(6%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rprocess_vm_readv(32265, [{\"7\\32"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(6%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\r], 1, 0) = 8\n", 14)        = 14
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(6%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rprocess_vm_readv(32265, [{\"B\\32"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0

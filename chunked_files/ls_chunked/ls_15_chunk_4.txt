@@ -1,0 +1,75 @@
+getxattr("/home/bearface/grive/.grive", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/.grive", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/grive/Research", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/grive/Research", "security.selinux", 0x12695b0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/Research", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/Research", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/grive/Programming", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/grive/Programming", "security.selinux", 0x12695d0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/Programming", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/Programming", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/grive/Linux_Backup", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/grive/Linux_Backup", "security.selinux", 0x12695f0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/Linux_Backup", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/Linux_Backup", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/grive/Loans, Scholarships, Insurance", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/grive/Loans, Scholarships, Insurance", "security.selinux", 0x1269610, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/Loans, Scholarships, Insurance", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/Loans, Scholarships, Insurance", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/grive/Freshman Year", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/grive/Freshman Year", "security.selinux", 0x1269640, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/Freshman Year", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/Freshman Year", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/grive/Etc", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/grive/Etc", "security.selinux", 0x1269660, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/Etc", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/Etc", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/grive/.grive_state", {st_mode=S_IFREG|0644, st_size=80, ...}) = 0
+lgetxattr("/home/bearface/grive/.grive_state", "security.selinux", 0x1269680, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/.grive_state", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive/.grive_state", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=619, ...}) = 0
+mmap(NULL, 619, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff420168000
+close(3)                                = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 6), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff420167000
+write(1, "total 56K\n", 10)             = 10
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff420166000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+lseek(3, -2252, SEEK_CUR)               = 1267
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+close(3)                                = 0
+munmap(0x7ff420166000, 4096)            = 0
+write(1, "drwxr-xr-x 12 bearface bearface "..., 53) = 53
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x 32 bearface bearface "..., 54) = 54
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  2 bearface bearface "..., 55) = 55
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  4 bearface bearface "..., 65) = 65
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  3 bearface bearface "..., 58) = 58
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "-rw-------  1 bearface bearface "..., 57) = 57
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "-rw-r--r--  1 bearface bearface "..., 63) = 63
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(1, "drwxr-xr-x  3 bearface bearface "..., 64) = 64
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0

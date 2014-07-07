@@ -1,0 +1,75 @@
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "ass=\"noLinkDecoration\" href=\"/gp"..., 8192) = 1104
+write(4, "ass=\"noLinkDecoration\" href=\"/gp"..., 1104) = 1104
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947917})
+read(3, ">214<span class=\"s9Long\"> custom"..., 7088) = 1360
+write(4, ">214<span class=\"s9Long\"> custom"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947616})
+read(3, "fined){  s9MultipackRow = jQuery"..., 5728) = 1360
+write(4, "fined){  s9MultipackRow = jQuery"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946060})
+read(3, "s=\"navFooterLinkCol\"><div class="..., 4368) = 1360
+write(4, "s=\"navFooterLinkCol\"><div class="..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946167})
+read(3, "zon.htm%2Fref%3Dfooter_soa%3Fld%"..., 3008) = 1360
+write(4, "zon.htm%2Fref%3Dfooter_soa%3Fld%"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946955})
+read(3, " class=\"nav_a\">Credit Card Marke"..., 1648) = 1360
+write(4, " class=\"nav_a\">Credit Card Marke"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944266})
+read(3, "av_a\">Brazil</a></li><li><a href"..., 288) = 288
+write(4, "av_a\">Brazil</a></li><li><a href"..., 288) = 288
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\nc2\r\nhref=\"http://www.amazon.in"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999999})
+recvfrom(3, "c2\r\nhref=\"http://www.amazon.in/\""..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "c2\r\n", 4)                    = 4
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "href=\"http://www.amazon.in/\" cla"..., 194) = 194
+write(4, "href=\"http://www.amazon.in/\" cla"..., 194) = 194
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n5b4\r\n href=\"http://www.amazon."..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999999})
+recvfrom(3, "5b4\r\n href=\"http://www.amazon.co"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, " href=\"http://www.amazon.com.mx/"..., 1460) = 865
+write(4, " href=\"http://www.amazon.com.mx/"..., 865) = 865
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 941315})
+read(3, "ef=\"http://www.acx.com\" class=\"n"..., 595) = 595
+write(4, "ef=\"http://www.acx.com\" class=\"n"..., 595) = 595
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\nb68\r\nan></a></td>\n<td class=\"n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "b68\r\nan></a></td>\n<td class=\"nav"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "b68\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "an></a></td>\n<td class=\"navFoote"..., 2920) = 758
+write(4, "an></a></td>\n<td class=\"navFoote"..., 758) = 758
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948781})
+read(3, "avFooterDescText\">Business, Indu"..., 2162) = 1360
+write(4, "avFooterDescText\">Business, Indu"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946636})
+read(3, "pacer\" style=\"width: 4%\"></td>\n<"..., 802) = 802
+write(4, "pacer\" style=\"width: 4%\"></td>\n<"..., 802) = 802
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\ne22\r\nDescSpacer\" style=\"width:"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "e22\r\nDescSpacer\" style=\"width: 4"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "e22\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "DescSpacer\" style=\"width: 4%\"></"..., 3618) = 551
+write(4, "DescSpacer\" style=\"width: 4%\"></"..., 551) = 551
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948021})
+read(3, "lcome\" class=\"nav_a\">East Dane<b"..., 3067) = 1360
+write(4, "lcome\" class=\"nav_a\">East Dane<b"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945117})
+read(3, "ss=\"navFooterDescSpacer\" style=\""..., 1707) = 1360
+write(4, "ss=\"navFooterDescSpacer\" style=\""..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944067})
+read(3, "ag.com/\" class=\"nav_a\">Wag.com<b"..., 347) = 347
+write(4, "ag.com/\" class=\"nav_a\">Wag.com<b"..., 347) = 347

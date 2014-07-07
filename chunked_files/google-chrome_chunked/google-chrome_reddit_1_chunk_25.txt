@@ -1,0 +1,75 @@
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\203\3\2\0\t\0\340\3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\3s\0\2\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 40
+recvmsg(9, 0x7fffd8fa5f20, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fffd8fa5f20, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\203\3\2\0\f\0\340\3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\3t\0\2\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 40
+recvmsg(9, 0x7fffd8fa5f20, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fffd8fa5f20, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\212\2\4\0\1\0\340\3P\1\0\0\7\0\0\0\27\0\2\0P\1\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0v\0\0\0\0\0\16\0\200\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(9, 0x7fffd8fa5f90, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fffd8fa5f90, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+lstat("/usr/share/gtk-2.0/gtkrc", 0x7fffd8fa5b70) = -1 ENOENT (No such file or directory)
+access("/usr/share/gtk-2.0/gtkrc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/gtk-2.0/gtkrc.en", F_OK) = -1 ENOENT (No such file or directory)
+lstat("/etc/xdg/xdg-default/gtk-2.0/gtkrc", 0x7fffd8fa5b70) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-default/gtk-2.0/gtkrc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-default/gtk-2.0/gtkrc.en", F_OK) = -1 ENOENT (No such file or directory)
+lstat("/etc/xdg/xdg-default/gtk-2.0/gtkrc", 0x7fffd8fa5b70) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-default/gtk-2.0/gtkrc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-default/gtk-2.0/gtkrc.en", F_OK) = -1 ENOENT (No such file or directory)
+lstat("/etc/gtk-2.0/gtkrc", 0x7fffd8fa5b70) = -1 ENOENT (No such file or directory)
+access("/etc/gtk-2.0/gtkrc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/etc/gtk-2.0/gtkrc.en", F_OK)   = -1 ENOENT (No such file or directory)
+lstat("/home/bearface/.gtkrc-2.0", 0x7fffd8fa5b70) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.gtkrc-2.0.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.gtkrc-2.0.en", F_OK) = -1 ENOENT (No such file or directory)
+--- SIGPROF {si_signo=SIGPROF, si_code=SI_KERNEL} ---
+access("/home/bearface/.themes/Mint-X/gtk-2.0/gtkrc", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/gtkrc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/gtkrc", {st_mode=S_IFREG|0644, st_size=17492, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/gtkrc", O_RDONLY) = 11
+read(11, "# These are the defined colors f"..., 4000) = 4000
+read(11, "] = @text_color\n    text[PRELIGH"..., 4000) = 4000
+access("/home/bearface/.gtk-2.0/2.10.0/x86_64-pc-linux-gnu/engines/libpixmap.so", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.gtk-2.0/2.10.0/x86_64-pc-linux-gnu/engines/libpixmap.la", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.gtk-2.0/2.10.0/engines/libpixmap.so", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.gtk-2.0/2.10.0/engines/libpixmap.la", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.gtk-2.0/x86_64-pc-linux-gnu/engines/libpixmap.so", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.gtk-2.0/x86_64-pc-linux-gnu/engines/libpixmap.la", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.gtk-2.0/engines/libpixmap.so", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.gtk-2.0/engines/libpixmap.la", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/x86_64-pc-linux-gnu/engines/libpixmap.so", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/x86_64-pc-linux-gnu/engines/libpixmap.la", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libpixmap.so", F_OK) = 0
+stat("/usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libpixmap.so", {st_mode=S_IFREG|0644, st_size=43528, ...}) = 0
+open("/usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libpixmap.so", O_RDONLY|O_CLOEXEC) = 12
+read(12, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20%\0\0\0\0\0\0"..., 832) = 832
+fstat(12, {st_mode=S_IFREG|0644, st_size=43528, ...}) = 0
+mmap(NULL, 2138736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 12, 0) = 0x7fcbf555e000
+mprotect(0x7fcbf5567000, 2097152, PROT_NONE) = 0
+mmap(0x7fcbf5767000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 12, 0x9000) = 0x7fcbf5767000
+close(12)                               = 0
+mprotect(0x7fcbf5767000, 4096, PROT_READ) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/images/arrows/small-arrow-up.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/images/arrows/small-arrow-up.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/images/arrows/small-arrow-up.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/images/arrows/small-arrow-up-insensitive.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/images/arrows/small-arrow-down.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/images/arrows/small-arrow-down.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/images/arrows/small-arrow-down.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/images/arrows/small-arrow-down-insensitive.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/images/arrows/arrow-left.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/images/arrows/arrow-left.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/images/arrows/arrow-left.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/images/arrows/arrow-left-insensitive.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/images/arrows/arrow-right.svg", F_OK) = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/images/arrows/arrow-right.svg", F_OK) = 0
+read(11, "mage \n        {\n            func"..., 4000) = 4000

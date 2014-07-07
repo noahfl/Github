@@ -1,0 +1,75 @@
+access("/home/bearface/.pki/nssdb/.164990673_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.164990674_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.164990675_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.164990676_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.164990677_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.164990678_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.164990679_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.164990680_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.164990681_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.164990682_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.164990683_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.164990684_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/.164990685_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.pki/nssdb/cert9.db", F_OK) = 0
+stat("/home/bearface/.pki/nssdb/cert9.db", {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+open("/home/bearface/.pki/nssdb/cert9.db", O_RDWR|O_CREAT|O_CLOEXEC, 0644) = 32
+fstat(32, {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+fstat(32, {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+stat("/home/bearface/.pki/nssdb/cert9.db", {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+lseek(32, 0, SEEK_SET)                  = 0
+read(32, "SQLite format 3\0\4\0\1\1\0@  \0\0\0\1\0\0\0\t"..., 100) = 100
+fcntl(32, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(32, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(32, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/home/bearface/.pki/nssdb/cert9.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(32, {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+access("/home/bearface/.pki/nssdb/cert9.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(32, {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+lseek(32, 0, SEEK_SET)                  = 0
+read(32, "SQLite format 3\0\4\0\1\1\0@  \0\0\0\1\0\0\0\t"..., 1024) = 1024
+fcntl(32, F_SETLK, {type=F_WRLCK, whence=SEEK_SET, start=1073741825, len=1}) = 0
+lseek(32, 3072, SEEK_SET)               = 3072
+read(32, "\r\0\0\0\1\0J\0\0J\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+lseek(32, 5120, SEEK_SET)               = 5120
+read(32, "\r\0\0\0\5\2\302\0\3\212\3\275\3D\3\4\2\302\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+stat("/var/tmp", {st_mode=S_IFDIR|S_ISVTX|0777, st_size=4096, ...}) = 0
+access("/var/tmp", R_OK|W_OK|X_OK)      = 0
+open("/dev/urandom", O_RDONLY|O_CLOEXEC) = 33
+read(33, "D\231\253\303\354\262o\375\301\260\316\361\307\2431\22\\\364\367=\361\262N\303+5S\324\316\23\271\202"..., 256) = 256
+close(33)                               = 0
+access("/var/tmp/etilqs_HFEX5twqcAYT6Uy", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990345_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990346_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990347_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990348_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990349_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990350_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990351_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990352_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990353_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990354_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990355_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990356_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990357_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990358_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990359_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990360_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990361_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990362_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990363_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990364_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990365_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990366_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990367_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990368_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990369_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990370_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990371_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990372_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990373_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990374_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990375_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990376_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990377_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)
+access("/var/tmp/.164990378_dOeSnotExist_.db", F_OK) = -1 ENOENT (No such file or directory)

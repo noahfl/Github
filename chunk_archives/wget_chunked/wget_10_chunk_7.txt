@@ -1,0 +1,75 @@
+read(3, "essionlink=\"ei=9BGfU5LyEpXzqgXgg"..., 8192) = 8192
+write(4, "essionlink=\"ei=9BGfU5LyEpXzqgXgg"..., 4096) = 4096
+write(4, "-addto-watch-later-login\" data-v"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, " </div>\n      </div>\n    </div>\n"..., 8192) = 66
+write(4, " </div>\n      </div>\n    </div>\n"..., 66) = 66
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948546})
+read(3, "sal-notices\"><div class=\"feed-it"..., 8192) = 1368
+write(4, "sal-notices\"><div class=\"feed-it"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949215})
+read(3, "ss=\"vertical-align\"></span>\n    "..., 8192) = 1368
+write(4, "ss=\"vertical-align\"></span>\n    "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "ch-later-button-sign-in yt-uix-t"..., 8192) = 2736
+write(4, "ch-later-button-sign-in yt-uix-t"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "tton-menu-id=\"shared-addto-watch"..., 8192) = 1368
+write(4, "tton-menu-id=\"shared-addto-watch"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949918})
+read(3, "i>\n      <li>1,983,128 views</li"..., 8192) = 1368
+write(4, "i>\n      <li>1,983,128 views</li"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "-watch-later-login\" data-video-i"..., 8192) = 2736
+write(4, "-watch-later-login\" data-video-i"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948586})
+read(3, "yts/img/pixel-vfl3z5WfW.gif\" alt"..., 8192) = 1368
+write(4, "yts/img/pixel-vfl3z5WfW.gif\" alt"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949159})
+read(3, "k\"\n      data-visibility-trackin"..., 8192) = 1368
+write(4, "k\"\n      data-visibility-trackin"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "   <h3 class=\"yt-lockup-title\"><"..., 8192) = 1368
+write(4, "   <h3 class=\"yt-lockup-title\"><"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "-high-cpv\">    <span class=\"vide"..., 8192) = 1368
+write(4, "-high-cpv\">    <span class=\"vide"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "ll</a></h3>\n\n  <div class=\"yt-lo"..., 8094) = 2736
+write(4, "ll</a></h3>\n\n  <div class=\"yt-lo"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949916})
+read(3, "\nby <a href=\"/channel/UCHH9FQBvo"..., 5358) = 1368
+write(4, "\nby <a href=\"/channel/UCHH9FQBvo"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "t-uix-button-size-default yt-uix"..., 3990) = 1368
+write(4, "t-uix-button-size-default yt-uix"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947000})
+read(3, "s=\"yt-dialog-base\">\n      <span "..., 2622) = 1368
+write(4, "s=\"yt-dialog-base\">\n      <span "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949377})
+read(3, "div class=\"yt-dialog-waiting-con"..., 1254) = 1254
+write(4, "div class=\"yt-dialog-waiting-con"..., 1254) = 1254
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n4800\r\nolink g-hovercard\" data-"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "4800\r\nolink g-hovercard\" data-se"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "4800\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "olink g-hovercard\" data-sessionl"..., 8192) = 4210
+write(4, "olink g-hovercard\" data-sessionl"..., 4096) = 4096
+write(4, "Um_o_wUI/mqdefault.jpg\" width=\"1"..., 114) = 114
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, ">\n    </span>\n\n\n  <button class="..., 8192) = 4104
+write(4, ">\n    </span>\n\n\n  <button class="..., 4096) = 4096
+write(4, "i>\n    <", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949920})
+read(3, "/ul>\n  </div>\n  \n  \n  \n\n    </di"..., 8192) = 1368
+write(4, "/ul>\n  </div>\n  \n  \n  \n\n    </di"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ixel-vfl3z5WfW.gif\" alt=\"Watch L"..., 8192) = 1368
+write(4, "ixel-vfl3z5WfW.gif\" alt=\"Watch L"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949204})
+read(3, "id vve-check\"\n      data-visibil"..., 7382) = 1368
+write(4, "id vve-check\"\n      data-visibil"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})

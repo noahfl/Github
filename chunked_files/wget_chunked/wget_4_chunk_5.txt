@@ -1,0 +1,75 @@
+stat("index.html.1", {st_mode=S_IFREG|0644, st_size=14224, ...}) = 0
+stat("index.html.2", {st_mode=S_IFREG|0644, st_size=118127, ...}) = 0
+stat("index.html.3", {st_mode=S_IFREG|0644, st_size=356117, ...}) = 0
+stat("index.html.4", {st_mode=S_IFREG|0644, st_size=113080, ...}) = 0
+stat("index.html.5", {st_mode=S_IFREG|0644, st_size=57244, ...}) = 0
+stat("index.html.6", {st_mode=S_IFREG|0644, st_size=38264, ...}) = 0
+stat("index.html.7", {st_mode=S_IFREG|0644, st_size=363631, ...}) = 0
+stat("index.html.8", 0x7fff222f1d70)    = -1 ENOENT (No such file or directory)
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-16 11:45:43--  http://"..., 69) = 69
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("134.170.188.84")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 53) = 53
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999996})
+write(3, "GET /en-us/default.aspx HTTP/1.1"..., 159) = 159
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 650241})
+recvfrom(3, "HTTP/1.1 200 OK\r\nCache-Control: "..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nCache-Control: "..., 511) = 511
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999992})
+recvfrom(3, "Powered-By: ASP.NET\r\nDate: Mon, "..., 512, MSG_PEEK, NULL, NULL) = 512
+read(3, "Powered-By: ASP.NET\r\nDate: Mon, "..., 60) = 60
+write(2, "200 OK\n", 7)                 = 7
+stat("index.html.8", 0x7fff222f1980)    = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "113080", 6)                   = 6
+write(2, " (110K)", 7)                  = 7
+write(2, " [text/html]\n", 13)          = 13
+open("index.html.8", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230index.html.8\342\200\231\n", 30) = 30
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7f3432491000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\357\273\277<!DOCTYPE html><html xmlns=\"h"..., 8192) = 2149
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3432490000
+write(4, "\357\273\277<!DOCTYPE html><html xmlns=\"h"..., 2149) = 2149
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946914})
+read(3, "8b-15d1-8dab-81d5-8d18bc3234bc_1"..., 8192) = 1360
+write(4, "8b-15d1-8dab-81d5-8d18bc3234bc_1"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946168})
+read(3, "theme-layout\"><div class=\"row-fl"..., 8192) = 1360
+write(4, "theme-layout\"><div class=\"row-fl"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 854355})
+read(3, "a-cols=\"1\"><div class=\"span bp0-"..., 8192) = 1360
+write(4, "a-cols=\"1\"><div class=\"span bp0-"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947611})
+read(3, "34\" /></a></div><div class=\"span"..., 8192) = 5440
+write(4, "34\" /></a></div><div class=\"span"..., 4096) = 4096
+write(4, "pdownContainer\" class=\"mscom-sea"..., 1344) = 1344
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949912})
+read(3, "\"__EVENTVALIDATION\" id=\"__EVENTV"..., 8192) = 4080
+write(4, "\"__EVENTVALIDATION\" id=\"__EVENTV"..., 4080) = 4080
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 844171})
+read(3, "501f8b-4559-45b1-9c36-525c89eaa4"..., 8192) = 2720
+write(4, "501f8b-4559-45b1-9c36-525c89eaa4"..., 2720) = 2720
+write(2, "\r", 1)                       = 1
+write(2, "16% [=====>                     "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949992})
+read(3, " href=\"http://pinpoint.microsoft"..., 8192) = 5440
+write(4, " href=\"http://pinpoint.microsoft"..., 4096) = 4096
+write(4, "af63e7c-e7c8-1eff-8a67-caca69c36"..., 1344) = 1344
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946172})
+read(3, "//www.xbox.com/en-us/\" bi:linkid"..., 8192) = 1360
+write(4, "//www.xbox.com/en-us/\" bi:linkid"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949908})
+read(3, "-61294a811a0e\" target=\"_self\" cl"..., 8192) = 1360
+write(4, "-61294a811a0e\" target=\"_self\" cl"..., 1360) = 1360

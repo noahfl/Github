@@ -1,0 +1,75 @@
+stat("/usr/lib/tls/x86_64", 0x7fff77a90f40) = -1 ENOENT (No such file or directory)
+open("/usr/lib/tls/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/tls", 0x7fff77a90f40)    = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64", 0x7fff77a90f40) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libnss_db.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=24576, ...}) = 0
+munmap(0x7f0ee8175000, 111089)          = 0
+open("/etc/services", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=19558, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0ee8190000
+read(3, "# Network services, Internet sty"..., 4096) = 4096
+close(3)                                = 0
+munmap(0x7f0ee8190000, 4096)            = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+open("/dev/urandom", O_RDONLY|O_NOCTTY|O_NONBLOCK) = 3
+fstat(3, {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 9), ...}) = 0
+poll([{fd=3, events=POLLIN}], 1, 10)    = 1 ([{fd=3, revents=POLLIN}])
+read(3, "\206rq\225}B\v\227\353\270\350\303\37I7#\360\341 K<\332\340$\261\10\34\2726\256@\36", 32) = 32
+close(3)                                = 0
+getuid()                                = 1000
+uname({sys="Linux", node="doug", ...})  = 0
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 3
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(22), sin_addr=inet_addr("10.104.251.180")}, 16) = 0
+setsockopt(3, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+stat("/home/bearface/.ssh", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=1909, ...}) = 0
+mmap(NULL, 1909, PROT_READ, MAP_SHARED, 4, 0) = 0x7f0ee8190000
+lseek(4, 1909, SEEK_SET)                = 1909
+munmap(0x7f0ee8190000, 1909)            = 0
+close(4)                                = 0
+uname({sys="Linux", node="doug", ...})  = 0
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=1909, ...}) = 0
+mmap(NULL, 1909, PROT_READ, MAP_SHARED, 4, 0) = 0x7f0ee8190000
+lseek(4, 1909, SEEK_SET)                = 1909
+munmap(0x7f0ee8190000, 1909)            = 0
+close(4)                                = 0
+open("/home/bearface/.ssh/id_rsa", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_rsa", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_rsa", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_rsa.pub", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_rsa-cert", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_rsa-cert", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_rsa-cert", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_rsa-cert.pub", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=1909, ...}) = 0
+mmap(NULL, 1909, PROT_READ, MAP_SHARED, 4, 0) = 0x7f0ee8190000
+lseek(4, 1909, SEEK_SET)                = 1909
+munmap(0x7f0ee8190000, 1909)            = 0
+close(4)                                = 0
+open("/home/bearface/.ssh/id_dsa", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_dsa", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_dsa", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_dsa.pub", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_dsa-cert", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_dsa-cert", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_dsa-cert", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_dsa-cert.pub", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=1909, ...}) = 0
+mmap(NULL, 1909, PROT_READ, MAP_SHARED, 4, 0) = 0x7f0ee8190000
+lseek(4, 1909, SEEK_SET)                = 1909
+munmap(0x7f0ee8190000, 1909)            = 0
+close(4)                                = 0
+open("/home/bearface/.ssh/id_ecdsa", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_ecdsa", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.ssh/id_ecdsa", O_RDONLY) = -1 ENOENT (No such file or directory)

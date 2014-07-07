@@ -1,0 +1,75 @@
+recvfrom(3, "hat_the_universe_in_its/\" class="..., 16384, 0, NULL, NULL) = 1448
+write(1, "ghts</a>)</span></p><div class=\""..., 1024) = 1024
+write(1, "div><div class=\"child\" ></div><d"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 65)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "f this tool is open to all membe"..., 16384, 0, NULL, NULL) = 1448
+write(1, "eddit.com/wiki/selfserve\" >self-"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 64)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ental_games\" target=\"_blank\">/r/"..., 16384, 0, NULL, NULL) = 1448
+write(1, "+movies+IAmA+Showerthoughts+spor"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 64)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "try unvoted\"><p class=\"title\"><a"..., 16384, 0, NULL, NULL) = 1448
+write(1, ".content .link .midcol, .midcol-"..., 1024) = 1024
+write(1, "\"1\" >TSA Struggles</a>&#32;<span"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 63)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ent)\" role=\"button\" aria-label=\""..., 16384, 0, NULL, NULL) = 1448
+write(1, "ss=\"clearleft\"></div><div class="..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 62)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "style=\"\" ><a class=\"option activ"..., 16384, 0, NULL, NULL) = 1448
+write(1, "sed.</a>&#32;<span class=\"domain"..., 1024) = 1024
+write(1, "></div></div><div class=\"clearle"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 62)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "32;<time title=\"Sun Jun 15 23:26"..., 16384, 0, NULL, NULL) = 1448
+write(1, "system</a>&#32;<span class=\"doma"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 61)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ow down login-required\" onclick="..., 16384, 0, NULL, NULL) = 1448
+write(1, "\" ></div><div class=\"clearleft\">"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 61)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "iv></div><div class=\"child\" ></d"..., 16384, 0, NULL, NULL) = 1448
+write(1, " below the national average.</a>"..., 1024) = 1024
+write(1, "ss=\"clearleft\"></div></div><div "..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 60)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "&#32;to&#32;<a href=\"http://www."..., 16384, 0, NULL, NULL) = 1448
+write(1, "#32;<span class=\"domain\">(<a hre"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 60)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "did_you_dream/\" tabindex=\"1\" >Re"..., 16384, 0, NULL, NULL) = 1448
+write(1, "</div><div class=\"clearleft\"></d"..., 1024) = 1024
+write(1, " class=\"tagline\">submitted&#32;<"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 59)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ogin-required\" onclick=\"$(this)."..., 16384, 0, NULL, NULL) = 1448
+write(1, "l7 odd link \" onclick=\"click_thi"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 58)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "e\"><span class=\"share-button tog"..., 16384, 0, NULL, NULL) = 1448
+write(1, "gur.com</a>)</span></p><p class="..., 1024) = 1024
+write(1, "link \" onclick=\"click_thing(this"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 58)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "</time>&#32;by&#32;<a href=\"http"..., 16384, 0, NULL, NULL) = 1448
+write(1, "=\"live-timestamp\">7 hours ago</t"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 58)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "mbnail may-blank \" href=\"http://"..., 16384, 0, NULL, NULL) = 1448
+write(1, "v class=\"midcol unvoted\" ><div c"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 57)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "option \" href=\"#\">cancel</a></sp"..., 16384, 0, NULL, NULL) = 1448
+write(1, "rocket bases.</a>&#32;<span clas"..., 1024) = 1024
+write(1, "=\"child\" ></div><div class=\"clea"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 55)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "-timestamp\">8 hours ago</time>&#"..., 16384, 0, NULL, NULL) = 1448
+write(1, " their sections after their matc"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 55)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])

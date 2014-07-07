@@ -1,0 +1,75 @@
+write(1, "          <span class=\"vertical-"..., 47) = 47
+write(1, "        </span>\n", 16)       = 16
+write(1, "      </span>\n", 14)         = 14
+write(1, "    </span>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "  <button class=\"yt-uix-button y"..., 1024) = 1024
+write(1, "    \nby <a href=\"/channel/UClsA9"..., 6144) = 6144
+write(1, "mb-wrap yt-uix-sessionlink yt-fl"..., 228) = 228
+write(1, "      >\n", 8)                = 8
+write(1, "      <span class=\"yt-thumb-defa"..., 38) = 38
+write(1, "        <span class=\"yt-thumb-cl"..., 37) = 37
+write(1, "          <img data-thumb=\"//i1."..., 166) = 166
+write(1, "          <span class=\"vertical-"..., 47) = 47
+write(1, "        </span>\n", 16)       = 16
+write(1, "      </span>\n", 14)         = 14
+write(1, "    </span>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ions spf-nolink hide-until-delay"..., 16384, 0, NULL, NULL) = 16384
+write(1, "  <button class=\"yt-uix-button y"..., 1024) = 1024
+write(1, "f Me</a></h3>\n\n  <div class=\"yt-"..., 15360) = 15360
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, " To Be Here Anymore (Lyric Video"..., 16384, 0, NULL, NULL) = 16384
+write(1, "amp;ved=CL0BEL8b&amp;feature=g-h"..., 1024) = 1024
+write(1, "-grid vve-check\"\n      data-visi"..., 7168) = 7168
+write(1, "MEb&amp;feature=g-high-cpv\" dir="..., 249) = 249
+write(1, "\n", 1)                       = 1
+write(1, "        </li>\n", 14)         = 14
+write(1, "      <li>469,294 views</li>\n", 29) = 29
+write(1, "        <li class=\"yt-lockup-dee"..., 49) = 49
+write(1, "            5 days ago\n", 23) = 23
+write(1, "        </li>\n", 14)         = 14
+write(1, "    </ul>\n", 10)             = 10
+write(1, "  </div>\n", 9)               = 9
+write(1, "  \n", 3)                     = 3
+write(1, "  \n", 3)                     = 3
+write(1, "  \n", 3)                     = 3
+write(1, "\n", 1)                       = 1
+write(1, "    </div>\n", 11)            = 11
+write(1, "    \n", 5)                   = 5
+write(1, "  </div>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "        </li>\n", 14)         = 14
+write(1, "        <li class=\"channels-cont"..., 87) = 87
+write(1, "            \n", 13)          = 13
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "    <div class=\"yt-lockup clearf"..., 78) = 78
+write(1, "      data-visibility-tracking=\""..., 1024) = 1024
+write(1, "to-watch-later-login\"><span clas"..., 6144) = 6144
+write(1, "sHcWqqgWymoGgAg&amp;ved=CNABENwc"..., 35) = 35
+write(1, "              <h2 class=\"branded"..., 53) = 53
+write(1, "          \n", 11)            = 11
+write(1, "      <a href=\"/channel/UCxAgnFb"..., 214) = 214
+write(1, "                <span class=\"vid"..., 64) = 64
+write(1, "      >\n", 8)                = 8
+write(1, "      <span class=\"yt-thumb-squa"..., 37) = 37
+write(1, "        <span class=\"yt-thumb-cl"..., 37) = 37
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "\"//i1.ytimg.com/i/xAgnFbkxldX6YU"..., 16384, 0, NULL, NULL) = 16384
+write(1, "          <img data-thumb=\"//i1."..., 1024) = 1024
+write(1, "umb  yt-thumb yt-thumb-175 yt-th"..., 15360) = 15360
+write(1, "   >\n", 5)                   = 5
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ch?v=01YzAGsQ7qo\" class=\"ux-thum"..., 16384, 0, NULL, NULL) = 16384
+write(1, "        <a href=\"/watch?v=01YzAG"..., 1024) = 1024

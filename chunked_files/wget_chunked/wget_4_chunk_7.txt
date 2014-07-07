@@ -1,0 +1,75 @@
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949474})
+read(3, "n bp0-col-1-1 bp1-col-1-1 bp2-co"..., 8192) = 1360
+write(4, "n bp0-col-1-1 bp1-col-1-1 bp2-co"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 943175})
+read(3, "7c7cdc1e1c\"><a id=\"3be58049-e947"..., 8192) = 4080
+write(4, "7c7cdc1e1c\"><a id=\"3be58049-e947"..., 4080) = 4080
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949429})
+read(3, "=299065\" bi:linkid=\"HH2-GEN-143M"..., 8192) = 1360
+write(4, "=299065\" bi:linkid=\"HH2-GEN-143M"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949217})
+read(3, "and help your school earn Surfac"..., 8192) = 1360
+write(4, "and help your school earn Surfac"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947766})
+read(3, "list-style-type: none;\"><li id=\""..., 8192) = 1360
+write(4, "list-style-type: none;\"><li id=\""..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949357})
+read(3, "lear sortable-control\"><div id=\""..., 8192) = 1360
+write(4, "lear sortable-control\"><div id=\""..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949375})
+read(3, "993-A6B0-60D830BC6687\" target=\"_"..., 8192) = 1360
+write(4, "993-A6B0-60D830BC6687\" target=\"_"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947605})
+read(3, "91899765\" target=\"_self\" class=\""..., 8192) = 1360
+write(4, "91899765\" target=\"_self\" class=\""..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949445})
+read(3, "47c3a\"><div class=\"CSPvNext     "..., 8192) = 1360
+write(4, "47c3a\"><div class=\"CSPvNext     "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949294})
+read(3, "1 bp2-col-1-1 bp3-col-1-1 sortab"..., 8192) = 1360
+write(4, "1 bp2-col-1-1 bp3-col-1-1 sortab"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947767})
+read(3, "4fc-694fc8e45896\" target=\"_self\""..., 8192) = 1360
+write(4, "4fc-694fc8e45896\" target=\"_self\""..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949357})
+read(3, "class=\"heading\" bi:title=\"t1\" bi"..., 8192) = 1360
+write(4, "class=\"heading\" bi:title=\"t1\" bi"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 902421})
+read(3, "2-5039eb0828d8\" target=\"_self\" c"..., 8192) = 1360
+write(4, "2-5039eb0828d8\" target=\"_self\" c"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947990})
+read(3, " href=\"http://www.microsoft.com/"..., 8192) = 1360
+write(4, " href=\"http://www.microsoft.com/"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949553})
+read(3, "760-c97c-9a0191b5fffe\" srcid=\"41"..., 8192) = 1360
+write(4, "760-c97c-9a0191b5fffe\" srcid=\"41"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949450})
+read(3, "e support\">Find more support</a>"..., 8192) = 1360
+write(4, "e support\">Find more support</a>"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947666})
+read(3, "\" href=\"http://blogs.technet.com"..., 8192) = 1360
+write(4, "\" href=\"http://blogs.technet.com"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949440})
+read(3, "36a98\" srcid=\"a78a47be-4a66-841c"..., 8192) = 1360
+write(4, "36a98\" srcid=\"a78a47be-4a66-841c"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 942799})
+read(3, "1, 2014 - </span></time><span cl"..., 8192) = 4080
+write(4, "1, 2014 - </span></time><span cl"..., 4080) = 4080
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949647})
+read(3, "view2=\"1\" data-view3=\"1\" data-vi"..., 8192) = 1360
+write(4, "view2=\"1\" data-view3=\"1\" data-vi"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949475})
+read(3, "://c.s-microsoft.com/en-us/CMSIm"..., 8192) = 1360
+write(4, "://c.s-microsoft.com/en-us/CMSIm"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947753})
+read(3, "ol.png?version=1b2bd4af-a95a-115"..., 8192) = 1360
+write(4, "ol.png?version=1b2bd4af-a95a-115"..., 1360) = 1360
+write(2, "\r", 1)                       = 1
+write(2, "86% [==========================="..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "-40b0a4bfb87b\" class=\"mscom-imag"..., 8192) = 1360
+write(4, "-40b0a4bfb87b\" class=\"mscom-imag"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949675})
+read(3, "-1-1 bp2-col-1-1 bp3-col-1-1 sor"..., 8192) = 1360
+write(4, "-1-1 bp2-col-1-1 bp3-col-1-1 sor"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947642})

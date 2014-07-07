@@ -1,0 +1,75 @@
+write(1, "\n", 1)                       = 1
+write(1, "<script type=\"text/javascript\">\n", 32) = 32
+write(1, "  window.usePageContentReady = t"..., 37) = 37
+write(1, "</script>\n", 10)             = 10
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "    \n", 5)                   = 5
+write(1, "\n", 1)                       = 1
+write(1, "  \n", 3)                     = 3
+write(1, "\n", 1)                       = 1
+write(1, "<style>\n", 8)                = 8
+write(1, ".tcg h2, .tcg h2 a, .tcg h2 a:ac"..., 74) = 74
+write(1, "   font-family:Arial,Verdana,Hel"..., 51) = 51
+write(1, "}\n", 2)                      = 2
+write(1, ".tcg1 .hdlnblk h2, .tcg2 .hdlnbl"..., 39) = 39
+write(1, "   font-size:37px;\n", 19)    = 19
+write(1, "   line-height:1em;\n", 20)   = 20
+write(1, "}\n", 2)                      = 2
+write(1, ".tcg1 .subhed {\n", 16)       = 16
+write(1, "   font-size:23px;\n", 19)    = 19
+write(1, "}\n", 2)                      = 2
+write(1, ".tcg4 .hdlnblk h2 {\n", 20)   = 20
+write(1, "   font-size:29px;\n", 19)    = 19
+write(1, "}\n", 2)                      = 2
+write(1, ".tcg4 .subhed {\n", 16)       = 16
+write(1, "   font-size:1.6em;\n", 20)   = 20
+write(1, "}\n", 2)                      = 2
+write(1, "</style>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "  \n", 3)                     = 3
+poll([{fd=3, events=POLLIN}], 1, 107)   = 0 (Timeout)
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "a4\r\n\n      \n    \n    \n      \n   "..., 16384, 0, NULL, NULL) = 170
+write(1, " \n      \n    \n    \n      \n      "..., 162) = 162
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "14\r\n\n\n\n      \n\n\n\n\n      \r\n", 16384, 0, NULL, NULL) = 26
+write(1, "   \n\n\n      \n\n\n\n\n", 17) = 17
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "5ae\r\n\n\n\n\n\n      \n    \n<!--btech-"..., 16384, 0, NULL, NULL) = 1360
+write(1, "      \n\n\n\n\n      \n    \n<!--btech"..., 1024) = 1024
+write(1, "e.\"/>\n", 6)                 = 6
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "nal Care, Beauty, Home, Garden, "..., 16384, 0, NULL, NULL) = 1461
+write(1, "<meta name=\"keywords\" content=\"A"..., 1024) = 1024
+write(1, "el='stylesheet'>\n", 17)      = 17
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "<script type=\"text/javascript\">\n", 32) = 32
+write(1, "\n", 1)                       = 1
+write(1, "var amznJQ,jQueryPatchIPadOffset"..., 40) = 40
+write(1, "(function() {\n", 14)         = 14
+write(1, "  function f() {}\n", 18)     = 18
+write(1, "  function ch(y) {return String."..., 50) = 50
+write(1, "  amznJQ={\n", 11)            = 11
+write(1, "    addLogical:f,\n", 18)     = 18
+write(1, "    addStyle:f,\n", 16)       = 16
+write(1, "    addPL:f,\n", 13)          = 13
+write(1, "    available:f,\n", 17)      = 17
+write(1, "    chars:{EOL:ch(10), SQUOTE:ch"..., 85) = 85
+write(1, "    completedStage:f,\n", 22) = 22

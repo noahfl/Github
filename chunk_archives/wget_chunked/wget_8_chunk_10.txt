@@ -1,0 +1,75 @@
+read(3, "div></li><li class=\"nav_taglined"..., 4380) = 1354
+write(4, "div></li><li class=\"nav_taglined"..., 1354) = 1354
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947076})
+read(3, "link nav_pop_li\"><a href=\"/gp/mo"..., 3026) = 3026
+write(4, "link nav_pop_li\"><a href=\"/gp/mo"..., 3026) = 3026
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 986999})
+recvfrom(3, "5b4\r\nv_pop_li\"><a href=\"/Boating"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "v_pop_li\"><a href=\"/Boating-Wate"..., 1460) = 1460
+write(4, "v_pop_li\"><a href=\"/Boating-Wate"..., 1460) = 1460
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 995980})
+recvfrom(3, "382\r\nUTF8&amp;node=706812011\" cl"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "382\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "UTF8&amp;node=706812011\" class=\""..., 898) = 898
+write(4, "UTF8&amp;node=706812011\" class=\""..., 898) = 898
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n2000\r\nls</a></li><li class=\"na"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "2000\r\nls</a></li><li class=\"nav_"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ls</a></li><li class=\"nav_subcat"..., 8192) = 449
+write(4, "ls</a></li><li class=\"nav_subcat"..., 449) = 449
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944938})
+read(3, "bcat_link nav_pop_li\"><a href=\"/"..., 7743) = 2720
+write(4, "bcat_link nav_pop_li\"><a href=\"/"..., 2720) = 2720
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 938946})
+read(3, "t&openid.mode=checkid_setup&open"..., 5023) = 1360
+write(4, "t&openid.mode=checkid_setup&open"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944265})
+read(3, "nIn=1\" class=\"nav_a\">Your Wish L"..., 3663) = 1360
+write(4, "nIn=1\" class=\"nav_a\">Your Wish L"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 942530})
+read(3, "ideo/library\" class=\"nav_a\">Your"..., 2303) = 1360
+write(4, "ideo/library\" class=\"nav_a\">Your"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945832})
+read(3, "   <p class='nav_p nav-bold nav-"..., 943) = 943
+write(4, "   <p class='nav_p nav-bold nav-"..., 943) = 943
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n1b2a\r\nnav_p '> Check your Inte"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "1b2a\r\nnav_p '> Check your Intern"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1b2a\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "nav_p '> Check your Internet con"..., 6954) = 409
+write(4, "nav_p '> Check your Internet con"..., 409) = 409
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944033})
+read(3, "inner\">\n        View Cart\n      "..., 6545) = 1360
+write(4, "inner\">\n        View Cart\n      "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945445})
+read(3, "Birthdays</a></li><li class=\"nav"..., 5185) = 1360
+write(4, "Birthdays</a></li><li class=\"nav"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946141})
+read(3, "if (item.ourPrice) { #>\n        "..., 3825) = 1360
+write(4, "if (item.ourPrice) { #>\n        "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946123})
+read(3, "subnav'>\n  <# if (obj && obj.typ"..., 2465) = 1360
+write(4, "subnav'>\n  <# if (obj && obj.typ"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947264})
+read(3, "'>\n          <a href='<#=row.url"..., 1105) = 1105
+write(4, "'>\n          <a href='<#=row.url"..., 1105) = 1105
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n4d6\r\nges-amazon.com/images/G/0"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})

@@ -1,0 +1,75 @@
+write(1, "\33[7m--More--(29%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r, {SIG_DFL, [], 0}, 8) = 0\n", 28) = 28
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(29%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrt_sigaction(SIGPIPE, {SIG_IGN,"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(29%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r {SIG_DFL, [], 0}, 8) = 0\n", 27) = 27
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(29%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrt_sigaction(SIGWINCH, {0x422a8"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(29%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r0}, {SIG_DFL, [], 0}, 8) = 0\n", 30) = 30
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(29%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rstatfs(\".\", {f_type=\"EXT2_SUPER"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(30%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r=54774466, f_bavail=51757660, f"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(30%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r265, 2108930253}, f_namelen=255"..., 54) = 54
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(30%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rstat(\"index.html\", {st_mode=S_I"..., 68) = 68
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(31%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rstat(\"index.html.1\", 0x7fff1c23"..., 81) = 81
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(31%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+read(3, "file or directory)\nstatfs(\".\", {"..., 4096) = 4096
+write(1, "\rstat(\"index.html.1\", 0x7fff1c23"..., 81) = 81
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(31%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rstatfs(\".\", {f_type=\"EXT2_SUPER"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(31%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r=54774465, f_bavail=51757659, f"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(32%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r265, 2108930253}, f_namelen=255"..., 54) = 54
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(32%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rstat(\"index.html\", {st_mode=S_I"..., 68) = 68
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(32%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rstat(\"index.html.1\", 0x7fff1c23"..., 81) = 81
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(33%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\ropen(\"/etc/localtime\", O_RDONLY"..., 48) = 48
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(33%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rfstat(3, {st_mode=S_IFREG|0644,"..., 57) = 57
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(33%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1

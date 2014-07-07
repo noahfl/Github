@@ -1,0 +1,75 @@
+read(2, "\n", 1)                        = 1
+write(1, "\r##    pl.bar(x_indices[selector"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rh=.2,\33[K\n", 10)          = 10
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##               label='SVM wei"..., 66) = 66
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(80%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##\33[K\n", 7)              = 7
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(80%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    pl.title(\"Comparing featu"..., 47) = 47
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(81%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    pl.xlabel('Feature number"..., 35) = 35
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(81%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    pl.yticks(())\n", 21) = 21
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(81%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    pl.axis('tight')\n", 24) = 24
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(82%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    pl.legend(loc='upper righ"..., 36) = 36
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(82%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    pl.show()\n", 17)     = 17
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(82%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r\r\33[K\n", 6)              = 6
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(82%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r    #----------------\n", 23) = 23
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(82%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r\r\33[K\n", 6)              = 6
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(82%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    # get the separating hype"..., 39) = 39
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(83%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    w = clf.coef_[0]\n", 24) = 24
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(83%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    a = -w[0] / w[1]\n", 24) = 24
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(83%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    xx = numpy.linspace(-5, 5"..., 34) = 34
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(84%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##    yy = a * xx - (clf.interc"..., 48) = 48
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(84%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r##\33[K\n", 7)              = 7
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0

@@ -1,0 +1,75 @@
+write(1, "\rread(3, \"# Configuration for ge"..., 61) = 61
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(71%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"\", 4096)              "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(71%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rclose(3)                       "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(71%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rmunmap(0x7fbb39f28000, 4096)   "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(71%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rsocket(PF_NETLINK, SOCK_RAW, 0)"..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(72%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rbind(3, {sa_family=AF_NETLINK, "..., 65) = 65
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(72%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rgetsockname(3, {sa_family=AF_NE"..., 77) = 77
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(72%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rsendto(3, \"\\24\\0\\0\\0\\26\\0\\1\\3\\3"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(73%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rF_NETLINK, pid=0, groups=000000"..., 46) = 46
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(73%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrecvmsg(3, {msg_name(12)={sa_fa"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(73%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r(1)=[{\"D\\0\\0\\0\\24\\0\\2\\0\\301\\211"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(73%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r\\0\\1\"..., 4096}], msg_controlle"..., 60) = 60
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrecvmsg(3, {msg_name(12)={sa_fa"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r(1)=[{\"@\\0\\0\\0\\24\\0\\2\\0\\301\\211"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r0\\0\"..., 4096}], msg_controllen"..., 59) = 59
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrecvmsg(3, {msg_name(12)={sa_fa"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(75%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r(1)=[{\"\\24\\0\\0\\0\\3\\0\\2\\0\\301\\21"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(75%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r, msg_flags=0}, 0) = 20\n", 25) = 25
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(75%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rclose(3)                       "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(75%)\33[27m", 22) = 22

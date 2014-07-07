@@ -1,0 +1,75 @@
+open("/opt/google/chrome/lib/libFLAC.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libFLAC.so.8", O_RDONLY|O_CLOEXEC) = 24
+read(24, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\203\0\0\0\0\0\0"..., 832) = 832
+fstat(24, {st_mode=S_IFREG|0644, st_size=199208, ...}) = 0
+mmap(NULL, 2294336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 24, 0) = 0x7f6aedee3000
+mprotect(0x7f6aedf12000, 2097152, PROT_NONE) = 0
+mmap(0x7f6aee112000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 24, 0x2f000) = 0x7f6aee112000
+close(24)                               = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libvorbisenc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/libvorbisenc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/libvorbisenc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2", O_RDONLY|O_CLOEXEC) = 24
+read(24, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@:\1\0\0\0\0\0"..., 832) = 832
+fstat(24, {st_mode=S_IFREG|0644, st_size=2943096, ...}) = 0
+mmap(NULL, 5038224, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 24, 0) = 0x7f6aeda14000
+mprotect(0x7f6aedcc7000, 2093056, PROT_NONE) = 0
+mmap(0x7f6aedec6000, 118784, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 24, 0x2b2000) = 0x7f6aedec6000
+close(24)                               = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libvorbis.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/libvorbis.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/libvorbis.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libvorbis.so.0", O_RDONLY|O_CLOEXEC) = 24
+read(24, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320-\0\0\0\0\0\0"..., 832) = 832
+fstat(24, {st_mode=S_IFREG|0644, st_size=182584, ...}) = 0
+mmap(NULL, 2277712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 24, 0) = 0x7f6aed7e7000
+mprotect(0x7f6aed813000, 2093056, PROT_NONE) = 0
+mmap(0x7f6aeda12000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 24, 0x2b000) = 0x7f6aeda12000
+close(24)                               = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libogg.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/libogg.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/libogg.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libogg.so.0", O_RDONLY|O_CLOEXEC) = 24
+read(24, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\32\0\0\0\0\0\0"..., 832) = 832
+fstat(24, {st_mode=S_IFREG|0644, st_size=34624, ...}) = 0
+mmap(NULL, 2129936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 24, 0) = 0x7f6aed5de000
+mprotect(0x7f6aed5e5000, 2097152, PROT_NONE) = 0
+mmap(0x7f6aed7e5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 24, 0x7000) = 0x7f6aed7e5000
+close(24)                               = 0
+mprotect(0x7f6aed7e5000, 4096, PROT_READ) = 0
+mprotect(0x7f6aeda12000, 4096, PROT_READ) = 0
+mprotect(0x7f6aedec6000, 114688, PROT_READ) = 0
+mprotect(0x7f6aee112000, 4096, PROT_READ) = 0
+mprotect(0x7f6aee32a000, 4096, PROT_READ) = 0
+mprotect(0x7f6aee532000, 4096, PROT_READ) = 0
+mprotect(0x7f6aee795000, 8192, PROT_READ) = 0
+mprotect(0x7f6aee9a3000, 4096, PROT_READ) = 0
+mprotect(0x7f6aeec0b000, 4096, PROT_READ) = 0
+mprotect(0x7f6aeee16000, 4096, PROT_READ) = 0
+mprotect(0x7f6aef05f000, 4096, PROT_READ) = 0
+munmap(0x7f6af12fe000, 116741)          = 0
+pipe2([24, 25], O_CLOEXEC)              = 0
+fcntl(24, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(25, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(24, F_GETFL)                      = 0 (flags O_RDONLY)
+fcntl(24, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+fcntl(25, F_GETFL)                      = 0x1 (flags O_WRONLY)
+fcntl(25, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f6aecddd000
+mprotect(0x7f6aecddd000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f6aed5dcdf0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f6aed5dd9d0, tls=0x7f6aed5dd700, child_tidptr=0x7f6aed5dd9d0) = 28873
+futex(0x32b517c1c270, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x32b517c1c270, FUTEX_WAKE_PRIVATE, 1) = 0
+open("/home/bearface/.pulse/client.conf", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.config/pulse/client.conf", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/pulse/client.conf", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fstat(26, {st_mode=S_IFREG|0644, st_size=1269, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6af153d000
+read(26, "# This file is part of PulseAudi"..., 4096) = 1269
+read(26, "", 4096)                      = 0
+open("/home/bearface/.config/pulse/cookie", O_RDONLY|O_NOCTTY|O_CLOEXEC) = 27

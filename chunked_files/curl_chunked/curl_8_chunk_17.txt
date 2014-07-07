@@ -1,0 +1,75 @@
+write(1, "t(){var aa=C.find(\"td.selected\")"..., 1024) = 1024
+write(1, "flow-y\",\"visible\")}ab.css(\"heigh"..., 5120) = 5120
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "LinkDecoration\" href=\"/gp/produc"..., 16384, 0, NULL, NULL) = 2760
+write(1, "views\"><div class=\"s9Stars s9Sta"..., 1024) = 1024
+write(1, "_5\"></div><span>(<a class=\"noLin"..., 1024) = 1024
+write(1, "roduct-reviews/B000LRBSFI?ie=UTF"..., 119) = 119
+write(1, "\n", 1)                       = 1
+write(1, "<span class=\"newListprice gry t1"..., 93) = 93
+write(1, "</div></div>\n", 13)          = 13
+write(1, "</div>\n", 7)                 = 7
+write(1, "<div class=\"fluid asin s9a4\" sty"..., 79) = 79
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "195e\r\n50\" height=\"150\" /></div><"..., 16384, 0, NULL, NULL) = 4080
+write(1, "<div class=\"inner\"><div class=\"s"..., 1024) = 1024
+write(1, " class=\"inner\"><div class=\"s9hl\""..., 3072) = 3072
+write(1, "ction() {\n", 10)             = 10
+write(1, "var s9MultipackRow;if(window.jQu"..., 338) = 338
+write(1, "});\n", 4)                    = 4
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "\nvar s9MultipackRow;if(window.jQ"..., 16384, 0, NULL, NULL) = 2422
+write(1, "} else if(window.P !== undefined"..., 1024) = 1024
+write(1, "&& !window.S9Multipack) {\n  var "..., 1024) = 1024
+write(1, "\n", 1)                       = 1
+write(1, "<br clear=\"none\"/>\n", 19)  = 19
+write(1, "\n", 1)                       = 1
+write(1, "<div class=\"s9CustomerReviews\"><"..., 235) = 235
+write(1, "\n", 1)                       = 1
+write(1, "<span class=\"newListprice gry t1"..., 93) = 93
+write(1, "</div></div>\n", 13)          = 13
+write(1, "</div>\n", 7)                 = 7
+write(1, "<div class=\"fluid asin s9a1\" sty"..., 64) = 64
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "6a2\r\nss=\"s9hl\" style=\"position: "..., 16384, 0, NULL, NULL) = 1360
+write(1, "<div class=\"inner\"><div class=\"s"..., 1024) = 1024
+write(1, " Egyptian Cotton 725-Gram 6-Piec"..., 340) = 340
+write(1, "</span></a>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "lear=\"none\"/><div class=\"t11\">Pi"..., 16384, 0, NULL, NULL) = 1566
+write(1, "<br clear=\"none\"/><div class=\"t1"..., 345) = 345
+write(1, "</div></div>\n</div>\n<div class=\""..., 1024) = 1024
+write(1, "gry t11\">$89.99</span> <span cla"..., 67) = 67
+write(1, "</div></div>\n", 13)          = 13
+write(1, "</div>\n", 7)                 = 7
+write(1, "<div class=\"fluid asin s9a4\" sty"..., 79) = 79
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "1b42\r\nss=\"s9hl\" style=\"position:"..., 16384, 0, NULL, NULL) = 5440
+write(1, "<div class=\"inner\"><div class=\"s"..., 1024) = 1024
+write(1, "asin s9a5\" style=\"float: left; w"..., 4096) = 4096
+write(1, "all most-wished-for items in Bat"..., 49) = 49
+write(1, "</div>\n", 7)                 = 7
+write(1, "<div class=\"h_rule\"></div>\n", 27) = 27
+write(1, "</div>\n", 7)                 = 7
+write(1, "<link rel=\"stylesheet\" type=\"tex"..., 235) = 235
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "text/javascript\">\nwindow.S9Inclu"..., 16384, 0, NULL, NULL) = 12087
+write(1, "<script type=\"text/javascript\">\n"..., 1024) = 1024
+write(1, "ages-amazon.com/images/I/31N8WG6"..., 204) = 204
+write(1, "</span></a>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "<br clear=\"none\"/>\n", 19)  = 19
+write(1, "\n", 1)                       = 1
+write(1, "<div class=\"s9CustomerReviews\"><"..., 235) = 235
+write(1, "\n", 1)                       = 1
+write(1, "<span class=\"newListprice gry t1"..., 1024) = 1024

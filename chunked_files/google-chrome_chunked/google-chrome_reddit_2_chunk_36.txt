@@ -1,0 +1,75 @@
+close(13)                               = 0
+access("/etc/fonts/conf.d/64-12-tlwg-loma.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/64-12-tlwg-loma.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/fonts/conf.d/64-12-tlwg-loma.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 187
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/64-13-tlwg-garuda.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/64-13-tlwg-garuda.conf", {st_mode=S_IFREG|0644, st_size=189, ...}) = 0
+open("/etc/fonts/conf.d/64-13-tlwg-garuda.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 189
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/64-14-tlwg-umpush.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/64-14-tlwg-umpush.conf", {st_mode=S_IFREG|0644, st_size=189, ...}) = 0
+open("/etc/fonts/conf.d/64-14-tlwg-umpush.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 189
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/64-21-tlwg-typo.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/64-21-tlwg-typo.conf", {st_mode=S_IFREG|0644, st_size=190, ...}) = 0
+open("/etc/fonts/conf.d/64-21-tlwg-typo.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 190
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/64-22-tlwg-typist.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/64-22-tlwg-typist.conf", {st_mode=S_IFREG|0644, st_size=192, ...}) = 0
+open("/etc/fonts/conf.d/64-22-tlwg-typist.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 192
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/64-23-tlwg-mono.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/64-23-tlwg-mono.conf", {st_mode=S_IFREG|0644, st_size=190, ...}) = 0
+open("/etc/fonts/conf.d/64-23-tlwg-mono.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 190
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/65-droid-sans-fallback.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/65-droid-sans-fallback.conf", {st_mode=S_IFREG|0644, st_size=313, ...}) = 0
+open("/etc/fonts/conf.d/65-droid-sans-fallback.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 313
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/65-droid-sans-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/65-droid-sans-fonts.conf", {st_mode=S_IFREG|0644, st_size=7695, ...}) = 0
+open("/etc/fonts/conf.d/65-droid-sans-fonts.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 7695
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/65-fonts-persian.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/65-fonts-persian.conf", {st_mode=S_IFREG|0644, st_size=10118, ...}) = 0
+open("/etc/fonts/conf.d/65-fonts-persian.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 8192
+--- SIGPROF {si_signo=SIGPROF, si_code=SI_KERNEL} ---
+read(13, "<family>Koodak</family>\n\t\t\t<fami"..., 8192) = 1926
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/65-fonts-takao-pgothic.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/65-fonts-takao-pgothic.conf", {st_mode=S_IFREG|0644, st_size=1275, ...}) = 0
+open("/etc/fonts/conf.d/65-fonts-takao-pgothic.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1275
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/65-khmer.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/65-khmer.conf", {st_mode=S_IFREG|0644, st_size=428, ...}) = 0
+open("/etc/fonts/conf.d/65-khmer.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 428
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/65-nonlatin.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/65-nonlatin.conf", {st_mode=S_IFREG|0644, st_size=7959, ...}) = 0
+open("/etc/fonts/conf.d/65-nonlatin.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 7959
+read(13, "", 8192)                      = 0
+close(13)                               = 0

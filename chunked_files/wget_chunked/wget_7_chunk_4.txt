@@ -1,0 +1,75 @@
+mmap(0x7f8024979000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f8024979000
+close(3)                                = 0
+mprotect(0x7f8024979000, 4096, PROT_READ) = 0
+munmap(0x7f80262ac000, 94113)           = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=94113, ...}) = 0
+mmap(NULL, 94113, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f80262ac000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22952, ...}) = 0
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8024572000
+mprotect(0x7f8024577000, 2093056, PROT_NONE) = 0
+mmap(0x7f8024776000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f8024776000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8024357000
+mprotect(0x7f802436e000, 2097152, PROT_NONE) = 0
+mmap(0x7f802456e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f802456e000
+mmap(0x7f8024570000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8024570000
+close(3)                                = 0
+mprotect(0x7f802456e000, 4096, PROT_READ) = 0
+mprotect(0x7f8024776000, 4096, PROT_READ) = 0
+munmap(0x7f80262ac000, 94113)           = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f80262c2000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f80262c2000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"R\260\1\0\0\1\0\0\0\0\0\0\3www\6neflix\3com\0\0\1\0\1", 32}], msg_controllen=0, msg_flags=0}, 32}, {{msg_name(0)=NULL, msg_iov(1)=[{"*\22\1\0\0\1\0\0\0\0\0\0\3www\6neflix\3com\0\0\34\0\1", 32}], msg_controllen=0, msg_flags=0}, 32}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [105])               = 0
+recvfrom(3, "*\22\201\200\0\1\0\0\0\1\0\0\3www\6neflix\3com\0\0\34\0\1"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 105
+poll([{fd=3, events=POLLIN}], 1, 4852)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [198])               = 0
+recvfrom(3, "R\260\201\200\0\1\0\1\0\4\0\4\3www\6neflix\3com\0\0\1\0\1"..., 1943, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 198
+close(3)                                = 0
+write(2, "69.53.236.21", 12)            = 12
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to www.neflix.com (ww"..., 66) = 66
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("69.53.236.21")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999996})
+write(3, "GET / HTTP/1.1\r\nUser-Agent: Wget"..., 112) = 112
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 896835})
+recvfrom(3, "HTTP/1.1 302 Moved Temporarily\r\n"..., 511, MSG_PEEK, NULL, NULL) = 167
+read(3, "HTTP/1.1 302 Moved Temporarily\r\n"..., 167) = 167
+write(2, "302 Moved Temporarily\n", 22) = 22
+stat("index.html.11", 0x7fffa1af05d0)   = -1 ENOENT (No such file or directory)
+write(2, "Location: http://www.netflix.com"..., 82) = 82
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+statfs(".", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=54756690, f_bavail=51739884, f_files=15065088, f_ffree=14871638, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("index.html", {st_mode=S_IFREG|0644, st_size=14192, ...}) = 0
+stat("index.html.1", {st_mode=S_IFREG|0644, st_size=14224, ...}) = 0
+stat("index.html.2", {st_mode=S_IFREG|0644, st_size=118127, ...}) = 0
+stat("index.html.3", {st_mode=S_IFREG|0644, st_size=356117, ...}) = 0
+stat("index.html.4", {st_mode=S_IFREG|0644, st_size=113080, ...}) = 0
+stat("index.html.5", {st_mode=S_IFREG|0644, st_size=57244, ...}) = 0
+stat("index.html.6", {st_mode=S_IFREG|0644, st_size=38264, ...}) = 0
+stat("index.html.7", {st_mode=S_IFREG|0644, st_size=363631, ...}) = 0
+stat("index.html.8", {st_mode=S_IFREG|0644, st_size=113080, ...}) = 0
+stat("index.html.9", {st_mode=S_IFREG|0644, st_size=57244, ...}) = 0
+stat("index.html.10", {st_mode=S_IFREG|0644, st_size=38264, ...}) = 0

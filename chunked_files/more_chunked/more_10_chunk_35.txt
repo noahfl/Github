@@ -1,0 +1,75 @@
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(65%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"ll</a></h3>\\n\\n  <div"..., 65) = 65
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(65%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(65%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"\\nby <a href=\\\"/channe"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(65%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"\\nby <a href=\\\"/chann"..., 64) = 64
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(65%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(66%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"t-uix-button-size-defa"..., 61) = 61
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(66%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"t-uix-button-size-def"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(66%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(66%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"s=\\\"yt-dialog-base\\\">\\"..., 64) = 64
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(66%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"s=\\\"yt-dialog-base\\\">"..., 65) = 65
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(66%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(66%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"div class=\\\"yt-dialog-"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(66%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"div class=\\\"yt-dialog"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(66%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {900"..., 74) = 74
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(67%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrecvfrom(3, \"\\r\\n4800\\r\\nolink "..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(67%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rL) = 127\33[K\n", 13)       = 13
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(67%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"\\r\\n\", 2)             "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(67%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {900"..., 74) = 74
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(67%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1

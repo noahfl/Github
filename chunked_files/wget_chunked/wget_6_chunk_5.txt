@@ -1,0 +1,75 @@
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999993})
+write(3, "GET / HTTP/1.1\r\nUser-Agent: Wget"..., 109) = 109
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 711880})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 16 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 16 J"..., 428) = 428
+write(2, "200 OK\n", 7)                 = 7
+stat("index.html.10", 0x7fff1d240d00)   = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "38264", 5)                    = 5
+write(2, " (37K)", 6)                   = 6
+write(2, " [text/html]\n", 13)          = 13
+open("index.html.10", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230index.html.10\342\200\231\n", 31) = 31
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7f76282f3000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\n\n\n\n<?xml version=\"1.0\" encoding"..., 8192) = 2451
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f76282f2000
+write(4, "\n\n\n\n<?xml version=\"1.0\" encoding"..., 2451) = 2451
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "tylesheet\" href=\"/common/css/v60"..., 8192) = 1368
+write(4, "tylesheet\" href=\"/common/css/v60"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "w.nyu.edu']);\n  _gaq.push(['_add"..., 8192) = 1368
+write(4, "w.nyu.edu']);\n  _gaq.push(['_add"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949469})
+read(3, "           \n<span class=\"offLeft"..., 8192) = 1368
+write(4, "           \n<span class=\"offLeft"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949580})
+read(3, "lick=\"_gaq.push(['_trackEvent', "..., 8192) = 1368
+write(4, "lick=\"_gaq.push(['_trackEvent', "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949665})
+read(3, " Science</a></li>\n            <l"..., 8192) = 1368
+write(4, " Science</a></li>\n            <l"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949683})
+read(3, "s', 'Polytechnic School of Engin"..., 8192) = 1368
+write(4, "s', 'Polytechnic School of Engin"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949682})
+read(3, "]);\">Steinhardt School of Cultur"..., 8192) = 1368
+write(4, "]);\">Steinhardt School of Cultur"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948412})
+read(3, " Menu', 'QuickLinks', 'Athletics"..., 8192) = 1368
+write(4, " Menu', 'QuickLinks', 'Athletics"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949678})
+read(3, "ving to NYU',0,true]);\">Giving t"..., 8192) = 1368
+write(4, "ving to NYU',0,true]);\">Giving t"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949773})
+read(3, "\"\"><a href=\"http://www.nyu.edu/r"..., 8192) = 1368
+write(4, "\"\"><a href=\"http://www.nyu.edu/r"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949653})
+read(3, "nu', 'A-Z', 'C',0,true]);\">C</a>"..., 8192) = 1368
+write(4, "nu', 'A-Z', 'C',0,true]);\">C</a>"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948451})
+read(3, "lick=\"_gaq.push(['_trackEvent', "..., 8192) = 1368
+write(4, "lick=\"_gaq.push(['_trackEvent', "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949589})
+read(3, "ww.nyu.edu/AZ/SearchResults.html"..., 8192) = 1368
+write(4, "ww.nyu.edu/AZ/SearchResults.html"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 932586})
+read(3, "li>\n        </ul>\n    </li>\n\n</u"..., 8192) = 1368
+write(4, "li>\n        </ul>\n    </li>\n\n</u"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949081})
+read(3, "t>\n<div id=\"alertsContainer\"></d"..., 8192) = 1368
+write(4, "t>\n<div id=\"alertsContainer\"></d"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})

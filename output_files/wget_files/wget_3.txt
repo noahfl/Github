@@ -1,0 +1,1491 @@
+execve("/usr/bin/wget", ["wget", "www.yahoo.com"], [/* 48 vars */]) = 0
+brk(0)                                  = 0x1355000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f453823e000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=94113, ...}) = 0
+mmap(NULL, 94113, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f4538227000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20.\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=382984, ...}) = 0
+mmap(NULL, 2478288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f4537dc0000
+mprotect(0x7f4537e14000, 2097152, PROT_NONE) = 0
+mmap(0x7f4538014000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7f4538014000
+mmap(0x7f453801d000, 208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f453801d000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\355\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1926432, ...}) = 0
+mmap(NULL, 4036760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f45379e6000
+mprotect(0x7f4537b97000, 2093056, PROT_NONE) = 0
+mmap(0x7f4537d96000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7f4537d96000
+mmap(0x7f4537dbc000, 14488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4537dbc000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=100728, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4538226000
+mmap(NULL, 2195784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f45377cd000
+mprotect(0x7f45377e5000, 2093056, PROT_NONE) = 0
+mmap(0x7f45379e4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f45379e4000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=207128, ...}) = 0
+mmap(NULL, 2302208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f453759a000
+mprotect(0x7f45375cb000, 2097152, PROT_NONE) = 0
+mmap(0x7f45377cb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7f45377cb000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18936, ...}) = 0
+mmap(NULL, 2113968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f4537395000
+mprotect(0x7f4537399000, 2093056, PROT_NONE) = 0
+mmap(0x7f4537598000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f4537598000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4538225000
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f4536fcf000
+mprotect(0x7f453718b000, 2093056, PROT_NONE) = 0
+mmap(0x7f453738a000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7f453738a000
+mmap(0x7f4537390000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4537390000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f4536dcb000
+mprotect(0x7f4536dce000, 2093056, PROT_NONE) = 0
+mmap(0x7f4536fcd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f4536fcd000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4538224000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4538222000
+arch_prctl(ARCH_SET_FS, 0x7f4538222780) = 0
+mprotect(0x7f453738a000, 16384, PROT_READ) = 0
+mprotect(0x7f4536fcd000, 4096, PROT_READ) = 0
+mprotect(0x7f4537598000, 4096, PROT_READ) = 0
+mprotect(0x7f45377cb000, 4096, PROT_READ) = 0
+mprotect(0x7f45379e4000, 4096, PROT_READ) = 0
+mprotect(0x7f4537d96000, 110592, PROT_READ) = 0
+mprotect(0x7f4538014000, 12288, PROT_READ) = 0
+mprotect(0x65e000, 4096, PROT_READ)     = 0
+mprotect(0x7f4538240000, 4096, PROT_READ) = 0
+munmap(0x7f4538227000, 94113)           = 0
+brk(0)                                  = 0x1355000
+brk(0x1376000)                          = 0x1376000
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f4536b02000
+close(3)                                = 0
+stat("/etc/wgetrc", {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+open("/etc/wgetrc", O_RDONLY)           = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f453823d000
+read(3, "###\n### Sample Wget initializati"..., 4096) = 4096
+read(3, "by setting this to on.\n#recursiv"..., 4096) = 716
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f453823d000, 4096)            = 0
+stat("/home/bearface/.wgetrc", 0x7fff78746660) = -1 ENOENT (No such file or directory)
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x421350, [HUP], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x421350, [USR1], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x422a80, [WINCH], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [], 0}, 8) = 0
+statfs(".", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=54757081, f_bavail=51740275, f_files=15065088, f_ffree=14871647, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("index.html", {st_mode=S_IFREG|0644, st_size=14192, ...}) = 0
+stat("index.html.1", {st_mode=S_IFREG|0644, st_size=14224, ...}) = 0
+stat("index.html.2", {st_mode=S_IFREG|0644, st_size=118127, ...}) = 0
+stat("index.html.3", {st_mode=S_IFREG|0644, st_size=356117, ...}) = 0
+stat("index.html.4", {st_mode=S_IFREG|0644, st_size=113080, ...}) = 0
+stat("index.html.5", {st_mode=S_IFREG|0644, st_size=57244, ...}) = 0
+stat("index.html.6", {st_mode=S_IFREG|0644, st_size=38264, ...}) = 0
+stat("index.html.7", 0x7fff78746170)    = -1 ENOENT (No such file or directory)
+stat("index.html.7", 0x7fff787462e0)    = -1 ENOENT (No such file or directory)
+statfs(".", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=54757080, f_bavail=51740274, f_files=15065088, f_ffree=14871647, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("index.html", {st_mode=S_IFREG|0644, st_size=14192, ...}) = 0
+stat("index.html.1", {st_mode=S_IFREG|0644, st_size=14224, ...}) = 0
+stat("index.html.2", {st_mode=S_IFREG|0644, st_size=118127, ...}) = 0
+stat("index.html.3", {st_mode=S_IFREG|0644, st_size=356117, ...}) = 0
+stat("index.html.4", {st_mode=S_IFREG|0644, st_size=113080, ...}) = 0
+stat("index.html.5", {st_mode=S_IFREG|0644, st_size=57244, ...}) = 0
+stat("index.html.6", {st_mode=S_IFREG|0644, st_size=38264, ...}) = 0
+stat("index.html.7", 0x7fff78746170)    = -1 ENOENT (No such file or directory)
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f453823d000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+lseek(3, -2252, SEEK_CUR)               = 1267
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+close(3)                                = 0
+munmap(0x7f453823d000, 4096)            = 0
+write(2, "--2014-06-16 11:45:30--  http://"..., 47) = 47
+stat("/home/bearface/.netrc", 0x7fff78745d40) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f453823d000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f453823d000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "Resolving www.yahoo.com (www.yah"..., 43) = 43
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f453823d000
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f453823d000, 4096)            = 0
+open("/etc/host.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f453823d000
+read(3, "# The \"order\" line is only used "..., 4096) = 92
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f453823d000, 4096)            = 0
+getpid()                                = 31278
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f453823d000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f453823d000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=94113, ...}) = 0
+mmap(NULL, 94113, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f4538227000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f45368f6000
+mprotect(0x7f4536901000, 2093056, PROT_NONE) = 0
+mmap(0x7f4536b00000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f4536b00000
+close(3)                                = 0
+mprotect(0x7f4536b00000, 4096, PROT_READ) = 0
+munmap(0x7f4538227000, 94113)           = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f453823d000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\tdo"..., 4096) = 219
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f453823d000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=94113, ...}) = 0
+mmap(NULL, 94113, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f4538227000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10432, ...}) = 0
+mmap(NULL, 2105560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f45366f3000
+mprotect(0x7f45366f5000, 2093056, PROT_NONE) = 0
+mmap(0x7f45368f4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f45368f4000
+close(3)                                = 0
+mprotect(0x7f45368f4000, 4096, PROT_READ) = 0
+munmap(0x7f4538227000, 94113)           = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=94113, ...}) = 0
+mmap(NULL, 94113, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f4538227000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22952, ...}) = 0
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f45364ed000
+mprotect(0x7f45364f2000, 2093056, PROT_NONE) = 0
+mmap(0x7f45366f1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f45366f1000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f45362d2000
+mprotect(0x7f45362e9000, 2097152, PROT_NONE) = 0
+mmap(0x7f45364e9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f45364e9000
+mmap(0x7f45364eb000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f45364eb000
+close(3)                                = 0
+mprotect(0x7f45364e9000, 4096, PROT_READ) = 0
+mprotect(0x7f45366f1000, 4096, PROT_READ) = 0
+munmap(0x7f4538227000, 94113)           = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f453823d000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f453823d000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"\250\361\1\0\0\1\0\0\0\0\0\0\3www\5yahoo\3com\0\0\1\0\1", 31}], msg_controllen=0, msg_flags=0}, 31}, {{msg_name(0)=NULL, msg_iov(1)=[{"\202\275\1\0\0\1\0\0\0\0\0\0\3www\5yahoo\3com\0\0\34\0\1", 31}], msg_controllen=0, msg_flags=0}, 31}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [274])               = 0
+recvfrom(3, "\250\361\201\200\0\1\0\10\0\2\0\2\3www\5yahoo\3com\0\0\1\0\1\300"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 274
+poll([{fd=3, events=POLLIN}], 1, 4995)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [266])               = 0
+recvfrom(3, "\202\275\201\200\0\1\0\6\0\2\0\2\3www\5yahoo\3com\0\0\34\0\1\300"..., 1774, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 266
+close(3)                                = 0
+open("/etc/gai.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f453823d000
+read(3, "# Configuration for getaddrinfo("..., 4096) = 2584
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f453823d000, 4096)            = 0
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+bind(3, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+getsockname(3, {sa_family=AF_NETLINK, pid=31278, groups=00000000}, [12]) = 0
+sendto(3, "\24\0\0\0\26\0\1\3\32\21\237S\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"D\0\0\0\24\0\2\0\32\21\237S.z\0\0\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 148
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0\32\21\237S.z\0\0\n\200\200\376\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 128
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\32\21\237S.z\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+close(3)                                = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("98.138.253.109")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(60087), sin_addr=inet_addr("10.227.98.29")}, [16]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("98.139.180.149")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(47329), sin_addr=inet_addr("10.227.98.29")}, [16]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("98.139.183.24")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(44940), sin_addr=inet_addr("10.227.98.29")}, [16]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("98.138.252.30")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(35088), sin_addr=inet_addr("10.227.98.29")}, [16]) = 0
+close(3)                                = 0
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET6, sin6_port=htons(0), inet_pton(AF_INET6, "2001:4998:f00c:1fe::3000", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET6, sin6_port=htons(0), inet_pton(AF_INET6, "2001:4998:f00c:1fe::3001", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+close(3)                                = 0
+write(2, "98.138.253.109", 14)          = 14
+write(2, ", ", 2)                       = 2
+write(2, "98.139.180.149", 14)          = 14
+write(2, ", ", 2)                       = 2
+write(2, "98.139.183.24", 13)           = 13
+write(2, ", ...", 5)                    = 5
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to www.yahoo.com (www"..., 66) = 66
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("98.138.253.109")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999992})
+write(3, "GET / HTTP/1.1\r\nUser-Agent: Wget"..., 111) = 111
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 897907})
+recvfrom(3, "HTTP/1.1 301 Redirect\r\nDate: Mon"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 301 Redirect\r\nDate: Mon"..., 282) = 282
+write(2, "301 Redirect\n", 13)          = 13
+stat("index.html.7", 0x7fff78745d80)    = -1 ENOENT (No such file or directory)
+write(2, "Location: https://www.yahoo.com/"..., 45) = 45
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+read(3, "<!DOCTYPE html>\n<html lang=\"en-u"..., 512) = 512
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+read(3, "enter;\n    font: 300 18px \"helve"..., 512) = 230
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 997524})
+read(3, "e;\n}\nh1 {\n    font-size: 42px;\n "..., 512) = 512
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+read(3, "...</h1>\n    <p id=\"message-1\">T"..., 196) = 196
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+statfs(".", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=54757077, f_bavail=51740271, f_files=15065088, f_ffree=14871647, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("index.html", {st_mode=S_IFREG|0644, st_size=14192, ...}) = 0
+stat("index.html.1", {st_mode=S_IFREG|0644, st_size=14224, ...}) = 0
+stat("index.html.2", {st_mode=S_IFREG|0644, st_size=118127, ...}) = 0
+stat("index.html.3", {st_mode=S_IFREG|0644, st_size=356117, ...}) = 0
+stat("index.html.4", {st_mode=S_IFREG|0644, st_size=113080, ...}) = 0
+stat("index.html.5", {st_mode=S_IFREG|0644, st_size=57244, ...}) = 0
+stat("index.html.6", {st_mode=S_IFREG|0644, st_size=38264, ...}) = 0
+stat("index.html.7", 0x7fff78746170)    = -1 ENOENT (No such file or directory)
+stat("index.html.7", 0x7fff787462e0)    = -1 ENOENT (No such file or directory)
+statfs(".", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=54757076, f_bavail=51740270, f_files=15065088, f_ffree=14871647, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("index.html", {st_mode=S_IFREG|0644, st_size=14192, ...}) = 0
+stat("index.html.1", {st_mode=S_IFREG|0644, st_size=14224, ...}) = 0
+stat("index.html.2", {st_mode=S_IFREG|0644, st_size=118127, ...}) = 0
+stat("index.html.3", {st_mode=S_IFREG|0644, st_size=356117, ...}) = 0
+stat("index.html.4", {st_mode=S_IFREG|0644, st_size=113080, ...}) = 0
+stat("index.html.5", {st_mode=S_IFREG|0644, st_size=57244, ...}) = 0
+stat("index.html.6", {st_mode=S_IFREG|0644, st_size=38264, ...}) = 0
+stat("index.html.7", 0x7fff78746170)    = -1 ENOENT (No such file or directory)
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-16 11:45:31--  https:/"..., 48) = 48
+open("/dev/urandom", O_RDONLY|O_NOCTTY|O_NONBLOCK) = 4
+fstat(4, {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 9), ...}) = 0
+poll([{fd=4, events=POLLIN}], 1, 10)    = 1 ([{fd=4, revents=POLLIN}])
+read(4, "M\213\f\336t>i\324IG6\"\267\327\370%o\2119\305\257\241+\242\314n\373\5\217\212\6 ", 32) = 32
+close(4)                                = 0
+getuid()                                = 1000
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+brk(0x1397000)                          = 0x1397000
+open("/usr/lib/ssl/cert.pem", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "Connecting to www.yahoo.com (www"..., 67) = 67
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 4
+connect(4, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("98.138.253.109")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+write(4, "\26\3\1\1N\1\0\1J\3\3\244\317\242a\357['6B\tqZ\206\26ebd`\17[o"..., 339) = 339
+read(4, "\26\3\3\0F\2\0", 7)            = 7
+read(4, "\0B\3\3S\237\21\33\305$C\327\327\237\341_d\244\37\0378\372\313\325\210'@H\231]ph"..., 68) = 68
+read(4, "\26\3\3\22\221", 5)            = 5
+read(4, "\v\0\22\215\0\22\212\0\7\2750\202\7\2710\202\6\241\240\3\2\1\2\2\20\35\300\22J\2J,"..., 4753) = 1968
+read(4, "\330=\303%R\330\332\273\337\24\276\275%O$\233&\230,\4\34Q+\0\5\3600\202\5\3540\202"..., 2785) = 2048
+read(4, "I\312YT\205&\345+\217\33\237\353\365\241\221\3023I\330CcjRK\322\217\350pQM\321\211"..., 737) = 737
+stat("/usr/lib/ssl/certs/415660c1.0", {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+open("/usr/lib/ssl/certs/415660c1.0", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f453823d000
+read(5, "-----BEGIN CERTIFICATE-----\nMIIC"..., 4096) = 834
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f453823d000, 4096)            = 0
+stat("/usr/lib/ssl/certs/415660c1.1", {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+open("/usr/lib/ssl/certs/415660c1.1", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f453823d000
+read(5, "-----BEGIN CERTIFICATE-----\nMIIC"..., 4096) = 834
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f453823d000, 4096)            = 0
+stat("/usr/lib/ssl/certs/415660c1.2", 0x7fff787457c0) = -1 ENOENT (No such file or directory)
+brk(0x13b8000)                          = 0x13b8000
+brk(0x13b7000)                          = 0x13b7000
+read(4, "\26\3\3\1M", 5)                = 5
+read(4, "\f\0\1I\3\0\27A\4\21\317\206\347QX\266\211$\227*\335\307L\377 D\354\262\276\215\0\273"..., 333) = 333
+read(4, "\26\3\3\0\4", 5)               = 5
+read(4, "\16\0\0\0", 4)                 = 4
+write(4, "\26\3\3\0F\20\0\0BA\4\314e\267Q]\367el\32\333\360\344\23\334\254\262\305\370\35\377["..., 126) = 126
+read(4, "\26\3\3\0\272", 5)             = 5
+read(4, "\4\0\0\266\0\0\1,\0\260\341]\313gD!;\237\375\317\353\302\243\261U2\257\303\22;u@"..., 186) = 186
+read(4, "\24\3\3\0\1", 5)               = 5
+read(4, "\1", 1)                        = 1
+read(4, "\26\3\3\0(", 5)                = 5
+read(4, "I\265e<\301\37\335c=\372\261N\335\252lw\5\313\250|\261\231\324\16\3111\327V}(\350\263"..., 40) = 40
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, NULL, [4], NULL, {900, 0})    = 1 (out [4], left {899, 999994})
+write(4, "\27\3\3\0\2077Z\330b\332(\215\300\277z*\360&\237K\300\n\26_9\343\246c\vsU\2"..., 140) = 140
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 892539})
+read(4, "\27\3\3\3\211", 5)             = 5
+read(4, "I\265e<\301\37\335d\32\316\326\352\351i\224\22-\334\205\273'\321\2,\345\244\347\273\203\3554\17"..., 905) = 905
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(2, "200 OK\n", 7)                 = 7
+close(3)                                = 0
+stat("index.html.7", 0x7fff78745c40)    = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "unspecified", 11)             = 11
+write(2, " [text/html]\n", 13)          = 13
+open("index.html.7", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230index.html.7\342\200\231\n", 30) = 30
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7f4538237000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, "    [<=>                        "..., 79) = 79
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999997})
+read(4, "\27\3\3\23T", 5)               = 5
+read(4, "I\265e<\301\37\335e\347\204\n\2\267\234\204M\276\217\250\342\27\207\334\260\257Nghj\367\vO"..., 4948) = 4091
+read(4, "\0\237\324\221\317\334NG-\202x\253\311\227\335w\216\0\332m\314\23\350I\2224\243\264\177\221\177("..., 857) = 857
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4538236000
+write(3, "<!DOCTYPE html>\n<html lang=\"en-U"..., 4096) = 4096
+write(3, "set:function(){k={};}};})();\nOnl"..., 817) = 817
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 974317})
+read(4, "\27\3\3\16\315", 5)            = 5
+read(4, "I\265e<\301\37\335f\306XfyR\316\302=W\24\337\352\24\335Il\247\4@\352\332\307\205*"..., 3789) = 3789
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<script>if(setJSCookie) { docume"..., 3754) = 3754
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999992})
+read(4, "\27\3\3\0g", 5)                = 5
+read(4, "I\265e<\301\37\335g\374\306\327o\221M\222\33\4n3T\211\227\332\20\273\3\210\277\302\354l/"..., 103) = 103
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "\n\n\n\n<div id=\"masthead\" class=\"ma"..., 68) = 68
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 995809})
+read(4, "\27\3\3\"\315", 5)             = 5
+read(4, "I\265e<\301\37\335h\212\211V\335\253t\360Y`/Fk\360\232\350\243\332\226\203\f$\33l\10"..., 8909) = 2043
+read(4, "\200.w\313x-a\nt\324=\246W2 3\355\324\374\311q\31V\202A9\207a1c\320\222"..., 6866) = 1024
+read(4, "\250\257gh\302\300\357\210\6\33\337\312\255\24\333Y\201\221\356'I\332\10*\34b(Ri\337cx"..., 5842) = 2048
+read(4, "S\v\33\361lX\363<\265K\3116\376\21\303b\325w\354@N\276Ii\256`\367'5\214\330\32"..., 3794) = 1024
+read(4, "\274\226\355C\262uyxj\347?\241\352\250A\267\356{U\271O\27780\353=\301\31\274!\323\307"..., 2770) = 2048
+read(4, "\177\212\0\v\257\226l>\31\311[\364\352\364\344NK\3\233l\\\261m\376\364\f\235\274D+\317\260"..., 722) = 722
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_30345868\" cla"..., 4096) = 4096
+write(3, "hoo.com/travel/\">Travel</a></li>"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "w y-mast-ln-dk\" style=\"max-heigh"..., 682) = 682
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999994})
+read(4, "\27\3\3\rk", 5)                = 5
+read(4, "I\265e<\301\37\335i\\\23\335\5\205l\274fs,\254Ve\315\0279\314\221\340:\2406\354'"..., 3435) = 3435
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_30345610\" cla"..., 3400) = 3400
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 824900})
+read(4, "\27\3\3\5\300", 5)             = 5
+read(4, "I\265e<\301\37\335jh\300\24D\356\271n4\\\236\4?\v\260\211w\235/\321\4@X\23\236"..., 1472) = 1472
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_30345789\" cla"..., 1439) = 1439
+write(2, "\r", 1)                       = 1
+write(2, "    [ <=>                       "..., 79) = 79
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949992})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\"]", 5)                = 5
+read(4, "I\265e<\301\37\335ko-\3539cwN\276\323\24)\32C\230M\327Q\262u\332K\302\262\265"..., 8797) = 7163
+read(4, "\10]\327\216\34\37\201\260\4\353\21\"\200<\247\31\370\267b\235\334m\376\r\330\327\325\7\213.\314\206"..., 1634) = 1024
+read(4, "~\2013\fY\317q\344q\305\342\rd\240zG7F\252\323\335\326FL\10\375\35\347K8\220S"..., 610) = 610
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "elm:itm;elmt:pty;itc:0\" class=\"e"..., 4096) = 4096
+write(3, "-l w-49\"><a class=\"ell fz-s\" dat"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "-ib w-50 va-m\">\n            <p c"..., 579) = 579
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999995})
+read(4, "\27\3\3\21e", 5)               = 5
+read(4, "I\265e<\301\37\335l\305\33\264\303\322\2765;\34\260=!JP\272\2556\302'\263>\231\345\271"..., 4453) = 4453
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_30345827\" cla"..., 4096) = 4096
+write(3, ">10</b><a class=\"d-b pl-l ell\" h"..., 322) = 322
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999996})
+read(4, "\27\3\3\7\322", 5)             = 5
+read(4, "I\265e<\301\37\335mW%\317\321s\20vt\260\0363\330\\Bv\351\310\346\210\237\21\346s\25"..., 2002) = 2002
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_13923486\" cla"..., 1969) = 1969
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949997})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3+F", 5)                 = 5
+read(4, "I\265e<\301\37\335nJa(\255[\300\21\231SR\252`;\315\236^Jm'\203#\354S\271"..., 11078) = 1112
+read(4, "\35\230F\270\336\223\273q\322\273\323\200\242\nq\324\327\343\247v\222\27\0~mi%&6\240\336'"..., 9966) = 2048
+read(4, "\331G\270\245\255\17\265\374\24\227L4_{\320\6I\35\310t\357\332\337\330\314\337a\307\r\300\210\37"..., 7918) = 1024
+read(4, "{e\257\23\266\225\32\1\343\364\225\257\305[%\222\300\377~{K\350\v\313Es\205\226w\247N\370"..., 6894) = 1024
+read(4, "\330\377\303\25=I\375\350\271U\322t\353F\10\307\21\307Z\35\205d6\243\245\2245~\35N_,"..., 5870) = 1024
+read(4, "\31\24\6\330z\334^\202\27\31$&R\264j\304\270P\362\35\"RId\204\274m\274\205|\273\33"..., 4846) = 1024
+read(4, "26\16\322\210a\221Pn\22\24$$DS\31340\336\322g\277:\376\251D\242\\\234\0103\234"..., 3822) = 1024
+read(4, "\302\7\3665g4|\235FNB\246\36\257Cbt\4\247\277q\220a\5\375rT\10<%Q\340"..., 2798) = 1024
+read(4, "\325\364\23\rQ@\340%\326e\231\377L\235\362\222\275K\177~\367\27.\214\300\272a]\262\273a\10"..., 1774) = 1024
+read(4, "\325\346\377\34n\203U\351\241MK\205\257\355|E\271\243\256f~\351\373\17\272\226$\24\223\310F\32"..., 750) = 750
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "yOTjjMCDjPZLzAt0eLg3JErazHYxZtIo"..., 4096) = 4096
+write(3, "h_2vqPb4UIJwkFSnNMqQ6h63ie1BAP9b"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "</div></div></div></li><li class"..., 2862) = 2862
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\5\243", 5)             = 5
+read(4, "I\265e<\301\37\335o\27%\365\374\276\271\246\315\356\354k}lPXx\354,\315\361V\301\226t"..., 1443) = 1443
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "_UKxVlr_uEeFCGm6zIKSeWpJgG_x3e3v"..., 1417) = 1417
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999996})
+read(4, "\27\3\3\34`", 5)               = 5
+read(4, "I\265e<\301\37\335p\212gK\"\246\360\343\n\207\242b\260\20\370\212\201-}\352L\304\311\367 "..., 7264) = 3941
+read(4, "\220\345\301\206\232X\0048\307\241\222\37\326\36\16\325+\262e\332(\307H\303_\366\33\201\377kR?"..., 3323) = 1024
+read(4, "\250\372\354h\200\203\313>\266\217\302\335\240(\306TS\376\355\232\342%\356\356\346\2671y\331\307\23["..., 2299) = 1024
+read(4, "\361\2608\264\311|\240mR\214\260\261\323\223,V\321\354o\327<\32\247\7\364\264\254\237\334|B;"..., 1275) = 1275
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_30345823\" cla"..., 4096) = 4096
+write(3, "pos-r\">\n                    <b c"..., 3135) = 3135
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\26\270", 5)            = 5
+read(4, "I\265e<\301\37\335q\32\254\273\223-_\220\347\275\37\213\255-<n\364@(Rx|\6\223\332"..., 5816) = 5816
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "lem-2522292/\">\n    <b class=\"fz-"..., 4096) = 4096
+write(3, "lass=\"fz-xl app-heading mb-s\">Qu"..., 1696) = 1696
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949995})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\34w", 5)               = 5
+read(4, "I\265e<\301\37\335r\2352Kdl\350\275\1\305E\27A\372\25\320\313\374(\24\217\236\246=v"..., 7287) = 3139
+read(4, "\253\10e\254\335f\365 \353\376/+\300\32\337\26\tqh4\37\246\254$\33\263J;\333\316\216\0"..., 4148) = 1024
+read(4, "5\33#L\310D\267K\21E\314N\n\204m\0030\332,\\R\346\7\317DT\361\332\313s\202\345"..., 3124) = 1024
+read(4, "?o\334\0165\367I8\267\377\"\346P\261\2774h\245\342\335\306p@\t$Pm\25\254'\5\277"..., 2100) = 2100
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "click\" class=\"fin-icon fl-l\"></i"..., 4096) = 4096
+write(3, " data-b=\"http://www.yahoo.com\" d"..., 3167) = 3167
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949995})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3-A", 5)                 = 5
+read(4, "I\265e<\301\37\335s\236>\240\323\205\33\220w\213_\300g\234`L\300\334!W\255\2446\0\255"..., 11585) = 3015
+read(4, "\346\327\37Z4\301\306$\357\316\23\350|K\21034\f\205\17\335\237$*4\20\262t\276\371\313h"..., 8570) = 1024
+read(4, "\254K<\22\217\230M\226e\350\220\353\200\355\304]\375\262|\345py\f\305\36{\212I\257R\360X"..., 7546) = 1024
+read(4, "\16\303w\354-;\\\271\17\22)\256\242w\200\365\312\256\33\336\355E\336\256\354g\371 \223q\375\351"..., 6522) = 1024
+read(4, "x.\340m\360pm\224\332\247\323\305\240\"vM\276\320FB\211jP\373^\344-o\10w\371C"..., 5498) = 1024
+read(4, "\371\334t\324N\200lF\203\27\267\35\25|\262\205\21l\0321!\2\220\275\253\272\321`\\\252\277L"..., 4474) = 1024
+read(4, "\30\301\265\6\342\314/9A\244;\321\301U\332\257\v\3308\261\200\247\266\r\16\205=\271\270\232\212)"..., 3450) = 2048
+read(4, "\251e\202\237\377\336\31\0359Y\2701\322H-&\376YV\364,1\331\1\3339\227]\317\256y\206"..., 1402) = 1024
+read(4, "\22\351b\357\200d9\20 \243\201\303nW\35\t\3605\320\27\274\363I\ncN\225@\350,w\357"..., 378) = 378
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, ".com/news/la-stella-stays-hot-br"..., 4096) = 4096
+write(3, "pan>\n                        <b "..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "2:app-spo;t3:upc;elm:itm;elmt:li"..., 3369) = 3369
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949992})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\0033\0", 5)              = 5
+read(4, "I\265e<\301\37\335t\217\326\2035\346GR\357\237\214\357\307\231\276X\202\232(\347*\256\203A\307"..., 13056) = 641
+read(4, "*\316\34\376\300\227\2325\235\377\337\37\215\316\26N\307\333b\254\217\2413\362L\302Wv\\\250(\233"..., 12415) = 3072
+read(4, "\17r\264\223\273,=pt\214\373`\374\237\"\320\24X\366\227\345G\203=\246\350\275\241\201\6\332&"..., 9343) = 1024
+read(4, "R#y\251\306\301\372\327\37\362\27\2366\200k\262\211s\241\200\373\264]\250>\34j3N\337>\""..., 8319) = 1024
+read(4, "LD\211\337\302`\342\210\4\335\314\22\26\\\304\233\270\377%>H&'oy\236\213;G\30\332:"..., 7295) = 1024
+read(4, "$\320%G(\342\371O\350\210\23\271.\254\313M\320\327!}B\220\216\225\203\227\177\272\366\336\266O"..., 6271) = 1024
+read(4, "5\345\325\332\322cF\v]W\177\373\264\21\323\304J\242(\302w\33\17m\22\232\4;o\274h\354"..., 5247) = 1024
+read(4, "m\333C\317|H\250\234h\200\260\202\265KuzE\350B>=\317\347\275\252\347\215=\333\v\265`"..., 4223) = 1024
+read(4, "!\0\2319\322\252|\30\220\336G\336p\264\225\264P*\237\336>\357lvrn(f\327\213\7\26"..., 3199) = 2048
+read(4, "\240\21\3\311\261\0\371R\0\17\376C\21F\36\204\226\n\323\364V\200:\2\205\332M\226\337\270\225\220"..., 1151) = 1024
+read(4, "\23\4\221,It\24\341j\211V\350\376\245KZ\26\237\364\301#,R\0.\225\205G\312\250\r\23"..., 127) = 127
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "ault\"><div class=\"embed\"><h3 cla"..., 4096) = 4096
+write(3, "class=\"lzbg\"></a></li> <li><a da"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "5\" alt=\"\" title=\"&quot;Diving in"..., 4096) = 4096
+write(3, " body praised</a></div></li><li "..., 744) = 744
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949993})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3 \7", 5)                = 5
+read(4, "I\265e<\301\37\335u\241\245\336\314\367\363\261`\356\2605Iw\255\302t\20[\203\353k\f\324\376"..., 8199) = 8199
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "><div class=\"title \"><a data-ylk"..., 4096) = 4096
+write(3, "a data-b=\"http://www.yahoo.com\" "..., 4079) = 4079
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949996})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\10\177", 5)            = 5
+read(4, "I\265e<\301\37\335v\25\266'+5\320\r\220\31\366/\rA\237\210\204\375\375\341)\314\326\217\230"..., 2175) = 1904
+read(4, "\0ua]\207\345\251\377\273A\366$v1\217\261a\232\326QH\330\320\277l\210n\214UZG\324"..., 271) = 271
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "lk:menu;sec:app-com;elm:inpt;elm"..., 2149) = 2149
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999996})
+read(4, "\27\3\3\21\20", 5)             = 5
+read(4, "I\265e<\301\37\335w\212\230\231\t\240\361-\201Bh<\323\364\322\373\207[\244\215\246\362\34\200\250"..., 4368) = 4368
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_30345967\" cla"..., 4096) = 4096
+write(3, "                 </h3><a class=\""..., 239) = 239
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949996})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3'f", 5)                 = 5
+read(4, "I\265e<\301\37\335x9\347\264\223\240\177\3331\6\320\370xN\362\4-?\3I0\317\20U\302"..., 10086) = 3543
+read(4, "\\\250\3716\247u7\301\362.\230l\322\252\24=\313\344\250Q\37\276\202&\364\254\365\5g^O\177"..., 6543) = 1024
+read(4, "\301q\352\322\351g\323\336v\30\2671\330\237\370m\366wVU\376\7\233\vZ\206\32\221\272\224\233\323"..., 5519) = 1024
+read(4, "\204\224\312|\256\25Ps\376xP\302\356\36\276\310\276\204\7\37\321\362\301/\276B\35\264\301\232[\21"..., 4495) = 1024
+read(4, "nm\31(O\305\313\373\237\363\361&\fg\207\337\226&[s'_C\276\212\5&\227[\230C@"..., 3471) = 1024
+read(4, "[u\0^\203\352AE_|\347\23:\37\254\235q\305\201\16@}y\340\207p\6\0\264\347w "..., 2447) = 1024
+read(4, "\f\1\227|M`\376\337CJ\n\3104^7\t\247<\370\345\246x\325\355\222\326\31=\347\265c\330"..., 1423) = 1024
+read(4, "\240d\276\0V?\3606l\37\353`\346ie\v\330$S\31\211\362\305s\37\f\17\371\202.\17\202"..., 399) = 399
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "sPdK1j.SDWiOSA.ig7ZnVmY.aIJDbMol"..., 4096) = 4096
+write(3, "aiSX8FflFWjBleIAGpxCFcxY_OWlz1Jl"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "4sZoSQW2taJxUYgFHUqiehM4W.nIo_l."..., 1868) = 1868
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999996})
+read(4, "\27\3\3\3q", 5)                = 5
+read(4, "I\265e<\301\37\335y\312\370\331i \236P\2\2556\264@\264\300\267\301\246\244\332\250W\362\6\226"..., 881) = 881
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_24803755\" cla"..., 846) = 846
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999997})
+read(4, "\27\3\3\2\236", 5)             = 5
+read(4, "I\265e<\301\37\335zU\354\25Qp\231\2223\337\340C\30x\262I}k9g\n\271<q`"..., 670) = 670
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_15014391\" cla"..., 635) = 635
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999998})
+read(4, "\27\3\3\0\320", 5)             = 5
+read(4, "I\265e<\301\37\335{}\245\347\357\33\252>Q\333\22\17\272\323\367\22\3s\301\6\342\31\304\235\22"..., 208) = 83
+read(4, "4\276\272\237:\223\356\237\10\37\215\223i\30l{\3253\241\225\345\262\356\367\351\260\342\310f\f\365\331"..., 125) = 125
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_30345871\" cla"..., 173) = 173
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999995})
+read(4, "\27\3\3\0\313", 5)             = 5
+read(4, "I\265e<\301\37\335|DNA\336l\364*\217oa\360\365\271\217\351\250\253\277\235\345\303m\325\32"..., 203) = 203
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_26391799\" cla"..., 168) = 168
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999994})
+read(4, "\27\3\3\5\300", 5)             = 5
+read(4, "I\265e<\301\37\335}\332K\261\227\354\356Q\224D\324\235<Es\376\377h\0\331\264A\304\211\352"..., 1472) = 1472
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_30345848\" cla"..., 1439) = 1439
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\"\10", 5)              = 5
+read(4, "I\265e<\301\37\335~\375\321@7g\222\371\vU\2575Y\33\313\r\264&<l\26\220\16!,"..., 8712) = 8712
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "main-story-content y-bg-1\">     "..., 4096) = 4096
+write(3, "my-today-ln-1 trans-border item "..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "          </li>            <li i"..., 496) = 496
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\20\211", 5)            = 5
+read(4, "I\265e<\301\37\335\177r=\313\217g\"\216\373\350*\251\24N\35\257\306\370D\327\36\2\5\342Y"..., 4233) = 4233
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "ad1 y-today-ln-1 empty trans-bor"..., 4096) = 4096
+write(3, "_30345976-matches\">\n            "..., 113) = 113
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949997})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\21\227", 5)            = 5
+read(4, "I\265e<\301\37\335\200\200\367\204\327W\356W\v91\342B\257\232c\337\304eO\367\5)\3153"..., 4503) = 590
+read(4, "{\203\224\231\242\1\211}*\323\355\252\3\250\315\214-\"a\252\265\r!\260\230\36\300\352G\27\262`"..., 3913) = 1024
+read(4, "\31665\251\215\334l|B\356FB\266\ru\266\306\314\251\323\1\301\257\375\300\n\256\201\270c\247f"..., 2889) = 1024
+read(4, "\225|\234\360\1\2\320\3308\311\222\273\5\316\243h\202ev9\342`\372\302\260\322\352\35\245\23\254\2"..., 1865) = 1865
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "https://sports.yahoo.com/soccer/"..., 4096) = 4096
+write(3, "d-side-of-world-cup-referees-210"..., 383) = 383
+write(2, "\r", 1)                       = 1
+write(2, "    [  <=>                      "..., 79) = 79
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949993})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3*\207", 5)              = 5
+read(4, "I\265e<\301\37\335\201H\353\37U\366\314U\373\tC\2\270c0\327\312k\213\302^<\225}\345"..., 10887) = 8370
+read(4, "i \257\243RXfk\261d\272\244~ghN\331o\373\222\211\205\377NV2W\351\323\322\200\352"..., 2517) = 1024
+read(4, "\22\264S\230L\360\360+\10\335\37r7k\5k\376\273/f\335\201\244\207:\334\367}\365\316.|"..., 1493) = 1493
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "956fc1_DempseyThumb.jpg);\" ></sp"..., 4096) = 4096
+write(3, "w Slideshow</em></i>\n        <p "..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "ica&#39;s long history and conne"..., 2669) = 2669
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999995})
+read(4, "\27\3\3\f`", 5)                = 5
+read(4, "I\265e<\301\37\335\202 \3734\211\237G\rZ\301-\225\315\330\373/2$\217\263Am\302\330y"..., 3168) = 3168
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_30345810\" cla"..., 3133) = 3133
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999996})
+read(4, "\27\3\3\0\265", 5)             = 5
+read(4, "I\265e<\301\37\335\203\31\332BxC\24#N\177\320\230\373\251J\t\342\222\377\262\0018i\7W"..., 181) = 181
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_30345826\" cla"..., 146) = 146
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999997})
+read(4, "\27\3\3\"\10", 5)              = 5
+read(4, "I\265e<\301\37\335\204\211\222\24\364I\266L\v\3079\266\213\264\373\37\365\356\310\334\2636\246\241\36"..., 8712) = 5383
+read(4, "pd\245\321\2079C\221\326>q[\203'\327\203\200\245d\345\201\373~\246Y\276c\240Z&7\253"..., 3329) = 2048
+read(4, "\213H\"\37\234\314\227u\206\2\352;iM\314\371\270t\331\200(\305<3vQ\373\24+\371\331\212"..., 1281) = 1024
+read(4, "Z-\336\236h\217\214\341\350\37\356\10\362\345P\364>\3137iE\376\260\331Y\203zQ\302\230\16\215"..., 257) = 257
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_30345786\" cla"..., 4096) = 4096
+write(3, "utton><button class=\"img-sprite "..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "-wrap\"><h3 class=\"fw-b fz-s lh-1"..., 489) = 489
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949997})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\25U", 5)               = 5
+read(4, "I\265e<\301\37\335\205\371x\320\225D\304b\206$\306Na \177\346\2313'\276\374\v\344\202'"..., 5461) = 5461
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "nd cancer. MLB and San Diego Pad"..., 4096) = 4096
+write(3, "mg src=\"https://s.yimg.com/os/mi"..., 1341) = 1341
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949998})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\f\313", 5)             = 5
+read(4, "I\265e<\301\37\335\206\223Y\5\301\37\275\312\35\326\2312\271\317\247\252[Z\205{J\314&8\17"..., 3275) = 3275
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "lk=\"cpos:1;itc:1;g:0ec819bf-274e"..., 3251) = 3251
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949998})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3@\30", 5)               = 5
+read(4, "I\265e<\301\37\335\207\313PI\251\314\237$\322A\364\303\316\245\216M\323\3120\37\343\273IU\241"..., 16408) = 1232
+read(4, "\340\257\334\7bWw\244\\\301\v\341NSR58\250\37\206\254d\372\212\313\354eH\4\237\17\254"..., 15176) = 1024
+read(4, "\362\261\236\333h\345N\251\210\300\206\265f\37H\271\223\34\204(l/:\341\322%0\26\227\310\3660"..., 14152) = 1024
+read(4, "\v-\24\252\332\362T\332:\3\301\241:\214\27\246p!\5\367K\254\275\375\2438|\263\366)\f\342"..., 13128) = 2048
+read(4, "\220\322Zs\7K\276&A\330\272\335\352*\210\220D\4\352!`#%5%\372\21\253\345!\355^"..., 11080) = 1024
+read(4, "\t\307\352\230\352\256%\37\330>\250\16\214\376#m\241#4\nx)\222\246\325RK\25\2660\215\337"..., 10056) = 1024
+read(4, "1Q\tG\312\10\233\221\350G\225\243Y\241\37\226\367x\214\205Xksss\332\267\351\225)\313{"..., 9032) = 1024
+read(4, "\2323;%ln\0034_\353N\3 -\326\341m\201'\306/B\r\300@\374\315:`\341\335?"..., 8008) = 2048
+read(4, "\205\232\216\305\356`\0\205\303\207\232\247\260o\2026\3.\fTN\336 (x\344\352;3\271\256\266"..., 5960) = 1024
+read(4, "v\324\333\4\313<G\377\274\251\252'\331Gq \326\256\351\236\fsi}\344g8\305z\267|\353"..., 4936) = 1024
+read(4, "d\266\277ry\305\265t\211+<\333\31\207\374AGg\362\302\304\231\377\316F$h\341PZ\306L"..., 3912) = 1024
+read(4, "\377R\332):\235\342\t\351M\347H\304]\31l\232\355\341|y\260&Yh\216\351\345\225\325\251\364"..., 2888) = 2888
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, " href=\"#\" class=\"interest-filter"..., 4096) = 4096
+write(3, "lick-resp img-sprite voh\">Save</"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "ationalConstitutionCenter/scalia"..., 4096) = 4096
+write(3, "HLzEO8Tr96S0VK7AVigKBktE5ICLRQFq"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949993})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\17H", 5)               = 5
+read(4, "I\265e<\301\37\335\210\24\37\214\364A\347\245\2214F\2356\204\0211\207B\201\262Na\237\322."..., 3912) = 3912
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "e98428ab;t3:ct;elmt:fltr;rspns:n"..., 3888) = 3888
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3$5", 5)                 = 5
+read(4, "I\265e<\301\37\335\211\0363,go\4\r&W\251V\233\30\362\347\2\10\4\257\262\333\246\321w"..., 9269) = 2406
+read(4, "\2508\n\346\213\206pW\237\360\370\357\16\242\345\1\334\355\22\3\224\3228\324\21:88B\302\32\212"..., 6863) = 1024
+read(4, "0\336+\4\365\2155\10j\322\343\310:\353 \275\16\342x\377\233\277\"\340'\346\371xn}&\20"..., 5839) = 2048
+read(4, "\re\4%\374\254\253t\202P\32_\336\222\34\20\310\306\362\357\302\246\311rs\261\370\1\"S+\200"..., 3791) = 2048
+read(4, "\255\306/\270\300\2069\315 \227\234q\272\376\312]\201\36X\241\324\266wH\251\17NO#\7v\274"..., 1743) = 1024
+read(4, "!9\30\273[\337H\201\377lo\337\v\1\222`OP85\345\257A\35\377\253\250\vfk/\36"..., 719) = 719
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "031|WIKIID:Kim_Kardashian|WIKIID"..., 4096) = 4096
+write(3, "ault;bpos:1;cpos:13;pkgt:4;slk:t"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "mt:fltr;rspns:nav;ft:3;sec:strm;"..., 1053) = 1053
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\0036{", 5)               = 5
+read(4, "I\265e<\301\37\335\212\335\200K\262\22\307\370c,2I*\32ef\266+\277\304\273%\327\341\37"..., 13947) = 4396
+read(4, "^\360\226\224\323\214:)\0\375\26{\232\271e\357\336\227\23\315\346^\242#\323\241\266r\311\31\213v"..., 9551) = 1024
+read(4, "\301h\270\360\346'T\216d\211\321\35Q\212/\377\246\343d\205a\305\36\326kC\20\247\327\6\350B"..., 8527) = 1024
+read(4, "T\31{\32\267\216w\213\22\1\370\36\212b\3\362j\301/6\23~\211\356:2(\20\26iK\247"..., 7503) = 1024
+read(4, "/\266\36\306j96\313!\207Wt\36\375\345\352\372\312\367\265\252\23,9\333\271*\0311\332\313\311"..., 6479) = 1024
+read(4, "\34\321\264\255F\304\276\217\270\347\265\200\365Pc\260mh\332\315\304\324\220\4\270\3055lE\231\342\n"..., 5455) = 1024
+read(4, "\34\350\220\227\246\312\233\332L\247\366G\256W\2724\257\223\334i\302\n\211\206hr<\10i\32R."..., 4431) = 1024
+read(4, "Vw\34\21(\311\360:\257'w\22(\366+\207\213\277\234_\274\331\306\346@\347\276\267\263\322;v"..., 3407) = 2048
+read(4, "\31RV\f`\374\304\342\253dR3\377\364\326\31\3757\307R\237\225U\255\263'=\377\370u(b"..., 1359) = 1024
+read(4, "\357\22\252\334\350\371\310-H\235F\351\306`\245\363j\24:\300 \251\312q\223\364\376\364\1772\335\274"..., 335) = 335
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "mg-sprite close side-button voh "..., 4096) = 4096
+write(3, "HZRSF5K3LSF8eepw0bulnX_o4MtIUwah"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, ":nav;\">This Jarring Photo Shows "..., 4096) = 4096
+write(3, "SS<span class=\"d-ib img-sprite o"..., 1635) = 1635
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949992})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3>P", 5)                 = 5
+read(4, "I\265e<\301\37\335\2136D\253\203)\254\344\373x\0273x\356\232\252\275\246\250\322T\\^$\316"..., 15952) = 11948
+read(4, "i\377Z\3010\305\331i\361d\345\305\230>\36\235\"\320\327\242\355\376\206PW-\207t\326\0024\360"..., 4004) = 1024
+read(4, "\357\274\302f\234N\267n\342\177N}\201\317 y\371\221/\366\3328\214f\372\270GK\274S@\34"..., 2980) = 1024
+read(4, "\372b\371\230\rAi\2004\312\374\236\247}\27\21?\312\36\361}\313\30Vb\0269V\274&\313\20"..., 1956) = 1024
+read(4, "&\370\v\265\253u4\r(k\244\272\247\2519\266\17/#M\310\271\326\254L\27\265\244\374\327\203g"..., 932) = 932
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "ata-ylk=\"sec:strm;cat:default;bp"..., 4096) = 4096
+write(3, "h rapid-noclick-resp\">Remove</bu"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "ata-action-outcome=\"slcfltr\">Hou"..., 4096) = 4096
+write(3, "\" data-url=\"https%3A%2F%2Fbeap.a"..., 3640) = 3640
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\v}", 5)                = 5
+read(4, "I\265e<\301\37\335\214NJ\314\301\r\346\335\375m\320&\301\361\356!\223\333\370\330\343[\v\331\253"..., 2941) = 87
+read(4, "N\336\361\254\17\277\255\264=\230\346n\353\237|\221\277\350\256\304\251V^\226g\236\256I\233\374af"..., 2854) = 2854
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "MHcFQ_Pk6QTnEs2sCV8YDcDpQZiYWjpj"..., 2917) = 2917
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3@\30", 5)               = 5
+read(4, "I\265e<\301\37\335\215\250\351s\242\21\206\351\16u\351 \345R)S\3030>\32o\367\227\302>"..., 16408) = 7381
+read(4, "5\21\3\255\256_\6u;Ji\32\352\235\27\247\375j\343&(\215\253\2\2120v&\214\232\216\n"..., 9027) = 2048
+read(4, "pN\377\2\251\246\314]\202\21\312\301\246x\266\272\23d\0033\211\307\373\25\207\31J\216S~\21\325"..., 6979) = 1024
+read(4, "\220\232\333%/\261ha\20F\"\304\371\303p\365\271\206ib\246\34\3257\320,s\314\265\3\353\315"..., 5955) = 1024
+read(4, "\277\343\226\271\343\35\341\213\35\303W\4w\375\24\234\342~\242\26T\304/|\303\263Z\"\357\233\216a"..., 4931) = 1024
+read(4, "\327\323\33~\0f\321\361\3703\t\376\247\360\372\33\245\322\367>8U\372\0343\7\365\367\277\16\362\26"..., 3907) = 1024
+read(4, ";\207[\254\257\276\213\3375\325)\\\t\251dA\235\373\344\214)*\270\34\361\357\201\213\0\267\231\262"..., 2883) = 1024
+read(4, "\303$\306\2066C\4K\277mJi\337x:\177+\3P\366\255?H'\362\235\340\253\nl\271\333"..., 1859) = 1859
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "3278.png\" style=\"background-imag"..., 4096) = 4096
+write(3, "/lib/metro/g/yui/pluginhost-base"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "rvice_0.0.48.js&nn/lib/metro/g/t"..., 4096) = 4096
+write(3, "references\\/preferences\"}},\"saDa"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949991})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\t\213", 5)             = 5
+read(4, "I\265e<\301\37\335\216a\364\232\217\314\270\244\267\373\371+c_\2476;\210\263LWP\234\ne"..., 2443) = 2443
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "ols.search.yahoo.com\\/about\\/for"..., 2419) = 2419
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949995})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\0036\245", 5)            = 5
+read(4, "I\265e<\301\37\335\217\37M\243`\247\350S\260\177\271\224m\305\346o\177r\271\353\244\340\n\264e"..., 13989) = 2856
+read(4, "\26\344u\340\6\3433\235\25\362\27a\3360\20I\213+\231r\320\204\325\340\224j\r\314&\32\212\234"..., 11133) = 1024
+read(4, "\206\230BW\25\274#\325\325Q\245\361\275H\v\327\355\300\f\333\323\177\332\212\331\223*\27\313\213$\25"..., 10109) = 1024
+read(4, "\274\240\16\271\353m\f\6[Q\n\5q\2367HWwAq\335\370(\276^7\4\364QH\365?"..., 9085) = 1024
+read(4, "\352\303\222'\3R\241\314\235Z\205(P\255\333\335$ \2777\22\210U\316\310\210\t\5\355\254\223\314"..., 8061) = 1024
+read(4, "\242\263P\327\365\226\230=9?=\365\245\20iQ\225h\212)hb\262\16\335R\326\263CQ\213\320"..., 7037) = 1024
+read(4, "a\3323\326\f*\361XB\204\34\375\200\362\224\234\264\0348\201vu\353\352|\265c\251\36\7\332\33"..., 6013) = 2048
+read(4, "\275B\233\34\235hdgp>\301\211\330i\0\321U\306\362\223\275\345\324q\5\21H$\226\7\356\270"..., 3965) = 1024
+read(4, "\357\275V\250\204N\221\335\355]|{\351\3775Kh\213\347\2159\n!\365\367\227&\273;\32\354\234"..., 2941) = 1024
+read(4, "\0045\211\1\t\372\242\300\362\214\362YD\217\222\223\33\317\362\360\376\337b\\\256\333\375\270&\250lN"..., 1917) = 1917
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "hk.yahoo.com\\/?p=dnr\\\" data-ylk="..., 4096) = 4096
+write(3, "\\\"https:\\/\\/se.yahoo.com\\/?p=dnr"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "   <\\/div>\"},\"state\":{\"view\":\"de"..., 4096) = 4096
+write(3, "state\":{\"view\":\"default\",\"defer\""..., 1677) = 1677
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949993})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3)\263", 5)              = 5
+read(4, "I\265e<\301\37\335\220\16\272mk\314\17Yd\317\254\37f'^t\17\344\313,\306\20,\236y"..., 10675) = 10675
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "r.yahoo.com\\/redirwoei\\/2522292\""..., 4096) = 4096
+write(3, "\"tabNavigationMode\":\"tabs\",\"enab"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "gs\":[],\"title\":\"Dynamic Logic Su"..., 2459) = 2459
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3@\30", 5)               = 5
+read(4, "I\265e<\301\37\335\221c\311\271\210\317\6@\262_\223O\361hb\361'\0108\254\177i\1.\335"..., 16408) = 5830
+read(4, "\17\355\317c\354\22Y\377\230\221\241\250(\353:K9P/$>\227\236\302\357\4\313l\352z@F"..., 10578) = 1024
+read(4, "\262\214\347\275\376\31\0r\37174f*\17\273~=\2\266 T\32\353\335\351N\35\3645\273+\302"..., 9554) = 1024
+read(4, "+\215O\256\202\r3\251E\244\261&\205\220\21MNJ\366\32|\241\257\344\321\350Ac\224l @"..., 8530) = 1024
+read(4, "p\302\6\357q||\300\301\360gve!\244`b\262\322\216\260\314S\313\203\352\312\373VThK"..., 7506) = 1024
+read(4, "\216\213nw\210\311\32D\371~M\236%g\366~\364\35\25\345\7\245W\333\300\204\204\313\27\263x\362"..., 6482) = 1024
+read(4, "La\3375w\320ye\7\255U\306\256\351Q\315%\314\232\333BkH\177\20760U\7\5j`"..., 5458) = 2048
+read(4, "\34(\214\300\210\332\263;\201\265\341\337\221\t\345\n:d\201cl\270y\3053\30\375\202\276\36\3k"..., 3410) = 1024
+read(4, "\316\325,^\375&r\313\265w\245^\177Y4\37\3717\236*%\32\300\275\244\325\275\331\25455\22"..., 2386) = 2386
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "fptoday\",\"contentId\":\"13872472\","..., 4096) = 4096
+write(3, "it-bull-kfc-asked-to-leave-17294"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "beaconFired\":false},\"id-3490591\""..., 4096) = 4096
+write(3, "406\",\"id-3490317\",\"id-3490605\",\""..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\26}", 5)               = 5
+read(4, "I\265e<\301\37\335\222\347\311\6Y\336\277\177\f\247\200\276u~\32\315\367\366)t^\213\37e\6"..., 5757) = 1705
+read(4, "\324\"=\332\276c\254p:\230\274\201\1\372\201\324\220LE&\271\325\2250\235\245\242C\241z\255G"..., 4052) = 1024
+read(4, "y\352\245t\206i/\207GT\306B\0%\341m\223\213\205\371\377\222\240\366\324\257&n8e\227\337"..., 3028) = 1024
+read(4, "\245+#\252\16\220\177\362\341P\345\333\316\3567\5\227\234\307\375\207w\230t\2465>\353Aj\253\370"..., 2004) = 1024
+read(4, "&a'\301\307\330Q\304\304\306<\323e\7\342x@\203/\\.\210\312\2557\245@\316M\2149\207"..., 980) = 980
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "06-16T01:30:35Z\",\"headline\":\"Fou"..., 4096) = 4096
+write(3, "g.com\\/uu\\/api\\/res\\/1.2\\/sQrezb"..., 1637) = 1637
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\0043", 5)              = 5
+read(4, "I\265e<\301\37\335\223\n\222~5\264*\t\5\361\372\327\232\345\207\31}\351\310\0026y(\320\316"..., 1075) = 39
+read(4, "vF\326\360\27\225oqOxr\5\\4\366\7!\275\353\216\363\20\212\367&bPUu`\266\211"..., 1036) = 1024
+read(4, "\261\206>\204\234J\307rM\2240K", 12) = 12
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "1426519614868-p5.jpg\"}},\"type\":\""..., 1051) = 1051
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3@\30", 5)               = 5
+read(4, "I\265e<\301\37\335\224\30\202K\242|\373\222\350G\266\243i\315u\241\361\36\v\271\34\207`\350\30"..., 16408) = 1007
+read(4, "\230\22\10z\200\337\235\326d\350\372\16\24c\346\340\342\202\277\342\357l\275\312Ml\336_\1\361\323\337"..., 15401) = 1024
+read(4, "\204\224u\235\31\223\361\223\241\300\357\251\"y\367\211\202\252F\357_*\366A\316\te\372\310@\"\347"..., 14377) = 1024
+read(4, "===\370\366)\315\230\2247fi\24\346\324\6\16\301\222X{\364\334=\36+\201\363\236KX\271"..., 13353) = 1024
+read(4, "\234\303\31c\246\262\235pFw\355-FJ\352\312\213z \214\355\333\306\341\17\244\272n\201>\342\250"..., 12329) = 1024
+read(4, "\357*\260\2\227\231\225\326h\37\375\202\1\211\221\27\234^[A\f^\301\260\274\244F\201\201@\250\241"..., 11305) = 2048
+read(4, "\360{\313\230M~>\231Mx\352\302\302Q\266\v\200>\232\317j\374^\373\23\352\274,\354\322\21\330"..., 9257) = 1024
+read(4, "}\336\310\317\260\304#VA\377\264q\3? KRL\320\361\236[-\345\245\350\24\313\251\215\25I"..., 8233) = 1024
+read(4, "\215\310\211a\312\36\242%\324:4\341\365\272\310m+\211dW\243\363\33\365K\266]\360\234\222(h"..., 7209) = 1024
+read(4, "\366\307n\10^\177\26\365\324\233x\0236#+kU\306\340\273\5\352/\363|ouO\360\7\223?"..., 6185) = 1024
+read(4, "\311\231\331\235\200\257\7\2518\360T\253\270W\231(&\353d'82\3546X\225\231K\267G\5\305"..., 5161) = 1024
+read(4, "\341.\265\345\324\204\305\324\305\300\307\213\33j\325;\301`u\\\200e\23\207\30\364)\25\247\276\23\244"..., 4137) = 1024
+read(4, "S\272:\214\200\6\213l%}+\221\213T\336\373\0234\21\346n\332\36\327\215\201{\332\257\206\361\214"..., 3113) = 1024
+read(4, "<\350s\0367\3517\26\344\341\345\262uE\274\20\217E\274R+\234&\350\264\261\201\222\2304\1\223"..., 2089) = 1024
+read(4, "\225\373\227\333\317r=[\5\372\0\22\246\314\217\234\241\v\24\347D\247\372L\267\327H\215$\226d\271"..., 1065) = 1024
+read(4, "V\206\260\252\3547\254\nXpH\7\220\3428t\34$-\34\213\314\245\247F\351\256\210__\315\236"..., 41) = 41
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "media.zenfs.com\\/en_US\\/Sports\\/"..., 4096) = 4096
+write(3, "\"small\":{\"width\":\"150\",\"height\":"..., 4096) = 4096
+write(2, "\r", 1)                       = 1
+write(2, "    [   <=>                     "..., 79) = 79
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "zIH2CfkAsUBpGINLLPKF6XH2cBia0Ml8"..., 4096) = 4096
+write(3, "Letcqqm.fKj5bx6uiJP1hIcAaXaYGVp3"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949992})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\24\360", 5)            = 5
+read(4, "I\265e<\301\37\335\225bC2\33\233\252\300\332l\254G\253\310\254\347\240\233\316\n\6\23\341u\232"..., 5360) = 4050
+read(4, "\212h\1\230I\271\372,N\252\345\0215\22P\233#\236 \204\253\2157\241d\340\20\316\257\221\333\276"..., 1310) = 1024
+read(4, "\251\306ULT\267\6\200\360\25KBH\215\334\351\30\324\211\361i\\\210\203\213.\362\247\304k\3\217"..., 286) = 286
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "92d7-1f370e53b998\",\"i\":\"40000000"..., 4096) = 4096
+write(3, "94-33ef-8cec-09b317cb9cc1\",\"i\":\""..., 1240) = 1240
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3'%", 5)                 = 5
+read(4, "I\265e<\301\37\335\226\311\200\32b\211\305\340\311b\207R\271\262)\321\371\237XX\20g\360\301_"..., 10021) = 4829
+read(4, "\377\375\n\245\377K\245n\216\20\302zE,\6\361\210\10\364\252\335u\1\360\312\201\202G99\236\363"..., 5192) = 1024
+read(4, "\32j*g\252]\327/6$\356\243T\341\373\261\373d>\20\245\225\244\2434\210Z\0101\ry\256"..., 4168) = 1024
+read(4, "\364\270\6\330i\n\374\36(v\315\355\4qB\7\357\3v\10\316\226\304\345\357\267\347\2\3377c\23"..., 3144) = 1024
+read(4, "C\274g\340p\311\30c\362\0017A\247\2266\301\357\347j\2122\361\237e\200BF\216\323\216!\243"..., 2120) = 1024
+read(4, ":\252.\211\5\231\343\rL\32\244\363\216\230\213\340T;\377\374\30\252}\220\263*\210\305-\4\206\340"..., 1096) = 1096
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "\":\"356ec64a-66ac-3a03-b5de-82f82"..., 4096) = 4096
+write(3, "\"url\":\"#\",\"declared\":1},\"YCT:001"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "-loader ti\\\">Load more stories<\\"..., 1805) = 1805
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949996})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\0033\213", 5)            = 5
+read(4, "I\265e<\301\37\335\227\255\35\3\256;z&\32\265\354\342D&\24\262\344\365\327%\355'}D\2"..., 13195) = 7091
+read(4, "\276\16\231I\267\205\3131\204\266_\3274\354\2446#\217\355c\33\334\277[\313\317\\\230\223\323[\312"..., 6104) = 3072
+read(4, "\204I\244czL\252uT\215\331\346\31\226\227\362\344\204\234\335\f4W\16\20\4\"@[\207\203="..., 3032) = 1024
+read(4, "\240\215\272Z\20\200.\305u\207\245n\334\315\23\v\375\277w=\207\224\267\224k\345\377\210\302@\210\265"..., 2008) = 2008
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "e-wrap flag-thankyou\\\"><p class="..., 4096) = 4096
+write(3, "il\\/navrail_0.0.112.css\",\"type_a"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "b\\/metro\\/g\\/yui\\/cookie_3.8.2.j"..., 4096) = 4096
+write(3, "_0.1.25.js\",\"default_viewtype\":\""..., 883) = 883
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949997})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3@\30", 5)               = 5
+read(4, "I\265e<\301\37\335\230\272E&r\343\2631_\20\314\353\260d=\210=\220\16m\241=bRG"..., 16408) = 6179
+read(4, "]\36\222L\203N\350.\16,\266\307\305\25i!\243\353A\340\375:\366\343\257\363\244\265D\3\306\322"..., 10229) = 1024
+read(4, "a\204\365\354\255?a\236\231\17j\31cUt\334\201\306\377V\373<\205\244\375\325?d\365\217'\272"..., 9205) = 1024
+read(4, "\360\34\316\377~\303f<\216\273}\3!\370\211!\347#\20\33\363\361n9\374r\250\316\260F\322Q"..., 8181) = 1024
+read(4, "\266\236\205G\204\257\245K\"\275\270we\31{\251\6}x\2\240\211\261N\367N\204\322\0274\377\353"..., 7157) = 1024
+read(4, "\325Q\rY\345B[\373\363\361\221\311\37\25\361\3\220\366\227\213\362g\352\307\217]\356\215s\31\365V"..., 6133) = 1024
+read(4, "\306\223\217\265(\305\344\232\303K\215J\302e\260v\277\17sgJ>ZD\362\320S\320\211\216T\202"..., 5109) = 1024
+read(4, "\210\322I\311[\36v/\360\311(\252\345\236\25\16U\3372\244Y\376\203\232\303\f\6\200\22\327\10\1"..., 4085) = 1024
+read(4, "\311\365(\253n\241\257\347\334\314a\361} t\6\220\260f\372\365I\216\233\272r\0\224\376\236\227-"..., 3061) = 1024
+read(4, "~\201A\354m:XqU,\235\340\321\222\247;\305C\224\4\277\334@\373\20f\244-}mF\362"..., 2037) = 1024
+read(4, "\352\262\341B\275\r=\262\336\267\333\20\256\nf\212YPI`\204x\356\226)\317\304T9\tW-"..., 1013) = 1013
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "ervice_0.0.14.js\",\"userinfo_serv"..., 4096) = 4096
+write(3, "s\",\"type_weather\":\"https:\\/\\/s.y"..., 4096) = 4096
+write(2, "\r", 1)                       = 1
+write(2, "    [    <=>                    "..., 79) = 79
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "h3>\\n                <p class=\\\""..., 4096) = 4096
+write(3, "r\\\"><\\/div>\\n    <\\/div>\\n    <d"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949993})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\6V", 5)                = 5
+read(4, "I\265e<\301\37\335\231-C\320[FP,\373\243\271\324\"\31\375Q\330=\n\"a\244\10\354\""..., 1622) = 1030
+read(4, "\223\225\212\201\271\303O\311\222\16\216\245]\376\277G\302\337\345B\342\16\320\224+\35i\24Lw\2129"..., 592) = 592
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "      cookieArrary = document.co"..., 1541) = 1541
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "\n<!-- myproperty:myservice-us:0:"..., 44) = 44
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999994})
+read(4, "\27\3\3\0y", 5)                = 5
+read(4, "I\265e<\301\37\335\232\362\214\2755\261y\240G\25I4\205v\304\357Q\341\10\315\305\353u\3\24"..., 121) = 121
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<!-- hw63.fp.ne1.yahoo.com uncom"..., 81) = 81
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(2, "\r", 1)                       = 1
+write(2, "    [     <=>                   "..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(3)                                = 0
+munmap(0x7f4538236000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "2014-06-16 11:45:32 (353 KB/s) -"..., 68) = 68
+exit_group(0)                           = ?
++++ exited with 0 +++

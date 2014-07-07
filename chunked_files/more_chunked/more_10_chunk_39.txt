@@ -1,0 +1,75 @@
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(73%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"  </a>\\n  </h2>\\n\\n\\n "..., 67) = 67
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"  </a>\\n  </h2>\\n\\n\\n"..., 68) = 68
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"ids=\\\"XZmxvig1dXE\\\"><s"..., 64) = 64
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"ids=\\\"XZmxvig1dXE\\\"><"..., 65) = 65
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"span><img src=\\\"http:/"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"span><img src=\\\"http:"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(75%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"v class=\\\"yt-lockup cl"..., 62) = 62
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(75%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"v class=\\\"yt-lockup c"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(75%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(75%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \" yt-lockup-grid vve-ch"..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(75%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \" yt-lockup-grid vve-c"..., 64) = 64
+read(3, "select(4, [3], NULL, NULL, {0, 9"..., 4096) = 4096
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(75%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(75%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"-lockup-content\\\">\\n  "..., 63) = 63
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(75%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(4, \"-lockup-content\\\">\\n "..., 64) = 64
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(76%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rselect(4, [3], NULL, NULL, {0, "..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0

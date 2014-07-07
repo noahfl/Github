@@ -1,0 +1,75 @@
+getxattr("/home/bearface/.profile", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.profile", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Minecraft.jar", {st_mode=S_IFREG|0711, st_size=280212, ...}) = 0
+lgetxattr("/home/bearface/Minecraft.jar", "security.selinux", 0x163c5b0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Minecraft.jar", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Minecraft.jar", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.pip", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.pip", "security.selinux", 0x163c5d0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.pip", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.pip", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=1832, ...}) = 0
+mmap(NULL, 1832, PROT_READ, MAP_SHARED, 4, 0) = 0x7fa180a45000
+lseek(4, 1832, SEEK_SET)                = 1832
+munmap(0x7fa180a45000, 1832)            = 0
+close(4)                                = 0
+open("/etc/group", O_RDONLY|O_CLOEXEC)  = 4
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=884, ...}) = 0
+mmap(NULL, 884, PROT_READ, MAP_SHARED, 4, 0) = 0x7fa180a45000
+lseek(4, 884, SEEK_SET)                 = 884
+munmap(0x7fa180a45000, 884)             = 0
+close(4)                                = 0
+lstat("/home/bearface/.cache", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.cache", "security.selinux", 0x163c630, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.cache", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.cache", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.config", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.config", "security.selinux", 0x163c650, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.config", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.config", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/grive", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/grive", "security.selinux", 0x163c670, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/grive", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.themes", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.themes", "security.selinux", 0x163c690, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.themes", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.themes", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.pki", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.pki", "security.selinux", 0x163c6b0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.pki", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.pki", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Music", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Music", "security.selinux", 0x163c6d0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Music", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Music", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.ICEauthority", {st_mode=S_IFREG|0600, st_size=4340, ...}) = 0
+lgetxattr("/home/bearface/.ICEauthority", "security.selinux", 0x163c6f0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.ICEauthority", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.ICEauthority", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/..", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/..", "security.selinux", 0x163c710, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/..", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/..", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.gnome2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.gnome2", "security.selinux", 0x163c730, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gnome2", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gnome2", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.local", "security.selinux", 0x163c750, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.local", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.local", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.bash_history", {st_mode=S_IFREG|0600, st_size=15799, ...}) = 0
+lgetxattr("/home/bearface/.bash_history", "security.selinux", 0x163c770, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.bash_history", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.bash_history", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.mozilla", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.mozilla", "security.selinux", 0x163c790, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.mozilla", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.mozilla", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/.gnome", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/.gnome", "security.selinux", 0x163c7b0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/.gnome", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)

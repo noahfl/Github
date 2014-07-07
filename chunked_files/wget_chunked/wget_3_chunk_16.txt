@@ -1,0 +1,75 @@
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\0036{", 5)               = 5
+read(4, "I\265e<\301\37\335\212\335\200K\262\22\307\370c,2I*\32ef\266+\277\304\273%\327\341\37"..., 13947) = 4396
+read(4, "^\360\226\224\323\214:)\0\375\26{\232\271e\357\336\227\23\315\346^\242#\323\241\266r\311\31\213v"..., 9551) = 1024
+read(4, "\301h\270\360\346'T\216d\211\321\35Q\212/\377\246\343d\205a\305\36\326kC\20\247\327\6\350B"..., 8527) = 1024
+read(4, "T\31{\32\267\216w\213\22\1\370\36\212b\3\362j\301/6\23~\211\356:2(\20\26iK\247"..., 7503) = 1024
+read(4, "/\266\36\306j96\313!\207Wt\36\375\345\352\372\312\367\265\252\23,9\333\271*\0311\332\313\311"..., 6479) = 1024
+read(4, "\34\321\264\255F\304\276\217\270\347\265\200\365Pc\260mh\332\315\304\324\220\4\270\3055lE\231\342\n"..., 5455) = 1024
+read(4, "\34\350\220\227\246\312\233\332L\247\366G\256W\2724\257\223\334i\302\n\211\206hr<\10i\32R."..., 4431) = 1024
+read(4, "Vw\34\21(\311\360:\257'w\22(\366+\207\213\277\234_\274\331\306\346@\347\276\267\263\322;v"..., 3407) = 2048
+read(4, "\31RV\f`\374\304\342\253dR3\377\364\326\31\3757\307R\237\225U\255\263'=\377\370u(b"..., 1359) = 1024
+read(4, "\357\22\252\334\350\371\310-H\235F\351\306`\245\363j\24:\300 \251\312q\223\364\376\364\1772\335\274"..., 335) = 335
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "mg-sprite close side-button voh "..., 4096) = 4096
+write(3, "HZRSF5K3LSF8eepw0bulnX_o4MtIUwah"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, ":nav;\">This Jarring Photo Shows "..., 4096) = 4096
+write(3, "SS<span class=\"d-ib img-sprite o"..., 1635) = 1635
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949992})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3>P", 5)                 = 5
+read(4, "I\265e<\301\37\335\2136D\253\203)\254\344\373x\0273x\356\232\252\275\246\250\322T\\^$\316"..., 15952) = 11948
+read(4, "i\377Z\3010\305\331i\361d\345\305\230>\36\235\"\320\327\242\355\376\206PW-\207t\326\0024\360"..., 4004) = 1024
+read(4, "\357\274\302f\234N\267n\342\177N}\201\317 y\371\221/\366\3328\214f\372\270GK\274S@\34"..., 2980) = 1024
+read(4, "\372b\371\230\rAi\2004\312\374\236\247}\27\21?\312\36\361}\313\30Vb\0269V\274&\313\20"..., 1956) = 1024
+read(4, "&\370\v\265\253u4\r(k\244\272\247\2519\266\17/#M\310\271\326\254L\27\265\244\374\327\203g"..., 932) = 932
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "ata-ylk=\"sec:strm;cat:default;bp"..., 4096) = 4096
+write(3, "h rapid-noclick-resp\">Remove</bu"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "ata-action-outcome=\"slcfltr\">Hou"..., 4096) = 4096
+write(3, "\" data-url=\"https%3A%2F%2Fbeap.a"..., 3640) = 3640
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\v}", 5)                = 5
+read(4, "I\265e<\301\37\335\214NJ\314\301\r\346\335\375m\320&\301\361\356!\223\333\370\330\343[\v\331\253"..., 2941) = 87
+read(4, "N\336\361\254\17\277\255\264=\230\346n\353\237|\221\277\350\256\304\251V^\226g\236\256I\233\374af"..., 2854) = 2854
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "MHcFQ_Pk6QTnEs2sCV8YDcDpQZiYWjpj"..., 2917) = 2917
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3@\30", 5)               = 5
+read(4, "I\265e<\301\37\335\215\250\351s\242\21\206\351\16u\351 \345R)S\3030>\32o\367\227\302>"..., 16408) = 7381
+read(4, "5\21\3\255\256_\6u;Ji\32\352\235\27\247\375j\343&(\215\253\2\2120v&\214\232\216\n"..., 9027) = 2048
+read(4, "pN\377\2\251\246\314]\202\21\312\301\246x\266\272\23d\0033\211\307\373\25\207\31J\216S~\21\325"..., 6979) = 1024
+read(4, "\220\232\333%/\261ha\20F\"\304\371\303p\365\271\206ib\246\34\3257\320,s\314\265\3\353\315"..., 5955) = 1024
+read(4, "\277\343\226\271\343\35\341\213\35\303W\4w\375\24\234\342~\242\26T\304/|\303\263Z\"\357\233\216a"..., 4931) = 1024
+read(4, "\327\323\33~\0f\321\361\3703\t\376\247\360\372\33\245\322\367>8U\372\0343\7\365\367\277\16\362\26"..., 3907) = 1024
+read(4, ";\207[\254\257\276\213\3375\325)\\\t\251dA\235\373\344\214)*\270\34\361\357\201\213\0\267\231\262"..., 2883) = 1024
+read(4, "\303$\306\2066C\4K\277mJi\337x:\177+\3P\366\255?H'\362\235\340\253\nl\271\333"..., 1859) = 1859
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "3278.png\" style=\"background-imag"..., 4096) = 4096
+write(3, "/lib/metro/g/yui/pluginhost-base"..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0

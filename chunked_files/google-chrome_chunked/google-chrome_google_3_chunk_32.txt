@@ -1,0 +1,75 @@
+read(12, "", 4000)                      = 0
+close(12)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/panel.rc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/panel.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/synaptic.rc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/styles/synaptic.rc", {st_mode=S_IFREG|0644, st_size=304, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/styles/synaptic.rc", O_RDONLY) = 12
+read(12, "style \"synaptic-toolbar\"\n{\n    e"..., 4000) = 304
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/images/toolbars/toolbar.svg", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/images/toolbars/toolbar.svg", F_OK) = 0
+read(12, "", 4000)                      = 0
+close(12)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/synaptic.rc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/synaptic.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/terminal.rc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/styles/terminal.rc", {st_mode=S_IFREG|0644, st_size=202, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/styles/terminal.rc", O_RDONLY) = 12
+read(12, "style \"terminal_screen\"\n{\n    te"..., 4000) = 202
+read(12, "", 4000)                      = 0
+close(12)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/terminal.rc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/terminal.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/text-editor.rc", F_OK) = 0
+lstat("/usr/share/themes/Mint-X/gtk-2.0/styles/text-editor.rc", {st_mode=S_IFREG|0644, st_size=512, ...}) = 0
+open("/usr/share/themes/Mint-X/gtk-2.0/styles/text-editor.rc", O_RDONLY) = 12
+read(12, "style \"gedit-frame\" \n{\n    engin"..., 4000) = 512
+read(12, "", 4000)                      = 0
+close(12)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/text-editor.rc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/styles/text-editor.rc.en", F_OK) = -1 ENOENT (No such file or directory)
+read(11, "", 4000)                      = 0
+close(11)                               = 0
+access("/usr/share/themes/Mint-X/gtk-2.0/gtkrc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Mint-X/gtk-2.0/gtkrc.en", F_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.themes/Default/gtk-2.0-key/gtkrc", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Default/gtk-2.0-key/gtkrc", F_OK) = 0
+lstat("/usr/share/themes/Default/gtk-2.0-key/gtkrc", {st_mode=S_IFREG|0644, st_size=82, ...}) = 0
+open("/usr/share/themes/Default/gtk-2.0-key/gtkrc", O_RDONLY) = 11
+read(11, "#\n# Default keybinding set. Empt"..., 4000) = 82
+read(11, "", 4000)                      = 0
+close(11)                               = 0
+access("/usr/share/themes/Default/gtk-2.0-key/gtkrc.en_US", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/themes/Default/gtk-2.0-key/gtkrc.en", F_OK) = -1 ENOENT (No such file or directory)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"b\2\4\0\6\0\340\3", 8}, {"RENDER", 6}, {"\0\0", 2}], 3) = 16
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0w\0\0\0\0\0\1\213\0\216\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(9, 0x7fff8177fcf0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177fcf0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\213\0\3\0\0\0\0\0\v\0\0\0\213\1\1\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0x\0\0\0\0\0\0\0\0\0\v\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 1076
+recvmsg(9, 0x7fff8177fd00, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177fd00, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177fd00, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff8177fd00, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+uname({sys="Linux", node="doug", ...})  = 0
+open("/home/bearface/.Xdefaults-doug", O_RDONLY) = -1 ENOENT (No such file or directory)
+rt_sigaction(SIGCHLD, {0x7f6afee4a3d0, [], SA_RESTORER, 0x7f6af992e340}, NULL, 8) = 0
+gettid()                                = 28850
+rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7f6af992e340}, NULL, 8) = 0
+--- SIGPROF {si_signo=SIGPROF, si_code=SI_KERNEL} ---
+madvise(0x7f6afe32e000, 278528, MADV_DONTNEED) = 0
+open("/usr/share/locale/locale.alias", O_RDONLY) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6afe41c000
+read(11, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(11, "", 4096)                      = 0
+close(11)                               = 0
+munmap(0x7f6afe41c000, 4096)            = 0
+open("/etc/pango/pangorc", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/charset.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/bearface/.config/pango/pangorc", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/pango/1.8.0/module-files.d", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)

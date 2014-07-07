@@ -1,0 +1,75 @@
+mmap(NULL, 2143784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5b6ed08000
+mprotect(0x7f5b6ed13000, 2093056, PROT_NONE) = 0
+mmap(0x7f5b6ef12000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f5b6ef12000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5b6eafc000
+mprotect(0x7f5b6eb07000, 2093056, PROT_NONE) = 0
+mmap(0x7f5b6ed06000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f5b6ed06000
+close(3)                                = 0
+mprotect(0x7f5b6ed06000, 4096, PROT_READ) = 0
+mprotect(0x7f5b6ef12000, 4096, PROT_READ) = 0
+munmap(0x7f5b6f902000, 111089)          = 0
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1909, ...}) = 0
+mmap(NULL, 1909, PROT_READ, MAP_SHARED, 3, 0) = 0x7f5b6f91d000
+lseek(3, 1909, SEEK_SET)                = 1909
+munmap(0x7f5b6f91d000, 1909)            = 0
+close(3)                                = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {0x7f5b6f926530, [], SA_RESTORER, 0x7f5b6f36eff0}, NULL, 8) = 0
+pipe([3, 4])                            = 0
+pipe([5, 6])                            = 0
+pipe([7, 8])                            = 0
+close(3)                                = 0
+close(4)                                = 0
+rt_sigaction(SIGTSTP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7f5b6f9265a0, [], SA_RESTORER, 0x7f5b6f36eff0}, NULL, 8) = 0
+rt_sigaction(SIGTTIN, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTIN, {0x7f5b6f9265a0, [], SA_RESTORER, 0x7f5b6f36eff0}, NULL, 8) = 0
+rt_sigaction(SIGTTOU, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTOU, {0x7f5b6f9265a0, [], SA_RESTORER, 0x7f5b6f36eff0}, NULL, 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f5b6f8ffa10) = 13733
+close(5)                                = 0
+close(8)                                = 0
+rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, {0x7f5b6f926310, [], SA_RESTORER, 0x7f5b6f36eff0}, NULL, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x7f5b6f926310, [], SA_RESTORER, 0x7f5b6f36eff0}, NULL, 8) = 0
+rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x7f5b6f926310, [], SA_RESTORER, 0x7f5b6f36eff0}, NULL, 8) = 0
+read(7, "\0", 1)                        = 1
+open("/home/bearface/Downloads/eclipse-luna.tar.gz", O_RDONLY|O_NONBLOCK) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=214499664, ...}) = 0
+fcntl(3, F_GETFL)                       = 0x8800 (flags O_RDONLY|O_NONBLOCK|O_LARGEFILE)
+fcntl(3, F_SETFL, O_RDONLY|O_LARGEFILE) = 0
+write(6, "C0644 214499664 eclipse-luna.tar"..., 36) = 36
+read(7, "\0", 1)                        = 1
+fstat(3, {st_mode=S_IFREG|0644, st_size=214499664, ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+getpgrp()                               = 13729
+ioctl(1, TIOCGPGRP, [13729])            = 0
+write(1, "\reclipse-luna.tar.gz            "..., 80) = 80
+rt_sigaction(SIGALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGALRM, {0x7f5b6f9298b0, [], SA_RESTORER|SA_INTERRUPT, 0x7f5b6f36eff0}, NULL, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x7f5b6f928fc0, [], SA_RESTORER, 0x7f5b6f36eff0}, NULL, 8) = 0
+alarm(1)                                = 0
+fcntl(6, F_GETFL)                       = 0x1 (flags O_WRONLY)
+fcntl(6, F_SETFL, O_WRONLY|O_NONBLOCK)  = 0
+read(3, "\37\213\10\0\32`\231S\0\3\354\375\vxdWZ\30\212\312\36\232\261\21316\363\200\201\31\230m"..., 16384) = 16384
+write(6, "\37\213\10\0\32`\231S\0\3\354\375\vxdWZ\30\212\312\36\232\261\21316\363\200\201\31\230m"..., 16384) = 16384
+read(3, "4/\32\vo\263h\2754|\6m\231I\263\344\216#\224\20\2N\225\320F)\346\256\360X)\361"..., 16384) = 16384
+write(6, "4/\32\vo\263h\2754|\6m\231I\263\344\216#\224\20\2N\225\320F)\346\256\360X)\361"..., 16384) = 16384
+read(3, "O3\206(\373A\355Q3\366P\300T)\23\366}\nA\324uF\267D[\250\7\277\254N;\266"..., 16384) = 16384
+write(6, "O3\206(\373A\355Q3\366P\300T)\23\366}\nA\324uF\267D[\250\7\277\254N;\266"..., 16384) = 16384
+read(3, "\377\244 \3557\352\364'\36i\347\357\n\342?\20\271\237Vt;\322\316\17\313\367|\344\376\200|\277"..., 16384) = 16384
+write(6, "\377\244 \3557\352\364'\36i\347\357\n\342?\20\271\237Vt;\322\316\17\313\367|\344\376\200|\277"..., 16384) = 16384
+read(3, "\350\240V\247\227\326\26X\253\311\360\306\23\353{*A[\254l\6\275|:\273\276z>\263\260tb"..., 16384) = 16384
+write(6, "\350\240V\247\227\326\26X\253\311\360\306\23\353{*A[\254l\6\275|:\273\276z>\263\260tb"..., 16384) = 16384
+read(3, "_\317\300\317\371\37X-\255Tw\267\363\202\\\246\355\235\345\315\302\212HM\317\314\\\236_\231\231Y"..., 16384) = 16384

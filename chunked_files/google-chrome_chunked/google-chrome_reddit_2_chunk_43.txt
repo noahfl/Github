@@ -1,0 +1,75 @@
+open("/var/cache/fontconfig//a755afe4a08bf5b97852ceb7400b47bc-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=26872, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898917, f_bavail=41882111, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+mmap(NULL, 26872, PROT_READ, MAP_SHARED, 11, 0) = 0x7f366cef8000
+fadvise64(11, 0, 26872, POSIX_FADV_WILLNEED) = 0
+close(11)                               = 0
+stat("/usr/share/fonts/truetype/ttf-khmeros-core", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/truetype/ttf-khmeros-core", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898917, f_bavail=41882111, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//0d8c3b2ac0904cb8a57a757ad11a4a08-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=3464, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898917, f_bavail=41882111, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+mmap(NULL, 3464, PROT_READ, MAP_SHARED, 11, 0) = 0x7f366cef7000
+fadvise64(11, 0, 3464, POSIX_FADV_WILLNEED) = 0
+close(11)                               = 0
+stat("/usr/share/fonts/truetype/ttf-punjabi-fonts", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/truetype/ttf-punjabi-fonts", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898917, f_bavail=41882111, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//e7071f4a29fa870f4323321c154eba04-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=3456, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898917, f_bavail=41882111, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+mmap(NULL, 3456, PROT_READ, MAP_SHARED, 11, 0) = 0x7f366cef6000
+fadvise64(11, 0, 3456, POSIX_FADV_WILLNEED) = 0
+close(11)                               = 0
+stat("/usr/share/fonts/truetype/ubuntu-font-family", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/truetype/ubuntu-font-family", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898917, f_bavail=41882111, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//2cd17615ca594fa2959ae173292e504c-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=20896, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898917, f_bavail=41882111, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+mmap(NULL, 20896, PROT_READ, MAP_SHARED, 11, 0) = 0x7f366cef0000
+fadvise64(11, 0, 20896, POSIX_FADV_WILLNEED) = 0
+close(11)                               = 0
+stat("/usr/share/fonts/truetype/wqy", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/truetype/wqy", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898916, f_bavail=41882110, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//99e8ed0e538f840c565b6ed5dad60d56-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=7992, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898916, f_bavail=41882110, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+mmap(NULL, 7992, PROT_READ, MAP_SHARED, 11, 0) = 0x7f366ceee000
+fadvise64(11, 0, 7992, POSIX_FADV_WILLNEED) = 0
+close(11)                               = 0
+stat("/usr/share/fonts/type1/gsfonts", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/type1/gsfonts", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898916, f_bavail=41882110, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//945677eb7aeaf62f1d50efc3fb3ec7d8-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=41920, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898916, f_bavail=41882110, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+mmap(NULL, 41920, PROT_READ, MAP_SHARED, 11, 0) = 0x7f366cee3000
+fadvise64(11, 0, 41920, POSIX_FADV_WILLNEED) = 0
+close(11)                               = 0
+stat("/usr/share/fonts/type1/mathml", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/type1/mathml", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898916, f_bavail=41882110, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//c05880de57d1f5e948fdfacc138775d9-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=1648, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898916, f_bavail=41882110, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+mmap(NULL, 1648, PROT_READ, MAP_SHARED, 11, 0) = 0x7f366cee2000
+fadvise64(11, 0, 1648, POSIX_FADV_WILLNEED) = 0
+close(11)                               = 0
+stat("/usr/share/fonts/X11/encodings/large", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/share/fonts/X11/encodings/large", O_RDONLY|O_CLOEXEC) = 11
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898916, f_bavail=41882110, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+close(11)                               = 0
+open("/var/cache/fontconfig//6333f38776742d18e214673cd2c24e34-le64.cache-4", O_RDONLY|O_CLOEXEC) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=112, ...}) = 0
+fstatfs(11, {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=44898916, f_bavail=41882110, f_files=15065088, f_ffree=14760658, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+read(11, "\4\374\2\374\4\0\0\0p\0\0\0\0\0\0\0008\0\0\0\0\0\0\0`\0\0\0\0\0\0\0"..., 112) = 112
+close(11)                               = 0

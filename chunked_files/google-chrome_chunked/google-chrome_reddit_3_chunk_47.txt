@@ -1,0 +1,75 @@
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2E\1\0\0\0\0\270`D\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(9, 0x7fff0dd15e90, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff0dd15e90, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+shmctl(40075287, IPC_RMID, 0)           = 0
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\202\5\7\0P\0\340\3\235\0\0\0\0\6@\0\30\0\6\0O\0\340\3\0\0\0\0007\1\5\0"..., 80}, {NULL, 0}, {"", 0}], 3) = 80
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\16\0H\1P\0\340\3\0\0>\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+recvmsg(9, 0x7fff0dd15d90, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+open("/usr/share/themes/Mint-X/gtk-2.0/images/scroll/slider-h.svg", O_RDONLY) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=13864, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd8741c1000
+read(11, "<?xml version=\"1.0\" encoding=\"UT"..., 4096) = 4096
+lseek(11, 0, SEEK_SET)                  = 0
+read(11, "<?xml version=\"1.0\" encoding=\"UT"..., 65536) = 13864
+read(11, "", 49152)                     = 0
+--- SIGPROF {si_signo=SIGPROF, si_code=SI_KERNEL} ---
+close(11)                               = 0
+munmap(0x7fd8741c1000, 4096)            = 0
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"<\5\2\0Q\0\340\0035 \4\0R\0\340\3/\0\340\3\7\0\5\0H\2)\0R\0\340\3"..., 9572}, {NULL, 0}, {"", 0}], 3) = 9572
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\16\0\235\1P\0\340\3\0\0>\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+recvmsg(9, 0x7fff0dd15d90, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+open("/usr/share/themes/Mint-X/gtk-2.0/images/frames/frame.svg", O_RDONLY) = 11
+fstat(11, {st_mode=S_IFREG|0644, st_size=2041, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd8741c1000
+read(11, "<?xml version=\"1.0\" encoding=\"UT"..., 4096) = 2041
+read(11, "", 4096)                      = 0
+lseek(11, 0, SEEK_SET)                  = 0
+read(11, "<?xml version=\"1.0\" encoding=\"UT"..., 65536) = 2041
+read(11, "", 61440)                     = 0
+close(11)                               = 0
+munmap(0x7fd8741c1000, 4096)            = 0
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"<\5\2\0m\0\340\3;\3\5\0'\0\340\3\0\0\0\0\0\0\0\0d\0\24\0F\0\5\0"..., 2404}, {NULL, 0}, {"", 0}], 3) = 2404
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\16\0\354\1P\0\340\3\0\0>\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+recvmsg(9, 0x7fff0dd15d90, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+getresuid([1000], [1000], [1000])       = 0
+getresgid([1000], [1000], [1000])       = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 11
+connect(11, {sa_family=AF_LOCAL, sun_path=@"/tmp/dbus-xHbqVTfCli"}, 23) = 0
+fcntl(11, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(11, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+geteuid()                               = 1000
+getsockname(11, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+poll([{fd=11, events=POLLOUT}], 1, 0)   = 1 ([{fd=11, revents=POLLOUT}])
+sendto(11, "\0", 1, MSG_NOSIGNAL, NULL, 0) = 1
+sendto(11, "AUTH EXTERNAL 31303030\r\n", 24, MSG_NOSIGNAL, NULL, 0) = 24
+poll([{fd=11, events=POLLIN}], 1, 4294967295) = 1 ([{fd=11, revents=POLLIN}])
+read(11, "OK 7c4fa8170e9ee3997631f78e53ab0"..., 2048) = 37
+poll([{fd=11, events=POLLOUT}], 1, 4294967295) = 1 ([{fd=11, revents=POLLOUT}])
+sendto(11, "NEGOTIATE_UNIX_FD\r\n", 19, MSG_NOSIGNAL, NULL, 0) = 19
+poll([{fd=11, events=POLLIN}], 1, 4294967295) = 1 ([{fd=11, revents=POLLIN}])
+read(11, "AGREE_UNIX_FD\r\n", 2048)     = 15
+poll([{fd=11, events=POLLOUT}], 1, 4294967295) = 1 ([{fd=11, revents=POLLOUT}])
+sendto(11, "BEGIN\r\n", 7, MSG_NOSIGNAL, NULL, 0) = 7
+poll([{fd=11, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=11, revents=POLLOUT}])
+sendmsg(11, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\1\0\0\0n\0\0\0\1\1o\0\25\0\0\0/org/fre"..., 128}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 128
+poll([{fd=11, events=POLLIN}], 1, 25000) = 1 ([{fd=11, revents=POLLIN}])
+recvmsg(11, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\f\0\0\0\1\0\0\0=\0\0\0\6\1s\0\7\0\0\0:1.2289\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 264
+recvmsg(11, 0x7fff0dd174f0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+fstat(11, {st_mode=S_IFSOCK|0777, st_size=0, ...}) = 0
+fcntl(11, F_GETFL)                      = 0x802 (flags O_RDWR|O_NONBLOCK)
+write(10, "\1\0\0\0\0\0\0\0", 8)        = 8
+sendmsg(11, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\1\1C\0\0\0\2\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/fre"..., 144}, {">\0\0\0type='signal',member='NameOw"..., 67}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 211
+sendmsg(11, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\1\1L\0\0\0\3\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/fre"..., 144}, {"G\0\0\0type='method_call',interface"..., 76}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 220
+sendmsg(11, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\1\1B\0\0\0\4\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/fre"..., 144}, {"=\0\0\0type='signal',interface='org"..., 66}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 210
+sendmsg(11, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\1\1(\0\0\0\5\0\0\0\177\0\0\0\1\1o\0\25\0\0\0/org/fre"..., 144}, {"#\0\0\0type='signal',member='Discon"..., 40}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 184
+sendmsg(11, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\30\0\0\0\6\0\0\0\210\0\0\0\1\1o\0\25\0\0\0/org/fre"..., 152}, {"\17\0\0\0org.gnome.GConf\0\0\0\0\0", 24}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 176
+poll([{fd=11, events=POLLIN}], 1, 25000) = 1 ([{fd=11, revents=POLLIN}])
+recvmsg(11, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\4\0\0\0\3\0\0\0=\0\0\0\6\1s\0\7\0\0\0:1.2289\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 84

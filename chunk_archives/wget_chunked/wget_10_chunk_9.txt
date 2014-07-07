@@ -1,0 +1,75 @@
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948085})
+read(3, "p://s.ytimg.com/yts/img/pixel-vf"..., 8192) = 8192
+write(4, "p://s.ytimg.com/yts/img/pixel-vf"..., 4096) = 4096
+write(4, "/img/pixel-vfl3z5WfW.gif\" alt=\"W"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "-thumb-wrap yt-u", 1174)       = 16
+write(4, "-thumb-wrap yt-u", 16)        = 16
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948720})
+read(3, "ix-sessionlink yt-fluid-thumb-li"..., 1158) = 1158
+write(4, "ix-sessionlink yt-fluid-thumb-li"..., 1158) = 1158
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n8000\r\nv>\n    <div class=\"yt-lo"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "8000\r\nv>\n    <div class=\"yt-lock"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "8000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "v>\n    <div class=\"yt-lockup-con"..., 8192) = 7042
+write(4, "v>\n    <div class=\"yt-lockup-con"..., 4096) = 4096
+write(4, ">  <img class=\"yt-uix-shelfslide"..., 2946) = 2946
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "=\"yt-dialog-working\">\n          "..., 8192) = 2736
+write(4, "=\"yt-dialog-working\">\n          "..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "ault\">\n        <span class=\"yt-t"..., 8192) = 1368
+write(4, "ault\">\n        <span class=\"yt-t"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949357})
+read(3, "dhicvrA\" class=\"g-hovercard yt-u"..., 8192) = 1368
+write(4, "dhicvrA\" class=\"g-hovercard yt-u"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "x-button yt-uix-button-size-smal"..., 8192) = 1368
+write(4, "x-button yt-uix-button-size-smal"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "me=\"g-high-cpv\">kellyrowlandVEVO"..., 8192) = 2736
+write(4, "me=\"g-high-cpv\">kellyrowlandVEVO"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "xel-vfl3z5WfW.gif\" class=\"yt-uix"..., 8192) = 2736
+write(4, "xel-vfl3z5WfW.gif\" class=\"yt-uix"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "e=\"Verified\">\n\n        </li>\n   "..., 8192) = 1368
+write(4, "e=\"Verified\">\n\n        </li>\n   "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ton-menu-id=\"shared-addto-watch-"..., 8192) = 2736
+write(4, "ton-menu-id=\"shared-addto-watch-"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949312})
+read(3, "om/yts/img/pixel-vfl3z5WfW.gif\" "..., 8192) = 1368
+write(4, "om/yts/img/pixel-vfl3z5WfW.gif\" "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "p-video yt-lockup-grid vve-check"..., 7942) = 1368
+write(4, "p-video yt-lockup-grid vve-check"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ass=\"yt-lockup-content\">\n       "..., 6574) = 2736
+write(4, "ass=\"yt-lockup-content\">\n       "..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "ink  yt-ui-ellipsis yt-ui-ellips"..., 3838) = 2736
+write(4, "ink  yt-ui-ellipsis yt-ui-ellips"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "k=\"ved=CKoBEL8b&amp;ei=9BGfU5LyE"..., 1102) = 1102
+write(4, "k=\"ved=CKoBEL8b&amp;ei=9BGfU5LyE"..., 1102) = 1102
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n5000\r\nd-thumb-link contains-ad"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "5000\r\nd-thumb-link contains-addt"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "d-thumb-link contains-addto  spf"..., 8192) = 2994
+write(4, "d-thumb-link contains-addto  spf"..., 2994) = 2994
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949921})
+read(3, "l3z5WfW.gif\" aria-hidden=\"true\" "..., 8192) = 1368
+write(4, "l3z5WfW.gif\" aria-hidden=\"true\" "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "sionlink yt-user-name  spf-link "..., 8192) = 1368
+write(4, "sionlink yt-user-name  spf-link "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949957})

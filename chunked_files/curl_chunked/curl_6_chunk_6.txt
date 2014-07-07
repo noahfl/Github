@@ -1,0 +1,75 @@
+brk(0x195b000)                          = 0x195b000
+futex(0x7f321c3b8400, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+pipe([3, 4])                            = 0
+close(3)                                = 0
+close(4)                                = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f321edecff0}, {SIG_DFL, [], 0}, 8) = 0
+brk(0x1981000)                          = 0x1981000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f321a1b1000
+close(3)                                = 0
+open("/home/bearface/.curlrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f321edecff0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f321f18c340}, NULL, 8) = 0
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 3
+close(3)                                = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f32199b0000
+mprotect(0x7f32199b0000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f321a1aff70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f321a1b09d0, tls=0x7f321a1b0700, child_tidptr=0x7f321a1b09d0) = 31590
+poll(0, 0, 4)                           = 0 (Timeout)
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 3
+setsockopt(3, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+setsockopt(3, SOL_TCP, TCP_KEEPIDLE, [60], 4) = 0
+setsockopt(3, SOL_TCP, TCP_KEEPINTVL, [60], 4) = 0
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("128.122.119.202")}, 16) = -1 EINPROGRESS (Operation now in progress)
+poll([{fd=3, events=POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLOUT}], 1, 198)  = 1 ([{fd=3, revents=POLLOUT}])
+poll([{fd=3, events=POLLOUT|POLLWRNORM}], 1, 0) = 1 ([{fd=3, revents=POLLOUT|POLLWRNORM}])
+getsockopt(3, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("128.122.119.202")}, [16]) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(45099), sin_addr=inet_addr("10.227.98.29")}, [16]) = 0
+sendto(3, "GET / HTTP/1.1\r\nUser-Agent: curl"..., 75, MSG_NOSIGNAL, NULL, 0) = 75
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLIN}], 1, 179)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 16 J"..., 16384, 0, NULL, NULL) = 5615
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 5), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f321fa39000
+write(1, "\n\n\n\n<?xml version=\"1.0\" encoding"..., 5120) = 5120
+write(1, "ngs\">\n", 6)                 = 6
+write(1, "</div>\n", 7)                 = 7
+write(1, "\n", 1)                       = 1
+write(1, "        <div id=\"masterContainer"..., 52) = 52
+write(1, "            \n", 13)          = 13
+poll([{fd=3, events=POLLIN}], 1, 144)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "pan>\n\n<!-- JUMP LINKS -->\n<a cla"..., 16384, 0, NULL, NULL) = 16384
+write(1, "<span class=\"offLeft\">New York U"..., 1024) = 1024
+write(1, "/a>\n\t\t\t\n            </p><div cla"..., 15360) = 15360
+write(1, "tml');\n", 7)                 = 7
+write(1, "\t});\n", 5)                  = 5
+write(1, "\t</script>\n", 11)           = 11
+poll([{fd=3, events=POLLIN}], 1, 140)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ner\"></div>\n            \n       "..., 16384, 0, NULL, NULL) = 6872
+write(1, "<div id=\"alertsContainer\"></div>"..., 1024) = 1024
+write(1, "rent - count - 1) || i == curren"..., 5120) = 5120
+write(1, "img style=\"margin-left: 0px;\" sr"..., 173) = 173
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\t<!-- Timer /content/nyu/en/jcr:"..., 74) = 74
+write(1, "</div>\n", 7)                 = 7
+write(1, "</li>\n", 6)                  = 6
+write(1, "</ul>\n", 6)                  = 6
+write(1, "</div>\n", 7)                 = 7
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "<div id=\"carouselNav\" class=\"hea"..., 39) = 39
+write(1, "     <div class=\"carouselArrow a"..., 43) = 43

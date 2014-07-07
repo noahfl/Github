@@ -1,0 +1,75 @@
+read(3, "1", 1)                         = 1
+read(3, ".", 1)                         = 1
+read(3, "4", 1)                         = 1
+read(3, "\r", 1)                        = 1
+read(3, "\n", 1)                        = 1
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+open("/home/bearface/.ssh/known_hosts", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=222, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f79a5f3d000
+read(4, "|1|pHg3UsHUbKIPrBXECJsym9/Qbyw=|"..., 4096) = 222
+brk(0x7f79a7023000)                     = 0x7f79a7023000
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f79a5f3d000, 4096)            = 0
+open("/home/bearface/.ssh/known_hosts2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/etc/ssh/ssh_known_hosts", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/etc/ssh/ssh_known_hosts2", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(3, "\0\0\7\254\10\24a\210\256\273a0\207D\366\233\10u\3473\310S\0\0\0\324curve2"..., 1968) = 1968
+select(4, [3], NULL, NULL, NULL)        = 1 (in [3])
+read(3, "\0\0\3\324\t\24t\377\303\252\7\373\366\307\267\26\313\352p@\344\326\0\0\0\267ecdh-s"..., 8192) = 984
+write(3, "\0\0\0L\5\36\0\0\0A\4(\350\322\343;e\212=Zb\260d]\352\311Fa\371\35\224`"..., 80) = 80
+select(4, [3], NULL, NULL, NULL)        = 1 (in [3])
+read(3, "\0\0\1$\t\37\0\0\0h\0\0\0\23ecdsa-sha2-nistp25"..., 8192) = 312
+open("/home/bearface/.ssh/known_hosts", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=222, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f79a5f3d000
+read(4, "|1|pHg3UsHUbKIPrBXECJsym9/Qbyw=|"..., 4096) = 222
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f79a5f3d000, 4096)            = 0
+open("/home/bearface/.ssh/known_hosts2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/etc/ssh/ssh_known_hosts", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/etc/ssh/ssh_known_hosts2", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(3, "\0\0\0\f\n\25\0\0\0\0\0\0\0\0\0\0", 16) = 16
+write(3, "\377\177\364e\26!\322\370\1Q\254\262%@\342\317\5\350t\271\372\226(\\{\357\320T\2533f\246"..., 48) = 48
+select(4, [3], NULL, NULL, NULL)        = 1 (in [3])
+read(3, "\325\231\263h\317\353SF\177\2339\327\227\332\2029\355\343\261\273\10\\L\26N\315\302\257}\374\225\323"..., 8192) = 48
+socket(PF_LOCAL, SOCK_STREAM, 0)        = 4
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+connect(4, {sa_family=AF_LOCAL, sun_path="/run/user/1000/keyring-CZ8zGj/ssh"}, 110) = 0
+write(4, "\0\0\0\1", 4)                 = 4
+write(4, "\v", 1)                       = 1
+read(4, "\0\0\0\5", 4)                  = 4
+read(4, "\f\0\0\0\0", 5)                = 5
+write(3, "\212lf\363?b6/\223j\177\275\222Zi\357\322\361\370?\2510\300*V>BDp\250x\2"..., 64) = 64
+select(4, [3], NULL, NULL, NULL)        = 1 (in [3])
+read(3, "q\3505\267\360\264\360\361\362\337%J\210\353|\265N\237ES\307S\314n\22\333\236p\245\3122v"..., 8192) = 64
+stat("/home/bearface/.ssh/id_rsa", 0x7fff5a2add90) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/.ssh/id_dsa", 0x7fff5a2add90) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/.ssh/id_ecdsa", 0x7fff5a2add90) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/.ssh/id_ed25519", 0x7fff5a2add90) = -1 ENOENT (No such file or directory)
+open("/dev/tty", O_RDWR)                = 5
+close(5)                                = 0
+open("/dev/tty", O_RDWR)                = 5
+rt_sigaction(SIGALRM, {0x7f79a5f9cd60, [], SA_RESTORER, 0x7f79a4b13ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x7f79a5f9cd60, [], SA_RESTORER, 0x7f79a4b13ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x7f79a5f9cd60, [], SA_RESTORER, 0x7f79a4b13ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {0x7f79a5f9cd60, [], SA_RESTORER, 0x7f79a4b13ff0}, {SIG_IGN, [], SA_RESTORER, 0x7f79a4b13ff0}, 8) = 0
+rt_sigaction(SIGQUIT, {0x7f79a5f9cd60, [], SA_RESTORER, 0x7f79a4b13ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, {0x7f79a5f9cd60, [], SA_RESTORER, 0x7f79a4b13ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7f79a5f9cd60, [], SA_RESTORER, 0x7f79a4b13ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTIN, {0x7f79a5f9cd60, [], SA_RESTORER, 0x7f79a4b13ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTOU, {0x7f79a5f9cd60, [], SA_RESTORER, 0x7f79a4b13ff0}, {SIG_DFL, [], 0}, 8) = 0
+ioctl(5, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(5, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(5, SNDCTL_TMR_CONTINUE or SNDRV_TIMER_IOCTL_GPARAMS or TCSETSF, {B38400 opost isig icanon -echo ...}) = 0
+ioctl(5, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon -echo ...}) = 0
+write(5, "frazien@10.104.251.180's passwor"..., 35) = 35
+read(5, "S", 1)                         = 1
+read(5, "h", 1)                         = 1
+read(5, "e", 1)                         = 1
+read(5, "e", 1)                         = 1
+read(5, "p", 1)                         = 1
+read(5, "M", 1)                         = 1

@@ -1,0 +1,75 @@
+open("/opt/google/chrome/lib/libpulse.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 24
+fstat(24, {st_mode=S_IFREG|0644, st_size=116741, ...}) = 0
+mmap(NULL, 116741, PROT_READ, MAP_PRIVATE, 24, 0) = 0x7f841897a000
+close(24)                               = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libpulse.so.0", O_RDONLY|O_CLOEXEC) = 24
+read(24, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\261\0\0\0\0\0\0"..., 832) = 832
+fstat(24, {st_mode=S_IFREG|0644, st_size=299752, ...}) = 0
+mmap(NULL, 2393976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 24, 0) = 0x7f8416494000
+mprotect(0x7f84164db000, 2097152, PROT_NONE) = 0
+mmap(0x7f84166db000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 24, 0x47000) = 0x7f84166db000
+close(24)                               = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/tls/x86_64/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/pulseaudio/tls/x86_64", 0x7fff00adb1e0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/tls/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/pulseaudio/tls", 0x7fff00adb1e0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/x86_64/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/pulseaudio/x86_64", 0x7fff00adb1e0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/pulseaudio", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+--- SIGPROF {si_signo=SIGPROF, si_code=SI_KERNEL} ---
+open("/opt/google/chrome/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = 24
+read(24, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0(\0\0\0\0\0\0"..., 832) = 832
+fstat(24, {st_mode=S_IFREG|0644, st_size=43464, ...}) = 0
+mmap(NULL, 2138608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 24, 0) = 0x7f8416289000
+mprotect(0x7f8416293000, 2093056, PROT_NONE) = 0
+mmap(0x7f8416492000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 24, 0x9000) = 0x7f8416492000
+close(24)                               = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-4.0.so", O_RDONLY|O_CLOEXEC) = 24
+read(24, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\1\1\0\0\0\0\0"..., 832) = 832
+fstat(24, {st_mode=S_IFREG|0644, st_size=422272, ...}) = 0
+mmap(NULL, 2518072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 24, 0) = 0x7f8416022000
+mprotect(0x7f8416088000, 2093056, PROT_NONE) = 0
+mmap(0x7f8416287000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 24, 0x65000) = 0x7f8416287000
+close(24)                               = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libwrap.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/libwrap.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/libwrap.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libwrap.so.0", O_RDONLY|O_CLOEXEC) = 24
+read(24, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p-\0\0\0\0\0\0"..., 832) = 832
+fstat(24, {st_mode=S_IFREG|0644, st_size=36632, ...}) = 0
+mmap(NULL, 2134176, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 24, 0) = 0x7f8415e18000
+mprotect(0x7f8415e20000, 2093056, PROT_NONE) = 0
+mmap(0x7f841601f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 24, 0x7000) = 0x7f841601f000
+mmap(0x7f8416021000, 160, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8416021000
+close(24)                               = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libsndfile.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/libsndfile.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/libsndfile.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libsndfile.so.1", O_RDONLY|O_CLOEXEC) = 24
+read(24, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300`\0\0\0\0\0\0"..., 832) = 832
+fstat(24, {st_mode=S_IFREG|0644, st_size=409696, ...}) = 0
+mmap(NULL, 2522608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 24, 0) = 0x7f8415bb0000
+mprotect(0x7f8415c11000, 2097152, PROT_NONE) = 0
+mmap(0x7f8415e11000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 24, 0x61000) = 0x7f8415e11000
+mmap(0x7f8415e14000, 15856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8415e14000
+close(24)                               = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libasyncns.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/libasyncns.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/libasyncns.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libasyncns.so.0", O_RDONLY|O_CLOEXEC) = 24
+read(24, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\23\0\0\0\0\0\0"..., 832) = 832
+fstat(24, {st_mode=S_IFREG|0644, st_size=22744, ...}) = 0
+mmap(NULL, 2117952, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 24, 0) = 0x7f84159aa000
+mprotect(0x7f84159af000, 2093056, PROT_NONE) = 0
+mmap(0x7f8415bae000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 24, 0x4000) = 0x7f8415bae000
+close(24)                               = 0
+open("/usr/lib/x86_64-linux-gnu/pulseaudio/libnsl.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)

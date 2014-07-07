@@ -1,0 +1,75 @@
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rconnect(3, {sa_family=AF_INET, "..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r.82\")}, 16) = 0\n", 17)    = 17
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rgetsockname(3, {sa_family=AF_IN"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r2.168.1.118\")}, [16]) = 0\n", 27) = 27
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(79%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rconnect(3, {sa_family=AF_UNSPEC"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(80%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r0\33[K\n", 6)               = 6
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(80%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rconnect(3, {sa_family=AF_INET, "..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(80%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r.83\")}, 16) = 0\n", 17)    = 17
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(80%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rgetsockname(3, {sa_family=AF_IN"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(80%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r2.168.1.118\")}, [16]) = 0\n", 27) = 27
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(81%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rclose(3)                       "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(81%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rsocket(PF_INET6, SOCK_DGRAM, IP"..., 46) = 46
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(81%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rconnect(3, {sa_family=AF_INET6,"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(81%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rb0:4009:807::1014\", &sin6_addr)"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(82%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rTUNREACH (Network is unreachabl"..., 35) = 35
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(82%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rclose(3)                       "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(82%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(2, \"74.125.225.84\", 13)  "..., 46) = 46
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(82%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rwrite(2, \", \", 2)              "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(82%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1

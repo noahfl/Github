@@ -1,0 +1,75 @@
+write(1, "\33[7m--More--(71%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rmmap(0x7fd10c4fb000, 16384, PRO"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(71%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rWRITE, 3, 0xb4000) = 0x7fd10c4f"..., 37) = 37
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(72%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rmmap(0x7fd10c4ff000, 728, PROT_"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(72%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rOUS, -1, 0) = 0x7fd10c4ff000\n", 30) = 30
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(72%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rclose(3)                       "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(72%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\raccess(\"/etc/ld.so.nohwcap\", F_"..., 81) = 81
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(72%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\ropen(\"/lib/x86_64-linux-gnu/lib"..., 69) = 69
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(72%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rread(3, \"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(73%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r32) = 832\33[K\n", 14)      = 14
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(73%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rfstat(3, {st_mode=S_IFREG|0644,"..., 58) = 58
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(73%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rmmap(NULL, 2327072, PROT_READ|P"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(73%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rd10c00e000\33[K\n", 15)     = 15
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(73%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rmprotect(0x7fd10c017000, 209715"..., 50) = 50
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(73%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rmmap(0x7fd10c217000, 8192, PROT"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rRITE, 3, 0x9000) = 0x7fd10c2170"..., 35) = 35
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+read(3, "0x7fd10c219000, 184864, PROT_REA"..., 4096) = 4096
+write(1, "\rmmap(0x7fd10c219000, 184864, PR"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rNYMOUS, -1, 0) = 0x7fd10c219000"..., 33) = 33
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rclose(3)                       "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(74%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1

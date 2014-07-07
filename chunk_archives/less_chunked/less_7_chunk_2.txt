@@ -1,0 +1,75 @@
+open("strace_1.txt", O_RDONLY)          = 4
+lseek(4, 1, SEEK_SET)                   = 1
+lseek(4, 0, SEEK_SET)                   = 0
+read(4, "execve(\"/usr/bin/strace\", [\"stra"..., 256) = 256
+lseek(4, 1, SEEK_SET)                   = 1
+fstat(4, {st_mode=S_IFREG|0644, st_size=117326, ...}) = 0
+lseek(4, 0, SEEK_SET)                   = 0
+stat("strace_1.txt", {st_mode=S_IFREG|0644, st_size=117326, ...}) = 0
+write(1, "\33[?1049h\33[?1h\33=\r", 16) = 16
+read(4, "execve(\"/usr/bin/strace\", [\"stra"..., 8192) = 8192
+write(1, "execve(\"/usr/bin/strace\", [\"stra"..., 1023) = 1023
+write(1, "map(0x7fad91a13000, 24576, PROT_"..., 299) = 299
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mmap(NULL, 4096, PROT_READ|PROT_"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "d91c26000\n:\33[K", 14)       = 14
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mmap(NULL, 8192, PROT_READ|PROT_"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "d91c24000\n:\33[K", 14)       = 14
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "arch_prctl(ARCH_SET_FS, 0x7fad91"..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mprotect(0x7fad91a13000, 16384, "..., 51) = 51
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mprotect(0x668000, 4096, PROT_RE"..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "mprotect(0x7fad91c40000, 4096, P"..., 50) = 50
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "munmap(0x7fad91c27000, 94113)   "..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigaction(SIGCHLD, {SIG_DFL, "..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, " {SIG_DFL, [], 0}, 8) = 0\n:\33[K", 30) = 30
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "getpid()                        "..., 52) = 52
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "uname({sys=\"Linux\", node=\"doug\","..., 48) = 48
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "brk(0)                          "..., 56) = 56
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "brk(0x171d000)                  "..., 56) = 56
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "getuid()                        "..., 51) = 51
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "getgid()                        "..., 51) = 51
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "clone(child_stack=0, flags=CLONE"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "d_tidptr=0x7fad91c24a10) = 32263"..., 37) = 37
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "wait4(-1, [{WIFSTOPPED(s) && WST"..., 76) = 76
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "--- SIGCHLD {si_signo=SIGCHLD, s"..., 86) = 86

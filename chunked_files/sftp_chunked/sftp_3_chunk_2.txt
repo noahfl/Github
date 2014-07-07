@@ -1,0 +1,75 @@
+access("/lib/terminfo/x/xterm", R_OK)   = 0
+open("/lib/terminfo/x/xterm", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=3315, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f01696b1000
+read(4, "\32\1)\0&\0\17\0\235\1Z\5xterm|xterm-debian|X"..., 4096) = 3315
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f01696b1000, 4096)            = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(0, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_STOP or SNDRV_TIMER_IOCTL_GINFO or TCSETSW, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT TERM CONT TSTP WINCH], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [WINCH], [], 8) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(0, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+open("/home/bearface/.editrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+writev(3, [{"\0\0\0\n", 4}, {"\20\0\0\0\1\0\0\0\1.", 10}], 2) = 14
+read(3, "\0\0\0/", 4)                   = 4
+read(3, "h\0\0\0\1\0\0\0\1\0\0\0\r/home/frazien\0\0\0\r/h"..., 47) = 47
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGINT, NULL, {0x7f01696bcfa0, [], SA_RESTORER, 0x7f0168ed2ff0}, 8) = 0
+rt_sigaction(SIGINT, {SIG_IGN, [], SA_RESTORER, 0x7f0168ed2ff0}, NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT TERM CONT TSTP WINCH], [], 8) = 0
+rt_sigaction(SIGINT, {0x7f0169274e60, [], SA_RESTORER, 0x7f0168ed2ff0}, {SIG_IGN, [], SA_RESTORER, 0x7f0168ed2ff0}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7f0169274e60, [], SA_RESTORER, 0x7f0168ed2ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, {0x7f0169274e60, [], SA_RESTORER, 0x7f0168ed2ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x7f0169274e60, [], SA_RESTORER, 0x7f0168ed2ff0}, {0x7f01696bcfa0, [], SA_RESTORER, 0x7f0168ed2ff0}, 8) = 0
+rt_sigaction(SIGTERM, {0x7f0169274e60, [], SA_RESTORER, 0x7f0168ed2ff0}, {0x7f01696bcfa0, [], SA_RESTORER, 0x7f0168ed2ff0}, 8) = 0
+rt_sigaction(SIGCONT, {0x7f0169274e60, [], SA_RESTORER, 0x7f0168ed2ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x7f0169274e60, [], SA_RESTORER, 0x7f0168ed2ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [WINCH], [], 8) = 0
+ioctl(0, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 5), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f01696b1000
+write(1, "sftp> ", 6)                   = 6
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_STOP or SNDRV_TIMER_IOCTL_GINFO or TCSETSW, {B38400 opost isig -icanon -echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig -icanon -echo ...}) = 0
+read(0, "p", 1)                         = 1
+write(1, "p", 1)                        = 1
+read(0, "u", 1)                         = 1
+write(1, "u", 1)                        = 1
+read(0, "t", 1)                         = 1
+write(1, "t", 1)                        = 1
+read(0, " ", 1)                         = 1
+write(1, " ", 1)                        = 1
+read(0, "/", 1)                         = 1
+write(1, "/", 1)                        = 1
+read(0, "h", 1)                         = 1
+write(1, "h", 1)                        = 1
+read(0, "o", 1)                         = 1
+write(1, "o", 1)                        = 1
+read(0, "m", 1)                         = 1
+write(1, "m", 1)                        = 1
+read(0, "e", 1)                         = 1
+write(1, "e", 1)                        = 1
+read(0, "/", 1)                         = 1
+write(1, "/", 1)                        = 1
+read(0, "b", 1)                         = 1
+write(1, "b", 1)                        = 1
+read(0, "e", 1)                         = 1

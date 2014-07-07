@@ -1,0 +1,75 @@
+read(3, "lass=\"vertical-align\"></span>\n  "..., 8192) = 2736
+write(4, "lass=\"vertical-align\"></span>\n  "..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "ton video-actions spf-nolink hid"..., 8192) = 2736
+write(4, "ton video-actions spf-nolink hid"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "e=\"Watch Later\" data-button-menu"..., 8192) = 1368
+write(4, "e=\"Watch Later\" data-button-menu"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "</li>\n      <li>407,029 views</l"..., 7910) = 2736
+write(4, "</li>\n      <li>407,029 views</l"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949133})
+read(3, "       </h2>\n            </div>\n"..., 5174) = 1368
+write(4, "       </h2>\n            </div>\n"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, ">\n      <div class=\"feed-item-di"..., 3806) = 2736
+write(4, ">\n      <div class=\"feed-item-di"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ntil-delayloaded addto-watch-lat"..., 1070) = 1070
+write(4, "ntil-delayloaded addto-watch-lat"..., 1070) = 1070
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n8000\r\nercard yt-uix-sessionlin"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "8000\r\nercard yt-uix-sessionlink "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "8000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ercard yt-uix-sessionlink yt-use"..., 8192) = 5762
+write(4, "ercard yt-uix-sessionlink yt-use"..., 4096) = 4096
+write(4, "lt addto-button video-actions sp"..., 1666) = 1666
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "sibility-tracking=\"QLyf9-rcsdCtD"..., 8192) = 1368
+write(4, "sibility-tracking=\"QLyf9-rcsdCtD"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949410})
+read(3, "t-lockup-title\"><a class=\"yt-uix"..., 8192) = 4104
+write(4, "t-lockup-title\"><a class=\"yt-uix"..., 4096) = 4096
+write(4, "-fluid-t", 8)                 = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949984})
+read(3, "humb-link contains-addto  spf-li"..., 8192) = 4104
+write(4, "humb-link contains-addto  spf-li"..., 4096) = 4096
+write(4, "sQ7qo\">M", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ean Girls - 8-Bit Cinema</a></h3"..., 8192) = 2736
+write(4, "ean Girls - 8-Bit Cinema</a></h3"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "DXAv47e5y_4GQ\" class=\"g-hovercar"..., 8192) = 1368
+write(4, "DXAv47e5y_4GQ\" class=\"g-hovercar"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "on-has-icon yt-uix-button-empty\""..., 8192) = 1368
+write(4, "on-has-icon yt-uix-button-empty\""..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "g\">\n        <div class=\"yt-dialo"..., 8192) = 2736
+write(4, "g\">\n        <div class=\"yt-dialo"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "16612,925009,914070;ord=' +Math."..., 8192) = 1368
+write(4, "16612,925009,914070;ord=' +Math."..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\">\nLanguage:\n  </span>\n  English"..., 7854) = 2736
+write(4, "\">\nLanguage:\n  </span>\n  English"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949929})
+read(3, "logs</a></li>\n  <li><a href=\"//w"..., 5118) = 1368
+write(4, "logs</a></li>\n  <li><a href=\"//w"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ontent\">\n              <div id=\""..., 3750) = 1368
+write(4, "ontent\">\n              <div id=\""..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ww-en_US-vflY4lFDo/base.js\" name"..., 2382) = 1368
+write(4, "ww-en_US-vflY4lFDo/base.js\" name"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946690})
+read(3, " (function() {\n    var delayedEm"..., 1014) = 1014
+write(4, " (function() {\n    var delayedEm"..., 1014) = 1014
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n13e2\r\nLP_LOCALE': \"en_US\",\n   "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})

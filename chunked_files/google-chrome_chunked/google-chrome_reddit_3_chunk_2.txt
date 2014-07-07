@@ -1,0 +1,75 @@
+brk(0x170d000)                          = 0x170d000
+brk(0x170e000)                          = 0x170e000
+brk(0x170f000)                          = 0x170f000
+brk(0x1710000)                          = 0x1710000
+stat("/home/bearface/grive/Research/output_files/chrome_files", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getpid()                                = 28928
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3, 0) = 0x7f25e9421000
+close(3)                                = 0
+brk(0x1711000)                          = 0x1711000
+getppid()                               = 28925
+brk(0x1712000)                          = 0x1712000
+brk(0x1713000)                          = 0x1713000
+getpgrp()                               = 28925
+rt_sigaction(SIGCHLD, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f25e8a4bff0}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f25e8a4bff0}, 8) = 0
+getrlimit(RLIMIT_NPROC, {rlim_cur=62223, rlim_max=62223}) = 0
+brk(0x1714000)                          = 0x1714000
+brk(0x1715000)                          = 0x1715000
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+open("/usr/bin/google-chrome", O_RDONLY) = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fffd262ddb0) = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "#!/bin/bash\n#\n# Copyright (c) 20"..., 80) = 80
+lseek(3, 0, SEEK_SET)                   = 0
+getrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=4*1024}) = 0
+fcntl(255, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+dup2(3, 255)                            = 255
+close(3)                                = 0
+fcntl(255, F_SETFD, FD_CLOEXEC)         = 0
+fcntl(255, F_GETFL)                     = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(255, {st_mode=S_IFREG|0755, st_size=1972, ...}) = 0
+lseek(255, 0, SEEK_CUR)                 = 0
+brk(0x1716000)                          = 0x1716000
+read(255, "#!/bin/bash\n#\n# Copyright (c) 20"..., 1972) = 1972
+pipe([3, 4])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+lseek(255, -1676, SEEK_CUR)             = 296
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f25e9408a10) = 28929
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f25e8a4bff0}, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f25e8a4bff0}, 8) = 0
+close(4)                                = 0
+read(3, "/opt/google/chrome/google-chrome"..., 128) = 33
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=28929, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 28929
+wait4(-1, 0x7fffd262d258, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigreturn()                          = 33
+read(3, "", 128)                        = 0
+close(3)                                = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {0x443620, [], SA_RESTORER, 0x7f25e8a4bff0}, {SIG_DFL, [], SA_RESTORER, 0x7f25e8a4bff0}, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f25e8a4bff0}, {0x443620, [], SA_RESTORER, 0x7f25e8a4bff0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+read(255, "\nHERE=\"`dirname \"$CHROME_WRAPPER"..., 1972) = 1676
+brk(0x1717000)                          = 0x1717000
+pipe([3, 4])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+lseek(255, -1640, SEEK_CUR)             = 332
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f25e9408a10) = 28930
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f25e8a4bff0}, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f25e8a4bff0}, 8) = 0
+close(4)                                = 0
+read(3, "/opt/google/chrome\n", 128)    = 19
+read(3, "", 128)                        = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=28930, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 28930
+wait4(-1, 0x7fffd262d158, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigreturn()                          = 0
+close(3)                                = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0

@@ -1,0 +1,75 @@
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "rt_sigaction(SIGWINCH, {0x422a80"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "0}, {SIG_DFL, [], 0}, 8) = 0\n:\33["..., 33) = 33
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "statfs(\".\", {f_type=\"EXT2_SUPER_"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "=54756517, f_bavail=51739711, f_"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "265, 2108930253}, f_namelen=255,"..., 57) = 57
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html\", {st_mode=S_IF"..., 71) = 71
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html.1\", {st_mode=S_"..., 73) = 73
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html.2\", {st_mode=S_"..., 74) = 74
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+read(4, "(\"index.html.3\", {st_mode=S_IFRE"..., 8192) = 8192
+write(1, "stat(\"index.html.3\", {st_mode=S_"..., 74) = 74
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html.4\", {st_mode=S_"..., 74) = 74
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html.5\", {st_mode=S_"..., 73) = 73
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html.6\", {st_mode=S_"..., 73) = 73
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html.7\", {st_mode=S_"..., 74) = 74
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html.8\", {st_mode=S_"..., 74) = 74
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html.9\", {st_mode=S_"..., 73) = 73
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html.10\", {st_mode=S"..., 74) = 74
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html.11\", {st_mode=S"..., 74) = 74
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html.12\", {st_mode=S"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html.13\", {st_mode=S"..., 74) = 74
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html.14\", 0x7fff8240"..., 84) = 84
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "stat(\"index.html.14\", 0x7fff8240"..., 84) = 84
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "statfs(\".\", {f_type=\"EXT2_SUPER_"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "=54756516, f_bavail=51739710, f_"..., 86) = 86
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "265, 2108930253}, f_namelen=255,"..., 57) = 57
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4

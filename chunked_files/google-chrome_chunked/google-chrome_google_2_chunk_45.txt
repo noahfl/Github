@@ -1,0 +1,75 @@
+read(12, "005\\001\" \"\" 100\n\n\"/usr/lib/x86_6"..., 1024) = 1024
+read(12, "e/x-quicktime\" \"image/qtif\" \"\"\n\""..., 1024) = 1024
+read(12, ".0/loaders/libpixbufloader-jaspe"..., 1024) = 221
+read(12, "", 1024)                      = 0
+close(12)                               = 0
+stat("/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so", {st_mode=S_IFREG|0644, st_size=10480, ...}) = 0
+open("/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so", O_RDONLY|O_CLOEXEC) = 12
+read(12, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\v\0\0\0\0\0\0"..., 832) = 832
+fstat(12, {st_mode=S_IFREG|0644, st_size=10480, ...}) = 0
+mmap(NULL, 2105712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 12, 0) = 0x7f1193567000
+mprotect(0x7f1193569000, 2093056, PROT_NONE) = 0
+mmap(0x7f1193768000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 12, 0x1000) = 0x7f1193768000
+close(12)                               = 0
+open("/opt/google/chrome/librsvg-2.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/librsvg-2.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 12
+fstat(12, {st_mode=S_IFREG|0644, st_size=116741, ...}) = 0
+mmap(NULL, 116741, PROT_READ, MAP_PRIVATE, 12, 0) = 0x7f119354a000
+close(12)                               = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/librsvg-2.so.2", O_RDONLY|O_CLOEXEC) = 12
+read(12, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000{\0\0\0\0\0\0"..., 832) = 832
+fstat(12, {st_mode=S_IFREG|0644, st_size=217704, ...}) = 0
+mmap(NULL, 2313224, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 12, 0) = 0x7f1193315000
+mprotect(0x7f1193349000, 2093056, PROT_NONE) = 0
+mmap(0x7f1193548000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 12, 0x33000) = 0x7f1193548000
+close(12)                               = 0
+open("/opt/google/chrome/libcroco-0.6.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/libcroco-0.6.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libcroco-0.6.so.3", O_RDONLY|O_CLOEXEC) = 12
+read(12, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\215\0\0\0\0\0\0"..., 832) = 832
+fstat(12, {st_mode=S_IFREG|0644, st_size=240240, ...}) = 0
+mmap(NULL, 2335384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 12, 0) = 0x7f11930da000
+mprotect(0x7f1193112000, 2093056, PROT_NONE) = 0
+mmap(0x7f1193311000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 12, 0x37000) = 0x7f1193311000
+close(12)                               = 0
+open("/opt/google/chrome/libxml2.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/libxml2.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libxml2.so.2", O_RDONLY|O_CLOEXEC) = 12
+read(12, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\331\2\0\0\0\0\0"..., 832) = 832
+fstat(12, {st_mode=S_IFREG|0644, st_size=1461496, ...}) = 0
+mmap(NULL, 3561912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 12, 0) = 0x7f1192d74000
+mprotect(0x7f1192ed0000, 2093056, PROT_NONE) = 0
+mmap(0x7f11930cf000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 12, 0x15b000) = 0x7f11930cf000
+mmap(0x7f11930d9000, 2488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f11930d9000
+close(12)                               = 0
+open("/opt/google/chrome/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 12
+read(12, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320 \0\0\0\0\0\0"..., 832) = 832
+fstat(12, {st_mode=S_IFREG|0644, st_size=137400, ...}) = 0
+mmap(NULL, 2232456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 12, 0) = 0x7f1192b52000
+mprotect(0x7f1192b73000, 2093056, PROT_NONE) = 0
+mmap(0x7f1192d72000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 12, 0x20000) = 0x7f1192d72000
+close(12)                               = 0
+mprotect(0x7f1192d72000, 4096, PROT_READ) = 0
+mprotect(0x7f11930cf000, 32768, PROT_READ) = 0
+mprotect(0x7f1193311000, 12288, PROT_READ) = 0
+mprotect(0x7f1193548000, 4096, PROT_READ) = 0
+mprotect(0x7f1193768000, 4096, PROT_READ) = 0
+munmap(0x7f119354a000, 116741)          = 0
+lseek(11, 0, SEEK_SET)                  = 0
+read(11, "<?xml version=\"1.0\" encoding=\"UT"..., 65536) = 13891
+read(11, "", 49152)                     = 0
+futex(0x7f11930d96a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+--- SIGPROF {si_signo=SIGPROF, si_code=SI_KERNEL} ---
+madvise(0x2be50bbc5000, 4096, MADV_DONTNEED) = 0
+madvise(0x2be50bbc8000, 495616, MADV_DONTNEED) = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/gdk-pixbuf.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/gdk-pixbuf.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/gdk-pixbuf.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/gdk-pixbuf.mo", O_RDONLY) = -1 ENOENT (No such file or directory)

@@ -1,0 +1,75 @@
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "orting\">Sports & Outdoors</optio"..., 16384, 0, NULL, NULL) = 101
+write(1, "<option value=\"search-alias=spor"..., 65) = 65
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "b68\r\nion>\n<option value=\"search-"..., 16384, 0, NULL, NULL) = 4819
+write(1, "<option value=\"search-alias=tool"..., 1024) = 1024
+write(1, "tem\"><a class=\"nav_a\"></a></li> "..., 1024) = 1024
+write(1, "ig.autoFocus', false);\n", 23) = 23
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "window.$Nav && $Nav.declare('con"..., 74) = 74
+write(1, "\n", 1)                       = 1
+write(1, "window.$Nav && $Nav.declare('con"..., 57) = 57
+write(1, "\n", 1)                       = 1
+write(1, "window.$Nav && $Nav.declare('con"..., 55) = 55
+write(1, "\n", 1)                       = 1
+write(1, "window.$Nav && $Nav.declare('con"..., 68) = 68
+write(1, "window.$Nav && $Nav.declare('con"..., 67) = 67
+write(1, "\n", 1)                       = 1
+write(1, "window.$Nav && $Nav.declare('con"..., 61) = 61
+write(1, "\n", 1)                       = 1
+write(1, "window.$Nav && $Nav.declare('con"..., 66) = 66
+write(1, "window.$Nav && $Nav.declare('con"..., 57) = 57
+write(1, "\n", 1)                       = 1
+write(1, "window.$Nav && $Nav.declare('con"..., 55) = 55
+write(1, "\n", 1)                       = 1
+write(1, "window.$Nav && $Nav.declare('con"..., 56) = 56
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "window.$Nav && $Nav.declare('con"..., 59) = 59
+write(1, "\n", 1)                       = 1
+write(1, "window.$Nav && $Nav.declare('con"..., 53) = 53
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "    \n", 5)                   = 5
+write(1, "    window.$Nav && $Nav.declare("..., 85) = 85
+write(1, "\n", 1)                       = 1
+write(1, "--></script>\n", 13)          = 13
+write(1, "\n", 1)                       = 1
+write(1, "<!--Tilu -->\n", 13)          = 13
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "<!-- EndNav -->\n", 16)       = 16
+write(1, "      \n", 7)                 = 7
+write(1, "    <div id=\"page-wrap\">\n", 25) = 25
+write(1, "      <div id=\"content\">\n       "..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "512\r\n<div style=\"display:none;\">"..., 16384, 0, NULL, NULL) = 1305
+write(1, "ds=\"0,0,300,75\" alt=\"Graduation "..., 1024) = 1024
+write(1, "coords=\"0,0,300,120\" alt=\"40% or"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "27b\r\n\n\n\n\n\n\n\n\n\n  \n    \n\n\n\n\n\n\n\n\n\n\n"..., 16384, 0, NULL, NULL) = 642
+write(1, "State Drives\" alt=\"Get 20% or Mo"..., 745) = 745
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "b62\r\n  Updated hourly\n    </div>"..., 16384, 0, NULL, NULL) = 1360
+write(1, "      Updated hourly\n    </div>\n"..., 1024) = 1024
+write(1, "a>\n", 3)                     = 3
+write(1, "      \n", 7)                 = 7
+write(1, "            <div class=\"byline\">"..., 33) = 33
+write(1, "              <span class=\"carat"..., 55) = 55
+write(1, "            </div>\n", 19)    = 19
+write(1, "            \n", 13)          = 13
+write(1, "            <div class=\"priceBlo"..., 38) = 38
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "</div>\n", 7)                 = 7
+write(1, "        </div>\n", 15)        = 15
+write(1, "        </td>\n", 14)         = 14
+write(1, "        </tr>\n", 14)         = 14
+write(1, "         \n", 10)             = 10
+write(1, "        <tr class=\"rankedItem\">\n", 32) = 32

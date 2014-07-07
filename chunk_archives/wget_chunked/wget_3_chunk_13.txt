@@ -1,0 +1,75 @@
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_26391799\" cla"..., 168) = 168
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999994})
+read(4, "\27\3\3\5\300", 5)             = 5
+read(4, "I\265e<\301\37\335}\332K\261\227\354\356Q\224D\324\235<Es\376\377h\0\331\264A\304\211\352"..., 1472) = 1472
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "<div id=\"default-p_30345848\" cla"..., 1439) = 1439
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\"\10", 5)              = 5
+read(4, "I\265e<\301\37\335~\375\321@7g\222\371\vU\2575Y\33\313\r\264&<l\26\220\16!,"..., 8712) = 8712
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "main-story-content y-bg-1\">     "..., 4096) = 4096
+write(3, "my-today-ln-1 trans-border item "..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "          </li>            <li i"..., 496) = 496
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\20\211", 5)            = 5
+read(4, "I\265e<\301\37\335\177r=\313\217g\"\216\373\350*\251\24N\35\257\306\370D\327\36\2\5\342Y"..., 4233) = 4233
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "ad1 y-today-ln-1 empty trans-bor"..., 4096) = 4096
+write(3, "_30345976-matches\">\n            "..., 113) = 113
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949997})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3\21\227", 5)            = 5
+read(4, "I\265e<\301\37\335\200\200\367\204\327W\356W\v91\342B\257\232c\337\304eO\367\5)\3153"..., 4503) = 590
+read(4, "{\203\224\231\242\1\211}*\323\355\252\3\250\315\214-\"a\252\265\r!\260\230\36\300\352G\27\262`"..., 3913) = 1024
+read(4, "\31665\251\215\334l|B\356FB\266\ru\266\306\314\251\323\1\301\257\375\300\n\256\201\270c\247f"..., 2889) = 1024
+read(4, "\225|\234\360\1\2\320\3308\311\222\273\5\316\243h\202ev9\342`\372\302\260\322\352\35\245\23\254\2"..., 1865) = 1865
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "https://sports.yahoo.com/soccer/"..., 4096) = 4096
+write(3, "d-side-of-world-cup-referees-210"..., 383) = 383
+write(2, "\r", 1)                       = 1
+write(2, "    [  <=>                      "..., 79) = 79
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949993})
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+read(4, "\27\3\3*\207", 5)              = 5
+read(4, "I\265e<\301\37\335\201H\353\37U\366\314U\373\tC\2\270c0\327\312k\213\302^<\225}\345"..., 10887) = 8370
+read(4, "i \257\243RXfk\261d\272\244~ghN\331o\373\222\211\205\377NV2W\351\323\322\200\352"..., 2517) = 1024
+read(4, "\22\264S\230L\360\360+\10\335\37r7k\5k\376\273/f\335\201\244\207:\334\367}\365\316.|"..., 1493) = 1493
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(3, "956fc1_DempseyThumb.jpg);\" ></sp"..., 4096) = 4096
+write(3, "w Slideshow</em></i>\n        <p "..., 4096) = 4096
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0

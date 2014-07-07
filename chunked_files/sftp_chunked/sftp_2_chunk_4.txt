@@ -1,0 +1,75 @@
+close(4)                                = 0
+ioctl(0, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(1, "\n", 1)                       = 1
+write(1, "chunk_archives/           chunke"..., 79) = 79
+write(1, "\n", 1)                       = 1
+write(1, "\r\33[Ksftp> put /home/bearface/gri"..., 45) = 45
+read(0, "o", 1)                         = 1
+write(1, "o", 1)                        = 1
+read(0, "\t", 1)                        = 1
+openat(AT_FDCWD, "/home/bearface/grive/Research/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+getdents(4, /* 12 entries */, 32768)    = 432
+lstat("/home/bearface/grive/Research/command_parameters.txt", {st_mode=S_IFREG|0644, st_size=2925, ...}) = 0
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+write(1, "\r\33[Ksftp> put /home/bearface/gri"..., 67) = 67
+read(0, "\n", 1)                        = 1
+write(1, "\n", 1)                       = 1
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig -icanon -echo ...}) = 0
+ioctl(0, SNDCTL_TMR_STOP or SNDRV_TIMER_IOCTL_GINFO or TCSETSW, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT TERM CONT TSTP WINCH], [], 8) = 0
+rt_sigaction(SIGINT, {SIG_IGN, [], SA_RESTORER, 0x7f62ebc80ff0}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_DFL, [], SA_RESTORER, 0x7f62ebc80ff0}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f62ebc80ff0}, NULL, 8) = 0
+rt_sigaction(SIGHUP, {0x7f62ec46afa0, [], SA_RESTORER, 0x7f62ebc80ff0}, NULL, 8) = 0
+rt_sigaction(SIGTERM, {0x7f62ec46afa0, [], SA_RESTORER, 0x7f62ebc80ff0}, NULL, 8) = 0
+rt_sigaction(SIGCONT, {SIG_DFL, [], SA_RESTORER, 0x7f62ebc80ff0}, NULL, 8) = 0
+rt_sigaction(SIGWINCH, {SIG_DFL, [], SA_RESTORER, 0x7f62ebc80ff0}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f62ebc80ff0}, 8) = 0
+rt_sigaction(SIGINT, {0x7f62ec46a200, [], SA_RESTORER, 0x7f62ebc80ff0}, NULL, 8) = 0
+lstat("/home/bearface/grive/Research/command_parameters.txt", {st_mode=S_IFREG|0644, st_size=2925, ...}) = 0
+stat("/home/bearface/grive/Research/command_parameters.txt", {st_mode=S_IFREG|0644, st_size=2925, ...}) = 0
+write(1, "Uploading /home/bearface/grive/R"..., 103) = 103
+open("/home/bearface/grive/Research/command_parameters.txt", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=2925, ...}) = 0
+writev(3, [{"\0\0\0009", 4}, {"\3\0\0\0\2\0\0\0$/home/frazien/command_p"..., 57}], 2) = 61
+read(3, "\0\0\0\r", 4)                  = 4
+read(3, "f\0\0\0\2\0\0\0\4\0\0\0\0", 13) = 13
+ioctl(1, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+getpgrp()                               = 14299
+ioctl(1, TIOCGPGRP, [14299])            = 0
+write(1, "\r/home/bearface/grive/Research/c"..., 80) = 80
+rt_sigaction(SIGALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGALRM, {0x7f62ec469f00, [], SA_RESTORER|SA_INTERRUPT, 0x7f62ebc80ff0}, NULL, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {SIG_DFL, [], SA_RESTORER, 0x7f62ebc80ff0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x7f62ec469610, [], SA_RESTORER, 0x7f62ebc80ff0}, NULL, 8) = 0
+alarm(1)                                = 0
+read(4, "curl/wget:\n\nwww.google.com\nwww.r"..., 32768) = 2925
+writev(3, [{"\0\0\v\206", 4}, {"\6\0\0\0\3\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\vmcurl/wg"..., 2950}], 2) = 2954
+read(3, "\0\0\0\30", 4)                 = 4
+read(3, "e\0\0\0\3\0\0\0\0\0\0\0\7Success\0\0\0\0", 24) = 24
+read(4, "", 32768)                      = 0
+alarm(0)                                = 1
+getpgrp()                               = 14299
+ioctl(1, TIOCGPGRP, [14299])            = 0
+write(1, "\r/home/bearface/grive/Research/c"..., 80) = 80
+write(1, "\n", 1)                       = 1
+close(4)                                = 0
+writev(3, [{"\0\0\0\r", 4}, {"\4\0\0\0\3\0\0\0\4\0\0\0\0", 13}], 2) = 17
+read(3, "\0\0\0\30", 4)                 = 4
+read(3, "e\0\0\0\3\0\0\0\0\0\0\0\7Success\0\0\0\0", 24) = 24
+rt_sigaction(SIGINT, NULL, {0x7f62ec46a200, [], SA_RESTORER, 0x7f62ebc80ff0}, 8) = 0
+rt_sigaction(SIGINT, {SIG_IGN, [], SA_RESTORER, 0x7f62ebc80ff0}, NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [HUP INT QUIT TERM CONT TSTP WINCH], [], 8) = 0
+rt_sigaction(SIGINT, {0x7f62ec022e60, [], SA_RESTORER, 0x7f62ebc80ff0}, {SIG_IGN, [], SA_RESTORER, 0x7f62ebc80ff0}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7f62ec022e60, [], SA_RESTORER, 0x7f62ebc80ff0}, {SIG_DFL, [], SA_RESTORER, 0x7f62ebc80ff0}, 8) = 0
+rt_sigaction(SIGQUIT, {0x7f62ec022e60, [], SA_RESTORER, 0x7f62ebc80ff0}, {SIG_DFL, [], SA_RESTORER, 0x7f62ebc80ff0}, 8) = 0
+rt_sigaction(SIGHUP, {0x7f62ec022e60, [], SA_RESTORER, 0x7f62ebc80ff0}, {0x7f62ec46afa0, [], SA_RESTORER, 0x7f62ebc80ff0}, 8) = 0
+rt_sigaction(SIGTERM, {0x7f62ec022e60, [], SA_RESTORER, 0x7f62ebc80ff0}, {0x7f62ec46afa0, [], SA_RESTORER, 0x7f62ebc80ff0}, 8) = 0
+rt_sigaction(SIGCONT, {0x7f62ec022e60, [], SA_RESTORER, 0x7f62ebc80ff0}, {SIG_DFL, [], SA_RESTORER, 0x7f62ebc80ff0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x7f62ec022e60, [], SA_RESTORER, 0x7f62ebc80ff0}, {0x7f62ec469610, [], SA_RESTORER, 0x7f62ebc80ff0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [WINCH], [], 8) = 0
+ioctl(0, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0

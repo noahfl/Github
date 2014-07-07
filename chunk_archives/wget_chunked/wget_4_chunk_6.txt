@@ -1,0 +1,75 @@
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "nk\" href=\"http://www.microsoft.c"..., 8192) = 1360
+write(4, "nk\" href=\"http://www.microsoft.c"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949993})
+read(3, "=\"span bp0-col-1-1 bp1-col-1-1 b"..., 8192) = 1360
+write(4, "=\"span bp0-col-1-1 bp1-col-1-1 b"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "8-3f83-b476-d6cb-16ca3edc5d83\" s"..., 8192) = 2720
+write(4, "8-3f83-b476-d6cb-16ca3edc5d83\" s"..., 2720) = 2720
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948709})
+read(3, "view1=\"1\" data-cols=\"4\"><div cla"..., 8192) = 1360
+write(4, "view1=\"1\" data-cols=\"4\"><div cla"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949896})
+read(3, "http://windows.microsoft.com/en-"..., 8192) = 1360
+write(4, "http://windows.microsoft.com/en-"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "lf\" class=\"mscom-link\" href=\"htt"..., 8192) = 1360
+write(4, "lf\" class=\"mscom-link\" href=\"htt"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949805})
+read(3, "765-819c-1053118813af\" target=\"_"..., 8192) = 1360
+write(4, "765-819c-1053118813af\" target=\"_"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 870949})
+read(3, "\" data-view4=\"4\" data-view3=\"4\" "..., 8192) = 1360
+write(4, "\" data-view4=\"4\" data-view3=\"4\" "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948974})
+read(3, "ing\" id=\"e0712c24-dbf3-494b-adb0"..., 8192) = 1360
+write(4, "ing\" id=\"e0712c24-dbf3-494b-adb0"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949317})
+read(3, "_self\" class=\"mscom-link\" href=\""..., 8192) = 1360
+write(4, "_self\" class=\"mscom-link\" href=\""..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949320})
+read(3, "n></li><li id=\"3998439a-3979-b4d"..., 8192) = 1360
+write(4, "n></li><li id=\"3998439a-3979-b4d"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949463})
+read(3, "/en-us/downloads\" bi:linkid=\"Nav"..., 8192) = 1360
+write(4, "/en-us/downloads\" bi:linkid=\"Nav"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949045})
+read(3, "id=\"0c24b3cb-2b05-a02e-f0d4-3da5"..., 8192) = 1360
+write(4, "id=\"0c24b3cb-2b05-a02e-f0d4-3da5"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949335})
+read(3, "r(\"ctl00_HeaderControl\")})/*]]>*"..., 8192) = 1360
+write(4, "r(\"ctl00_HeaderControl\")})/*]]>*"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949066})
+read(3, "=\"heroitem\"><div class=\"media\" b"..., 8192) = 1360
+write(4, "=\"heroitem\"><div class=\"media\" b"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949213})
+read(3, "-70cc16c82f17\"><h3 class=\"box-ti"..., 8192) = 1360
+write(4, "-70cc16c82f17\"><h3 class=\"box-ti"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948913})
+read(3, "sable-swap-below=\"\"><div data-sr"..., 8192) = 1360
+write(4, "sable-swap-below=\"\"><div data-sr"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949095})
+read(3, "0a2213e\"><a id=\"5c7ecf1e-4296-ba"..., 8192) = 1360
+write(4, "0a2213e\"><a id=\"5c7ecf1e-4296-ba"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949263})
+read(3, "l-1-1 sortable-control\"><ul bi:t"..., 8192) = 1360
+write(4, "l-1-1 sortable-control\"><ul bi:t"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949357})
+read(3, "d=\"9130ea9f-ab63-d5e6-08d6-37317"..., 8192) = 1360
+write(4, "d=\"9130ea9f-ab63-d5e6-08d6-37317"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947662})
+read(3, "yle=\"list-style-type: none;\" xml"..., 8192) = 1360
+write(4, "yle=\"list-style-type: none;\" xml"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949347})
+read(3, "a81c350\" class=\"CMSvNextComp msc"..., 8192) = 1360
+write(4, "a81c350\" class=\"CMSvNextComp msc"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949307})
+read(3, "-1 sortable-control\"><a id=\"4d19"..., 8192) = 1360
+write(4, "-1 sortable-control\"><a id=\"4d19"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947291})
+read(3, "e_symbol.png?version=9ac2386b-27"..., 8192) = 1360
+write(4, "e_symbol.png?version=9ac2386b-27"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949389})
+read(3, "ref=\"http://www.skype.com/go/sky"..., 8192) = 1360
+write(4, "ref=\"http://www.skype.com/go/sky"..., 1360) = 1360

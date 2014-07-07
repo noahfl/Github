@@ -1,0 +1,75 @@
+recvfrom(3, "\r\neea\r\n       <div class=\"ranked"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "eea\r\n       <div class=\"rankedIt"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "eea\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "       <div class=\"rankedItemInf"..., 3818) = 3818
+write(4, "       <div class=\"rankedItemInf"..., 3818) = 3818
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n1116\r\ndiv class=\"noDil\">\n     "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "1116\r\ndiv class=\"noDil\">\n       "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1116\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "div class=\"noDil\">\n            <"..., 4374) = 4374
+write(4, "div class=\"noDil\">\n            <"..., 4096) = 4096
+write(4, "n class=\"carat\"></span>Casio\n   "..., 278) = 278
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n5b4\r\n        <td>\n        <div"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "5b4\r\n        <td>\n        <div c"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "        <td>\n        <div class="..., 1460) = 1460
+write(4, "        <td>\n        <div class="..., 1460) = 1460
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 993266})
+recvfrom(3, "936\r\noods/378526011\">See all Bes"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "936\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "oods/378526011\">See all Best Sel"..., 2358) = 1355
+write(4, "oods/378526011\">See all Best Sel"..., 1355) = 1355
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, " location: \"bottom\",\n           "..., 1003) = 1003
+write(4, " location: \"bottom\",\n           "..., 1003) = 1003
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n4b3\r\nlay:none;}\n            </"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "4b3\r\nlay:none;}\n            </st"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "4b3\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "lay:none;}\n            </style>\n"..., 1203) = 1203
+write(4, "lay:none;}\n            </style>\n"..., 1203) = 1203
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 813413})
+recvfrom(3, "16ca\r\n\n        \n\n\n\n\n\n\n<div style"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "16ca\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "\n        \n\n\n\n\n\n\n<div style=\"disp"..., 5834) = 1354
+write(4, "\n        \n\n\n\n\n\n\n<div style=\"disp"..., 1354) = 1354
+write(2, "\r", 1)                       = 1
+write(2, "    [   <=>                     "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 943384})
+read(3, "\">\n      &gt;\n      <a class=\"na"..., 4480) = 1360
+write(4, "\">\n      &gt;\n      <a class=\"na"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945358})
+read(3, "ed nav_subcat_link nav_pop_li\"><"..., 3120) = 1360
+write(4, "ed nav_subcat_link nav_pop_li\"><"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945734})
+read(3, "gp/feature.html?ie=UTF8&amp;docI"..., 1760) = 1360
+write(4, "gp/feature.html?ie=UTF8&amp;docI"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949612})
+read(3, "=1002403711\" class=\"nav_a nav_it"..., 400) = 400
+write(4, "=1002403711\" class=\"nav_a nav_it"..., 400) = 400
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 990601})

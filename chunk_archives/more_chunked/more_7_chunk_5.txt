@@ -1,0 +1,75 @@
+read(2, "\n", 1)                        = 1
+write(1, "\rstat(\"/usr/sbin/ls\", 0x7fff24e6"..., 81) = 81
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rstat(\"/usr/bin/ls\", 0x7fff24e6b"..., 81) = 81
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rstat(\"/sbin/ls\", 0x7fff24e6b170"..., 81) = 81
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rstat(\"/bin/ls\", {st_mode=S_IFRE"..., 66) = 66
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rstat(\"/bin/ls\", {st_mode=S_IFRE"..., 66) = 66
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rclone(child_stack=0, flags=CLON"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rd_tidptr=0x7fad91c24a10) = 3226"..., 34) = 34
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rwait4(32265, [{WIFSTOPPED(s) &&"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\r5\33[K\n", 6)               = 6
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+read(3, " si_status=SIGSTOP, si_utime=0, "..., 4096) = 4096
+write(1, "\r--- SIGCHLD {si_signo=SIGCHLD, "..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rTOP, si_utime=0, si_stime=0} --"..., 34) = 34
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rptrace(PTRACE_SEIZE, 32265, 0, "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\r--- SIGCHLD {si_signo=SIGCHLD, "..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\r0, si_utime=0, si_stime=0} ---\n", 32) = 32
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rptrace(PTRACE_INTERRUPT, 32265,"..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rkill(32265, SIGCONT)           "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rrt_sigaction(SIGTTOU, {SIG_IGN,"..., 80) = 80
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rrt_sigaction(SIGTTIN, {SIG_IGN,"..., 80) = 80
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(3%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rrt_sigaction(SIGHUP, {0x410f50,"..., 80) = 80

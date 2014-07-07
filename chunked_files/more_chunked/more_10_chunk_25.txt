@@ -1,0 +1,75 @@
+write(1, "\33[7m--More--(44%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r\"::ffff:10.227.98.29\", &sin6_ad"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(44%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rconnect(3, {sa_family=AF_UNSPEC"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(45%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r0\33[K\n", 6)               = 6
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(45%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rconnect(3, {sa_family=AF_INET, "..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(45%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r.46\")}, 16) = 0\n", 17)    = 17
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(45%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rgetsockname(3, {sa_family=AF_IN"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(45%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+read(3, " &sin6_addr), sin6_flowinfo=0, s"..., 4096) = 4096
+write(1, "\r\"::ffff:10.227.98.29\", &sin6_ad"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(45%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rconnect(3, {sa_family=AF_UNSPEC"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(45%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r0\33[K\n", 6)               = 6
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(45%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rconnect(3, {sa_family=AF_INET, "..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(45%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r.32\")}, 16) = 0\n", 17)    = 17
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(45%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rgetsockname(3, {sa_family=AF_IN"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(45%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r\"::ffff:10.227.98.29\", &sin6_ad"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(46%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rconnect(3, {sa_family=AF_UNSPEC"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(46%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r0\33[K\n", 6)               = 6
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(46%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rconnect(3, {sa_family=AF_INET, "..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(46%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r.33\")}, 16) = 0\n", 17)    = 17
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(46%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rgetsockname(3, {sa_family=AF_IN"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(46%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1

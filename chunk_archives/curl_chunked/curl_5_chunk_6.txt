@@ -1,0 +1,75 @@
+brk(0x230e000)                          = 0x230e000
+futex(0x7fdf5a5eb400, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+pipe([3, 4])                            = 0
+close(3)                                = 0
+close(4)                                = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fdf5d01fff0}, {SIG_DFL, [], 0}, 8) = 0
+brk(0x2334000)                          = 0x2334000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fdf583e4000
+close(3)                                = 0
+open("/home/bearface/.curlrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fdf5d01fff0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fdf5d3bf340}, NULL, 8) = 0
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 3
+close(3)                                = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fdf57be3000
+mprotect(0x7fdf57be3000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7fdf583e2f70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fdf583e39d0, tls=0x7fdf583e3700, child_tidptr=0x7fdf583e39d0) = 31528
+poll(0, 0, 4)                           = 0 (Timeout)
+poll(0, 0, 8)                           = 0 (Timeout)
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 3
+setsockopt(3, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+setsockopt(3, SOL_TCP, TCP_KEEPIDLE, [60], 4) = 0
+setsockopt(3, SOL_TCP, TCP_KEEPINTVL, [60], 4) = 0
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("10.2.1.83")}, 16) = -1 EINPROGRESS (Operation now in progress)
+poll([{fd=3, events=POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLOUT}], 1, 198)  = 1 ([{fd=3, revents=POLLOUT}])
+poll([{fd=3, events=POLLOUT|POLLWRNORM}], 1, 0) = 1 ([{fd=3, revents=POLLOUT|POLLWRNORM}])
+getsockopt(3, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("10.2.1.83")}, [16]) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(54272), sin_addr=inet_addr("10.227.98.29")}, [16]) = 0
+sendto(3, "GET / HTTP/1.1\r\nUser-Agent: curl"..., 75, MSG_NOSIGNAL, NULL, 0) = 75
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLIN}], 1, 195)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 16 J"..., 16384, 0, NULL, NULL) = 1368
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 5), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdf5dc6c000
+write(1, "\n\n<!DOCTYPE html>\n<html lang=\"en"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 189)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, ".css?20100902\" type=\"text/css\" m"..., 16384, 0, NULL, NULL) = 9576
+write(1, "rel=\"stylesheet\" href=\"http://st"..., 1024) = 1024
+write(1, "_gaq.push(['_setDomainName', 'wf"..., 8192) = 8192
+write(1, "    <!-- end header_container --"..., 34) = 34
+write(1, "            <div id=\"nav_separat"..., 83) = 83
+write(1, "            <div id=\"nav_bar\">\n", 31) = 31
+write(1, "                <div class=\"cont"..., 40) = 40
+write(1, "                    <ul id=\"tert"..., 112) = 112
+poll([{fd=3, events=POLLIN}], 1, 185)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "', 'Header', 'LinkClick', 'Home "..., 16384, 0, NULL, NULL) = 4104
+write(1, "                        <li clas"..., 1024) = 1024
+write(1, "siting']);\">Visiting</a></li>\n  "..., 3072) = 3072
+poll([{fd=3, events=POLLIN}], 1, 183)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "</a>\n\t<!-- LINK and TEXT (for bl"..., 16384, 0, NULL, NULL) = 9576
+write(1, "_image\" onClick=\"_gaq.push(['_tr"..., 1024) = 1024
+write(1, "\t\t<a href=\"http://wakewill.wfu.e"..., 8192) = 8192
+poll([{fd=3, events=POLLIN}], 1, 180)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "'_trackEvent', 'Homepage', 'Link"..., 16384, 0, NULL, NULL) = 15048
+write(1, "s.wfu.edu/2014/05/educating-the-"..., 1024) = 1024
+write(1, "li class=\"mention\"><p class=\"men"..., 14336) = 14336
+poll([{fd=3, events=POLLIN}], 1, 177)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, " the nation. Our mission is to e"..., 16384, 0, NULL, NULL) = 16384
+write(1, "h institution, Wake Forest claim"..., 1024) = 1024
+write(1, "\t<div class=\"grid_12 alpha omega"..., 15360) = 15360
+write(1, "LinkClick', 'Home Col5 Stores'])"..., 62) = 62
+poll([{fd=3, events=POLLIN}], 1, 173)   = 1 ([{fd=3, revents=POLLIN}])

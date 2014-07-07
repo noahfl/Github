@@ -1,0 +1,75 @@
+close(3)                                = 0
+mprotect(0x7f11e5b74000, 4096, PROT_READ) = 0
+mprotect(0x7f11e5d80000, 4096, PROT_READ) = 0
+munmap(0x7f11e706a000, 104667)          = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=104667, ...}) = 0
+mmap(NULL, 104667, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f11e706a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47760, ...}) = 0
+mmap(NULL, 2143784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f11e5752000
+mprotect(0x7f11e575d000, 2093056, PROT_NONE) = 0
+mmap(0x7f11e595c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f11e595c000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f11e5546000
+mprotect(0x7f11e5551000, 2093056, PROT_NONE) = 0
+mmap(0x7f11e5750000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f11e5750000
+close(3)                                = 0
+mprotect(0x7f11e5750000, 4096, PROT_READ) = 0
+mprotect(0x7f11e595c000, 4096, PROT_READ) = 0
+munmap(0x7f11e706a000, 104667)          = 0
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1832, ...}) = 0
+mmap(NULL, 1832, PROT_READ, MAP_SHARED, 3, 0) = 0x7f11e709b000
+lseek(3, 1832, SEEK_SET)                = 1832
+munmap(0x7f11e709b000, 1832)            = 0
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/group", O_RDONLY|O_CLOEXEC)  = 3
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=884, ...}) = 0
+mmap(NULL, 884, PROT_READ, MAP_SHARED, 3, 0) = 0x7f11e709b000
+lseek(3, 884, SEEK_SET)                 = 884
+munmap(0x7f11e709b000, 884)             = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/bearface/Documents", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 12 entries */, 32768)    = 368
+lstat("/home/bearface/Documents/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Documents/.", "security.selinux", 0x21fa510, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Documents/.", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Documents/.", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Documents/vmnet313.patch", {st_mode=S_IFREG|0600, st_size=423, ...}) = 0
+lgetxattr("/home/bearface/Documents/vmnet313.patch", "security.selinux", 0x21fa510, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Documents/vmnet313.patch", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Documents/vmnet313.patch", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Documents/Minecraft.jar", {st_mode=S_IFREG|0600, st_size=280212, ...}) = 0
+lgetxattr("/home/bearface/Documents/Minecraft.jar", "security.selinux", 0x21fa530, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Documents/Minecraft.jar", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Documents/Minecraft.jar", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Documents/output.txt", {st_mode=S_IFREG|0644, st_size=6902, ...}) = 0
+lgetxattr("/home/bearface/Documents/output.txt", "security.selinux", 0x21fa550, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Documents/output.txt", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Documents/output.txt", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Documents/rtl8723au", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Documents/rtl8723au", "security.selinux", 0x21fa570, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Documents/rtl8723au", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Documents/rtl8723au", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Documents/VMWareLinux", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Documents/VMWareLinux", "security.selinux", 0x21fa590, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Documents/VMWareLinux", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Documents/VMWareLinux", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Documents/..", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Documents/..", "security.selinux", 0x21fa5b0, 255) = -1 ENODATA (No data available)

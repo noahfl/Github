@@ -1,0 +1,75 @@
+open("window_classifier.py", O_RDONLY)  = 4
+lseek(4, 1, SEEK_SET)                   = 1
+lseek(4, 0, SEEK_SET)                   = 0
+read(4, "#!/usr/bin/python3\n\nimport glob\n"..., 256) = 256
+lseek(4, 1, SEEK_SET)                   = 1
+fstat(4, {st_mode=S_IFREG|0644, st_size=3562, ...}) = 0
+lseek(4, 0, SEEK_SET)                   = 0
+stat("window_classifier.py", {st_mode=S_IFREG|0644, st_size=3562, ...}) = 0
+write(1, "\33[?1049h\33[?1h\33=\r", 16) = 16
+read(4, "#!/usr/bin/python3\n\nimport glob\n"..., 8192) = 3562
+write(1, "#!/usr/bin/python3\n\nimport glob\n"..., 511) = 511
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    \"\"\"\n:\33[K", 12)      = 12
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    Reads each file in the desig"..., 57) = 57
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    and separates them into 75-l"..., 56) = 56
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    writes those chunks to files"..., 56) = 56
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    directory.\n:\33[K", 19)  = 19
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "\n:\33[K", 5)                 = 5
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    @type file_paths: list\n:\33[K", 31) = 31
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    @param file_paths: array con"..., 59) = 59
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "                       in the de"..., 60) = 60
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    @type file_names: list\n:\33[K", 31) = 31
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    @param file_names: array con"..., 59) = 59
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "                       in the de"..., 60) = 60
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    \"\"\"\n:\33[K", 12)      = 12
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "\n:\33[K", 5)                 = 5
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    path = '/home/bearface/grive"..., 75) = 75
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "    for r in range(len(file_path"..., 41) = 41
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        current = open(file_path"..., 42) = 42
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        current_file = current.r"..., 47) = 47
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        current.close()\n:\33[K", 28) = 28
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        #line counter for chunks"..., 37) = 37
+read(3, "\n", 1)                        = 1
+write(1, "\r\33[K", 4)                  = 4
+write(1, "        chunk_num = 1\n:\33[K", 26) = 26
+read(3, "\n", 1)                        = 1

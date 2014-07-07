@@ -1,0 +1,75 @@
+write(4, "\26\3\1\1N\1\0\1J\3\3\244\317\242a\357['6B\tqZ\206\26ebd`\17[o"..., 339) = 339
+read(4, "\26\3\3\0F\2\0", 7)            = 7
+read(4, "\0B\3\3S\237\21\33\305$C\327\327\237\341_d\244\37\0378\372\313\325\210'@H\231]ph"..., 68) = 68
+read(4, "\26\3\3\22\221", 5)            = 5
+read(4, "\v\0\22\215\0\22\212\0\7\2750\202\7\2710\202\6\241\240\3\2\1\2\2\20\35\300\22J\2J,"..., 4753) = 1968
+read(4, "\330=\303%R\330\332\273\337\24\276\275%O$\233&\230,\4\34Q+\0\5\3600\202\5\3540\202"..., 2785) = 2048
+read(4, "I\312YT\205&\345+\217\33\237\353\365\241\221\3023I\330CcjRK\322\217\350pQM\321\211"..., 737) = 737
+stat("/usr/lib/ssl/certs/415660c1.0", {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+open("/usr/lib/ssl/certs/415660c1.0", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f453823d000
+read(5, "-----BEGIN CERTIFICATE-----\nMIIC"..., 4096) = 834
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f453823d000, 4096)            = 0
+stat("/usr/lib/ssl/certs/415660c1.1", {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+open("/usr/lib/ssl/certs/415660c1.1", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=834, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f453823d000
+read(5, "-----BEGIN CERTIFICATE-----\nMIIC"..., 4096) = 834
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+munmap(0x7f453823d000, 4096)            = 0
+stat("/usr/lib/ssl/certs/415660c1.2", 0x7fff787457c0) = -1 ENOENT (No such file or directory)
+brk(0x13b8000)                          = 0x13b8000
+brk(0x13b7000)                          = 0x13b7000
+read(4, "\26\3\3\1M", 5)                = 5
+read(4, "\f\0\1I\3\0\27A\4\21\317\206\347QX\266\211$\227*\335\307L\377 D\354\262\276\215\0\273"..., 333) = 333
+read(4, "\26\3\3\0\4", 5)               = 5
+read(4, "\16\0\0\0", 4)                 = 4
+write(4, "\26\3\3\0F\20\0\0BA\4\314e\267Q]\367el\32\333\360\344\23\334\254\262\305\370\35\377["..., 126) = 126
+read(4, "\26\3\3\0\272", 5)             = 5
+read(4, "\4\0\0\266\0\0\1,\0\260\341]\313gD!;\237\375\317\353\302\243\261U2\257\303\22;u@"..., 186) = 186
+read(4, "\24\3\3\0\1", 5)               = 5
+read(4, "\1", 1)                        = 1
+read(4, "\26\3\3\0(", 5)                = 5
+read(4, "I\265e<\301\37\335c=\372\261N\335\252lw\5\313\250|\261\231\324\16\3111\327V}(\350\263"..., 40) = 40
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+select(5, NULL, [4], NULL, {900, 0})    = 1 (out [4], left {899, 999994})
+write(4, "\27\3\3\0\2077Z\330b\332(\215\300\277z*\360&\237K\300\n\26_9\343\246c\vsU\2"..., 140) = 140
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 892539})
+read(4, "\27\3\3\3\211", 5)             = 5
+read(4, "I\265e<\301\37\335d\32\316\326\352\351i\224\22-\334\205\273'\321\2,\345\244\347\273\203\3554\17"..., 905) = 905
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f4537005ff0}, 8) = 0
+write(2, "200 OK\n", 7)                 = 7
+close(3)                                = 0
+stat("index.html.7", 0x7fff78745c40)    = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "unspecified", 11)             = 11
+write(2, " [text/html]\n", 13)          = 13
+open("index.html.7", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230index.html.7\342\200\231\n", 30) = 30
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7f4538237000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, "    [<=>                        "..., 79) = 79
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999997})
+read(4, "\27\3\3\23T", 5)               = 5
+read(4, "I\265e<\301\37\335e\347\204\n\2\267\234\204M\276\217\250\342\27\207\334\260\257Nghj\367\vO"..., 4948) = 4091

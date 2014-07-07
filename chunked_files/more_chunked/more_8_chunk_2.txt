@@ -1,0 +1,75 @@
+lseek(3, 4096, SEEK_SET)                = 4096
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 4, 0) = 0x7f0be64d8000
+close(4)                                = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 4), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0be64d7000
+write(1, "execve(\"/usr/bin/strace\", [\"stra"..., 65) = 65
+write(1, "brk(0)                          "..., 51) = 51
+write(1, "access(\"/etc/ld.so.nohwcap\", F_O"..., 80) = 80
+write(1, "mmap(NULL, 8192, PROT_READ|PROT_"..., 81) = 81
+write(1, "876a4a000\n", 10)             = 10
+write(1, "access(\"/etc/ld.so.preload\", R_O"..., 80) = 80
+write(1, "open(\"/etc/ld.so.cache\", O_RDONL"..., 49) = 49
+write(1, "fstat(3, {st_mode=S_IFREG|0644, "..., 58) = 58
+write(1, "mmap(NULL, 104667, PROT_READ, MA"..., 66) = 66
+write(1, "close(3)                        "..., 44) = 44
+write(1, "access(\"/etc/ld.so.nohwcap\", F_O"..., 80) = 80
+write(1, "open(\"/lib/x86_64-linux-gnu/libc"..., 64) = 64
+write(1, "read(3, \"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0"..., 81) = 81
+write(1, "832) = 832\n", 11)            = 11
+write(1, "fstat(3, {st_mode=S_IFREG|0755, "..., 59) = 59
+write(1, "mmap(NULL, 3953344, PROT_READ|PR"..., 81) = 81
+write(1, "f876464000\n", 11)            = 11
+write(1, "mprotect(0x7ff876620000, 2093056"..., 49) = 49
+write(1, "mmap(0x7ff87681f000, 24576, PROT"..., 81) = 81
+write(1, "WRITE, 3, 0x1bb000) = 0x7ff87681"..., 37) = 37
+write(1, "mmap(0x7ff876825000, 17088, PROT"..., 81) = 81
+write(1, "YMOUS, -1, 0) = 0x7ff876825000\n", 31) = 31
+write(1, "close(3)                        "..., 44) = 44
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0be64d6000
+read(4, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f0be64d6000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/util-linux.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/util-linux.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/util-linux.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/util-linux.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/util-linux.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/util-linux.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/util-linux.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/util-linux.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/util-linux.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/util-linux.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/util-linux.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/util-linux.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(1, "\33[7m--More--(2%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rmmap(NULL, 4096, PROT_READ|PROT"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(2%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\r876a2f000\33[K\n", 14)      = 14
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(2%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rmmap(NULL, 8192, PROT_READ|PROT"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(2%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\r876a2d000\33[K\n", 14)      = 14
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(2%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rarch_prctl(ARCH_SET_FS, 0x7ff87"..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(2%)\33[27m", 21) = 21
+read(2, "\n", 1)                        = 1
+write(1, "\rmprotect(0x7ff87681f000, 16384,"..., 48) = 48

@@ -1,0 +1,75 @@
+--- SIGPROF {si_signo=SIGPROF, si_code=SI_KERNEL} ---
+fcntl(27, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(27, F_SETLKW, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}) = -1 EBADF (Bad file descriptor)
+fcntl(27, F_SETLKW, {type=F_RDLCK, whence=SEEK_SET, start=0, len=0}) = 0
+read(27, "\220m\253\315\317\6\22\363\340\233\t2\207\251\224*+S\272\36\201\254\254\302\304J\32\355\331\34j\314"..., 256) = 256
+fcntl(27, F_SETLKW, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+close(27)                               = 0
+close(26)                               = 0
+munmap(0x7f6af153d000, 4096)            = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 26
+connect(26, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+getpeername(26, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"...}, [20]) = 0
+uname({sys="Linux", node="doug", ...})  = 0
+access("/home/bearface/.Xauthority", R_OK) = 0
+open("/home/bearface/.Xauthority", O_RDONLY) = 27
+fstat(27, {st_mode=S_IFREG|0600, st_size=115, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6af153d000
+read(27, "\1\0\0\4doug\0\0010\0\22MIT-MAGIC-COOKIE-1\0"..., 4096) = 115
+read(27, "", 4096)                      = 0
+close(27)                               = 0
+munmap(0x7f6af153d000, 4096)            = 0
+getsockname(26, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+fcntl(26, F_GETFL)                      = 0x2 (flags O_RDWR)
+fcntl(26, F_SETFL, O_RDWR|O_NONBLOCK)   = 0
+fcntl(26, F_SETFD, FD_CLOEXEC)          = 0
+poll([{fd=26, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=26, revents=POLLOUT}])
+writev(26, [{"l\0\v\0\0\0\22\0\20\0\0\0", 12}, {"", 0}, {"MIT-MAGIC-COOKIE-1", 18}, {"\0\0", 2}, {".\20\347O$\30>\33\377\271Y\223\346\213\361\"", 16}, {"", 0}], 6) = 48
+recvfrom(26, 0x32b517bf1320, 8, 0, 0, 0) = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=26, events=POLLIN}], 1, 4294967295) = 1 ([{fd=26, revents=POLLIN}])
+recvfrom(26, "\1\0\v\0\0\0\253\0", 8, 0, NULL, NULL) = 8
+recvfrom(26, "\310}\257\0\0\0\240\4\377\377\37\0\0\1\0\0\24\0\377\377\1\7\0\0  \10\377\0\0\0\0"..., 684, 0, NULL, NULL) = 684
+poll([{fd=26, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=26, revents=POLLOUT}])
+writev(26, [{"\20\0\5\0\f\0\0\0PULSE_SERVER", 20}], 1) = 20
+poll([{fd=26, events=POLLIN}], 1, 4294967295) = 1 ([{fd=26, revents=POLLIN}])
+recvmsg(26, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\1\0\0\0\0\0\212\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=26, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=26, revents=POLLOUT}])
+writev(26, [{"\24\0\6\0\235\0\0\0\212\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+poll([{fd=26, events=POLLIN}], 1, 4294967295) = 1 ([{fd=26, revents=POLLIN}])
+recvmsg(26, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\2\0\21\0\0\0\37\0\0\0\0\0\0\0B\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 100
+poll([{fd=26, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=26, revents=POLLOUT}])
+writev(26, [{"\20\0\6\0\20\0\0\0PULSE_SESSION_ID", 24}], 1) = 24
+poll([{fd=26, events=POLLIN}], 1, 4294967295) = 1 ([{fd=26, revents=POLLIN}])
+recvmsg(26, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\3\0\0\0\0\0\223\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=26, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=26, revents=POLLOUT}])
+writev(26, [{"\24\0\6\0\235\0\0\0\223\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+poll([{fd=26, events=POLLIN}], 1, 4294967295) = 1 ([{fd=26, revents=POLLIN}])
+recvmsg(26, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\4\0\1\0\0\0\37\0\0\0\0\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 36
+poll([{fd=26, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=26, revents=POLLOUT}])
+writev(26, [{"\20\0\5\0\n\0\0\0PULSE_SINK\0\0", 20}], 1) = 20
+poll([{fd=26, events=POLLIN}], 1, 4294967295) = 1 ([{fd=26, revents=POLLIN}])
+recvmsg(26, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\5\0\0\0\0\0\213\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=26, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=26, revents=POLLOUT}])
+writev(26, [{"\24\0\6\0\235\0\0\0\213\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+poll([{fd=26, events=POLLIN}], 1, 4294967295) = 1 ([{fd=26, revents=POLLIN}])
+recvmsg(26, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=26, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=26, revents=POLLOUT}])
+writev(26, [{"\20\0\5\0\f\0\0\0PULSE_SOURCE", 20}], 1) = 20
+poll([{fd=26, events=POLLIN}], 1, 4294967295) = 1 ([{fd=26, revents=POLLIN}])
+recvmsg(26, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\7\0\0\0\0\0\214\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=26, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=26, revents=POLLOUT}])
+writev(26, [{"\24\0\6\0\235\0\0\0\214\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+poll([{fd=26, events=POLLIN}], 1, 4294967295) = 1 ([{fd=26, revents=POLLIN}])
+recvmsg(26, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=26, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=26, revents=POLLOUT}])
+writev(26, [{"\20\0\5\0\f\0\0\0PULSE_COOKIE", 20}], 1) = 20
+poll([{fd=26, events=POLLIN}], 1, 4294967295) = 1 ([{fd=26, revents=POLLIN}])
+recvmsg(26, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\t\0\0\0\0\0\215\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=26, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=26, revents=POLLOUT}])
+writev(26, [{"\24\0\6\0\235\0\0\0\215\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+poll([{fd=26, events=POLLIN}], 1, 4294967295) = 1 ([{fd=26, revents=POLLIN}])
+recvmsg(26, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\n\0\200\0\0\0\37\0\0\0\0\0\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 544
+shutdown(26, SHUT_RDWR)                 = 0
+close(26)                               = 0
+openat(AT_FDCWD, "/dev/shm/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 26
+getdents(26, /* 11 entries */, 32768)   = 416

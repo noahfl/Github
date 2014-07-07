@@ -1,0 +1,75 @@
+write(1, "</script>\n", 10)             = 10
+write(1, "<!-- MarkAF -->\n", 16)       = 16
+write(1, "\n", 1)                       = 1
+write(1, "      \n", 7)                 = 7
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "1706\r\n\n        \n\n\n\n\n\n\n<div style"..., 16384, 0, NULL, NULL) = 2720
+write(1, "\n        \n\n\n\n\n\n\n<div style=\"disp"..., 1024) = 1024
+write(1, "-prime-tooltip\">\n    <div class="..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ed nav_subcat_link nav_pop_li\"><"..., 16384, 0, NULL, NULL) = 3182
+write(1, "s=\"nav_taglined nav_subcat_link "..., 1024) = 1024
+write(1, "s and more</div></li></ul></div>"..., 2048) = 2048
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "2000\r\nav_item\">Learn More About "..., 16384, 0, NULL, NULL) = 1360
+write(1, "v_taglined nav_subcat_link nav_p"..., 1024) = 1024
+write(1, "li class=\"nav_first nav_taglined"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "_taglined nav_subcat_link nav_po"..., 16384, 0, NULL, NULL) = 1360
+write(1, "class=\"nav_tag\">Install on your "..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "vers, chargers, sleeves and more"..., 16384, 0, NULL, NULL) = 1360
+write(1, "><div class=\"nav_tag\">The best d"..., 1024) = 1024
+write(1, "th Prime, Kindle owners read for"..., 54) = 54
+write(1, "<ul class=\"nav_browse_ul nav_bro"..., 46) = 46
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ef=\"/gp/digital/fiona/manage\" cl"..., 16384, 0, NULL, NULL) = 1360
+write(1, "<li class=\"nav_pop_li nav_browse"..., 1024) = 1024
+write(1, "\"nav_first nav_taglined nav_subc"..., 776) = 776
+write(1, "<ul class=\"nav_browse_ul nav_bro"..., 46) = 46
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "9191\" class=\"nav_a nav_item\">Ins"..., 16384, 0, NULL, NULL) = 9969
+write(1, "<li class=\"nav_pop_li nav_browse"..., 1024) = 1024
+write(1, "/div>\n<div id=\"nav_subcats_6\" da"..., 1024) = 1024
+write(1, "nt Video</a></li><li class=\"nav_"..., 158) = 158
+write(1, "<div id=\"nav_subcats_7\" data-nav"..., 1024) = 1024
+write(1, "oks</a></li><li class=\"nav_pop_l"..., 3072) = 3072
+write(1, "ode=502394\" class=\"nav_a nav_ite"..., 1024) = 1024
+write(1, "ronics Accessories</a></li><li c"..., 1024) = 1024
+write(1, "sign-download-business-education"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "</li><li class=\"nav_subcat_link "..., 16384, 0, NULL, NULL) = 11925
+write(1, "link nav_pop_li\"><a href=\"/kitch"..., 1024) = 1024
+write(1, "class=\"nav_subcat_link nav_pop_l"..., 316) = 316
+write(1, "<ul class=\"nav_browse_ul nav_bro"..., 46) = 46
+write(1, "<li class=\"nav_pop_li nav_browse"..., 1024) = 1024
+write(1, "_subcats_11\" data-nav-promo-id=\""..., 7168) = 7168
+write(1, "s=\"nav_pop_li nav_browse_cat_hea"..., 1024) = 1024
+write(1, "/a></li><li class=\"nav_subcat_li"..., 1024) = 1024
+write(1, "_subcat_link nav_pop_li\"><a href"..., 236) = 236
+write(1, "\n", 1)                       = 1
+write(1, "    </div>\n", 11)            = 11
+write(1, "    <div class=\"nav_subcats_div\""..., 40) = 40
+write(1, "    <div class=\"nav_subcats_div "..., 57) = 57
+write(1, "  </div>\n", 9)               = 9
+write(1, "  <div id=\"nav_cats_wrap\" class="..., 51) = 51
+write(1, "    <ul id=\"nav_cats\" class=\"nav"..., 45) = 45
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "op_li nav_cat\" id=\"nav_cat_5\"> K"..., 16384, 0, NULL, NULL) = 5440
+write(1, "      <li class=\"nav_first nav_p"..., 1024) = 1024
+write(1, " id=\"nav_cat_10\">Home, Garden & "..., 601) = 601
+write(1, "    </ul>\n", 10)             = 10
+write(1, "    <div id=\"nav_cat_indicator\" "..., 58) = 58
+write(1, "  </div>\n", 9)               = 9
+write(1, "</div>\n", 7)                 = 7
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1

@@ -1,0 +1,75 @@
+read(51, "0x060100\n", 1024)            = 9
+close(51)                               = 0
+open("/sys/bus/pci/devices/0000:00:1f.2/resource", O_RDONLY) = 51
+fstat(51, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6af153d000
+read(51, "0x0000000000002088 0x00000000000"..., 4096) = 741
+close(51)                               = 0
+munmap(0x7f6af153d000, 4096)            = 0
+open("/sys/bus/pci/devices/0000:00:1f.2/irq", O_RDONLY) = 51
+read(51, "43\n", 1024)                  = 3
+close(51)                               = 0
+open("/sys/bus/pci/devices/0000:00:1f.2/vendor", O_RDONLY) = 51
+read(51, "0x8086\n", 1024)              = 7
+close(51)                               = 0
+open("/sys/bus/pci/devices/0000:00:1f.2/device", O_RDONLY) = 51
+read(51, "0x1e03\n", 1024)              = 7
+close(51)                               = 0
+open("/sys/bus/pci/devices/0000:00:1f.2/class", O_RDONLY) = 51
+read(51, "0x010601\n", 1024)            = 9
+close(51)                               = 0
+open("/sys/bus/pci/devices/0000:00:1f.3/resource", O_RDONLY) = 51
+fstat(51, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6af153d000
+read(51, "0x00000000e041d000 0x00000000e04"..., 4096) = 741
+close(51)                               = 0
+munmap(0x7f6af153d000, 4096)            = 0
+open("/sys/bus/pci/devices/0000:00:1f.3/irq", O_RDONLY) = 51
+read(51, "0\n", 1024)                   = 2
+close(51)                               = 0
+open("/sys/bus/pci/devices/0000:00:1f.3/vendor", O_RDONLY) = 51
+read(51, "0x8086\n", 1024)              = 7
+close(51)                               = 0
+open("/sys/bus/pci/devices/0000:00:1f.3/device", O_RDONLY) = 51
+read(51, "0x1e22\n", 1024)              = 7
+close(51)                               = 0
+open("/sys/bus/pci/devices/0000:00:1f.3/class", O_RDONLY) = 51
+read(51, "0x0c0500\n", 1024)            = 9
+close(51)                               = 0
+open("/sys/bus/pci/devices/0000:00:1f.6/resource", O_RDONLY) = 51
+fstat(51, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6af153d000
+read(51, "0x00000000e041e000 0x00000000e04"..., 4096) = 741
+close(51)                               = 0
+munmap(0x7f6af153d000, 4096)            = 0
+open("/sys/bus/pci/devices/0000:00:1f.6/irq", O_RDONLY) = 51
+read(51, "0\n", 1024)                   = 2
+close(51)                               = 0
+open("/sys/bus/pci/devices/0000:00:1f.6/vendor", O_RDONLY) = 51
+read(51, "0x8086\n", 1024)              = 7
+close(51)                               = 0
+open("/sys/bus/pci/devices/0000:00:1f.6/device", O_RDONLY) = 51
+read(51, "0x1e24\n", 1024)              = 7
+close(51)                               = 0
+open("/sys/bus/pci/devices/0000:00:1f.6/class", O_RDONLY) = 51
+read(51, "0x118000\n", 1024)            = 9
+close(51)                               = 0
+getdents(50, /* 0 entries */, 32768)    = 0
+madvise(0x32b517d25000, 36864, MADV_DONTNEED) = 0
+close(50)                               = 0
+madvise(0x32b517d25000, 430080, MADV_DONTNEED) = 0
+munmap(0x7f6ae3d40000, 2143376)         = 0
+poll([{fd=14, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=14, revents=POLLOUT}])
+writev(14, [{"b\t\5\0\n\0\0\0", 8}, {"NV-CONTROL", 10}, {"\0\0", 2}], 3) = 20
+poll([{fd=14, events=POLLIN}], 1, 4294967295) = 1 ([{fd=14, revents=POLLIN}])
+recvmsg(14, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\37\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(14, 0x7fff817804b0, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(14, 0x7fff817804b0, 0)          = -1 EAGAIN (Resource temporarily unavailable)
+--- SIGPROF {si_signo=SIGPROF, si_code=SI_KERNEL} ---
+madvise(0x32b517c8e000, 28672, MADV_DONTNEED) = 0
+madvise(0x32b517c2d000, 32768, MADV_DONTNEED) = 0
+uname({sys="Linux", node="doug", ...})  = 0
+uname({sys="Linux", node="doug", ...})  = 0
+write(49, "\0", 1)                      = 1
+futex(0x32b517bbfbf0, FUTEX_WAKE_PRIVATE, 1) = 0
+write(49, "\0", 1)                      = 1

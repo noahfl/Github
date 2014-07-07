@@ -1,0 +1,75 @@
+poll([{fd=26, events=POLLIN}], 1, 4294967295) = 1 ([{fd=26, revents=POLLIN}])
+recvmsg(26, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\t\0\0\0\0\0\215\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+poll([{fd=26, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=26, revents=POLLOUT}])
+writev(26, [{"\24\0\6\0\235\0\0\0\215\1\0\0\37\0\0\0\0\0\0\0\377\3\0\0", 24}], 1) = 24
+poll([{fd=26, events=POLLIN}], 1, 4294967295) = 1 ([{fd=26, revents=POLLIN}])
+recvmsg(26, {msg_name(0)=NULL, msg_iov(1)=[{"\1\10\n\0\200\0\0\0\37\0\0\0\0\0\0\0\0\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 544
+shutdown(26, SHUT_RDWR)                 = 0
+close(26)                               = 0
+openat(AT_FDCWD, "/dev/shm/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 26
+getdents(26, /* 11 entries */, 32768)   = 416
+statfs("/dev/shm/", {f_type=0x1021994, f_bsize=4096, f_blocks=1006646, f_bfree=983399, f_bavail=983399, f_files=1006646, f_ffree=1006447, f_fsid={0, 0}, f_namelen=255, f_frsize=4096}) = 0
+futex(0x7f842588f370, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/dev/shm/pulse-shm-924630895", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 27
+fstat(27, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 27, 0) = 0x7f8410458000
+close(27)                               = 0
+kill(16278, SIG_0)                      = 0
+munmap(0x7f8410458000, 67112960)        = 0
+open("/dev/shm/pulse-shm-3808294954", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 27
+fstat(27, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 27, 0) = 0x7f8410458000
+close(27)                               = 0
+kill(3907, SIG_0)                       = 0
+munmap(0x7f8410458000, 67112960)        = 0
+open("/dev/shm/pulse-shm-1474684270", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 27
+fstat(27, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 27, 0) = 0x7f8410458000
+close(27)                               = 0
+kill(3071, SIG_0)                       = 0
+munmap(0x7f8410458000, 67112960)        = 0
+open("/dev/shm/pulse-shm-952010895", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 27
+fstat(27, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 27, 0) = 0x7f8410458000
+close(27)                               = 0
+kill(3071, SIG_0)                       = 0
+munmap(0x7f8410458000, 67112960)        = 0
+open("/dev/shm/pulse-shm-901573078", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 27
+fstat(27, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 27, 0) = 0x7f8410458000
+close(27)                               = 0
+kill(2737, SIG_0)                       = 0
+munmap(0x7f8410458000, 67112960)        = 0
+open("/dev/shm/pulse-shm-3683541637", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 27
+fstat(27, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 27, 0) = 0x7f8410458000
+close(27)                               = 0
+kill(2737, SIG_0)                       = 0
+munmap(0x7f8410458000, 67112960)        = 0
+open("/dev/shm/pulse-shm-4072059050", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 27
+fstat(27, {st_mode=S_IFREG|0700, st_size=67108904, ...}) = 0
+mmap(NULL, 67112960, PROT_READ, MAP_SHARED, 27, 0) = 0x7f8410458000
+close(27)                               = 0
+kill(2767, SIG_0)                       = 0
+munmap(0x7f8410458000, 67112960)        = 0
+getdents(26, /* 0 entries */, 32768)    = 0
+madvise(0x17c06efe5000, 327680, MADV_DONTNEED) = 0
+close(26)                               = 0
+open("/dev/urandom", O_RDONLY|O_NOCTTY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+read(26, "o\2407\31", 4)                = 4
+close(26)                               = 0
+open("/dev/shm/pulse-shm-423075951", O_RDWR|O_CREAT|O_EXCL|O_NOFOLLOW|O_CLOEXEC, 0700) = 26
+ftruncate(26, 67108904)                 = 0
+mmap(NULL, 67112960, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_NORESERVE, 26, 0) = 0x7f8410458000
+close(26)                               = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/pulseaudio.mo", O_RDONLY) = -1 ENOENT (No such file or directory)

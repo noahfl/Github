@@ -1,0 +1,75 @@
+open("/usr/local/share/locale/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/share/locale/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/share/locale/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/share/locale/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/glib20.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/pango/1.8.0/module-files.d", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/pango/1.8.0/modules.cache", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/pango/1.8.0/modules.cache", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/pango/pango.modules", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/pango/pango.modules", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/fonts/fonts.conf", R_OK)   = 0
+stat("/etc/fonts/fonts.conf", {st_mode=S_IFREG|0644, st_size=5497, ...}) = 0
+open("/etc/fonts/fonts.conf", O_RDONLY|O_CLOEXEC) = 11
+read(11, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 5497
+access("/etc/fonts/conf.d", R_OK)       = 0
+stat("/etc/fonts/conf.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 12
+getdents(12, /* 65 entries */, 32768)   = 2960
+getdents(12, /* 0 entries */, 32768)    = 0
+access("/etc/fonts/conf.d/10-antialias.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/10-antialias.conf", {st_mode=S_IFREG|0644, st_size=223, ...}) = 0
+open("/etc/fonts/conf.d/10-antialias.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 223
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/10-hinting-slight.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/10-hinting-slight.conf", {st_mode=S_IFREG|0644, st_size=229, ...}) = 0
+open("/etc/fonts/conf.d/10-hinting-slight.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 229
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/10-hinting.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/10-hinting.conf", {st_mode=S_IFREG|0644, st_size=212, ...}) = 0
+open("/etc/fonts/conf.d/10-hinting.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 212
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", {st_mode=S_IFREG|0644, st_size=1952, ...}) = 0
+open("/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1952
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/11-lcdfilter-default.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/11-lcdfilter-default.conf", {st_mode=S_IFREG|0644, st_size=526, ...}) = 0
+open("/etc/fonts/conf.d/11-lcdfilter-default.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 526
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans-mono.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans-mono.conf", {st_mode=S_IFREG|0644, st_size=874, ...}) = 0
+open("/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans-mono.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 874
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans.conf", {st_mode=S_IFREG|0644, st_size=864, ...}) = 0
+open("/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 864
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-serif.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-serif.conf", {st_mode=S_IFREG|0644, st_size=866, ...}) = 0
+open("/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-serif.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 866
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf", {st_mode=S_IFREG|0644, st_size=866, ...}) = 0
+open("/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf", O_RDONLY|O_CLOEXEC) = 13

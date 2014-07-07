@@ -1,0 +1,75 @@
+read(3, "-decoration:none; }\ndiv.leftnav_"..., 2920) = 2920
+write(4, "-decoration:none; }\ndiv.leftnav_"..., 2920) = 2920
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n3bc\r\npx solid #DDDDDD;\n  paddi"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "3bc\r\npx solid #DDDDDD;\n  padding"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "3bc\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "px solid #DDDDDD;\n  padding-bott"..., 956) = 956
+write(4, "px solid #DDDDDD;\n  padding-bott"..., 956) = 956
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n5af\r\n;var BtechRSA={eDisplaySh"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "5af\r\n;var BtechRSA={eDisplayShop"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5af\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, ";var BtechRSA={eDisplayShopAllOn"..., 1455) = 1455
+write(4, ";var BtechRSA={eDisplayShopAllOn"..., 1455) = 1455
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n1bf\r\n\n<script type=\"text/javas"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "1bf\r\n\n<script type=\"text/javascr"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1bf\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\n<script type=\"text/javascript\">"..., 447) = 447
+write(4, "\n<script type=\"text/javascript\">"..., 447) = 447
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 806016})
+recvfrom(3, "a4\r\n\n      \n    \n    \n      \n   "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "a4\r\n", 4)                    = 4
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "\n      \n    \n    \n      \n      \n"..., 164) = 164
+write(4, "\n      \n    \n    \n      \n      \n"..., 164) = 164
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999994})
+recvfrom(3, "\r\n14\r\n\n\n\n      \n\n\n\n\n      \r\n", 127, MSG_PEEK, NULL, NULL) = 28
+read(3, "\r\n", 2)                      = 2
+write(2, "\r", 1)                       = 1
+write(2, "    [ <=>                       "..., 79) = 79
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "14\r\n\n\n\n      \n\n\n\n\n      \r\n", 127, MSG_PEEK, NULL, NULL) = 26
+read(3, "14\r\n", 4)                    = 4
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\n\n\n      \n\n\n\n\n      ", 20) = 20
+write(4, "\n\n\n      \n\n\n\n\n      ", 20) = 20
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "b62\r\n\n\n\n\n\n      \n    \n<!--btech-"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "b62\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\n\n\n\n\n      \n    \n<!--btech-iplc-"..., 2914) = 1355
+write(4, "\n\n\n\n\n      \n    \n<!--btech-iplc-"..., 1355) = 1355
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949711})
+read(3, "nal Care, Beauty, Home, Garden, "..., 1559) = 1559
+write(4, "nal Care, Beauty, Home, Garden, "..., 1559) = 1559
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\nc78\r\nh2.t10,h3.t10,h4.t10,h5.t"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "c78\r\nh2.t10,h3.t10,h4.t10,h5.t10"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "c78\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "h2.t10,h3.t10,h4.t10,h5.t10,h6.t"..., 3192) = 3192
+write(4, "h2.t10,h3.t10,h4.t10,h5.t10,h6.t"..., 3192) = 3192
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\nb62\r\n59_.png\" style=\"display:n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "b62\r\n59_.png\" style=\"display:non"..., 127, MSG_PEEK, NULL, NULL) = 127

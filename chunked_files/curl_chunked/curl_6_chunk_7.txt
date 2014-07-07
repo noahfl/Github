@@ -1,0 +1,75 @@
+write(1, "          <a class=\"prev previou"..., 131) = 131
+write(1, "     </div>   \n", 15)        = 15
+write(1, "\n", 1)                       = 1
+write(1, "     <div id=\"carouselSlideLinks"..., 35) = 35
+write(1, "     \n", 6)                  = 6
+write(1, "          \n", 11)            = 11
+write(1, "          \n", 11)            = 11
+write(1, "               <img src=\"/common"..., 100) = 100
+write(1, "          \n", 11)            = 11
+write(1, "          \n", 11)            = 11
+write(1, "          \n", 11)            = 11
+write(1, "     \n", 6)                  = 6
+write(1, "          \n", 11)            = 11
+write(1, "          \n", 11)            = 11
+write(1, "          \n", 11)            = 11
+poll([{fd=3, events=POLLIN}], 1, 135)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "          <img src=\"/common/imag"..., 9765, 0, NULL, NULL) = 1368
+write(1, "               <img src=\"/common"..., 1024) = 1024
+write(1, "class=\"par parsys\"><div class=\"n"..., 53) = 53
+write(1, "\n", 1)                       = 1
+write(1, "<!-- Timer (start) -->\n", 23) = 23
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "    <div class=\"channel about\">\n", 32) = 32
+write(1, "\t<h3><a href=\"/nyu/en/about.html"..., 53) = 53
+write(1, "\n", 1)                       = 1
+write(1, "\t<ul>\n", 6)                 = 6
+write(1, "\t\t<li><a href=\"/nyu/en/about/lea"..., 127) = 127
+poll([{fd=3, events=POLLIN}], 1, 94)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, ".html\">University<br />Initiativ"..., 8397, 0, NULL, NULL) = 1368
+write(1, "\t\t<li><a href=\"/nyu/en/about/uni"..., 1024) = 1024
+write(1, "\t<li><a href=\"http://www.nyu.edu"..., 80) = 80
+write(1, "\t\t<li><a href=\"http://www.nyu.ed"..., 61) = 61
+write(1, "\t\t<li><a href=\"http://www.nyu.ed"..., 65) = 65
+write(1, "\t\t<li><a href=\"http://www.nyu.ed"..., 65) = 65
+write(1, "\t\t<li><a href=\"http://www.nyu.ed"..., 74) = 74
+poll([{fd=3, events=POLLIN}], 1, 91)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "college</a></li>\t\t\n\t\t\n\t</ul>\n</d"..., 7029, 0, NULL, NULL) = 7029
+write(1, "\t\t<li><a href=\"http://www.nyu.ed"..., 1024) = 1024
+write(1, "</ul>\n</div>\t\t\n\n<div class=\"chan"..., 5120) = 5120
+write(1, "et=\"_blank\" title=\"NYU on Twitte"..., 189) = 189
+write(1, "</ul>\n", 6)                  = 6
+write(1, "<!--/social footer links-->\n", 28) = 28
+write(1, "\n", 1)                       = 1
+write(1, "    </div>\n", 11)            = 11
+write(1, "    <!-- END FOOTER -->\n", 24) = 24
+write(1, "\n", 1)                       = 1
+write(1, "    <script type=\"text/javascrip"..., 65) = 65
+write(1, "\n", 1)                       = 1
+write(1, "<!-- End Footer --> \n", 21)  = 21
+write(1, "\n", 1)                       = 1
+write(1, "        </div>\n", 15)        = 15
+write(1, "        <!-- Urchin and Optional"..., 71) = 71
+write(1, "        \n", 9)               = 9
+write(1, "            \n", 13)          = 13
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "<!-- Begin HTML stats included--"..., 34) = 34
+write(1, "<div id='analyticsSnippet'>\n", 28) = 28
+write(1, "\n", 1)                       = 1
+write(1, "</div>\n", 7)                 = 7
+write(1, "<!-- End HTML stats -->\n", 24) = 24
+write(1, "            <script type=\"text/j"..., 44) = 44
+write(1, "var topUrl = window.top.location"..., 39) = 39
+write(1, "if(topUrl.indexOf('\\/cf#\\/') == "..., 37) = 37
+write(1, "    var UH = UH || [];\n", 23) = 23
+write(1, "    UH.push([ '_trackPageview' ]"..., 35) = 35
+write(1, "    (function(d){\n", 18)     = 18
+write(1, "        var s = d.createElement("..., 93) = 93
+write(1, "        d.body.appendChild(s);\n", 31) = 31
+write(1, "    })\n", 7)                 = 7
+write(1, "    (document)\n", 15)        = 15

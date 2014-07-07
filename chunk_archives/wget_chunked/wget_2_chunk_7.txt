@@ -1,0 +1,75 @@
+read(3, "/div><div class=\" thing id-t3_28"..., 6539) = 1448
+write(4, "/div><div class=\" thing id-t3_28"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949784})
+read(3, "first_gif_ever_was_wellreceived_"..., 5091) = 1448
+write(4, "first_gif_ever_was_wellreceived_"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949790})
+read(3, "st. Much respect.</a>&#32;<span "..., 3643) = 1448
+write(4, "st. Much respect.</a>&#32;<span "..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949659})
+read(3, "s=\"score dislikes\">3076</div><di"..., 2195) = 1448
+write(4, "s=\"score dislikes\">3076</div><di"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 941714})
+read(3, "\" >share</a><a class=\"option \" h"..., 747) = 747
+write(4, "\" >share</a><a class=\"option \" h"..., 747) = 747
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n00004000\r\nquired\" onclick=\"$(t"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "00004000\r\nquired\" onclick=\"$(thi"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "00004000\r\n", 10)             = 10
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "quired\" onclick=\"$(this).vote(r."..., 8192) = 2137
+write(4, "quired\" onclick=\"$(this).vote(r."..., 2137) = 2137
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948191})
+read(3, "ent)\" role=\"button\" aria-label=\""..., 8192) = 1448
+write(4, "ent)\" role=\"button\" aria-label=\""..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949666})
+read(3, " \" href=\"#\">cancel</a></span></l"..., 8192) = 1448
+write(4, " \" href=\"#\">cancel</a></span></l"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949708})
+read(3, "ww.reddit.com/user/keirbrow\" cla"..., 8192) = 1448
+write(4, "ww.reddit.com/user/keirbrow\" cla"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949197})
+read(3, "ttps://www.youtube.com/watch?v=X"..., 8192) = 1448
+write(4, "ttps://www.youtube.com/watch?v=X"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948820})
+read(3, " &lt;iframe src=&quot;//www.redd"..., 8192) = 1448
+write(4, " &lt;iframe src=&quot;//www.redd"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949202})
+read(3, "r/IAmA/\">self.IAmA</a>)</span></"..., 7007) = 1448
+write(4, "r/IAmA/\">self.IAmA</a>)</span></"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949698})
+read(3, "n-required\" onclick=\"$(this).vot"..., 5559) = 1448
+write(4, "n-required\" onclick=\"$(this).vot"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949823})
+read(3, "f_the/\" class=\"comments may-blan"..., 4111) = 1448
+write(4, "f_the/\" class=\"comments may-blan"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 937441})
+read(3, "main\">(<a href=\"/r/LifeProTips/\""..., 2663) = 1448
+write(4, "main\">(<a href=\"/r/LifeProTips/\""..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949949})
+read(3, "dcol unvoted\" ><div class=\"arrow"..., 1215) = 1215
+write(4, "dcol unvoted\" ><div class=\"arrow"..., 1215) = 1215
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n00006000\r\nsubreddit hover may-"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "00006000\r\nsubreddit hover may-bl"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "00006000\r\n", 10)             = 10
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "subreddit hover may-blank\" >/r/I"..., 8192) = 221
+write(4, "subreddit hover may-blank\" >/r/I"..., 221) = 221
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946732})
+read(3, "101 comments</a></li><li class=\""..., 8192) = 1448
+write(4, "101 comments</a></li><li class=\""..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949890})
+read(3, "-kasem-dies-at-82\" tabindex=\"1\" "..., 8192) = 1448
+write(4, "-kasem-dies-at-82\" tabindex=\"1\" "..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949879})
+read(3, "d\" onclick=\"$(this).vote(r.confi"..., 8192) = 1448
+write(4, "d\" onclick=\"$(this).vote(r.confi"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949730})
+read(3, "</a><a class=\"option \" href=\"#\">"..., 8192) = 1448
+write(4, "</a><a class=\"option \" href=\"#\">"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})

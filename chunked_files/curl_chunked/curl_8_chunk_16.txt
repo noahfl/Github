@@ -1,0 +1,75 @@
+write(1, "\n", 1)                       = 1
+write(1, "        };\n", 11)            = 11
+write(1, "\n", 1)                       = 1
+write(1, "        // Constructs a timer to"..., 53) = 53
+write(1, "        var constructTooltipTime"..., 50) = 50
+write(1, "            return setTimeout(fu"..., 44) = 44
+write(1, "                if (signInPopove"..., 37) = 37
+write(1, "                    if (popoverC"..., 104) = 104
+write(1, "                        popoverC"..., 69) = 69
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "           dismissPopover(signIn"..., 16384, 0, NULL, NULL) = 6481
+write(1, "                            dism"..., 1024) = 1024
+write(1, " PRIOR to setting src field for "..., 4096) = 4096
+write(1, "\n", 1)                       = 1
+write(1, "  font-family: arial,verdana,hel"..., 51) = 51
+write(1, "  font-size: 11px;\n", 19)    = 19
+write(1, "  line-height: 11px;\n", 21)  = 21
+write(1, "  font-weight: bold;\n", 21)  = 21
+write(1, "  white-space: nowrap;\n", 23) = 23
+write(1, "  background-color: #ffffff;\n", 29) = 29
+write(1, "}\n", 2)                      = 2
+write(1, "\n", 1)                       = 1
+write(1, ".gwcswWrap .gwcswNav table tr td"..., 39) = 39
+write(1, "{\n", 2)                      = 2
+write(1, "  color: #121212;\n", 18)     = 18
+write(1, "}\n", 2)                      = 2
+write(1, "\n", 1)                       = 1
+write(1, ".gwcswWrap .gwcswNav table tr td"..., 42) = 42
+write(1, "{\n", 2)                      = 2
+write(1, "  color: #E47911;\n", 18)     = 18
+write(1, "  cursor: default;\n", 19)    = 19
+write(1, "}\n", 2)                      = 2
+write(1, "\n", 1)                       = 1
+write(1, ".gwcswWrap .gwcswNav table tr td"..., 45) = 45
+write(1, "{\n", 2)                      = 2
+write(1, "  padding-left: 0;\n}\n\n.gwcswWrap"..., 1004) = 1004
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "b68\r\nswWrap .gwcswRightArrow\n{\n "..., 16384, 0, NULL, NULL) = 1360
+write(1, ".gwcswWrap .gwcswRightArrow\n{\n  "..., 1024) = 1024
+write(1, "a,helvetica,sans-serif;\n", 24) = 24
+write(1, "  white-space: nowrap;\n", 23) = 23
+write(1, "}\n", 2)                      = 2
+write(1, "\n", 1)                       = 1
+write(1, "#gwcswTriDown\n", 14)         = 14
+write(1, "{\n", 2)                      = 2
+write(1, "  visibility: hidden;\n", 22) = 22
+write(1, "  position:absolute;\n", 21)  = 21
+write(1, "  width: 13px;\n", 15)        = 15
+write(1, "  height: 7px;\n", 15)        = 15
+write(1, "  overflow: hidden;\n", 20)   = 20
+write(1, "}\n", 2)                      = 2
+write(1, "\n", 1)                       = 1
+write(1, "#gwcswTriDown img\n", 18)     = 18
+write(1, "{\n", 2)                      = 2
+write(1, "  width: 13px;\n", 15)        = 15
+write(1, "  height: 7px;\n", 15)        = 15
+write(1, "}\n", 2)                      = 2
+write(1, "</style>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "<!--[if lte IE 8]>\n", 19)    = 19
+write(1, "<style type=\"text/css\">\n", 24) = 24
+write(1, "#gwcswTooltip\n", 14)         = 14
+write(1, "{\n", 2)                      = 2
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "startColorstr=#A6000000, endColo"..., 16384, 0, NULL, NULL) = 4287
+write(1, "  filter:progid:DXImageTransform"..., 1024) = 1024
+write(1, "uery(\"<tbody>\").append(jQuery(\"<"..., 1024) = 1024
+write(1, "]={};U[i].aImgSrc=[];U[i].uePubl"..., 2048) = 2048
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, ";T.hover(function(){T.find(\"img\""..., 16384, 0, NULL, NULL) = 7006
+write(1, ",250)}else{v()}}function B(){var"..., 1024) = 1024

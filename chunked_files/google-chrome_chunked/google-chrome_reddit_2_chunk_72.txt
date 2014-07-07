@@ -1,0 +1,75 @@
+lseek(33, 10240, SEEK_SET)              = 10240
+read(33, "\n\0\0\0\1\3\364\0\3\364\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+lseek(33, 9216, SEEK_SET)               = 9216
+read(33, "\r\0\0\0\1\3\237\0\3\237\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+fcntl(33, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(33, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(33, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(33, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/home/bearface/.pki/nssdb/key4.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(33, {st_mode=S_IFREG|0600, st_size=11264, ...}) = 0
+lseek(33, 24, SEEK_SET)                 = 24
+read(33, "\0\0\0\2\0\0\0\v\0\0\0\0\0\0\0\0", 16) = 16
+fstat(33, {st_mode=S_IFREG|0600, st_size=11264, ...}) = 0
+access("/home/bearface/.pki/nssdb/key4.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(33, {st_mode=S_IFREG|0600, st_size=11264, ...}) = 0
+fcntl(33, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(33, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(33, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(33, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/home/bearface/.pki/nssdb/key4.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(33, {st_mode=S_IFREG|0600, st_size=11264, ...}) = 0
+lseek(33, 24, SEEK_SET)                 = 24
+read(33, "\0\0\0\2\0\0\0\v\0\0\0\0\0\0\0\0", 16) = 16
+fstat(33, {st_mode=S_IFREG|0600, st_size=11264, ...}) = 0
+access("/home/bearface/.pki/nssdb/key4.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(33, {st_mode=S_IFREG|0600, st_size=11264, ...}) = 0
+fcntl(33, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(32, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(32, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(32, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/home/bearface/.pki/nssdb/cert9.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(32, {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+lseek(32, 24, SEEK_SET)                 = 24
+read(32, "\0\0\0\1\0\0\0\t\0\0\0\0\0\0\0\0", 16) = 16
+fstat(32, {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+access("/home/bearface/.pki/nssdb/cert9.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(32, {st_mode=S_IFREG|0600, st_size=9216, ...}) = 0
+lseek(32, 1024, SEEK_SET)               = 1024
+read(32, "\r\0\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+fcntl(32, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+open("/home/bearface/.pki/nssdb/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/google/chrome/lib/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 34
+fstat(34, {st_mode=S_IFREG|0644, st_size=116741, ...}) = 0
+mmap(NULL, 116741, PROT_READ, MAP_PRIVATE, 34, 0) = 0x7f3663815000
+close(34)                               = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/tls/x86_64/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/tls/x86_64", 0x7fff5ddff220) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/tls/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/tls", 0x7fff5ddff220) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/x86_64/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/x86_64", 0x7fff5ddff220) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+open("/usr/lib/x86_64-linux-gnu/tls/x86_64/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/tls/x86_64", 0x7fff5ddff220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/tls/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/tls", 0x7fff5ddff220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/x86_64/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/x86_64", 0x7fff5ddff220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=73728, ...}) = 0
+open("/lib/tls/x86_64/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/tls/x86_64", 0x7fff5ddff220) = -1 ENOENT (No such file or directory)
+open("/lib/tls/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/tls", 0x7fff5ddff220)        = -1 ENOENT (No such file or directory)
+open("/lib/x86_64/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64", 0x7fff5ddff220)     = -1 ENOENT (No such file or directory)
+open("/lib/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/tls/x86_64/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/tls/x86_64", 0x7fff5ddff220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/tls/libnssckbi.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)

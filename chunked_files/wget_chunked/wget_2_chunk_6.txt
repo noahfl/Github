@@ -1,0 +1,75 @@
+read(3, "/p><p class=\"tagline\">submitted&"..., 8192) = 1448
+write(4, "/p><p class=\"tagline\">submitted&"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948198})
+read(3, "re unvoted\">&bull;</div><div cla"..., 8192) = 1448
+write(4, "re unvoted\">&bull;</div><div cla"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948924})
+read(3, "</span></li></ul><div class=\"exp"..., 8192) = 1448
+write(4, "</span></li></ul><div class=\"exp"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949360})
+read(3, " id-t2_bhj23\" >gohtingqi1997</a>"..., 8192) = 1448
+write(4, " id-t2_bhj23\" >gohtingqi1997</a>"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949060})
+read(3, "href=\"/r/Showerthoughts/comments"..., 8192) = 1448
+write(4, "href=\"/r/Showerthoughts/comments"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949163})
+read(3, "ent\"></p><span class=\"rank\"></sp"..., 8192) = 1448
+write(4, "ent\"></p><span class=\"rank\"></sp"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949200})
+read(3, "reddit hover may-blank\" >/r/list"..., 8192) = 1448
+write(4, "reddit hover may-blank\" >/r/list"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949159})
+read(3, "ull;</div><div class=\"score disl"..., 8192) = 1448
+write(4, "ull;</div><div class=\"score disl"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949661})
+read(3, "ss=\"option \" href=\"#\">cancel</a>"..., 8192) = 1448
+write(4, "ss=\"option \" href=\"#\">cancel</a>"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949823})
+read(3, ";<time title=\"Mon Jun 16 04:19:4"..., 8192) = 1448
+write(4, ";<time title=\"Mon Jun 16 04:19:4"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949787})
+read(3, "v><div class=\"arrow down login-r"..., 8192) = 1448
+write(4, "v><div class=\"arrow down login-r"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949690})
+read(3, "v><div class=\"child\" ></div><div"..., 7519) = 1448
+write(4, "v><div class=\"child\" ></div><div"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949793})
+read(3, " buttons to view more.</p></div>"..., 6071) = 1448
+write(4, " buttons to view more.</p></div>"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949118})
+read(3, "0140615_rincremental/\" class=\"co"..., 4623) = 1448
+write(4, "0140615_rincremental/\" class=\"co"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949854})
+read(3, "</time>&#32;by&#32;<a href=\"http"..., 3175) = 1448
+write(4, "</time>&#32;by&#32;<a href=\"http"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949707})
+read(3, "ank \" href=\"http://imgur.com/7cJ"..., 1727) = 1448
+write(4, "ank \" href=\"http://imgur.com/7cJ"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949830})
+read(3, "odd link \" onclick=\"click_thing("..., 279) = 279
+write(4, "odd link \" onclick=\"click_thing("..., 279) = 279
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n00004000\r\ntton\" aria-label=\"up"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "00004000\r\ntton\" aria-label=\"upvo"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "00004000\r\n", 10)             = 10
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "tton\" aria-label=\"upvote\" tabind"..., 8192) = 2605
+write(4, "tton\" aria-label=\"upvote\" tabind"..., 2605) = 2605
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948205})
+read(3, ">A small town in Kentucky is buy"..., 8192) = 1448
+write(4, ">A small town in Kentucky is buy"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949839})
+read(3, "login-required\" onclick=\"$(this)"..., 8192) = 1448
+write(4, "login-required\" onclick=\"$(this)"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948833})
+read(3, "le\" style=\"\" ><a class=\"option a"..., 8192) = 1448
+write(4, "le\" style=\"\" ><a class=\"option a"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949316})
+read(3, "5 hours ago</time>&#32;by&#32;<a"..., 8192) = 1448
+write(4, "5 hours ago</time>&#32;by&#32;<a"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949951})
+read(3, "l=\"downvote\" tabindex=\"0\" ></div"..., 7987) = 1448
+write(4, "l=\"downvote\" tabindex=\"0\" ></div"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949737})

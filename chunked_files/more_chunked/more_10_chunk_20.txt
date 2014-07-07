@@ -1,0 +1,75 @@
+write(1, "\rsocket(PF_INET, SOCK_DGRAM|SOCK"..., 59) = 59
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(34%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rconnect(3, {sa_family=AF_INET, "..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(34%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r\")}, 16) = 0\33[K\n", 17)  = 17
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(34%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLOUT}], "..., 73) = 73
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(35%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rsendmmsg(3, {{{msg_name(0)=NULL"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(35%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rtube\\3com\\0\\0\\1\\0\"..., 33}], ms"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(35%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rNULL, msg_iov(1)=[{\"\\26\\311\\1\\0"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(35%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r 33}], msg_controllen=0, msg_fl"..., 67) = 67
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(35%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN}], 1"..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(35%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rioctl(3, FIONREAD, [231])      "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(35%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrecvfrom(3, \"\\26\\311\\201\\200\\0\\"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(36%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r48, 0, {sa_family=AF_INET, sin_"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(36%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r [16]) = 231\33[K\n", 17)   = 17
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(36%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rpoll([{fd=3, events=POLLIN}], 1"..., 72) = 72
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(36%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rioctl(3, FIONREAD, [379])      "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(36%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rrecvfrom(3, \"j\\r\\201\\200\\0\\1\\0\\"..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(36%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r, {sa_family=AF_INET, sin_port="..., 82) = 82
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(36%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\r) = 379\33[K\n", 12)        = 12
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(36%)\33[27m", 22) = 22
+read(2, "\n", 1)                        = 1
+write(1, "\rclose(3)                       "..., 45) = 45
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+write(1, "\33[7m--More--(36%)\33[27m", 22) = 22

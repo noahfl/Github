@@ -1,0 +1,75 @@
+close(3)                                = 0
+mprotect(0x7f2788f64000, 4096, PROT_READ) = 0
+mprotect(0x7f2789170000, 4096, PROT_READ) = 0
+munmap(0x7f278a45a000, 104667)          = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=104667, ...}) = 0
+mmap(NULL, 104667, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f278a45a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47760, ...}) = 0
+mmap(NULL, 2143784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2788b42000
+mprotect(0x7f2788b4d000, 2093056, PROT_NONE) = 0
+mmap(0x7f2788d4c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f2788d4c000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2788936000
+mprotect(0x7f2788941000, 2093056, PROT_NONE) = 0
+mmap(0x7f2788b40000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f2788b40000
+close(3)                                = 0
+mprotect(0x7f2788b40000, 4096, PROT_READ) = 0
+mprotect(0x7f2788d4c000, 4096, PROT_READ) = 0
+munmap(0x7f278a45a000, 104667)          = 0
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1832, ...}) = 0
+mmap(NULL, 1832, PROT_READ, MAP_SHARED, 3, 0) = 0x7f278a48b000
+lseek(3, 1832, SEEK_SET)                = 1832
+munmap(0x7f278a48b000, 1832)            = 0
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/group", O_RDONLY|O_CLOEXEC)  = 3
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=884, ...}) = 0
+mmap(NULL, 884, PROT_READ, MAP_SHARED, 3, 0) = 0x7f278a48b000
+lseek(3, 884, SEEK_SET)                 = 884
+munmap(0x7f278a48b000, 884)             = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/bearface/Pictures", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 7 entries */, 32768)     = 312
+lstat("/home/bearface/Pictures/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Pictures/.", "security.selinux", 0x11114f0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Pictures/.", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Pictures/.", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Pictures/variety-copied-wallpaper-cd640e3b03dc7a40fdb7e022da259e85.jpg", {st_mode=S_IFREG|0644, st_size=247890, ...}) = 0
+lgetxattr("/home/bearface/Pictures/variety-copied-wallpaper-cd640e3b03dc7a40fdb7e022da259e85.jpg", "security.selinux", 0x11114f0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Pictures/variety-copied-wallpaper-cd640e3b03dc7a40fdb7e022da259e85.jpg", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Pictures/variety-copied-wallpaper-cd640e3b03dc7a40fdb7e022da259e85.jpg", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Pictures/sarcastic_bear.jpg", {st_mode=S_IFREG|0644, st_size=60378, ...}) = 0
+lgetxattr("/home/bearface/Pictures/sarcastic_bear.jpg", "security.selinux", 0x1111540, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Pictures/sarcastic_bear.jpg", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Pictures/sarcastic_bear.jpg", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Pictures/..", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lgetxattr("/home/bearface/Pictures/..", "security.selinux", 0x1111560, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Pictures/..", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Pictures/..", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Pictures/Screenshot from 2014-06-16 11:48:48.png", {st_mode=S_IFREG|0644, st_size=222627, ...}) = 0
+lgetxattr("/home/bearface/Pictures/Screenshot from 2014-06-16 11:48:48.png", "security.selinux", 0x1111580, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Pictures/Screenshot from 2014-06-16 11:48:48.png", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Pictures/Screenshot from 2014-06-16 11:48:48.png", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Pictures/bear.jpg", {st_mode=S_IFREG|0644, st_size=210773, ...}) = 0
+lgetxattr("/home/bearface/Pictures/bear.jpg", "security.selinux", 0x11115b0, 255) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Pictures/bear.jpg", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available)
+getxattr("/home/bearface/Pictures/bear.jpg", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available)
+lstat("/home/bearface/Pictures/justlurkin.jpg", {st_mode=S_IFREG|0644, st_size=87648, ...}) = 0
+lgetxattr("/home/bearface/Pictures/justlurkin.jpg", "security.selinux", 0x11115d0, 255) = -1 ENODATA (No data available)

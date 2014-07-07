@@ -1,0 +1,734 @@
+execve("/usr/bin/curl", ["curl", "www.reddit.com"], [/* 48 vars */]) = 0
+brk(0)                                  = 0x260a000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf66917000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=93956, ...}) = 0
+mmap(NULL, 93956, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fbf66900000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libcurl.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\231\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=422696, ...}) = 0
+mmap(NULL, 2518440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf66490000
+mprotect(0x7fbf664f4000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf666f4000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x64000) = 0x7fbf666f4000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=100728, ...}) = 0
+mmap(NULL, 2195784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf66277000
+mprotect(0x7fbf6628f000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf6648e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fbf6648e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0po\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=141574, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668ff000
+mmap(NULL, 2217264, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf66059000
+mprotect(0x7fbf66072000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf66271000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7fbf66271000
+mmap(0x7fbf66273000, 13616, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbf66273000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf65c93000
+mprotect(0x7fbf65e4f000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf6604e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7fbf6604e000
+mmap(0x7fbf66054000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbf66054000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=207128, ...}) = 0
+mmap(NULL, 2302208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf65a60000
+mprotect(0x7fbf65a91000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf65c91000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7fbf65c91000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/librtmp.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340P\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=105696, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668fe000
+mmap(NULL, 2201000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf65846000
+mprotect(0x7fbf6585f000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf65a5e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7fbf65a5e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20.\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=382984, ...}) = 0
+mmap(NULL, 2478288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf655e8000
+mprotect(0x7fbf6563c000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf6583c000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7fbf6583c000
+mmap(0x7fbf65845000, 208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbf65845000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\355\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1926432, ...}) = 0
+mmap(NULL, 4036760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf6520e000
+mprotect(0x7fbf653bf000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf655be000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7fbf655be000
+mmap(0x7fbf655e4000, 14488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbf655e4000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\255\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=285848, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668fd000
+mmap(NULL, 2381504, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf64fc8000
+mprotect(0x7fbf6500b000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf6520b000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x43000) = 0x7fbf6520b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/liblber-2.4.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=59640, ...}) = 0
+mmap(NULL, 2154984, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf64db9000
+mprotect(0x7fbf64dc6000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf64fc6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd000) = 0x7fbf64fc6000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\320\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=323056, ...}) = 0
+mmap(NULL, 2427656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf64b68000
+mprotect(0x7fbf64bb5000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf64db4000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4c000) = 0x7fbf64db4000
+mmap(0x7fbf64db7000, 6920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbf64db7000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668fc000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libgnutls.so.26", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0d\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=775112, ...}) = 0
+mmap(NULL, 2872304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf648aa000
+mprotect(0x7fbf64960000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf64b60000, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb6000) = 0x7fbf64b60000
+mmap(0x7fbf64b67000, 1008, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbf64b67000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcrypt.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\177\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=520608, ...}) = 0
+mmap(NULL, 2616960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf6462b000
+mprotect(0x7fbf646a6000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf648a6000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7b000) = 0x7fbf648a6000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf64427000
+mprotect(0x7fbf6442a000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf64629000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fbf64629000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668fb000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\4\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=831616, ...}) = 0
+mmap(NULL, 2927488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf6415c000
+mprotect(0x7fbf64218000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf64418000, 61440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xbc000) = 0x7fbf64418000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 @\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=186824, ...}) = 0
+mmap(NULL, 2285720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf63f2d000
+mprotect(0x7fbf63f59000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf64158000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000) = 0x7fbf64158000
+mmap(0x7fbf6415b000, 152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbf6415b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\24\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14592, ...}) = 0
+mmap(NULL, 2109896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf63d29000
+mprotect(0x7fbf63d2c000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf63f2b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fbf63f2b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@(\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=43672, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668fa000
+mmap(NULL, 2139112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf63b1e000
+mprotect(0x7fbf63b28000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf63d27000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7fbf63d27000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf63903000
+mprotect(0x7fbf6391a000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf63b1a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fbf63b1a000
+mmap(0x7fbf63b1c000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbf63b1c000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libsasl2.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=109296, ...}) = 0
+mmap(NULL, 2204624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf636e8000
+mprotect(0x7fbf63701000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf63901000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7fbf63901000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libgssapi.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\331\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=251872, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668f9000
+mmap(NULL, 2347352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf634aa000
+mprotect(0x7fbf634e4000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf636e4000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3a000) = 0x7fbf636e4000
+mmap(0x7fbf636e7000, 344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbf636e7000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libtasn1.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220)\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=80248, ...}) = 0
+mmap(NULL, 2176008, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf63296000
+mprotect(0x7fbf632a8000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf634a8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0x7fbf634a8000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libp11-kit.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\321\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=268368, ...}) = 0
+mmap(NULL, 2364496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf63054000
+mprotect(0x7fbf6308f000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf6328e000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3a000) = 0x7fbf6328e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\t\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18416, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668f8000
+mmap(NULL, 2113648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf62e4f000
+mprotect(0x7fbf62e53000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf63052000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fbf63052000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14256, ...}) = 0
+mmap(NULL, 2109456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf62c4b000
+mprotect(0x7fbf62c4d000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf62e4d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fbf62e4d000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libheimntlm.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=35856, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668f7000
+mmap(NULL, 2130960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf62a42000
+mprotect(0x7fbf62a4a000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf62c49000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7fbf62c49000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libkrb5.so.26", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\304\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=552584, ...}) = 0
+mmap(NULL, 2650544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf627ba000
+mprotect(0x7fbf6283c000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf62a3b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x81000) = 0x7fbf62a3b000
+mmap(0x7fbf62a41000, 432, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbf62a41000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libasn1.so.8", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\234\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=657712, ...}) = 0
+mmap(NULL, 2752816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf62519000
+mprotect(0x7fbf625b6000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf627b6000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9d000) = 0x7fbf627b6000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libhcrypto.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300g\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=204104, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668f6000
+mmap(NULL, 2303048, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf622e6000
+mprotect(0x7fbf62316000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf62516000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x30000) = 0x7fbf62516000
+mmap(0x7fbf62518000, 1096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbf62518000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libroken.so.18", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pL\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=85680, ...}) = 0
+mmap(NULL, 2181216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf620d1000
+mprotect(0x7fbf620e5000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf622e4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13000) = 0x7fbf622e4000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=30944, ...}) = 0
+mmap(NULL, 2127304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf61ec9000
+mprotect(0x7fbf61ed0000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf620cf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fbf620cf000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668f5000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libwind.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=166040, ...}) = 0
+mmap(NULL, 2261152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf61ca0000
+mprotect(0x7fbf61cc7000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf61ec7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x7fbf61ec7000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libheimbase.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20)\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=56768, ...}) = 0
+mmap(NULL, 2153112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf61a92000
+mprotect(0x7fbf61a9f000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf61c9e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7fbf61c9e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libhx509.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=295816, ...}) = 0
+mmap(NULL, 2392104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf61849000
+mprotect(0x7fbf6188e000, 2093056, PROT_NONE) = 0
+mmap(0x7fbf61a8d000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x44000) = 0x7fbf61a8d000
+mmap(0x7fbf61a91000, 40, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbf61a91000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libsqlite3.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\235\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=754880, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668f4000
+mmap(NULL, 2851544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf61590000
+mprotect(0x7fbf61644000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf61844000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb4000) = 0x7fbf61844000
+mmap(0x7fbf61848000, 728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbf61848000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=43368, ...}) = 0
+mmap(NULL, 2327072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbf61357000
+mprotect(0x7fbf61360000, 2097152, PROT_NONE) = 0
+mmap(0x7fbf61560000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7fbf61560000
+mmap(0x7fbf61562000, 184864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbf61562000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668f3000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668f2000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668f1000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf668ef000
+arch_prctl(ARCH_SET_FS, 0x7fbf668ef780) = 0
+mprotect(0x7fbf6604e000, 16384, PROT_READ) = 0
+mprotect(0x7fbf61560000, 4096, PROT_READ) = 0
+mprotect(0x7fbf66271000, 4096, PROT_READ) = 0
+mprotect(0x7fbf64629000, 4096, PROT_READ) = 0
+mprotect(0x7fbf61844000, 8192, PROT_READ) = 0
+mprotect(0x7fbf63f2b000, 4096, PROT_READ) = 0
+mprotect(0x7fbf63b1a000, 4096, PROT_READ) = 0
+mprotect(0x7fbf622e4000, 4096, PROT_READ) = 0
+mprotect(0x7fbf627b6000, 4096, PROT_READ) = 0
+mprotect(0x7fbf62516000, 4096, PROT_READ) = 0
+mprotect(0x7fbf61ec7000, 4096, PROT_READ) = 0
+mprotect(0x7fbf61c9e000, 4096, PROT_READ) = 0
+mprotect(0x7fbf61a8d000, 8192, PROT_READ) = 0
+mprotect(0x7fbf620cf000, 4096, PROT_READ) = 0
+mprotect(0x7fbf62a3b000, 12288, PROT_READ) = 0
+mprotect(0x7fbf62c49000, 4096, PROT_READ) = 0
+mprotect(0x7fbf62e4d000, 4096, PROT_READ) = 0
+mprotect(0x7fbf63052000, 4096, PROT_READ) = 0
+mprotect(0x7fbf6328e000, 24576, PROT_READ) = 0
+mprotect(0x7fbf634a8000, 4096, PROT_READ) = 0
+mprotect(0x7fbf636e4000, 4096, PROT_READ) = 0
+mprotect(0x7fbf63901000, 4096, PROT_READ) = 0
+mprotect(0x7fbf63d27000, 4096, PROT_READ) = 0
+mprotect(0x7fbf64158000, 8192, PROT_READ) = 0
+mprotect(0x7fbf64418000, 53248, PROT_READ) = 0
+mprotect(0x7fbf648a6000, 4096, PROT_READ) = 0
+mprotect(0x7fbf6648e000, 4096, PROT_READ) = 0
+mprotect(0x7fbf64b60000, 24576, PROT_READ) = 0
+mprotect(0x7fbf64fc6000, 4096, PROT_READ) = 0
+mprotect(0x7fbf64db4000, 8192, PROT_READ) = 0
+mprotect(0x7fbf6520b000, 4096, PROT_READ) = 0
+mprotect(0x7fbf655be000, 110592, PROT_READ) = 0
+mprotect(0x7fbf6583c000, 12288, PROT_READ) = 0
+mprotect(0x7fbf65a5e000, 4096, PROT_READ) = 0
+mprotect(0x7fbf65c91000, 4096, PROT_READ) = 0
+mprotect(0x7fbf666f4000, 8192, PROT_READ) = 0
+mprotect(0x624000, 4096, PROT_READ)     = 0
+mprotect(0x7fbf66919000, 4096, PROT_READ) = 0
+munmap(0x7fbf66900000, 93956)           = 0
+set_tid_address(0x7fbf668efa50)         = 26189
+set_robust_list(0x7fbf668efa60, 24)     = 0
+futex(0x7fff0d89d1c0, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7fbf668ef780) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x7fbf6605f9f0, [], SA_RESTORER|SA_SIGINFO, 0x7fbf66069340}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7fbf6605fa80, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fbf66069340}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(0)                                  = 0x260a000
+brk(0x262b000)                          = 0x262b000
+futex(0x7fbf63295400, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+pipe([3, 4])                            = 0
+close(3)                                = 0
+close(4)                                = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fbf65cc9ff0}, {SIG_DFL, [], 0}, 8) = 0
+brk(0x2651000)                          = 0x2651000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fbf6108e000
+close(3)                                = 0
+open("/home/bearface/.curlrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fbf65cc9ff0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fbf66069340}, NULL, 8) = 0
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 3
+close(3)                                = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fbf6088d000
+mprotect(0x7fbf6088d000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7fbf6108cf70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fbf6108d9d0, tls=0x7fbf6108d700, child_tidptr=0x7fbf6108d9d0) = 26190
+poll(0, 0, 4)                           = 0 (Timeout)
+poll(0, 0, 8)                           = 0 (Timeout)
+poll(0, 0, 16)                          = 0 (Timeout)
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 3
+setsockopt(3, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+setsockopt(3, SOL_TCP, TCP_KEEPIDLE, [60], 4) = 0
+setsockopt(3, SOL_TCP, TCP_KEEPINTVL, [60], 4) = 0
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("23.62.6.49")}, 16) = -1 EINPROGRESS (Operation now in progress)
+poll([{fd=3, events=POLLOUT|POLLWRNORM}], 1, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLOUT}], 1, 199)  = 1 ([{fd=3, revents=POLLOUT}])
+poll([{fd=3, events=POLLOUT|POLLWRNORM}], 1, 0) = 1 ([{fd=3, revents=POLLOUT|POLLWRNORM}])
+getsockopt(3, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("23.62.6.49")}, [16]) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(35296), sin_addr=inet_addr("192.168.1.118")}, [16]) = 0
+sendto(3, "GET / HTTP/1.1\r\nUser-Agent: curl"..., 78, MSG_NOSIGNAL, NULL, 0) = 78
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 0 (Timeout)
+poll([{fd=3, events=POLLIN}], 1, 143)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "HTTP/1.1 200 OK\r\nContent-Type: t"..., 16384, 0, NULL, NULL) = 2896
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 2), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbf66916000
+write(1, "<!doctype html><html xmlns=\"http"..., 2048) = 2048
+poll([{fd=3, events=POLLIN}], 1, 109)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "xel/of_discovery.png\", \"fetch_tr"..., 16384, 0, NULL, NULL) = 4344
+write(1, "95.0, \"post_site\": \"\", \"clicktra"..., 1024) = 1024
+write(1, ": false})</script><script type=\""..., 3072) = 3072
+poll([{fd=3, events=POLLIN}], 1, 108)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "t.com/r/Music/\" class=\"choice \" "..., 16384, 0, NULL, NULL) = 1448
+write(1, "vated/\" class=\"choice \" >GetMoti"..., 1024) = 1024
+write(1, "w.reddit.com/r/OldSchoolCool/\" c"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 107)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "orldcup/\" class=\"choice \" >world"..., 16384, 0, NULL, NULL) = 2896
+write(1, "ftingNews/\" class=\"choice \" >Upl"..., 1024) = 1024
+write(1, "r/Futurology/\" >Futurology</a></"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 106)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "<li ><span class=\"separator\">-</"..., 16384, 0, NULL, NULL) = 1448
+write(1, "pan><a href=\"http://www.reddit.c"..., 1024) = 1024
+write(1, "\">-</span><a href=\"http://www.re"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 105)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "dit.com/r/EarthPorn/\" >EarthPorn"..., 16384, 0, NULL, NULL) = 1448
+write(1, "w.reddit.com/r/Music/\" >Music</a"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 105)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, ".\" href=\"http://www.reddit.com/\""..., 16384, 0, NULL, NULL) = 1448
+write(1, "shopbattles/\" >photoshopbattles<"..., 1024) = 1024
+write(1, " \" ><li class='selected'><a href"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 104)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "author:<i>username</i></dt><dd>f"..., 16384, 0, NULL, NULL) = 2896
+write(1, "v id=\"searchexpando\" class=\"info"..., 1024) = 1024
+write(1, "tion=\"https://ssl.reddit.com/pos"..., 2048) = 2048
+poll([{fd=3, events=POLLIN}], 1, 104)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "e=code&amp;source=progressbar\" t"..., 16384, 0, NULL, NULL) = 1448
+write(1, "0%\"></span></div></div><a href=\""..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 103)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "teTable_organic\" class=\"organic-"..., 16384, 0, NULL, NULL) = 1448
+write(1, "esterday's reddit gold goal</p><"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 103)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "y-blank\" >/r/Jokes</a></p><ul cl"..., 16384, 0, NULL, NULL) = 1448
+write(1, "iv><div class=\"arrow down login-"..., 1024) = 1024
+write(1, "s_what_youd_call_a_bukake_expert"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 101)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "<p class=\"title\"><a class=\"title"..., 16384, 0, NULL, NULL) = 1448
+write(1, "h, null, event)\" role=\"button\" a"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 76)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "<div class=\"arrow up login-requi"..., 16384, 0, NULL, NULL) = 1448
+write(1, "om/r/mildlyinteresting/comments/"..., 1024) = 1024
+write(1, "ck=\"$(this).vote(r.config.vote_h"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 75)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, ">1 comment</a></li><li class=\"sh"..., 16384, 0, NULL, NULL) = 1448
+write(1, "om/r/funny/comments/2897rt/what_"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 70)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, " [Electronic/Pop] (2014)</a><spa"..., 16384, 0, NULL, NULL) = 1448
+write(1, "ss=\"arrow down login-required\" o"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 70)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ameBorder=&quot;0&quot; scrollin"..., 16384, 0, NULL, NULL) = 1448
+write(1, "y-blank id-t2_ayn00\" >Noble104</"..., 1024) = 1024
+write(1, ";/iframe&gt; \";</script></div><d"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 69)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "it.com/r/worldnews/\" class=\"subr"..., 16384, 0, NULL, NULL) = 1448
+write(1, "bbc.com</a>)</span></p><p class="..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 69)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "alt=\"\"/></a><div class=\"entry un"..., 16384, 0, NULL, NULL) = 1448
+write(1, "d-t3_2897jl even link \" style='d"..., 1024) = 1024
+write(1, "div class=\"expando-button collap"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 68)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "=&quot;560&quot; border=&quot;0&"..., 16384, 0, NULL, NULL) = 1448
+write(1, "l_cache\"] = \" &lt;iframe src=&qu"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 68)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "=\"live-timestamp\">13 minutes ago"..., 16384, 0, NULL, NULL) = 1448
+write(1, "utton\" aria-label=\"downvote\" tab"..., 1024) = 1024
+write(1, "r_skin_blues_pop_i_helped/\" clas"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 68)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "\"></span><div class=\"midcol unvo"..., 16384, 0, NULL, NULL) = 1448
+write(1, "k\"></span><div class=\"midcol unv"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 67)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "nk\" >/r/worldcup</a></p><ul clas"..., 16384, 0, NULL, NULL) = 1448
+write(1, "ssinsider.com</a>)</span></p><p "..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 66)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "unvoted\"><p class=\"title\"><a cla"..., 16384, 0, NULL, NULL) = 1448
+write(1, "v><div class=\" thing id-t3_2897q"..., 1024) = 1024
+write(1, "an class=\"domain\">(<a href=\"/dom"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 66)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ted\" ><div class=\"arrow up login"..., 16384, 0, NULL, NULL) = 1448
+write(1, "v class=\"clearleft\"></div><div c"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 65)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "hat_the_universe_in_its/\" class="..., 16384, 0, NULL, NULL) = 1448
+write(1, "ghts</a>)</span></p><div class=\""..., 1024) = 1024
+write(1, "div><div class=\"child\" ></div><d"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 65)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "f this tool is open to all membe"..., 16384, 0, NULL, NULL) = 1448
+write(1, "eddit.com/wiki/selfserve\" >self-"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 64)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ental_games\" target=\"_blank\">/r/"..., 16384, 0, NULL, NULL) = 1448
+write(1, "+movies+IAmA+Showerthoughts+spor"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 64)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "try unvoted\"><p class=\"title\"><a"..., 16384, 0, NULL, NULL) = 1448
+write(1, ".content .link .midcol, .midcol-"..., 1024) = 1024
+write(1, "\"1\" >TSA Struggles</a>&#32;<span"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 63)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ent)\" role=\"button\" aria-label=\""..., 16384, 0, NULL, NULL) = 1448
+write(1, "ss=\"clearleft\"></div><div class="..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 62)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "style=\"\" ><a class=\"option activ"..., 16384, 0, NULL, NULL) = 1448
+write(1, "sed.</a>&#32;<span class=\"domain"..., 1024) = 1024
+write(1, "></div></div><div class=\"clearle"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 62)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "32;<time title=\"Sun Jun 15 23:26"..., 16384, 0, NULL, NULL) = 1448
+write(1, "system</a>&#32;<span class=\"doma"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 61)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ow down login-required\" onclick="..., 16384, 0, NULL, NULL) = 1448
+write(1, "\" ></div><div class=\"clearleft\">"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 61)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "iv></div><div class=\"child\" ></d"..., 16384, 0, NULL, NULL) = 1448
+write(1, " below the national average.</a>"..., 1024) = 1024
+write(1, "ss=\"clearleft\"></div></div><div "..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 60)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "&#32;to&#32;<a href=\"http://www."..., 16384, 0, NULL, NULL) = 1448
+write(1, "#32;<span class=\"domain\">(<a hre"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 60)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "did_you_dream/\" tabindex=\"1\" >Re"..., 16384, 0, NULL, NULL) = 1448
+write(1, "</div><div class=\"clearleft\"></d"..., 1024) = 1024
+write(1, " class=\"tagline\">submitted&#32;<"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 59)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ogin-required\" onclick=\"$(this)."..., 16384, 0, NULL, NULL) = 1448
+write(1, "l7 odd link \" onclick=\"click_thi"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 58)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "e\"><span class=\"share-button tog"..., 16384, 0, NULL, NULL) = 1448
+write(1, "gur.com</a>)</span></p><p class="..., 1024) = 1024
+write(1, "link \" onclick=\"click_thing(this"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 58)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "</time>&#32;by&#32;<a href=\"http"..., 16384, 0, NULL, NULL) = 1448
+write(1, "=\"live-timestamp\">7 hours ago</t"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 58)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "mbnail may-blank \" href=\"http://"..., 16384, 0, NULL, NULL) = 1448
+write(1, "v class=\"midcol unvoted\" ><div c"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 57)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "option \" href=\"#\">cancel</a></sp"..., 16384, 0, NULL, NULL) = 1448
+write(1, "rocket bases.</a>&#32;<span clas"..., 1024) = 1024
+write(1, "=\"child\" ></div><div class=\"clea"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 55)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "-timestamp\">8 hours ago</time>&#"..., 16384, 0, NULL, NULL) = 1448
+write(1, " their sections after their matc"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 55)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "l=\"downvote\" tabindex=\"0\" ></div"..., 16384, 0, NULL, NULL) = 1448
+write(1, "/div></div><div class=\"child\" ><"..., 1024) = 1024
+write(1, " >Thought I'd share my personali"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 54)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "><div class=\"clearleft\"></div><d"..., 16384, 0, NULL, NULL) = 1448
+write(1, "loading...</span></div></div><di"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 54)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "</a></p><ul class=\"flat-list but"..., 16384, 0, NULL, NULL) = 2896
+write(1, "2;<span class=\"domain\">(<a href="..., 1024) = 1024
+write(1, "<div class=\"clearleft\"></div></d"..., 2048) = 2048
+poll([{fd=3, events=POLLIN}], 1, 40)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "rder=&quot;0&quot; scrolling=&qu"..., 16384, 0, NULL, NULL) = 1448
+write(1, "an class=\"error\">loading...</spa"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 37)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "=\"author may-blank id-t2_a5wlw\" "..., 16384, 0, NULL, NULL) = 1448
+write(1, "uired\" onclick=\"$(this).vote(r.c"..., 1024) = 1024
+write(1, "com/r/EarthPorn/comments/287rvx/"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 36)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "\" href=\"/r/IAmA/comments/287ki8/"..., 16384, 0, NULL, NULL) = 1448
+write(1, "quired\" onclick=\"$(this).vote(r."..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 34)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "oading...</span></div></div><div"..., 16384, 0, NULL, NULL) = 1448
+write(1, " class=\"userattrs\"></span>&#32;t"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 33)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "-blank id-t2_6mpy1\" >OwlsforSama"..., 16384, 0, NULL, NULL) = 1448
+write(1, "a-label=\"upvote\" tabindex=\"0\" ><"..., 1024) = 1024
+write(1, "py1\" >OwlsforSamael</a><span cla"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 33)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "\"entry unvoted\"><p class=\"title\""..., 16384, 0, NULL, NULL) = 1448
+write(1, "w up login-required\" onclick=\"$("..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 32)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "yle='display: none'><span class="..., 16384, 0, NULL, NULL) = 1448
+write(1, "class=\"live-timestamp\">10 hours "..., 1024) = 1024
+write(1, "even link \" onclick=\"click_thing"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 32)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "d-t2_bstek\" >burrocomecarne</a><"..., 16384, 0, NULL, NULL) = 1448
+write(1, "mitted&#32;<time title=\"Sun Jun "..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 31)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "obile.theverge.com/2014/6/15/581"..., 16384, 0, NULL, NULL) = 1448
+write(1, "news odd link \" onclick=\"click_t"..., 1024) = 1024
+write(1, "index=\"1\" >'Scooby Doo' actor an"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 30)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ass=\"child\" ></div><div class=\"c"..., 16384, 0, NULL, NULL) = 1448
+write(1, "=\"error\">loading...</span></div>"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 30)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ss=\"subreddit hover may-blank\" >"..., 16384, 0, NULL, NULL) = 1448
+write(1, "rticle\">Article</span>&#32;<span"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 30)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "class=\"title\"><a class=\"title ma"..., 16384, 0, NULL, NULL) = 1448
+write(1, "\"></div></div><div class=\"clearl"..., 1024) = 1024
+write(1, "pan class=\"linkflairlabel\" title"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 29)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "div class=\"arrow up login-requir"..., 16384, 0, NULL, NULL) = 1448
+write(1, "=\"child\" ></div><div class=\"clea"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 28)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "n toggle\" style=\"\" ><a class=\"op"..., 16384, 0, NULL, NULL) = 1448
+write(1, "#32;<span class=\"domain\">(<a hre"..., 1024) = 1024
+write(1, "class=\"clearleft\"></div><div cla"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 28)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "></p><p class=\"tagline\">submitte"..., 16384, 0, NULL, NULL) = 1448
+write(1, "circa 1965, when he was 21 years"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 27)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "class=\"score likes\">1758</div><d"..., 16384, 0, NULL, NULL) = 1448
+write(1, "></div></div><div class=\"child\" "..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 26)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "li></ul><div class=\"expando\" sty"..., 16384, 0, NULL, NULL) = 1448
+write(1, "gel with cream cheese, red onion"..., 1024) = 1024
+write(1, "ass=\"error\">loading...</span></d"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 26)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, ";<time class=\"edited-timestamp\" "..., 16384, 0, NULL, NULL) = 1448
+write(1, "bel\" title=\"Progress Post\">Progr"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 25)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "><span class=\"separator\"></span>"..., 16384, 0, NULL, NULL) = 1448
+write(1, "d\" href=\"#\" tabindex=\"100\" >shar"..., 1024) = 1024
+write(1, ".reddit.com/code/\" >source code<"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 23)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "or\"></span><a href=\"http://www.r"..., 16384, 0, NULL, NULL) = 2896
+write(1, "xtension</a></li><li ><span clas"..., 1024) = 1024
+write(1, " class=\"updated\" >User Agreement"..., 2048) = 2048
+poll([{fd=3, events=POLLIN}], 1, 22)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "ength=\"50\" tabindex=\"3\"/><label "..., 16384, 0, NULL, NULL) = 1448
+write(1, "=\"email\" maxlength=\"50\" tabindex"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 22)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "IT field-vdelay\" style=\"display:"..., 16384, 0, NULL, NULL) = 1448
+write(1, "ha\" style=\"display:none\"></span>"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 21)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "on=\"http://www.reddit.com/post/u"..., 16384, 0, NULL, NULL) = 1448
+write(1, "=\"2\" autofocus /></li><li><label"..., 1024) = 1024
+write(1, "able\"><tr><th>interface language"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 20)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "\244\256\340\244\276\340\244\250\340\244\225 \340\244\271\340\244\277\340\244\250\340\245\215\340\244\246\340\245\200 ["..., 16384, 0, NULL, NULL) = 1448
+write(1, "</option><option value=\"fa\">\331\201\330\247"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 11)    = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, " [ta] (*)</option><option value="..., 16384, 0, NULL, NULL) = 10304
+write(1, "orsk [nn]</option><option value="..., 1024) = 1024
+write(1, "\"http://www.reddit.com/r/i18n/wi"..., 9216) = 9216
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fbf66069340}, NULL, 8) = 0
+write(1, "ame=\"lang-nl\" id=\"lang-nl\" oncli"..., 723) = 723
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fbf66069340}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fbf66069340}, NULL, 8) = 0
+close(3)                                = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fbf66069340}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fbf66069340}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fbf66069340}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fbf66069340}, NULL, 8) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

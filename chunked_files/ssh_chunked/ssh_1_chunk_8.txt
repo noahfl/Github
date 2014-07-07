@@ -1,0 +1,75 @@
+read(5, "i", 1)                         = 1
+read(5, "l", 1)                         = 1
+read(5, "k", 1)                         = 1
+read(5, "s", 1)                         = 1
+read(5, "\n", 1)                        = 1
+write(5, "\n", 1)                       = 1
+ioctl(5, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon -echo ...}) = 0
+ioctl(5, SNDCTL_TMR_CONTINUE or SNDRV_TIMER_IOCTL_GPARAMS or TCSETSF, {B38400 opost isig icanon echo ...}) = 0
+ioctl(5, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGHUP, {SIG_DFL, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGTERM, {SIG_DFL, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_DFL, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGTTIN, {SIG_DFL, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGTTOU, {SIG_DFL, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+close(5)                                = 0
+write(3, "\232\217\261\232\343dmJ!\3111\365c\223\270\350\252b\323=\225t\365\304v\204\314*K\326pl"..., 144) = 144
+select(4, [3], NULL, NULL, NULL)        = 1 (in [3])
+read(3, "\f\303\227\252Ox%\325_hS\6N\22\306\354i\371=G\315'\353\232\241\35|\3136o\5\242", 8192) = 32
+close(4)                                = 0
+getpeername(3, {sa_family=AF_INET, sin_port=htons(22), sin_addr=inet_addr("10.104.251.180")}, [16]) = 0
+getpeername(3, {sa_family=AF_INET, sin_port=htons(22), sin_addr=inet_addr("10.104.251.180")}, [16]) = 0
+dup(0)                                  = 4
+dup(1)                                  = 5
+dup(2)                                  = 6
+ioctl(4, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(5, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(6, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(5, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(6, F_SETFD, FD_CLOEXEC)           = 0
+rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], SA_RESTORER, 0x7f0ee6d66ff0}, 8) = 0
+rt_sigaction(SIGHUP, {SIG_IGN, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGHUP, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f0ee6d66ff0}, 8) = 0
+rt_sigaction(SIGHUP, {0x7f0ee81a7950, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_DFL, [], SA_RESTORER, 0x7f0ee6d66ff0}, 8) = 0
+rt_sigaction(SIGINT, {SIG_IGN, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f0ee6d66ff0}, 8) = 0
+rt_sigaction(SIGINT, {0x7f0ee81a7950, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], SA_RESTORER, 0x7f0ee6d66ff0}, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_IGN, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f0ee6d66ff0}, 8) = 0
+rt_sigaction(SIGQUIT, {0x7f0ee81a7950, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], SA_RESTORER, 0x7f0ee6d66ff0}, 8) = 0
+rt_sigaction(SIGTERM, {SIG_IGN, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGTERM, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f0ee6d66ff0}, 8) = 0
+rt_sigaction(SIGTERM, {0x7f0ee81a7950, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x7f0ee81a7bd0, [], SA_RESTORER, 0x7f0ee6d66ff0}, NULL, 8) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_STOP or SNDRV_TIMER_IOCTL_GINFO or TCSETSW, {B38400 -opost -isig -icanon -echo ...}) = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 -opost -isig -icanon -echo ...}) = 0
+select(7, [3], [3], NULL, NULL)         = 1 (out [3])
+write(3, "!)\242\225\227\31\240\235\327\2277\3113\335\257\4[|\32\251 \3078k\5\313\220S\204\261%C"..., 128) = 128
+select(7, [3], [], NULL, NULL)          = 1 (in [3])
+read(3, "\3631\231\264%|\22\247\222c\351,\320J\353\312[ \335m\344\261\275\247\16\t\n\333\230~)\22"..., 8192) = 48
+getsockopt(3, SOL_TCP, TCP_NODELAY, [0], [4]) = 0
+setsockopt(3, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(35853), sin_addr=inet_addr("10.203.102.13")}, [16]) = 0
+setsockopt(3, SOL_IP, IP_TOS, [16], 4)  = 0
+ioctl(0, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+select(7, [3], [3], NULL, NULL)         = 1 (out [3])
+write(3, "\262\357\325a\177\302G\367\277\16\333\340\356\300\366\250n@\220\253\254\357\304\201J\264\371\364\373\324B/"..., 448) = 448
+select(7, [3], [], NULL, NULL)          = 1 (in [3])
+read(3, "\202\210s\277\32\221GC\243:k\3706\206({X`R>W\321\317\302N2l\237\366\324\272{"..., 8192) = 112
+select(7, [3 4], [], NULL, NULL)        = 1 (in [3])
+read(3, "\206\303\317\211|\v$\274\337o\212\247\224\325D\246\355\230\20-0zNZ\271\211~\256^\36\241E"..., 8192) = 224
+select(7, [3 4], [5], NULL, NULL)       = 1 (out [5])
+write(5, "Welcome to Ubuntu 12.04.4 LTS (G"..., 179) = 179
+select(7, [3 4], [], NULL, NULL)        = 1 (in [3])
+read(3, "O\323m,\273\0G\374\306\25\3479\274Q_a\253\2#\261\34\35\232\364\342\272\32=\5\v]\26"..., 8192) = 96

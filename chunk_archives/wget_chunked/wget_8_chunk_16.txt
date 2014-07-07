@@ -1,0 +1,75 @@
+write(4, "in(Math.max(pn,mn),mx);\nr.classN"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947460})
+read(3, "</div>\n<div class=\"h_rule\"></div"..., 868) = 868
+write(4, "</div>\n<div class=\"h_rule\"></div"..., 868) = 868
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n242\r\nleft; width: 100%\">\n<div "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "242\r\nleft; width: 100%\">\n<div cl"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "242\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949963})
+read(3, "left; width: 100%\">\n<div class=\""..., 578) = 485
+write(4, "left; width: 100%\">\n<div class=\""..., 485) = 485
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947700})
+read(3, "elf (Set of 3)\n</span></a>\n\n<br "..., 93) = 93
+write(4, "elf (Set of 3)\n</span></a>\n\n<br "..., 93) = 93
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n36a\r\nustomerReviews\"><div clas"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "36a\r\nustomerReviews\"><div class="..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "36a\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ustomerReviews\"><div class=\"s9St"..., 874) = 874
+write(4, "ustomerReviews\"><div class=\"s9St"..., 874) = 874
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n5b4\r\n class=\"s9Stars s9Stars_4"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "5b4\r\n class=\"s9Stars s9Stars_4_0"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, " class=\"s9Stars s9Stars_4_0\"></d"..., 1460) = 379
+write(4, " class=\"s9Stars s9Stars_4_0\"></d"..., 379) = 379
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949730})
+read(3, "on: relative\"><a href=\"/HomeAXCE"..., 1081) = 1081
+write(4, "on: relative\"><a href=\"/HomeAXCE"..., 1081) = 1081
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n5b4\r\nimg src=\"http://g-ecx.ima"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "5b4\r\nimg src=\"http://g-ecx.image"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5b4\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "img src=\"http://g-ecx.images-ama"..., 1460) = 272
+write(4, "img src=\"http://g-ecx.images-ama"..., 272) = 272
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948396})
+read(3, "lf (Set of 2)\n</span></a>\n\n<br c"..., 1188) = 1188
+write(4, "lf (Set of 2)\n</span></a>\n\n<br c"..., 1188) = 1188
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n112e\r\ns_4_0\"></div><span>(<a c"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "112e\r\ns_4_0\"></div><span>(<a cla"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "112e\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "s_4_0\"></div><span>(<a class=\"no"..., 4398) = 164
+write(4, "s_4_0\"></div><span>(<a class=\"no"..., 164) = 164
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944141})
+read(3, "/span></div>\n\n<span class=\"newLi"..., 4234) = 1360
+write(4, "/span></div>\n\n<span class=\"newLi"..., 1360) = 1360
+write(2, "\r", 1)                       = 1
+write(2, "    [     <=>                   "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948523})
+read(3, "rilite-01428501-4-Shelf-Utility-"..., 2874) = 1360
+write(4, "rilite-01428501-4-Shelf-Utility-"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947355})
+read(3, "idth):cl.s9CachedWidth;\nvar pn,n"..., 1514) = 1360
+write(4, "idth):cl.s9CachedWidth;\nvar pn,n"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946459})
+read(3, "}s9MultipackRow.s9Multipack({ mi"..., 154) = 154
+write(4, "}s9MultipackRow.s9Multipack({ mi"..., 154) = 154
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n2000\r\n>\n<span class=\"carat\">&r"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2

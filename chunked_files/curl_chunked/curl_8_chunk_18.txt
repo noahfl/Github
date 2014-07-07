@@ -1,0 +1,75 @@
+write(1, "n>\n</div></div>\n</div>\n<div clas"..., 7168) = 7168
+write(1, "de=318813011&pf_rd_m=ATVPDKIKX0D"..., 1024) = 1024
+write(1, "100%\">\n<div class=\"fluid asin s9"..., 1024) = 1024
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "b68\r\niv><span class=\"s9TitleText"..., 16384, 0, NULL, NULL) = 14072
+write(1, "e-Products-13-9003-Utility-Tray/"..., 1024) = 1024
+write(1, "e ntTitle noLinkDecoration\" titl"..., 2048) = 2048
+write(1, "tle noLinkDecoration\" title=\"gea"..., 1024) = 1024
+write(1, "ntTitle noLinkDecoration\" title="..., 2048) = 2048
+write(1, "if(cl.className.indexOf('s9Touch"..., 1024) = 1024
+write(1, "{  s9MultipackRow = A.$('#ns_1BV"..., 7168) = 7168
+write(1, "ar=\"none\"/><div class=\"t11\">Xtre"..., 49) = 49
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "2000\r\n\"s9CustomerReviews\"><div c"..., 16384, 0, NULL, NULL) = 16384
+write(1, "<div class=\"s9CustomerReviews\"><"..., 1024) = 1024
+write(1, "\"t11\">Copper Mugs</div>\n\n<div cl"..., 7168) = 7168
+write(1, "tom:25px;\" /></div></div><span c"..., 1024) = 1024
+write(1, "iv><span class=\"s9TitleText\">Shr"..., 56) = 56
+write(1, "</span></a>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "<div class=\"t11\"><span class=\"ca"..., 1024) = 1024
+write(1, "es/I/51DxQol7yxL._SL150_.jpg\" al"..., 1024) = 1024
+write(1, "mages-amazon.com/images/I/513jff"..., 199) = 199
+write(1, "</span></a>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+write(1, "<br clear=\"none\"/>\n", 19)  = 19
+write(1, "\n", 1)                       = 1
+write(1, "<div class=\"s9CustomerReviews\"><"..., 234) = 234
+write(1, "\n", 1)                       = 1
+write(1, "<span class=\"newListprice gry t1"..., 93) = 93
+write(1, "</div></div>\n", 13)          = 13
+write(1, "</div>\n", 7)                 = 7
+write(1, "</div>\n", 7)                 = 7
+write(1, "</div>\n", 7)                 = 7
+write(1, "<div style=\"clear: left; width: "..., 99) = 99
+write(1, "<script type=\"text/javascript\">\n", 32) = 32
+write(1, "if(!window.S9MultipackResizer){\n", 32) = 32
+write(1, "window.S9MultipackResizer=functi"..., 54) = 54
+write(1, "var cl=r.parentNode.parentNode;\n", 32) = 32
+write(1, "if(cl.className.indexOf('s9Touch"..., 1024) = 1024
+write(1, "{  s9MultipackRow = A.$('#ns_1BV"..., 3072) = 3072
+write(1, "<span class=\"s9TitleText\">Nothin"..., 61) = 61
+write(1, "</span></a>\n", 12)           = 12
+write(1, "\n", 1)                       = 1
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "v class=\"t11\">Imprinted Desi\r\n20"..., 16384, 0, NULL, NULL) = 16384
+write(1, "<br clear=\"none\"/><div class=\"t1"..., 1024) = 1024
+write(1, "ars s9Stars_4_5\"></div><span>(<a"..., 7168) = 7168
+write(1, "edirect.html?_encoding=UTF8&amp;"..., 1024) = 1024
+write(1, "Fcontent%2Fsell-on-amazon.htm%2F"..., 6144) = 6144
+write(1, "a href=\"http://www.beautybar.com"..., 147) = 147
+write(1, "<td class=\"navFooterDescSpacer\" "..., 56) = 56
+write(1, "<td class=\"navFooterDescItem\"><a"..., 194) = 194
+write(1, "<td class=\"navFooterDescSpacer\" "..., 56) = 56
+write(1, "<td class=\"navFooterDescItem\"><a"..., 180) = 180
+write(1, "<td class=\"navFooterDescSpacer\" "..., 56) = 56
+write(1, "<td class=\"navFooterDescItem\"><a"..., 177) = 177
+write(1, "<td class=\"navFooterDescSpacer\" "..., 59) = 59
+write(1, "</tr>\n", 6)                  = 6
+write(1, "<tr><td>&nbsp;</td></tr>\n<tr>\n<t"..., 89) = 89
+poll([{fd=3, events=POLLIN}], 1, 1000)  = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, " class=\"navFooterDescItem\"><a hr"..., 16384, 0, NULL, NULL) = 16384
+write(1, "<td class=\"navFooterDescItem\"><a"..., 1024) = 1024
+write(1, "/> <span class=\"navFooterDescTex"..., 1024) = 1024
+write(1, "avFooterDescText\">Indie Digital "..., 58) = 58
+write(1, "</span></a></td>\n", 17)      = 17
+write(1, "<td class=\"navFooterDescSpacer\" "..., 56) = 56
+write(1, "<td class=\"navFooterDescItem\"><a"..., 165) = 165
+write(1, "<td class=\"navFooterDescSpacer\" "..., 56) = 56
+write(1, "<td class=\"navFooterDescItem\"><a"..., 175) = 175

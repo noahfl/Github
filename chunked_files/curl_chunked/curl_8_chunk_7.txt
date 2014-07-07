@@ -1,0 +1,75 @@
+write(1, "    <link rel=\"dns-prefetch\" hre"..., 68) = 68
+write(1, "    <link rel=\"dns-prefetch\" hre"..., 68) = 68
+poll([{fd=3, events=POLLIN}], 1, 121)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, ".com\">\n    <link rel=\"dns-prefet"..., 16384, 0, NULL, NULL) = 15688
+write(1, "    <link rel=\"dns-prefetch\" hre"..., 1024) = 1024
+write(1, "nyprice { font-family: arial,ver"..., 94) = 94
+write(1, ".highlight { font-family: arial,"..., 97) = 97
+write(1, ".popover-tiny { font-size: 11px;"..., 84) = 84
+write(1, ".horizontal-search { font-weight"..., 124) = 124
+write(1, ".listprice { font-family: arial,"..., 95) = 95
+write(1, ".price { font-family: arial,verd"..., 76) = 76
+write(1, ".horizontal-websearch { font-siz"..., 1024) = 1024
+write(1, " { width: 100%; }\ndiv#page-foote"..., 3072) = 3072
+write(1, "1F4;  border-top: 1px solid #C9E"..., 39) = 39
+write(1, "\n", 1)                       = 1
+write(1, ".amabot_center div.unified_widge"..., 87) = 87
+write(1, ".amabot_right div.unified_widget"..., 85) = 85
+write(1, ".amabot_left div.unified_widget,"..., 83) = 83
+write(1, "\n", 1)                       = 1
+write(1, ".rightArrow { color: #E47911; fo"..., 1024) = 1024
+write(1, " 15px 5px 10px; } \n", 19)    = 19
+write(1, "div.unified_widget ul { margin: "..., 90) = 90
+write(1, "\n", 1)                       = 1
+write(1, "div.unified_widget ol { margin:0"..., 57) = 57
+write(1, "\n", 1)                       = 1
+write(1, "div.unified_widget a:link, div.u"..., 87) = 87
+write(1, "div.unified_widget a:hover { tex"..., 58) = 58
+write(1, "div.unified_widget p.seeMore { c"..., 182) = 182
+write(1, "div.unified_widget p.seeMore a:l"..., 1024) = 1024
+write(1, " }\n", 3)                     = 3
+write(1, "div.unified_widget table.col4 td"..., 48) = 48
+write(1, "div.unified_widget table.col5 td"..., 48) = 48
+write(1, "div.unified_widget td.bottom { v"..., 58) = 58
+write(1, "div.unified_widget table h4, div"..., 124) = 124
+write(1, "div.rcmBody div.prodImage, amabo"..., 1024) = 1024
+write(1, "nt-size: 110%; font-weight:bold;"..., 3072) = 3072
+write(1, "ext-indent: 0; }\n", 17)      = 17
+write(1, "div.newAndFuture h3 { font-size:"..., 55) = 55
+write(1, "div.newAndFuture a:link, div.new"..., 83) = 83
+write(1, "div.newAndFuture a:hover { text-"..., 56) = 56
+write(1, "div.newAndFuture p.seeMore { mar"..., 56) = 56
+write(1, "\n", 1)                       = 1
+write(1, "div.unified_widget ol.topList { "..., 75) = 75
+write(1, "div.unified_widget ol.topList li"..., 1024) = 1024
+write(1, "em; margin:0; }\ndiv.pageBanner p"..., 1024) = 1024
+write(1, "play:none;}\n", 12)           = 12
+write(1, "#gwCenterAd {margin:0 auto;}\n", 29) = 29
+write(1, "#center2 {overflow:hidden;margin"..., 43) = 43
+write(1, "-->\n", 4)                    = 4
+write(1, "</style>\n", 9)               = 9
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "<script language=\"Javascript1.1\""..., 57) = 57
+write(1, "<!--\n", 5)                   = 5
+write(1, "function amz_js_PopWin(url,name,"..., 42) = 42
+write(1, "  var ContextWindow = window.ope"..., 53) = 53
+write(1, "  ContextWindow.focus();\n", 25) = 25
+write(1, "  return false;\n", 16)       = 16
+write(1, "}\n", 2)                      = 2
+write(1, "//-->\n", 6)                  = 6
+write(1, "</script>\n", 10)             = 10
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, "\n", 1)                       = 1
+write(1, " <script type=\"text/javascript\">"..., 33) = 33
+poll([{fd=3, events=POLLIN}], 1, 113)   = 1 ([{fd=3, revents=POLLIN}])
+poll([{fd=3, events=POLLIN|POLLPRI|POLLRDNORM|POLLRDBAND}], 1, 0) = 1 ([{fd=3, revents=POLLIN|POLLRDNORM}])
+recvfrom(3, "76e\r\n;var BtechRSA={eDisplayShop"..., 16384, 0, NULL, NULL) = 1909
+write(1, "var BtechShopAllState={UNKNOWN:0"..., 1024) = 1024
+write(1, "DisplayShopAllOnLoad=BtechRSA.eD"..., 470) = 470
+write(1, "</script>\n", 10)             = 10
+write(1, "  \n", 3)                     = 3

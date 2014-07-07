@@ -1,0 +1,75 @@
+open("/etc/fonts/conf.d/51-local.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 189
+access("/etc/fonts/local.conf", R_OK)   = -1 ENOENT (No such file or directory)
+access("/etc/fonts/local.conf", R_OK)   = -1 ENOENT (No such file or directory)
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/57-dejavu-sans-mono.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/57-dejavu-sans-mono.conf", {st_mode=S_IFREG|0644, st_size=1509, ...}) = 0
+open("/etc/fonts/conf.d/57-dejavu-sans-mono.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 1509
+open("/dev/urandom", O_RDONLY)          = 14
+read(14, "B!\345(", 4)                  = 4
+close(14)                               = 0
+mmap(0x17c06ef35000, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x17c06ef35000
+mmap(0x17c06f035000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x17c06f035000
+mmap(0x17c06f03d000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x17c06f03d000
+mmap(0x17c06f045000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x17c06f045000
+madvise(0x17c06ef35000, 1048576, MADV_DONTNEED) = 0
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/57-dejavu-sans.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/57-dejavu-sans.conf", {st_mode=S_IFREG|0644, st_size=2011, ...}) = 0
+open("/etc/fonts/conf.d/57-dejavu-sans.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 2011
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/57-dejavu-serif.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/57-dejavu-serif.conf", {st_mode=S_IFREG|0644, st_size=1649, ...}) = 0
+open("/etc/fonts/conf.d/57-dejavu-serif.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 1649
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/58-dejavu-lgc-sans-mono.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/58-dejavu-lgc-sans-mono.conf", {st_mode=S_IFREG|0644, st_size=1545, ...}) = 0
+open("/etc/fonts/conf.d/58-dejavu-lgc-sans-mono.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 1545
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/58-dejavu-lgc-sans.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/58-dejavu-lgc-sans.conf", {st_mode=S_IFREG|0644, st_size=2063, ...}) = 0
+open("/etc/fonts/conf.d/58-dejavu-lgc-sans.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 2063
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/58-dejavu-lgc-serif.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/58-dejavu-lgc-serif.conf", {st_mode=S_IFREG|0644, st_size=1689, ...}) = 0
+open("/etc/fonts/conf.d/58-dejavu-lgc-serif.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 1689
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/60-latin.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/60-latin.conf", {st_mode=S_IFREG|0644, st_size=1701, ...}) = 0
+open("/etc/fonts/conf.d/60-latin.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1701
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/64-01-tlwg-kinnari.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/64-01-tlwg-kinnari.conf", {st_mode=S_IFREG|0644, st_size=185, ...}) = 0
+open("/etc/fonts/conf.d/64-01-tlwg-kinnari.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 185
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/64-02-tlwg-norasi.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/64-02-tlwg-norasi.conf", {st_mode=S_IFREG|0644, st_size=184, ...}) = 0
+open("/etc/fonts/conf.d/64-02-tlwg-norasi.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 184
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/64-11-tlwg-waree.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/64-11-tlwg-waree.conf", {st_mode=S_IFREG|0644, st_size=188, ...}) = 0
+open("/etc/fonts/conf.d/64-11-tlwg-waree.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 188
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/64-12-tlwg-loma.conf", R_OK) = 0

@@ -1,0 +1,75 @@
+open("/usr/share/locale/en.utf8/LC_MESSAGES/gdk-pixbuf.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/gdk-pixbuf.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/gdk-pixbuf.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/gdk-pixbuf.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/gdk-pixbuf.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/gdk-pixbuf.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/gdk-pixbuf.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/gdk-pixbuf.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+madvise(0x2be50bb8e000, 8192, MADV_DONTNEED) = 0
+madvise(0x2be50bb93000, 8192, MADV_DONTNEED) = 0
+madvise(0x2be50bb91000, 16384, MADV_DONTNEED) = 0
+madvise(0x7f11a05ba000, 12288, MADV_DONTNEED) = 0
+madvise(0x7f11a05ad000, 28672, MADV_DONTNEED) = 0
+madvise(0x2be50bb9b000, 8192, MADV_DONTNEED) = 0
+madvise(0x2be50bb96000, 8192, MADV_DONTNEED) = 0
+madvise(0x2be50bba3000, 8192, MADV_DONTNEED) = 0
+madvise(0x2be50bba1000, 16384, MADV_DONTNEED) = 0
+madvise(0x2be50bb9b000, 16384, MADV_DONTNEED) = 0
+madvise(0x2be50bbad000, 8192, MADV_DONTNEED) = 0
+madvise(0x2be50bba9000, 8192, MADV_DONTNEED) = 0
+madvise(0x2be50bbb6000, 8192, MADV_DONTNEED) = 0
+madvise(0x2be50bbb1000, 8192, MADV_DONTNEED) = 0
+madvise(0x2be50bbad000, 24576, MADV_DONTNEED) = 0
+close(11)                               = 0
+munmap(0x7f1193789000, 4096)            = 0
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\1\30\r\0\3\0\340\3\235\0\0\0\0\0\0\0\310\0\310\0\0\0\1\0 \0\0\0\32(\0\0"..., 3196}, {NULL, 0}, {"", 0}], 3) = 3196
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\34\0{\0\3\0\340\3T\1\0\0h\215\324\t\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 1440
+recvmsg(9, 0x7fff533573f0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+shmget(IPC_PRIVATE, 4096, IPC_CREAT|0600) = 39813143
+shmat(39813143, 0, 0)                   = 0x7f1193789000
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"+\30\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2\347\0\0\0\0\0\270`D\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(9, 0x7fff53357400, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff53357400, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\202\1\4\0000\0\340\3\27\200_\2\0\0\0\0\202\2\2\0000\0\340\3+\0\1\0", 28}, {NULL, 0}, {"", 0}], 3) = 28
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2\352\0\0\0\0\0\270`D\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(9, 0x7fff53357400, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff53357400, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+shmctl(39813143, IPC_RMID, 0)           = 0
+shmdt(0x7f1193789000)                   = 0
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"b\1\4\0\7\0\340\3", 8}, {"MIT-SHM", 7}, {"\0", 1}], 3) = 16
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\0\353\0\0\0\0\0\1\202A\200\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(9, 0x7fff533573b0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff533573b0, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+shmget(IPC_PRIVATE, 4096, IPC_CREAT|0600) = 39845911
+shmat(39845911, 0, 0)                   = 0x7f1193789000
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\1\30\t\0001\0\340\3\235\0\0\0\377\377\377\377\1\0\1\0\0\0\1\0 \0\0\0\0\2\0\0"..., 40}, {NULL, 0}, {"", 0}], 3) = 40
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2\355\0\0\0\0\0\270`D\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(9, 0x7fff53357400, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff53357400, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"\202\1\4\0002\0\340\3\27\0`\2\0\377\377\377\31\0\v\0001\0\340\3\0\0\0\0\301\0\1\0"..., 72}, {NULL, 0}, {"", 0}], 3) = 72
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\301\0\357\0001\0\340\3\3\0\202\0\27\0`\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 64
+recvmsg(9, 0x7fff53357400, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+shmctl(39845911, IPC_RMID, 0)           = 0
+shmdt(0x7f1193789000)                   = 0
+shmget(IPC_PRIVATE, 393216, IPC_CREAT|0600) = 39878679
+shmat(39878679, 0, 0)                   = 0x7f1192af2000
+poll([{fd=9, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=9, revents=POLLOUT}])
+writev(9, [{"5 \4\0003\0\340\3/\0\340\3\7\0\5\0007\0\6\0004\0\340\0033\0\340\3\0\1\1\0"..., 9556}, {NULL, 0}, {"", 0}], 3) = 9556
+poll([{fd=9, events=POLLIN}], 1, 4294967295) = 1 ([{fd=9, revents=POLLIN}])
+recvmsg(9, {msg_name(0)=NULL, msg_iov(1)=[{"\1\2E\1\0\0\0\0\270`D\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(9, 0x7fff53357750, 0)           = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(9, 0x7fff53357750, 0)           = -1 EAGAIN (Resource temporarily unavailable)

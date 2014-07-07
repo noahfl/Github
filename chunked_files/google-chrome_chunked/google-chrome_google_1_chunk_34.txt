@@ -1,0 +1,75 @@
+access("/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf", {st_mode=S_IFREG|0644, st_size=866, ...}) = 0
+open("/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 866
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf", {st_mode=S_IFREG|0644, st_size=856, ...}) = 0
+open("/etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 856
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf", {st_mode=S_IFREG|0644, st_size=858, ...}) = 0
+open("/etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 858
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/20-unhint-small-vera.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/20-unhint-small-vera.conf", {st_mode=S_IFREG|0644, st_size=1259, ...}) = 0
+open("/etc/fonts/conf.d/20-unhint-small-vera.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1259
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/30-metric-aliases.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/30-metric-aliases.conf", {st_mode=S_IFREG|0644, st_size=10616, ...}) = 0
+open("/etc/fonts/conf.d/30-metric-aliases.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 8192
+read(13, "ndensed</family>\n\t  <accept>\n\t  "..., 8192) = 2424
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/30-urw-aliases.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/30-urw-aliases.conf", {st_mode=S_IFREG|0644, st_size=701, ...}) = 0
+open("/etc/fonts/conf.d/30-urw-aliases.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 701
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/40-nonlatin.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/40-nonlatin.conf", {st_mode=S_IFREG|0644, st_size=5481, ...}) = 0
+open("/etc/fonts/conf.d/40-nonlatin.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 5481
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/45-latin.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/45-latin.conf", {st_mode=S_IFREG|0644, st_size=4324, ...}) = 0
+open("/etc/fonts/conf.d/45-latin.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 4324
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/49-sansserif.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/49-sansserif.conf", {st_mode=S_IFREG|0644, st_size=545, ...}) = 0
+open("/etc/fonts/conf.d/49-sansserif.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 545
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/50-user.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/50-user.conf", {st_mode=S_IFREG|0644, st_size=673, ...}) = 0
+open("/etc/fonts/conf.d/50-user.conf", O_RDONLY|O_CLOEXEC) = 13
+read(13, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 673
+stat("/home/bearface/.config/fontconfig/conf.d", 0x7fff00ad74b0) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/.config/fontconfig/conf.d", 0x7fff00ad74b0) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.config/fontconfig/conf.d", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.config/fontconfig/conf.d", R_OK) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/.config/fontconfig/fonts.conf", 0x7fff00ad74b0) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/.config/fontconfig/fonts.conf", 0x7fff00ad74b0) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.config/fontconfig/fonts.conf", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.config/fontconfig/fonts.conf", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.fonts.conf.d", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.fonts.conf.d", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.fonts.conf", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/bearface/.fonts.conf", R_OK) = -1 ENOENT (No such file or directory)
+read(13, "", 8192)                      = 0
+close(13)                               = 0
+access("/etc/fonts/conf.d/51-local.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/51-local.conf", {st_mode=S_IFREG|0644, st_size=189, ...}) = 0

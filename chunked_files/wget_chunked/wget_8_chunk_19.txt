@@ -1,0 +1,75 @@
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n2000\r\n<td class=\"navFooterDesc"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "2000\r\n<td class=\"navFooterDescSp"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "<td class=\"navFooterDescSpacer\" "..., 8192) = 1005
+write(4, "<td class=\"navFooterDescSpacer\" "..., 1005) = 1005
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948322})
+read(3, "deId=508088\" class=\"nav_a\">Condi"..., 7187) = 1360
+write(4, "deId=508088\" class=\"nav_a\">Condi"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944265})
+read(3, "loadIndex || 0; __auiPreloadInde"..., 5827) = 1360
+write(4, "loadIndex || 0; __auiPreloadInde"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947086})
+read(3, "| 0; __auiPreloadIndex++;\n  (win"..., 4467) = 1360
+write(4, "| 0; __auiPreloadIndex++;\n  (win"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947225})
+read(3, "e357dd53b8d.udp_amznjq_shim.webl"..., 3107) = 1360
+write(4, "e357dd53b8d.udp_amznjq_shim.webl"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946997})
+read(3, "order=\"0\" marginwidth=\"0\" margin"..., 1747) = 1360
+write(4, "order=\"0\" marginwidth=\"0\" margin"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947769})
+read(3, "9_.js\",\"https://images-na.ssl-im"..., 387) = 387
+write(4, "9_.js\",\"https://images-na.ssl-im"..., 387) = 387
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n163e\r\nocale/checkout/signin-ba"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "163e\r\nocale/checkout/signin-bann"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "163e\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ocale/checkout/signin-banner._V3"..., 5694) = 965
+write(4, "ocale/checkout/signin-banner._V3"..., 965) = 965
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948695})
+read(3, "AmazonUIPageJS ? AmazonUIPageJS "..., 4729) = 1360
+write(4, "AmazonUIPageJS ? AmazonUIPageJS "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947038})
+read(3, "w.AmazonUIPageJS ? AmazonUIPageJ"..., 3369) = 1360
+write(4, "w.AmazonUIPageJS ? AmazonUIPageJ"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947511})
+read(3, "ex || 0; __auiPreloadIndex++;\n  "..., 2009) = 1360
+write(4, "ex || 0; __auiPreloadIndex++;\n  "..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946793})
+read(3, "http://z-ecx.images-amazon.com/i"..., 649) = 649
+write(4, "http://z-ecx.images-amazon.com/i"..., 649) = 649
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n9c2\r\nties._V136632413_.png\");\n"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "9c2\r\nties._V136632413_.png\");\n  "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "9c2\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "ties._V136632413_.png\");\n      a"..., 2498) = 704
+write(4, "ties._V136632413_.png\");\n      a"..., 704) = 704
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948505})
+read(3, "953_.png\");\n      aPlAssets.push"..., 1794) = 1360
+write(4, "953_.png\");\n      aPlAssets.push"..., 1360) = 1360
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947226})
+read(3, "'._SL500_AA300_.jpg',\n          "..., 434) = 434
+write(4, "'._SL500_AA300_.jpg',\n          "..., 434) = 434
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n19e\r\n_display_on_website\") {\n "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "19e\r\n_display_on_website\") {\n   "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "19e\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "_display_on_website\") {\n        "..., 414) = 414
+write(4, "_display_on_website\") {\n        "..., 414) = 414
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n1324\r\nurls.push(prefix + lookI"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
