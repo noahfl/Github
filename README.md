@@ -1,3 +1,8 @@
+# README #
+
+
+Notes on program parameters/running methods.
+
 curl/wget:
 
 www.google.com
