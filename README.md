@@ -1,7 +1,18 @@
-# README #
+# ABOUT #
+
+The premise of this project is to examine the C functions used by web browsers and see what information can be extrapolated from them. Variations on this concept include running based on limited information (small windows of functions).
+
+This repo contains the standard program that reads an entire strace file as well as the program that reads small chunks of strace files and determines which site they're generated from.
+
+Note: This repo is similar to motif-site_grouping, but has more output files available. Mostly for record keeping purposes.
+
+#Requirements#
+- SciPy
+- NumPy
+- Scikit-learn
 
 
-Notes on program parameters/running methods.
+#Program Notes#
 
 curl/wget:
 
